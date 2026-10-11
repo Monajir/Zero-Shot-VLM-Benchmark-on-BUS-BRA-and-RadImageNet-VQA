@@ -43,15 +43,17 @@ Kaggle secrets; never paste them into notebook cells, outputs, or Git.
 
 | Dataset | Task | Final evaluation target | Pilot |
 | --- | --- | --- | --- |
-| BUS-BRA | Benign/malignant classification | 400 images: 200 per class, one image per distinct patient | Gemma: 20 additional images, 10 per class; Qwen pilot count pending |
+| BUS-BRA | Benign/malignant classification | 400 images: 200 per class, one image per distinct patient | **20 additional images**, 10 per class, shared by Pilots 1 and 2 |
 | RadImageNet-VQA | Medical VQA; eligible answer formats pending inspection | Provisionally 500 eligible questions | **30 additional questions**, shared by all four models |
 
 Use seed 42 for sampling. Audit eligibility before fixing manifests. Pilot and
 test sets must not share patients, images, or near-duplicate groups wherever
 identifiers permit; document missing identifiers and resulting limitations.
 For BUS-BRA, sample patients first and select one eligible image per patient
-using a documented rule. Qwen may reuse the held-out BUS-BRA pilot if the team
-records that decision. Do not infer patient identity from filenames without
+using a documented rule. Pilots 1 and 2 use one frozen BUS-BRA pilot manifest:
+the same 20 images from 20 distinct patients, shared across both model pairs and
+all tested precision configurations. These patients are separate from the final
+evaluation patients. Do not infer patient identity from filenames without
 verifying the metadata.
 
 The local `Datasets/BUS-BRA.zip` archive is intentionally excluded from Git.
@@ -69,8 +71,8 @@ remain to be verified. Do not assume the previous VQA dataset's schema applies.
 
 ## Three pilot groups
 
-1. **Qwen feasibility/output:** both Qwen checkpoints on held-out BUS-BRA samples,
-   initially non-quantized FP16. Check loading, memory, numerical stability,
+1. **Qwen feasibility/output:** both Qwen checkpoints on the shared 20 held-out
+   BUS-BRA images, initially non-quantized FP16 (40 responses). Check loading, memory, numerical stability,
    latency, answer parsing, and 32-token completeness, especially MedVLM-R1 tags.
 2. **Gemma precision/output:** both Gemma checkpoints on the same 20 held-out
    BUS-BRA images under non-quantized FP32 and 4-bit weights with FP32 compute,
