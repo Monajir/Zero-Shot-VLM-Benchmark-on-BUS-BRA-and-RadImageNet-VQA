@@ -5,22 +5,24 @@ on breast ultrasound classification and medical visual question answering.
 The primary comparisons are **within each model pair**, separately for each task.
 No training, fine-tuning, or in-context examples are planned.
 
-**Status:** `BUS_BRA.ipynb` now implements the standalone Kaggle smoke/pilot run
-for all four models. Its data preparation and CPU-side checks have been exercised
-locally; actual model loading and inference still require Kaggle GPU validation.
-The RadImageNet-VQA and analysis notebooks remain scaffolds. No final evaluation
-has been run and final dataset eligibility still requires review.
+**Status:** BUS-BRA v7 completed all 80 BF16 smoke responses with valid labels
+and verified greedy decoding. Final BUS-BRA inference is prepared in two standalone
+notebooks, one per model pair, for parallel execution on two Kaggle accounts.
+Both use the same frozen 400-image final sample. Final model inference has not
+been run locally. The teammate per-model VQA notebooks are in `RadImageNet_VQA/`.
 
 ## Files and ownership
 
 | File | Purpose | Owner |
 | --- | --- | --- |
-| `BUS_BRA.ipynb` | Audit, sampling, pilots, and inference for BUS-BRA | BUS-BRA lead (repository owner) |
+| `BUS_BRA.ipynb` | Completed BUS-BRA smoke-test implementation; retained for provenance | BUS-BRA lead |
+| `BUS_BRA/BUS_BRA_Final_Qwen_MedVLM.ipynb` | Final Qwen2-VL and MedVLM-R1 inference | BUS-BRA lead |
+| `BUS_BRA/BUS_BRA_Final_Gemma_MedGemma.ipynb` | Final Gemma 3 and MedGemma inference | BUS-BRA lead |
 | `RadImageNet_VQA.ipynb` | Audit, sampling, pilots, and inference for RadImageNet-VQA | RadImageNet-VQA teammates |
 | `Analyze_Results.ipynb` | Coverage validation, scoring, paired comparisons, and exports | Shared; cross-reviewed |
 
 All inference runs on Kaggle. Each inference notebook will contain its own setup,
-configuration, model adapters, prompts, parser, and saving/resumption logic. It
+configuration, model adapters, prompts, parser, and incremental saving logic. It
 must not import project Python modules or require another notebook to have run.
 Dataset attachments, frozen manifests, model downloads/access, and Kaggle secrets
 are still required external inputs. BUS-BRA can run a selected list of
@@ -45,18 +47,20 @@ Kaggle secrets; never paste them into notebook cells, outputs, or Git.
 
 | Dataset | Task | Final evaluation target | Pilot |
 | --- | --- | --- | --- |
-| BUS-BRA | Benign/malignant classification | 400 images: 200 per class, one image per distinct patient | **20 additional images**, 10 per class, shared by Pilots 1 and 2 |
+| BUS-BRA | Benign/malignant classification | 400 images: 200 per class, one image per distinct source `Case` | **20 additional images**, 10 per class, shared by Pilots 1 and 2 |
 | RadImageNet-VQA | Medical VQA; eligible answer formats pending inspection | Provisionally 500 eligible questions | **30 additional questions**, shared by all four models |
 
-Use seed 42 for sampling. Audit eligibility before fixing manifests. Pilot and
-test sets must not share patients, images, or near-duplicate groups wherever
-identifiers permit; document missing identifiers and resulting limitations.
-For BUS-BRA, sample patients first and select one eligible image per patient
-using a documented rule. Pilots 1 and 2 use one frozen BUS-BRA pilot manifest:
-the same 20 images from 20 distinct patients, shared across both model pairs and
-all tested precision configurations. These patients are separate from the final
-evaluation patients. Do not infer patient identity from filenames without
-verifying the metadata.
+Use seed 42 for sampling. BUS-BRA final notebooks embed the same fixed 400 image
+IDs and manifest hash: 200 eligible Cases per class, one randomly chosen eligible
+image per selected Case, sorted by image ID. Sampling uses the existing audit,
+excludes its 13 flagged Cases, and reserves all images from the 20 pilot Cases.
+No pilot prediction or accuracy is used to select final images. `Case` is the
+source dataset's grouping field; it has not been independently verified as
+patient identity. Keep that limitation in downstream reporting.
+
+Pilot and final evaluation must not share patients, images, or duplicate groups
+where identifiers permit. RadImageNet-VQA uses its own task-specific selection;
+its sample IDs do not correspond to the BUS-BRA sample.
 
 Kaggle inference uses an attached BUS-BRA dataset. The local
 `Datasets/BUS-BRA.zip` archive remains in place and is intentionally excluded from Git.
@@ -64,7 +68,14 @@ Its listing contains `BUSBRA/Images/`, masks, `BUSBRA/bus_data.csv`, supplied
 cross-validation CSVs, and `BUSBRA/LICENSE.txt`. The metadata columns include
 `ID`, `Case`, `Histology`, `Pathology`, `BIRADS`, `Device`, `Width`, `Height`,
 `Side`, and `BBOX`. The notebook checks the attached metadata and image-file
-fingerprints against this original copy. Automated screening is preliminary;
+fingerprints against either this original copy or the locally verified
+`Datasets/BUSBRA_Kaggle.zip` copy from `orvile/bus-bra-a-breast-ultrasound-dataset`.
+All 1,875 images and the ten shared metadata columns match exactly. The Kaggle CSV
+adds `HOB`, `HOP`, `K5B`, `K5P`, `K10B`, and `K10P`, which this pilot does not use.
+Each accepted CSV hash is paired with its verified combined source fingerprint;
+other metadata or altered/missing images stop before sampling. The chosen variant
+is recorded in audit summaries, manifest metadata, and run configurations.
+Both local archives remain excluded from Git. Automated screening is preliminary;
 patient identity and pathology are not independently verified from these files.
 The supplied cross-validation folds do not define this zero-shot benchmark.
 
@@ -94,42 +105,135 @@ Use available free Kaggle GPUs first; do not assume a particular allocation.
 The planned T4 configurations need empirical validation. FP32 sharding and any
 BF16-capable fallback are unresolved; paid compute is not authorized by this plan.
 
-## Run the BUS-BRA smoke test on Kaggle
+## Final BUS-BRA inference: two Kaggle accounts
 
-1. Import `BUS_BRA.ipynb` into Kaggle and attach BUS-BRA through **Add Input**.
-   Use a copy containing original `bus_data.csv` and `Images/`, or the original
-   ZIP. Auto-discovery handles different Kaggle attachment names; set `DATA_ROOT`
-   explicitly if multiple copies are attached. Modified source copies stop for review.
-2. Enable Internet and choose **GPU T4 x2**, if available. One GPU is permitted,
-   but a Gemma FP32 load may fail; failures are saved as pilot evidence.
-3. Accept both Gemma checkpoints' Hugging Face terms and add a read-access token
-   as the Kaggle secret `HF_TOKEN`, enabled for the notebook.
-4. In a fresh session, keep the default six `JOBS` and **Run All**. This runs the
-   Qwen pair in FP16 and each Gemma model in FP32 and NF4 4-bit/FP32 compute:
-   up to 120 responses on one shared 20-image manifest. Set a subset of `JOBS`
-   if session time is limited. The 32-token limit is never automatically changed.
-5. Save the notebook version with outputs. Download
-   `/kaggle/working/bus_bra_smoke_results.zip` from the final cell or Output files.
-   Review that bundle before proceeding to final inference.
+Use these two notebooks directly:
 
-The ZIP contains `pilot_summary.csv`, `per_case_review.csv`,
-`precision_comparison.csv`, the frozen pilot manifest, reserved source cases,
-contact sheet, audit/exclusion records, raw responses, failures, run settings,
-resolved checkpoint revisions, environment details, and coverage diagnostics.
-It contains neither downloaded model weights nor the full image dataset. Keep
-pilot artifacts private until identifiers and source terms have been reviewed.
+| Account / notebook | Sequential jobs | Final responses |
+|---|---|---:|
+| `BUS_BRA/BUS_BRA_Final_Qwen_MedVLM.ipynb` | Qwen2-VL, then MedVLM-R1 | 400 + 400 |
+| `BUS_BRA/BUS_BRA_Final_Gemma_MedGemma.ipynb` | Gemma 3, then MedGemma | 400 + 400 |
 
-To resume, attach the saved output directory and point `RESUME_FROM` at its
-`bus_bra_smoke` folder. Completed identical records are reused; changed hardware,
-software, source, or configuration gets a separate run identity. A session killed
-before its output was persisted cannot be recovered automatically. Owned model
-caches are cleared after their last scheduled job to keep disk usage manageable.
+On **each** account, attach the verified BUS-BRA dataset, select **T4 x2**, enable
+Internet and the `HF_TOKEN` secret, then **Save & Run All (Commit)**. Attach the
+extracted dataset containing `bus_data.csv` and `Images`; the compact final notebooks
+do not extract ZIPs. The Gemma
+account's token must have access to both Google model repositories. The notebooks
+need no project imports, external manifests or earlier results. There is no extra
+pilot inference. They run independently; models within each notebook run in order.
 
-The shared pilot uses source `Case` IDs, one image per case, and a deterministic
-seed-42 sample after automated screening. In the inspected local copy, screening
-flagged 13 cases for later review and left enough eligible cases for the pilot.
-This is not a clinical audit or a final test-set approval. The notebook exports
-all exclusions and creates no final-test manifest. Parser checks run in the notebook.
+Both freeze v7's BF16 dtype, exact model/processor revisions, native preprocessing,
+fixed BUS-BRA prompt, strict EOS-aware parser and explicit greedy/cache controls.
+Each model receives only the image and prompt. The version is
+`bus-bra-final-v2-compact`. Dependencies preserve Kaggle's torch/torchvision/Pillow.
+
+The common final manifest SHA256 is
+`a8caa6ad39310c2871e53bc4b9f80d4b76c1b6f850b1c474c0abae8db1181283`.
+It covers the ordered images, image bytes, references, source Cases, paths and
+prompt. The notebooks validate the supplied selection without resampling.
+
+Each account produces **five CSVs** in `/kaggle/working`:
+
+- Both: `vqa_sample.csv` with the same 400 rows.
+- Qwen pair: `vqa_results_qwen2vl_2b.csv`, `vqa_scores_qwen2vl_2b.csv`,
+  `vqa_results_medvlm_r1.csv`, `vqa_scores_medvlm_r1.csv`.
+- Gemma pair: `vqa_results_gemma3_4b.csv`, `vqa_scores_gemma3_4b.csv`,
+  `vqa_results_medgemma_4b.csv`, `vqa_scores_medgemma_4b.csv`.
+
+Column schemas match the teammate notebooks and the smoke-test CSV contract
+below. There are **nine unique CSVs** when combining both accounts, with one
+shared sample file. Keep account downloads and VQA downloads in separate folders.
+Each results CSV must contain 400 answers; each score row must have `n=400`.
+`unparsed` answers count as incorrect. Failed inferences are missing responses,
+so partial scores are not final benchmark scores. An inference error stops the
+run and preserves completed answers. The final cell rejects incomplete coverage.
+
+Results and scores update after every answer. Each compact notebook contains
+397 code lines, including 55 lines of shared frozen sample IDs/exclusions. Detailed
+JSON/JSONL diagnostics, memory profiling, heartbeat threads and the run-recovery
+framework have been removed. Dependency output still streams with a 15-minute
+overall timeout; model loading and each completed image print progress.
+
+**There is no automatic resume.** Each execution of the inference cell starts a
+new run and replaces its five CSVs. Download existing results before rerunning.
+Save the executed notebook and logs with the CSVs; essential package versions,
+checkpoint revisions, BF16 dtype and resolved generation controls are logged.
+Model weights use job-specific temporary directories and are removed after each
+job. No additional output files are created by the notebooks.
+
+## Archived BUS-BRA BF16 smoke-test workflow
+
+`BUS_BRA.ipynb` defaults to **v7 BF16**, four sequential jobs / up to 80 responses.
+It pins the checkpoint revisions and exact 20-image manifest from the completed
+v4 pilot. The prompt, native preprocessing and 32-token cap stay fixed. Version v7
+corrects the checkpoint-default override discovered in the v6 execution logs:
+`generate()` now receives `use_model_defaults=False` plus explicit greedy/cache
+controls. Two regression checks exercise the installed Transformers resolver
+before model loading; each inference verifies the resolved configuration and the
+first image per model logs it. Look for `greedy_search`, `do_sample=False`,
+`use_cache=True` and `use_model_defaults=False`. Earlier runs remain engineering
+evidence, not verified common-greedy comparisons. The nine CSV exports and EOS
+boundary parser are unchanged.
+
+T4 has no native BF16 Tensor Core support. Capability checks and actual model
+inference test the available non-native execution paths. There is no automatic
+precision fallback. Parameter/input dtypes, numerical checks and failures appear
+in runtime state and notebook output. The configured dtype is not a profile of
+all kernel arithmetic.
+
+### Run on Kaggle
+
+1. Import the updated `BUS_BRA.ipynb`; attach the same verified BUS-BRA dataset.
+2. Enable Internet, select **T4 x2**, and enable the `HF_TOKEN` secret with access
+   to both Gemma checkpoints.
+3. Keep the default four BF16 jobs and choose **Save & Run All (Commit)**.
+   Check that the version is `bus-bra-smoke-v7-bf16-greedy`.
+4. Save the executed notebook with its logs and download the nine CSVs below.
+
+No previous result attachment is required: the deterministic manifest must match
+the previous run's embedded SHA256. If dataset discovery is ambiguous, set
+`DATA_ROOT` to the directory containing the intended `bus_data.csv`.
+Dependencies preserve Kaggle's torch/torchvision/Pillow; installation logs stream
+with a 15-minute timeout. Long stages emit a WAIT heartbeat every 30 seconds.
+Kaggle may delay session startup and log delivery.
+
+### Exact teammate-compatible outputs
+
+The fresh saved run writes only these nine CSVs under `/kaggle/working`:
+
+- `vqa_sample.csv`
+- `vqa_results_qwen2vl_2b.csv`, `vqa_scores_qwen2vl_2b.csv`
+- `vqa_results_medvlm_r1.csv`, `vqa_scores_medvlm_r1.csv`
+- `vqa_results_gemma3_4b.csv`, `vqa_scores_gemma3_4b.csv`
+- `vqa_results_medgemma_4b.csv`, `vqa_scores_medgemma_4b.csv`
+
+Names and column order match the teammate notebooks. Keep BUS-BRA and VQA outputs
+in separate download folders to avoid overwriting same-named files.
+
+| File type | Columns |
+|---|---|
+| Sample | `idx,question_id,group` |
+| Results | `idx,question_id,group,anatomy,question,true_answer,predicted_answer,raw_output` |
+| Scores | `group,correct,n,accuracy` |
+
+For BUS-BRA, `idx` is the zero-based original metadata row, `question_id` is the
+image ID, `group` is `lesion_classification`, and `anatomy` is `breast`. Ground
+truth is joined for export/scoring only; inference receives the original image
+and common prompt. Predictions use the strict parser after removal of configured
+terminal EOS IDs from a copy of generated tokens; `raw_output` is unchanged.
+Fragments such as `ben` remain `unparsed`, which counts as incorrect.
+
+Each response refreshes its model's CSVs. Scores use saved responses as denominator,
+matching the teammate code; missing/failed inferences have no fabricated rows.
+Always check coverage against the 20-row sample file. An empty job has a header-only
+results file and a score row with `n=0`, `correct=0`, and blank accuracy.
+These are engineering pilot scores, not final benchmark results.
+
+Detailed configuration, raw token diagnostics, logs, audits, model caches and
+extracted images stay under `/tmp`. The notebook creates no output ZIP or extra
+JSON/audit CSV files under `/kaggle/working`. These temporary records permit exact
+reuse within the same live session; downloading the nine CSVs alone does not
+support resuming in a fresh session. Preserve the executed notebook/logs for review.
 
 ## Shared inference and scoring rules
 
@@ -155,11 +259,12 @@ all exclusions and creates no final-test manifest. Parser checks run in the note
 - Infrastructure failures are execution events, not completed invalid answers.
   Retry/resume according to a recorded policy; never silently drop failed cases.
 
-## Shared data and output contract
+## Internal diagnostic schema (archived smoke workflow)
 
-Both inference notebooks must use the same field names. Additional diagnostic
-fields are allowed. Store IDs as strings and missing values explicitly as null
-(or empty fields in CSV). Model keys are those in the selected-model table.
+The following describes the detailed smoke-test records. The compact final
+notebooks use only the CSV contract above and execution logs; they do not create
+these diagnostic files. Store IDs as strings and missing values explicitly as
+null (or empty fields in CSV). Model keys are those in the selected-model table.
 
 **Frozen manifest CSV:** `dataset`, `sample_id`, `image_id`, `image_path`,
 `group_id`, `split`, `task_type`, `question`, `options_json`, `reference_answer`,
@@ -197,12 +302,11 @@ combine accepted final-run metadata for analysis.
 
 ## Outputs and analysis
 
-Save execution outputs under `/kaggle/working/` and retain them outside transient
-sessions. Planned local exports are `manifests/`, `results/pilots/`,
-`results/final/<dataset>/<model_key>.jsonl`, and
-`results/final/run_metadata.json` (one entry per accepted run).
-Only permitted, reviewed exports should enter Git. These folders are created
-when real artifacts exist; raw/private data stays in excluded local/private storage.
+Final notebook outputs are the teammate-compatible CSVs listed above, accompanied
+by the executed notebooks and execution logs. Retain downloaded results outside
+transient sessions. Detailed JSONL/JSON diagnostics are temporary implementation
+state, not additional promised download files. Only reviewed exports should enter
+Git; raw data stays in excluded local storage.
 
 `Analyze_Results.ipynb` will load completed outputs and references without loading
 models. Validate exact manifest coverage and compatible configurations first.
@@ -229,9 +333,9 @@ Holm correction across the four pair-by-task primary comparisons is proposed.
 - Add small meaningful checks inside notebooks alongside working implementations.
 - Freeze a common code version and manifests before distributed final runs.
 
-Next: run the BUS-BRA notebook on Kaggle and review its exported pilot bundle;
-in parallel inspect RadImageNet-VQA access/schema. No GPU feasibility result,
-full inference, or accuracy result is claimed by the current implementation.
+Next: run the two final BUS-BRA notebooks on separate Kaggle accounts, then bring
+both five-CSV downloads and execution logs back for final analysis. The successful
+v7 smoke run validates technical feasibility; it does not establish final accuracy.
 
 Results describe these released checkpoint pairs under the frozen protocol.
 Different adaptation histories, preprocessing, quantization, and incompletely

@@ -1,0 +1,1 @@
+{"repos": [{"repoId": "Qwen/Qwen2-VL-2B-Instruct", "repoType": "model", "commitHash": "895c3a49bc3fa70a340399125c650a463535e71c", "filePaths": ["preprocessor_config.json"]}, {"repoId": "JZPeterPan/MedVLM-R1", "repoType": "model", "commitHash": "d256f2cfdf98c6872c1dc9f20b7dd52f49374fe9", "filePaths": ["preprocessor_config.json"]}]}

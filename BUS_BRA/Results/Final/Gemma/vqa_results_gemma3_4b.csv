@@ -1,0 +1,2401 @@
+idx,question_id,group,anatomy,question,true_answer,predicted_answer,raw_output
+0,bus_0001-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+5,bus_0003-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+11,bus_0007-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+14,bus_0008-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+16,bus_0009-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+18,bus_0010-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+19,bus_0011-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+22,bus_0012-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+29,bus_0017-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+50,bus_0029-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+51,bus_0030-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+58,bus_0034-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+63,bus_0037-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+68,bus_0041-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+71,bus_0042-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+72,bus_0043-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+76,bus_0045-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+81,bus_0048-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+84,bus_0049-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+85,bus_0050-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+90,bus_0052-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+91,bus_0053-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+93,bus_0054-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+98,bus_0057-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+101,bus_0058-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+102,bus_0059-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+134,bus_0076-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+142,bus_0082-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+145,bus_0084-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+153,bus_0088-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+160,bus_0092-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+164,bus_0095-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+168,bus_0098-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+171,bus_0099-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+172,bus_0100-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+179,bus_0104-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+181,bus_0105-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+183,bus_0106-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+188,bus_0109-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+196,bus_0114-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+203,bus_0118-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+207,bus_0120-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+210,bus_0122-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+214,bus_0124-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+223,bus_0130-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+228,bus_0133-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+233,bus_0135-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+234,bus_0136-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+244,bus_0141-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,benign,benign<end_of_turn>
+248,bus_0143-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+252,bus_0145-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+254,bus_0146-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+256,bus_0147-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+257,bus_0148-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+260,bus_0149-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+274,bus_0156-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+275,bus_0157-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+288,bus_0163-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+291,bus_0165-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+294,bus_0166-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+303,bus_0171-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+306,bus_0172-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+309,bus_0174-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+319,bus_0179-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+330,bus_0185-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+332,bus_0186-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+334,bus_0187-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+342,bus_0191-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+347,bus_0193-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+355,bus_0197-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+358,bus_0199-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+360,bus_0200-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+368,bus_0205-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+370,bus_0206-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+375,bus_0208-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+383,bus_0212-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+386,bus_0214-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+393,bus_0217-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+394,bus_0218-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+396,bus_0219-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+409,bus_0225-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+419,bus_0230-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+421,bus_0231-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+423,bus_0232-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+424,bus_0233-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+425,bus_0234-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+429,bus_0236-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+435,bus_0239-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+438,bus_0240-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+442,bus_0242-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+444,bus_0243-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+452,bus_0247-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+456,bus_0249-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+458,bus_0250-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+477,bus_0260-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+481,bus_0262-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+483,bus_0263-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+486,bus_0264-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+487,bus_0265-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+493,bus_0268-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+495,bus_0269-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+505,bus_0274-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+510,bus_0277-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+517,bus_0281-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+520,bus_0282-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+524,bus_0284-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+528,bus_0286-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+529,bus_0287-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+532,bus_0288-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+533,bus_0289-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+535,bus_0290-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+538,bus_0291-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+541,bus_0293-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+557,bus_0301-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+560,bus_0303-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+573,bus_0310-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+576,bus_0311-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+590,bus_0319-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+592,bus_0320-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+594,bus_0321-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+597,bus_0324-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+601,bus_0326-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+605,bus_0328-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+606,bus_0329-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+610,bus_0331-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+613,bus_0333-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+614,bus_0334-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+616,bus_0335-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+618,bus_0336-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+625,bus_0340-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+630,bus_0342-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+634,bus_0344-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+635,bus_0345-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+646,bus_0351-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+650,bus_0353-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+662,bus_0360-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+671,bus_0364-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+674,bus_0366-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+678,bus_0368-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+683,bus_0370-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+684,bus_0371-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+689,bus_0373-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+690,bus_0374-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+693,bus_0375-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+694,bus_0376-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+700,bus_0379-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+704,bus_0381-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+711,bus_0384-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+712,bus_0385-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+717,bus_0387-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+721,bus_0389-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+723,bus_0390-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+727,bus_0392-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+731,bus_0394-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,benign,benign<end_of_turn>
+732,bus_0395-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+734,bus_0396-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+736,bus_0397-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+739,bus_0398-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+741,bus_0399-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+743,bus_0400-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+752,bus_0405-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+762,bus_0410-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+764,bus_0411-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+768,bus_0413-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+771,bus_0414-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+772,bus_0415-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+774,bus_0416-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+779,bus_0418-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,benign,benign<end_of_turn>
+785,bus_0421-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+787,bus_0422-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+794,bus_0426-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+796,bus_0427-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+805,bus_0431-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+806,bus_0432-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+819,bus_0438-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+823,bus_0440-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+827,bus_0442-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+833,bus_0445-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+835,bus_0446-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+838,bus_0448-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+841,bus_0449-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+848,bus_0453-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+851,bus_0454-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+852,bus_0455-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+854,bus_0456-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+856,bus_0457-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+858,bus_0458-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+871,bus_0464-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+872,bus_0465-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+874,bus_0466-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,benign,benign<end_of_turn>
+884,bus_0471-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+886,bus_0472-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+892,bus_0475-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+911,bus_0484-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+915,bus_0486-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+918,bus_0488-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+929,bus_0493-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+936,bus_0497-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,benign,benign<end_of_turn>
+947,bus_0502-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+956,bus_0507-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+958,bus_0508-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+961,bus_0509-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+969,bus_0513-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+978,bus_0518-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+984,bus_0521-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+986,bus_0522-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1005,bus_0531-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1007,bus_0532-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1028,bus_0543-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1030,bus_0544-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1034,bus_0546-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1040,bus_0549-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1042,bus_0550-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1045,bus_0551-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1052,bus_0555-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1063,bus_0560-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1074,bus_0566-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1079,bus_0568-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1080,bus_0569-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1084,bus_0571-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1091,bus_0574-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1095,bus_0576-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1100,bus_0579-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1105,bus_0581-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1106,bus_0582-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1122,bus_0590-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1131,bus_0594-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1133,bus_0595-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1134,bus_0596-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1143,bus_0600-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1145,bus_0601-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1146,bus_0602-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1149,bus_0603-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1150,bus_0604-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1152,bus_0605-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1160,bus_0609-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1167,bus_0612-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1182,bus_0620-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1195,bus_0626-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1198,bus_0628-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1202,bus_0630-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1204,bus_0631-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1208,bus_0633-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1221,bus_0639-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1224,bus_0641-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1231,bus_0644-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1233,bus_0645-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1236,bus_0647-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1257,bus_0657-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1260,bus_0659-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1264,bus_0661-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,benign,benign<end_of_turn>
+1265,bus_0662-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1268,bus_0663-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1273,bus_0666-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1275,bus_0667-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1278,bus_0669-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1284,bus_0672-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1292,bus_0677-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1298,bus_0683-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1300,bus_0685-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,benign,benign<end_of_turn>
+1303,bus_0687-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1315,bus_0697-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1318,bus_0700-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1323,bus_0705-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,benign,benign<end_of_turn>
+1324,bus_0706-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1325,bus_0707-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1327,bus_0709-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1329,bus_0711-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1330,bus_0712-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1332,bus_0713-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1340,bus_0721-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1342,bus_0723-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1345,bus_0726-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1347,bus_0728-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1349,bus_0730-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1350,bus_0731-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1361,bus_0742-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1364,bus_0745-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1366,bus_0747-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1367,bus_0748-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1371,bus_0752-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1377,bus_0758-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1379,bus_0760-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1384,bus_0765-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1385,bus_0766-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1386,bus_0767-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1387,bus_0768-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1389,bus_0770-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1391,bus_0772-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1410,bus_0791-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1412,bus_0793-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1416,bus_0797-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1420,bus_0801-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1422,bus_0803-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1426,bus_0807-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1428,bus_0809-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1430,bus_0811-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1431,bus_0812-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1435,bus_0816-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1437,bus_0818-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1439,bus_0820-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1444,bus_0825-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1445,bus_0826-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1448,bus_0829-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1450,bus_0831-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1455,bus_0836-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1457,bus_0838-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1460,bus_0841-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1461,bus_0842-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1465,bus_0846-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1471,bus_0850-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1477,bus_0854-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1484,bus_0858-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1487,bus_0859-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1488,bus_0860-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1490,bus_0861-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1493,bus_0862-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1501,bus_0866-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1503,bus_0867-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1505,bus_0868-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1507,bus_0869-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1515,bus_0874-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1525,bus_0879-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1528,bus_0881-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1531,bus_0882-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1537,bus_0886-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1550,bus_0893-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1556,bus_0896-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1561,bus_0899-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1574,bus_0906-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1584,bus_0911-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1592,bus_0915-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1596,bus_0917-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1597,bus_0918-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1614,bus_0927-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1617,bus_0928-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1626,bus_0933-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1628,bus_0934-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1631,bus_0935-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1634,bus_0937-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1636,bus_0938-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1641,bus_0941-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1644,bus_0943-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1646,bus_0944-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1648,bus_0945-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1650,bus_0947-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1653,bus_0948-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1659,bus_0951-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1660,bus_0952-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1664,bus_0954-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1670,bus_0957-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1674,bus_0960-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1678,bus_0962-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1683,bus_0964-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1686,bus_0966-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1696,bus_0971-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1697,bus_0972-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1698,bus_0973-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1706,bus_0977-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1711,bus_0979-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1713,bus_0980-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1714,bus_0981-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1716,bus_0982-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1718,bus_0983-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1722,bus_0985-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1725,bus_0986-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1728,bus_0988-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1729,bus_0989-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1733,bus_0991-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1737,bus_0993-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1739,bus_0994-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1744,bus_0997-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1746,bus_0998-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1753,bus_1002-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1756,bus_1003-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1762,bus_1007-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1765,bus_1008-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1772,bus_1012-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1775,bus_1013-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1776,bus_1014-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1779,bus_1016-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1781,bus_1017-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1794,bus_1023-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1796,bus_1024-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1801,bus_1027-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1804,bus_1028-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1811,bus_1032-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1813,bus_1033-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1817,bus_1035-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1822,bus_1037-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1823,bus_1038-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1831,bus_1042-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1839,bus_1046-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1851,bus_1052-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1856,bus_1055-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1859,bus_1056-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,benign,benign<end_of_turn>
+1862,bus_1058-l,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1866,bus_1060-s,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
+1868,bus_1061-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",benign,malignant,malignant<end_of_turn>
+1872,bus_1063-r,lesion_classification,breast,"You are a medical assistant. Examine this breast ultrasound image.
+Classify the lesion as exactly ONE of the following:
+- benign: non-cancerous lesion
+- malignant: cancerous lesion
+
+Respond with ONLY the label: benign or malignant.",malignant,malignant,malignant<end_of_turn>
