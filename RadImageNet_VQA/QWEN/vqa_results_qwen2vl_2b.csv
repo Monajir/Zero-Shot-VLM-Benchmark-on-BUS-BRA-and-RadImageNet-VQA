@@ -1,0 +1,501 @@
+idx,question_id,group,anatomy,question,true_answer,predicted_answer,raw_output
+22,abnormal_closed,abnormality_yesno,hip,Does this scan reveal any abnormalities?,yes,no,No
+82,anatomy_closed_pos,anatomy_yesno,ankle foot,Can you see the ankle foot?,yes,yes,Yes
+93,anatomy_mc,anatomy_mcq,shoulder,Select the correct anatomical region.,D,D,D
+98,pathology_mc,pathology_mcq,shoulder,What is the most likely pathology in this image?,C,B,B
+169,pathology_closed_neg,pathology_yesno,lung,Does the patient have parenchyma destruction?,no,no,No
+210,anatomy_mc,anatomy_mcq,abdomen,Select the correct anatomical region.,B,D,D
+215,pathology_mc,pathology_mcq,abdomen,Select the pathology that best describes this image:,B,B,B
+222,pathology_closed_pos,pathology_yesno,abdomen,Does the patient have pancreatic lesion?,yes,no,No
+262,anatomy_closed_pos,anatomy_yesno,knee,Is the knee visible in the image?,yes,yes,Yes
+273,anatomy_mc,anatomy_mcq,abdomen,Which of the following anatomical regions is depicted in this scan?,D,D,D
+278,pathology_mc,pathology_mcq,abdomen,What pathology is shown in this scan of abdomen,C,C,C
+310,abnormal_closed,abnormality_yesno,lung,Does the lung look abnormal?,no,yes,Yes
+330,pathology_closed_pos,pathology_yesno,abdomen,Is the abdomen affected by bowel mass?,yes,no,No
+331,pathology_closed_neg,pathology_yesno,abdomen,Does the patient have abnormal entire organ?,no,no,No
+340,pathology_closed_neg,pathology_yesno,knee,Are there signs of fracture?,no,no,No
+346,abnormal_closed,abnormality_yesno,brain,Does this scan reveal any abnormalities?,yes,yes,Yes
+354,anatomy_mc,anatomy_mcq,abdomen,What is the correct anatomical region for this scan?,B,B,B
+359,pathology_mc,pathology_mcq,abdomen,What pathology is shown in this scan of abdomen,A,B,B
+379,anatomy_closed_pos,anatomy_yesno,abdomen,Does the picture contain the abdomen?,yes,yes,Yes
+382,abnormal_closed,abnormality_yesno,abdomen,Does this scan reveal any abnormalities?,no,no,No
+384,pathology_closed_pos,pathology_yesno,abdomen,Is there evidence of renal lesion in this image?,no,yes,Yes
+393,pathology_closed_pos,pathology_yesno,abdomen,Are there signs of urolithiasis?,yes,no,No
+411,pathology_closed_pos,pathology_yesno,spine,Is there evidence of foraminal pathology in this image?,yes,no,No
+424,anatomy_closed_pos,anatomy_yesno,abdomen,Can you see the abdomen?,yes,yes,Yes
+484,pathology_closed_neg,pathology_yesno,abdomen,Does the patient have renal lesion?,no,no,No
+489,anatomy_mc,anatomy_mcq,hip,What is the correct anatomical region for this scan?,B,B,B
+494,pathology_mc,pathology_mcq,hip,What pathology is shown in this scan of hip,A,C,C
+505,anatomy_closed_pos,anatomy_yesno,brain,Can you identify the brain in this image?,yes,yes,Yes
+533,anatomy_closed_neg,anatomy_yesno,abdomen,Is the spine present in this image?,no,no,No
+534,anatomy_mc,anatomy_mcq,abdomen,What is the correct anatomical region for this scan?,D,D,D
+539,pathology_mc,pathology_mcq,abdomen,What is the most likely pathology in this image?,A,A,A
+555,pathology_closed_pos,pathology_yesno,ankle foot,Are there signs of flexor pathology?,yes,yes,Yes
+570,anatomy_mc,anatomy_mcq,abdomen,Which of the following anatomical regions is depicted in this scan?,B,B,B
+575,pathology_mc,pathology_mcq,abdomen,Which of the following pathologies is present in this image?,A,A,A
+595,anatomy_closed_pos,anatomy_yesno,abdomen,Can you identify the abdomen in this image?,yes,yes,Yes
+597,anatomy_mc,anatomy_mcq,abdomen,What is the correct anatomical region for this scan?,A,A,A
+602,pathology_mc,pathology_mcq,abdomen,Which of the following pathologies is present in this image?,D,D,D
+606,anatomy_mc,anatomy_mcq,abdomen,Which of the following anatomical regions is depicted in this scan?,B,B,B
+611,pathology_mc,pathology_mcq,abdomen,Select the pathology that best describes this image:,C,B,B
+631,anatomy_closed_pos,anatomy_yesno,lung,Can you see the lung?,yes,no,No
+633,anatomy_mc,anatomy_mcq,lung,Which of the following anatomical regions is depicted in this scan?,D,A,A
+638,pathology_mc,pathology_mcq,lung,What is the most likely pathology in this image?,D,C,C
+686,anatomy_closed_neg,anatomy_yesno,knee,Does the picture contain the hip?,no,no,No
+687,anatomy_mc,anatomy_mcq,knee,Select the correct anatomical region.,C,C,C
+692,pathology_mc,pathology_mcq,knee,What pathology is shown in this scan of knee,D,C,C
+715,abnormal_closed,abnormality_yesno,abdomen,Does this scan reveal any abnormalities?,yes,yes,Yes
+762,pathology_closed_pos,pathology_yesno,knee,Are there signs of soft tissue fluid collection?,yes,no,No
+778,abnormal_closed,abnormality_yesno,abdomen,Is there an abnormality present?,no,no,No
+795,anatomy_mc,anatomy_mcq,knee,Select the correct anatomical region.,C,C,C
+798,pathology_closed_pos,pathology_yesno,knee,Is meniscal abnormality present?,yes,yes,Yes
+800,pathology_mc,pathology_mcq,knee,What is the most likely pathology in this image?,D,C,C
+811,anatomy_closed_pos,anatomy_yesno,abdomen,Is the abdomen visible in the image?,yes,yes,Yes
+825,pathology_closed_pos,pathology_yesno,knee,Is there evidence of meniscal abnormality in this image?,yes,no,No
+832,abnormal_closed,abnormality_yesno,spine,Is this image abnormal?,no,yes,Yes
+838,anatomy_closed_pos,anatomy_yesno,knee,Can you identify the knee in this image?,yes,yes,Yes
+859,abnormal_closed,abnormality_yesno,spine,Is this image abnormal?,yes,yes,Yes
+861,pathology_closed_pos,pathology_yesno,spine,Does the patient have foraminal pathology?,yes,no,No
+866,anatomy_closed_neg,anatomy_yesno,brain,Can you see the ankle foot?,no,no,No
+867,anatomy_mc,anatomy_mcq,brain,Select the correct anatomical region.,A,A,A
+872,pathology_mc,pathology_mcq,brain,Select the pathology that best describes this image:,D,D,D
+901,anatomy_closed_pos,anatomy_yesno,shoulder,Is the shoulder visible in the image?,yes,yes,Yes
+911,anatomy_closed_neg,anatomy_yesno,lung,Is the ankle foot visible in the image?,no,no,No
+912,anatomy_mc,anatomy_mcq,lung,Which of the following anatomical regions is depicted in this scan?,A,A,A
+917,pathology_mc,pathology_mcq,lung,What is the most likely pathology in this image?,A,A,A
+922,abnormal_closed,abnormality_yesno,knee,Is this image abnormal?,yes,yes,Yes
+925,pathology_closed_neg,pathology_yesno,knee,Are there signs of postoperative acl reconstruction?,no,no,No
+966,anatomy_mc,anatomy_mcq,spine,What is the correct anatomical region for this scan?,A,A,A
+971,pathology_mc,pathology_mcq,spine,Select the pathology that best describes this image:,A,C,C
+987,pathology_closed_pos,pathology_yesno,abdomen,Is there evidence of liver lesion in this image?,yes,no,No
+1014,pathology_closed_pos,pathology_yesno,lung,Is there evidence of parenchyma destruction in this image?,yes,no,No
+1048,abnormal_closed,abnormality_yesno,brain,Does the brain look abnormal?,yes,yes,Yes
+1057,abnormal_closed,abnormality_yesno,spine,Does the spine look abnormal?,yes,no,No
+1120,abnormal_closed,abnormality_yesno,abdomen,Does the abdomen look abnormal?,no,yes,Yes
+1183,abnormal_closed,abnormality_yesno,abdomen,Does the abdomen look abnormal?,no,yes,Yes
+1226,anatomy_closed_neg,anatomy_yesno,ankle foot,Does the picture contain the shoulder?,no,no,No
+1227,anatomy_mc,anatomy_mcq,ankle foot,What is the correct anatomical region for this scan?,C,C,C
+1228,abnormal_closed,abnormality_yesno,ankle foot,Does the ankle foot look abnormal?,yes,yes,Yes
+1232,pathology_mc,pathology_mcq,ankle foot,What pathology is shown in this scan of ankle foot,D,D,D
+1253,anatomy_closed_neg,anatomy_yesno,lung,Does the picture contain the shoulder?,no,no,No
+1254,anatomy_mc,anatomy_mcq,lung,What is the correct anatomical region for this scan?,A,A,A
+1259,pathology_mc,pathology_mcq,lung,What pathology is shown in this scan of lung,C,C,C
+1291,abnormal_closed,abnormality_yesno,brain,Does the brain look abnormal?,yes,yes,Yes
+1302,pathology_closed_pos,pathology_yesno,lung,Are there signs of nodule?,yes,no,No
+1347,pathology_closed_pos,pathology_yesno,ankle foot,Are there signs of achilles pathology?,yes,no,No
+1462,abnormal_closed,abnormality_yesno,abdomen,Does the abdomen look abnormal?,no,yes,Yes
+1507,abnormal_closed,abnormality_yesno,lung,Does the lung look abnormal?,no,yes,Yes
+1516,abnormal_closed,abnormality_yesno,abdomen,Is this image abnormal?,no,yes,Yes
+1549,anatomy_closed_pos,anatomy_yesno,abdomen,Is the abdomen part of this scan?,yes,no,No
+1568,anatomy_closed_neg,anatomy_yesno,abdomen,Does this image show the shoulder?,no,no,No
+1569,anatomy_mc,anatomy_mcq,abdomen,What is the correct anatomical region for this scan?,C,C,C
+1574,pathology_mc,pathology_mcq,abdomen,Which of the following pathologies is present in this image?,C,D,D
+1608,pathology_closed_pos,pathology_yesno,lung,Is interstitial lung disease present?,yes,yes,Yes
+1681,pathology_closed_neg,pathology_yesno,ankle foot,Is the ankle foot affected by osseous neoplasm?,no,no,No
+1690,pathology_closed_neg,pathology_yesno,knee,Is there evidence of muscle strain in this image?,no,no,No
+1784,anatomy_closed_neg,anatomy_yesno,knee,Can you identify the hip in this image?,no,no,No
+1785,anatomy_mc,anatomy_mcq,knee,Select the correct anatomical region.,C,C,C
+1786,abnormal_closed,abnormality_yesno,knee,Is this image abnormal?,yes,yes,Yes
+1790,pathology_mc,pathology_mcq,knee,What is the most likely pathology in this image?,A,D,D
+1806,pathology_closed_pos,pathology_yesno,spine,Is the spine affected by disc pathology?,yes,yes,Yes
+1843,pathology_closed_neg,pathology_yesno,lung,Is there evidence of interstitial lung disease in this image?,no,yes,Yes
+1884,anatomy_mc,anatomy_mcq,abdomen,Select the correct anatomical region.,D,D,D
+1885,abnormal_closed,abnormality_yesno,abdomen,Is this image abnormal?,yes,yes,Yes
+1889,pathology_mc,pathology_mcq,abdomen,What pathology is shown in this scan of abdomen,D,D,D
+1892,anatomy_closed_neg,anatomy_yesno,abdomen,Does this image show the hip?,no,no,No
+1893,anatomy_mc,anatomy_mcq,abdomen,Select the correct anatomical region.,B,B,B
+1898,pathology_mc,pathology_mcq,abdomen,Which of the following pathologies is present in this image?,C,D,D
+1918,anatomy_closed_pos,anatomy_yesno,abdomen,Can you identify the abdomen in this image?,yes,yes,Yes
+1939,abnormal_closed,abnormality_yesno,brain,Does this scan reveal any abnormalities?,no,no,No
+1965,anatomy_mc,anatomy_mcq,abdomen,Select the correct anatomical region.,B,B,B
+1970,pathology_mc,pathology_mcq,abdomen,Which of the following pathologies is present in this image?,D,D,D
+1984,abnormal_closed,abnormality_yesno,abdomen,Does the abdomen look abnormal?,yes,yes,Yes
+1987,pathology_closed_neg,pathology_yesno,abdomen,Is there evidence of pancreatic lesion in this image?,no,no,No
+1992,anatomy_mc,anatomy_mcq,shoulder,Which of the following anatomical regions is depicted in this scan?,C,C,C
+1997,pathology_mc,pathology_mcq,shoulder,What pathology is shown in this scan of shoulder,D,D,D
+2095,pathology_closed_neg,pathology_yesno,spine,Are there signs of spinal cord pathology?,no,yes,Yes
+2098,anatomy_closed_pos,anatomy_yesno,abdomen,Can you see the abdomen?,yes,yes,Yes
+2117,anatomy_closed_neg,anatomy_yesno,hip,Is the shoulder present in this image?,no,no,No
+2118,anatomy_mc,anatomy_mcq,hip,Which of the following anatomical regions is depicted in this scan?,C,C,C
+2123,pathology_mc,pathology_mcq,hip,Which of the following pathologies is present in this image?,B,C,C
+2146,abnormal_closed,abnormality_yesno,lung,Is there an abnormality present?,no,yes,Yes
+2182,abnormal_closed,abnormality_yesno,abdomen,Is there an abnormality present?,no,no,No
+2283,pathology_closed_pos,pathology_yesno,abdomen,Is the abdomen affected by degenerative changes?,yes,no,No
+2287,anatomy_closed_pos,anatomy_yesno,lung,Does this image show the lung?,yes,yes,Yes
+2299,abnormal_closed,abnormality_yesno,shoulder,Is this image abnormal?,yes,yes,Yes
+2346,pathology_closed_pos,pathology_yesno,knee,Is the knee affected by chondral abnormality?,yes,yes,Yes
+2352,anatomy_mc,anatomy_mcq,lung,What is the correct anatomical region for this scan?,C,C,C
+2357,pathology_mc,pathology_mcq,lung,What pathology is shown in this scan of lung,A,A,A
+2371,abnormal_closed,abnormality_yesno,ankle foot,Is this image abnormal?,yes,yes,Yes
+2377,anatomy_closed_pos,anatomy_yesno,shoulder,Is the shoulder present in this image?,yes,yes,Yes
+2409,pathology_closed_pos,pathology_yesno,knee,Is the knee affected by fibular collateral ligament pathology?,yes,yes,Yes
+2434,abnormal_closed,abnormality_yesno,ankle foot,Does the ankle foot look abnormal?,yes,yes,Yes
+2478,anatomy_mc,anatomy_mcq,hip,Select the correct anatomical region.,D,B,B
+2483,pathology_mc,pathology_mcq,hip,Which of the following pathologies is present in this image?,D,C,C
+2495,anatomy_closed_neg,anatomy_yesno,hip,Can you identify the brain in this image?,no,no,No
+2496,anatomy_mc,anatomy_mcq,hip,What is the correct anatomical region for this scan?,C,C,C
+2501,pathology_mc,pathology_mcq,hip,Which of the following pathologies is present in this image?,D,C,C
+2522,anatomy_closed_neg,anatomy_yesno,lung,Can you identify the brain in this image?,no,no,No
+2523,anatomy_mc,anatomy_mcq,lung,Select the correct anatomical region.,D,D,D
+2528,pathology_mc,pathology_mcq,lung,What is the most likely pathology in this image?,B,A,A
+2533,abnormal_closed,abnormality_yesno,lung,Is there an abnormality present?,no,yes,Yes
+2560,abnormal_closed,abnormality_yesno,abdomen,Does the abdomen look abnormal?,no,yes,Yes
+2587,abnormal_closed,abnormality_yesno,lung,Does the lung look abnormal?,no,no,No
+2590,pathology_closed_neg,pathology_yesno,lung,Is parenchyma destruction present?,no,yes,Yes
+2604,anatomy_mc,anatomy_mcq,lung,What is the correct anatomical region for this scan?,B,B,B
+2609,pathology_mc,pathology_mcq,lung,Which of the following pathologies is present in this image?,A,D,D
+2616,pathology_closed_pos,pathology_yesno,lung,Does the patient have airspace opacity?,yes,yes,Yes
+2631,anatomy_mc,anatomy_mcq,lung,What is the correct anatomical region for this scan?,D,C,C
+2632,abnormal_closed,abnormality_yesno,lung,Does this scan reveal any abnormalities?,no,yes,Yes
+2636,pathology_mc,pathology_mcq,lung,What is the most likely pathology in this image?,C,B,B
+2638,anatomy_closed_pos,anatomy_yesno,lung,Can you identify the lung in this image?,yes,no,No
+2661,pathology_closed_pos,pathology_yesno,ankle foot,Is the ankle foot affected by syndesmosis pathology?,yes,no,No
+2667,anatomy_mc,anatomy_mcq,brain,Which of the following anatomical regions is depicted in this scan?,A,A,A
+2670,pathology_closed_pos,pathology_yesno,brain,Is there evidence of osseous lesion in this image?,no,no,No
+2672,pathology_mc,pathology_mcq,brain,Which of the following pathologies is present in this image?,C,A,A
+2693,anatomy_closed_neg,anatomy_yesno,ankle foot,Can you identify the shoulder in this image?,no,no,No
+2694,anatomy_mc,anatomy_mcq,ankle foot,What is the correct anatomical region for this scan?,C,C,C
+2699,pathology_mc,pathology_mcq,ankle foot,Select the pathology that best describes this image:,B,A,A
+2719,anatomy_closed_pos,anatomy_yesno,abdomen,Is the abdomen part of this scan?,yes,yes,Yes
+2766,anatomy_mc,anatomy_mcq,abdomen,What is the correct anatomical region for this scan?,C,C,C
+2771,pathology_mc,pathology_mcq,abdomen,Which of the following pathologies is present in this image?,A,C,C
+2787,pathology_closed_pos,pathology_yesno,abdomen,Is biceps pathology present?,no,no,No
+2794,abnormal_closed,abnormality_yesno,ankle foot,Is there an abnormality present?,yes,no,No
+2810,anatomy_closed_neg,anatomy_yesno,hip,Is the spine present in this image?,no,yes,Yes
+2811,anatomy_mc,anatomy_mcq,hip,Which of the following anatomical regions is depicted in this scan?,B,B,B
+2816,pathology_mc,pathology_mcq,hip,What is the most likely pathology in this image?,B,C,C
+2827,anatomy_closed_pos,anatomy_yesno,abdomen,Does this image show the abdomen?,yes,yes,Yes
+2859,pathology_closed_pos,pathology_yesno,knee,Is the knee affected by chondral abnormality?,yes,yes,Yes
+2865,anatomy_mc,anatomy_mcq,hip,Select the correct anatomical region.,D,B,B
+2866,abnormal_closed,abnormality_yesno,hip,Is there an abnormality present?,yes,yes,Yes
+2870,pathology_mc,pathology_mcq,hip,Select the pathology that best describes this image:,B,C,C
+2873,anatomy_closed_neg,anatomy_yesno,abdomen,Does this image show the shoulder?,no,no,No
+2874,anatomy_mc,anatomy_mcq,abdomen,Which of the following anatomical regions is depicted in this scan?,D,D,D
+2879,pathology_mc,pathology_mcq,abdomen,What is the most likely pathology in this image?,C,C,C
+2893,abnormal_closed,abnormality_yesno,knee,Is this image abnormal?,yes,yes,Yes
+2938,abnormal_closed,abnormality_yesno,lung,Does this scan reveal any abnormalities?,no,yes,Yes
+2946,anatomy_mc,anatomy_mcq,lung,Which of the following anatomical regions is depicted in this scan?,D,D,D
+2951,pathology_mc,pathology_mcq,lung,What pathology is shown in this scan of lung,B,C,C
+2954,anatomy_closed_neg,anatomy_yesno,lung,Is the ankle foot visible in the image?,no,no,No
+2955,anatomy_mc,anatomy_mcq,lung,Which of the following anatomical regions is depicted in this scan?,C,C,C
+2959,pathology_closed_neg,pathology_yesno,lung,Is there evidence of airspace opacity in this image?,no,yes,Yes
+2960,pathology_mc,pathology_mcq,lung,What is the most likely pathology in this image?,A,B,B
+2977,pathology_closed_neg,pathology_yesno,ankle foot,Are there signs of coalition bone fusion?,no,yes,Yes
+2994,pathology_closed_pos,pathology_yesno,ankle foot,Is the ankle foot affected by soft tissue mass?,yes,yes,Yes
+3028,abnormal_closed,abnormality_yesno,lung,Does the lung look abnormal?,yes,yes,Yes
+3037,abnormal_closed,abnormality_yesno,abdomen,Does this scan reveal any abnormalities?,no,no,No
+3094,pathology_closed_neg,pathology_yesno,ankle foot,Is the ankle foot affected by deltoid pathology?,no,no,No
+3116,anatomy_closed_neg,anatomy_yesno,lung,Is the spine part of this scan?,no,no,No
+3117,anatomy_mc,anatomy_mcq,lung,Select the correct anatomical region.,A,A,A
+3120,pathology_closed_pos,pathology_yesno,lung,Is there evidence of airspace opacity in this image?,yes,yes,Yes
+3122,pathology_mc,pathology_mcq,lung,What pathology is shown in this scan of lung,D,D,D
+3235,abnormal_closed,abnormality_yesno,lung,Is there an abnormality present?,yes,yes,Yes
+3246,pathology_closed_pos,pathology_yesno,lung,Is the lung affected by nodule?,yes,yes,Yes
+3250,anatomy_closed_pos,anatomy_yesno,ankle foot,Does the picture contain the ankle foot?,yes,yes,Yes
+3332,anatomy_closed_neg,anatomy_yesno,abdomen,Can you see the lung?,no,no,No
+3333,anatomy_mc,anatomy_mcq,abdomen,Which of the following anatomical regions is depicted in this scan?,A,A,A
+3338,pathology_mc,pathology_mcq,abdomen,Select the pathology that best describes this image:,B,C,C
+3341,anatomy_closed_neg,anatomy_yesno,abdomen,Is the brain visible in the image?,no,no,No
+3342,anatomy_mc,anatomy_mcq,abdomen,What is the correct anatomical region for this scan?,A,A,A
+3347,pathology_mc,pathology_mcq,abdomen,What is the most likely pathology in this image?,A,A,A
+3417,pathology_closed_pos,pathology_yesno,lung,Is the lung affected by liver disease?,no,no,No
+3441,anatomy_mc,anatomy_mcq,spine,What is the correct anatomical region for this scan?,A,D,D
+3446,pathology_mc,pathology_mcq,spine,Select the pathology that best describes this image:,D,C,C
+3505,abnormal_closed,abnormality_yesno,abdomen,Does the abdomen look abnormal?,no,yes,Yes
+3532,abnormal_closed,abnormality_yesno,knee,Does the knee look abnormal?,yes,yes,Yes
+3538,anatomy_closed_pos,anatomy_yesno,lung,Can you identify the lung in this image?,yes,no,No
+3574,anatomy_closed_pos,anatomy_yesno,lung,Does this image show the lung?,yes,no,No
+3624,pathology_closed_pos,pathology_yesno,hip,Are there signs of marrow inflammation?,yes,no,No
+3700,anatomy_closed_pos,anatomy_yesno,abdomen,Can you identify the abdomen in this image?,yes,yes,Yes
+3701,anatomy_closed_neg,anatomy_yesno,abdomen,Can you identify the shoulder in this image?,no,no,No
+3702,anatomy_mc,anatomy_mcq,abdomen,Select the correct anatomical region.,A,A,A
+3707,pathology_mc,pathology_mcq,abdomen,Which of the following pathologies is present in this image?,C,C,C
+3739,abnormal_closed,abnormality_yesno,abdomen,Is this image abnormal?,yes,yes,Yes
+3768,pathology_closed_pos,pathology_yesno,spine,Are there signs of posterior cruciate ligament pathology?,no,no,No
+3781,anatomy_closed_pos,anatomy_yesno,shoulder,Can you identify the shoulder in this image?,yes,yes,Yes
+3822,pathology_closed_pos,pathology_yesno,hip,Is the hip affected by abductor pathology?,yes,yes,Yes
+3838,abnormal_closed,abnormality_yesno,brain,Does the brain look abnormal?,no,yes,Yes
+3858,pathology_closed_pos,pathology_yesno,abdomen,Is there evidence of uterine pathology in this image?,yes,yes,Yes
+3867,pathology_closed_pos,pathology_yesno,abdomen,Is there evidence of white matter changes in this image?,no,no,No
+3927,anatomy_mc,anatomy_mcq,ankle foot,Select the correct anatomical region.,B,C,C
+3932,pathology_mc,pathology_mcq,ankle foot,Select the pathology that best describes this image:,C,C,C
+3953,anatomy_closed_neg,anatomy_yesno,abdomen,Does this image show the lung?,no,no,No
+3954,anatomy_mc,anatomy_mcq,abdomen,What is the correct anatomical region for this scan?,D,D,D
+3955,abnormal_closed,abnormality_yesno,abdomen,Does this scan reveal any abnormalities?,yes,yes,Yes
+3959,pathology_mc,pathology_mcq,abdomen,Select the pathology that best describes this image:,A,A,A
+3973,abnormal_closed,abnormality_yesno,hip,Does the hip look abnormal?,no,no,No
+3997,anatomy_closed_pos,anatomy_yesno,shoulder,Is the shoulder part of this scan?,yes,yes,Yes
+4020,pathology_closed_pos,pathology_yesno,knee,Is chondral abnormality present?,yes,yes,Yes
+4036,abnormal_closed,abnormality_yesno,lung,Is this image abnormal?,no,yes,Yes
+4062,anatomy_mc,anatomy_mcq,abdomen,What is the correct anatomical region for this scan?,A,A,A
+4067,pathology_mc,pathology_mcq,abdomen,What is the most likely pathology in this image?,A,B,B
+4093,pathology_closed_neg,pathology_yesno,abdomen,Are there signs of prostate lesion?,no,no,No
+4105,anatomy_closed_pos,anatomy_yesno,lung,Does this image show the lung?,yes,no,No
+4108,abnormal_closed,abnormality_yesno,lung,Is this image abnormal?,no,yes,Yes
+4204,anatomy_closed_pos,anatomy_yesno,ankle foot,Can you see the ankle foot?,yes,yes,Yes
+4222,anatomy_closed_pos,anatomy_yesno,brain,Can you see the brain?,yes,yes,Yes
+4254,pathology_closed_pos,pathology_yesno,brain,Is chronic infarct present?,yes,no,No
+4270,abnormal_closed,abnormality_yesno,ankle foot,Does the ankle foot look abnormal?,yes,yes,Yes
+4282,pathology_closed_neg,pathology_yesno,abdomen,Is there evidence of bladder pathology in this image?,no,no,No
+4351,abnormal_closed,abnormality_yesno,lung,Does the lung look abnormal?,yes,yes,Yes
+4363,pathology_closed_neg,pathology_yesno,ankle foot,Does the patient have bone inflammation?,no,no,No
+4366,anatomy_closed_pos,anatomy_yesno,brain,Is the brain present in this image?,yes,yes,Yes
+4396,abnormal_closed,abnormality_yesno,lung,Is this image abnormal?,no,yes,Yes
+4440,anatomy_mc,anatomy_mcq,lung,What is the correct anatomical region for this scan?,A,A,A
+4445,pathology_mc,pathology_mcq,lung,What pathology is shown in this scan of lung,D,C,C
+4470,pathology_closed_pos,pathology_yesno,abdomen,Does the patient have adrenal pathology?,yes,no,No
+4493,anatomy_closed_neg,anatomy_yesno,lung,Is the hip present in this image?,no,no,No
+4494,anatomy_mc,anatomy_mcq,lung,Select the correct anatomical region.,C,C,C
+4499,pathology_mc,pathology_mcq,lung,What pathology is shown in this scan of lung,C,D,D
+4522,abnormal_closed,abnormality_yesno,abdomen,Does the abdomen look abnormal?,no,yes,Yes
+4552,pathology_closed_neg,pathology_yesno,abdomen,Does the patient have prostate lesion?,no,no,No
+4588,pathology_closed_neg,pathology_yesno,shoulder,Is there evidence of subscapularis pathology in this image?,no,yes,Yes
+4619,anatomy_closed_neg,anatomy_yesno,spine,Is the ankle foot present in this image?,no,no,No
+4620,anatomy_mc,anatomy_mcq,spine,Select the correct anatomical region.,D,D,D
+4625,pathology_mc,pathology_mcq,spine,Select the pathology that best describes this image:,C,B,B
+4672,anatomy_closed_pos,anatomy_yesno,knee,Can you see the knee?,yes,yes,Yes
+4691,anatomy_closed_neg,anatomy_yesno,lung,Can you see the ankle foot?,no,no,No
+4692,anatomy_mc,anatomy_mcq,lung,Which of the following anatomical regions is depicted in this scan?,A,A,A
+4697,pathology_mc,pathology_mcq,lung,What pathology is shown in this scan of lung,D,A,A
+4701,anatomy_mc,anatomy_mcq,spine,Which of the following anatomical regions is depicted in this scan?,D,D,D
+4706,pathology_mc,pathology_mcq,spine,What is the most likely pathology in this image?,C,D,D
+4741,pathology_closed_neg,pathology_yesno,spine,Is there evidence of foraminal pathology in this image?,no,no,No
+4745,anatomy_closed_neg,anatomy_yesno,lung,Is the ankle foot present in this image?,no,no,No
+4746,anatomy_mc,anatomy_mcq,lung,What is the correct anatomical region for this scan?,D,C,C
+4751,pathology_mc,pathology_mcq,lung,What is the most likely pathology in this image?,D,B,B
+4758,pathology_closed_pos,pathology_yesno,lung,Are there signs of airspace opacity?,yes,yes,Yes
+4776,pathology_closed_pos,pathology_yesno,spine,Is foraminal pathology present?,yes,yes,Yes
+4789,anatomy_closed_pos,anatomy_yesno,hip,Can you identify the hip in this image?,yes,no,No
+4792,abnormal_closed,abnormality_yesno,hip,Is this image abnormal?,no,yes,Yes
+4801,abnormal_closed,abnormality_yesno,abdomen,Does this scan reveal any abnormalities?,yes,no,No
+4812,pathology_closed_pos,pathology_yesno,lung,Is muscle strain present?,no,no,No
+4819,abnormal_closed,abnormality_yesno,lung,Is there an abnormality present?,yes,yes,Yes
+4828,abnormal_closed,abnormality_yesno,lung,Does the lung look abnormal?,no,no,No
+4837,abnormal_closed,abnormality_yesno,lung,Is there an abnormality present?,no,yes,Yes
+4846,abnormal_closed,abnormality_yesno,abdomen,Is this image abnormal?,yes,yes,Yes
+4881,anatomy_mc,anatomy_mcq,abdomen,What is the correct anatomical region for this scan?,C,C,C
+4886,pathology_mc,pathology_mcq,abdomen,Which of the following pathologies is present in this image?,A,D,D
+4890,anatomy_mc,anatomy_mcq,lung,Select the correct anatomical region.,C,C,C
+4893,pathology_closed_pos,pathology_yesno,lung,Is there evidence of nodule in this image?,yes,no,No
+4895,pathology_mc,pathology_mcq,lung,What is the most likely pathology in this image?,C,A,A
+4927,abnormal_closed,abnormality_yesno,abdomen,Does the abdomen look abnormal?,no,yes,Yes
+4935,anatomy_mc,anatomy_mcq,abdomen,Which of the following anatomical regions is depicted in this scan?,C,C,C
+4940,pathology_mc,pathology_mcq,abdomen,Which of the following pathologies is present in this image?,D,D,D
+4943,anatomy_closed_neg,anatomy_yesno,hip,Does this image show the ankle foot?,no,no,No
+4944,anatomy_mc,anatomy_mcq,hip,What is the correct anatomical region for this scan?,A,A,A
+4949,pathology_mc,pathology_mcq,hip,Select the pathology that best describes this image:,D,C,C
+4966,pathology_closed_neg,pathology_yesno,hip,Is soft tissue fluid present?,no,yes,Yes
+5019,pathology_closed_pos,pathology_yesno,ankle foot,Does the patient have soft tissue fluid?,yes,no,No
+5020,pathology_closed_neg,pathology_yesno,ankle foot,Is there evidence of bone inflammation in this image?,no,yes,Yes
+5059,anatomy_closed_pos,anatomy_yesno,abdomen,Does the picture contain the abdomen?,yes,no,No
+5074,pathology_closed_neg,pathology_yesno,lung,Are there signs of bronchiectasis?,no,yes,Yes
+5110,pathology_closed_neg,pathology_yesno,hip,Is there evidence of osseous disruption in this image?,no,no,No
+5133,anatomy_mc,anatomy_mcq,abdomen,Which of the following anatomical regions is depicted in this scan?,A,A,A
+5138,pathology_mc,pathology_mcq,abdomen,What pathology is shown in this scan of abdomen,B,B,B
+5181,pathology_closed_pos,pathology_yesno,hip,Does the patient have hamstring pathology?,yes,no,No
+5188,abnormal_closed,abnormality_yesno,knee,Is this image abnormal?,yes,yes,Yes
+5199,pathology_closed_pos,pathology_yesno,brain,Are there signs of white matter changes?,yes,yes,Yes
+5205,anatomy_mc,anatomy_mcq,abdomen,Select the correct anatomical region.,B,B,B
+5206,abnormal_closed,abnormality_yesno,abdomen,Is this image abnormal?,yes,yes,Yes
+5210,pathology_mc,pathology_mcq,abdomen,What is the most likely pathology in this image?,A,A,A
+5258,anatomy_closed_neg,anatomy_yesno,abdomen,Is the knee part of this scan?,no,no,No
+5259,anatomy_mc,anatomy_mcq,abdomen,Select the correct anatomical region.,A,A,A
+5264,pathology_mc,pathology_mcq,abdomen,Which of the following pathologies is present in this image?,C,C,C
+5296,abnormal_closed,abnormality_yesno,shoulder,Does this scan reveal any abnormalities?,no,yes,Yes
+5304,anatomy_mc,anatomy_mcq,abdomen,What is the correct anatomical region for this scan?,C,C,C
+5305,abnormal_closed,abnormality_yesno,abdomen,Is this image abnormal?,no,yes,Yes
+5309,pathology_mc,pathology_mcq,abdomen,What is the most likely pathology in this image?,D,A,A
+5313,anatomy_mc,anatomy_mcq,lung,Which of the following anatomical regions is depicted in this scan?,A,A,A
+5318,pathology_mc,pathology_mcq,lung,What pathology is shown in this scan of lung,C,C,C
+5411,anatomy_closed_neg,anatomy_yesno,ankle foot,Is the lung present in this image?,no,no,No
+5412,anatomy_mc,anatomy_mcq,ankle foot,What is the correct anatomical region for this scan?,A,A,A
+5416,pathology_closed_neg,pathology_yesno,ankle foot,Is spring ligament injury present?,no,yes,Yes
+5417,pathology_mc,pathology_mcq,ankle foot,Which of the following pathologies is present in this image?,C,C,C
+5431,abnormal_closed,abnormality_yesno,ankle foot,Is this image abnormal?,yes,yes,Yes
+5439,anatomy_mc,anatomy_mcq,lung,What is the correct anatomical region for this scan?,C,D,D
+5444,pathology_mc,pathology_mcq,lung,What pathology is shown in this scan of lung,D,B,B
+5451,pathology_closed_pos,pathology_yesno,abdomen,Is calcific tendinosis present?,no,no,No
+5479,pathology_closed_neg,pathology_yesno,lung,Does the patient have bronchiectasis?,no,no,No
+5556,anatomy_mc,anatomy_mcq,abdomen,Select the correct anatomical region.,C,C,C
+5561,pathology_mc,pathology_mcq,abdomen,Select the pathology that best describes this image:,A,C,C
+5591,anatomy_closed_neg,anatomy_yesno,knee,Is the lung part of this scan?,no,no,No
+5592,anatomy_mc,anatomy_mcq,knee,Select the correct anatomical region.,C,C,C
+5597,pathology_mc,pathology_mcq,knee,What is the most likely pathology in this image?,A,C,C
+5636,anatomy_closed_neg,anatomy_yesno,shoulder,Does the picture contain the ankle foot?,no,no,No
+5637,anatomy_mc,anatomy_mcq,shoulder,Which of the following anatomical regions is depicted in this scan?,D,D,D
+5642,pathology_mc,pathology_mcq,shoulder,Which of the following pathologies is present in this image?,C,B,B
+5647,abnormal_closed,abnormality_yesno,ankle foot,Is there an abnormality present?,yes,yes,Yes
+5658,pathology_closed_pos,pathology_yesno,abdomen,Is gallbladder pathology present?,yes,yes,Yes
+5676,pathology_closed_pos,pathology_yesno,abdomen,Is biliary dilation present?,yes,yes,Yes
+5698,anatomy_closed_pos,anatomy_yesno,abdomen,Can you identify the abdomen in this image?,yes,yes,Yes
+5726,anatomy_closed_neg,anatomy_yesno,abdomen,Is the ankle foot visible in the image?,no,no,No
+5727,anatomy_mc,anatomy_mcq,abdomen,Select the correct anatomical region.,B,B,B
+5732,pathology_mc,pathology_mcq,abdomen,What is the most likely pathology in this image?,B,C,C
+5764,abnormal_closed,abnormality_yesno,abdomen,Does this scan reveal any abnormalities?,no,yes,Yes
+5836,abnormal_closed,abnormality_yesno,hip,Is this image abnormal?,yes,yes,Yes
+5871,anatomy_mc,anatomy_mcq,abdomen,Which of the following anatomical regions is depicted in this scan?,A,A,A
+5876,pathology_mc,pathology_mcq,abdomen,Select the pathology that best describes this image:,D,C,C
+5942,anatomy_closed_neg,anatomy_yesno,lung,Does this image show the hip?,no,no,No
+5943,anatomy_mc,anatomy_mcq,lung,What is the correct anatomical region for this scan?,C,C,C
+5944,abnormal_closed,abnormality_yesno,lung,Is this image abnormal?,yes,yes,Yes
+5948,pathology_mc,pathology_mcq,lung,Which of the following pathologies is present in this image?,A,A,A
+5961,anatomy_mc,anatomy_mcq,knee,What is the correct anatomical region for this scan?,B,B,B
+5966,pathology_mc,pathology_mcq,knee,Select the pathology that best describes this image:,A,B,B
+5971,abnormal_closed,abnormality_yesno,knee,Does the knee look abnormal?,yes,yes,Yes
+6034,abnormal_closed,abnormality_yesno,abdomen,Does this scan reveal any abnormalities?,yes,yes,Yes
+6036,pathology_closed_pos,pathology_yesno,abdomen,Is the abdomen affected by uterine pathology?,yes,no,No
+6104,anatomy_closed_neg,anatomy_yesno,knee,Can you see the brain?,no,no,No
+6105,anatomy_mc,anatomy_mcq,knee,What is the correct anatomical region for this scan?,B,B,B
+6110,pathology_mc,pathology_mcq,knee,Which of the following pathologies is present in this image?,B,A,A
+6114,anatomy_mc,anatomy_mcq,abdomen,Select the correct anatomical region.,A,A,A
+6119,pathology_mc,pathology_mcq,abdomen,Which of the following pathologies is present in this image?,C,B,B
+6133,abnormal_closed,abnormality_yesno,abdomen,Does this scan reveal any abnormalities?,no,no,No
+6166,anatomy_closed_pos,anatomy_yesno,spine,Can you see the spine?,yes,yes,Yes
+6185,anatomy_closed_neg,anatomy_yesno,abdomen,Does the picture contain the brain?,no,no,No
+6186,anatomy_mc,anatomy_mcq,abdomen,Which of the following anatomical regions is depicted in this scan?,C,C,C
+6191,pathology_mc,pathology_mcq,abdomen,Select the pathology that best describes this image:,D,C,C
+6229,anatomy_closed_pos,anatomy_yesno,ankle foot,Can you identify the ankle foot in this image?,yes,yes,Yes
+6231,anatomy_mc,anatomy_mcq,ankle foot,Which of the following anatomical regions is depicted in this scan?,A,A,A
+6236,pathology_mc,pathology_mcq,ankle foot,Select the pathology that best describes this image:,B,A,A
+6292,anatomy_closed_pos,anatomy_yesno,brain,Is the brain part of this scan?,yes,yes,Yes
+6421,abnormal_closed,abnormality_yesno,abdomen,Is there an abnormality present?,no,yes,Yes
+6429,anatomy_mc,anatomy_mcq,lung,Select the correct anatomical region.,A,A,A
+6434,pathology_mc,pathology_mcq,lung,What pathology is shown in this scan of lung,D,D,D
+6562,anatomy_closed_pos,anatomy_yesno,knee,Is the knee present in this image?,yes,no,No
+6585,pathology_closed_pos,pathology_yesno,hip,Does the patient have labral pathology?,yes,no,No
+6635,anatomy_closed_neg,anatomy_yesno,brain,Is the ankle foot visible in the image?,no,no,No
+6636,anatomy_mc,anatomy_mcq,brain,What is the correct anatomical region for this scan?,A,A,A
+6641,pathology_mc,pathology_mcq,brain,Which of the following pathologies is present in this image?,B,D,D
+6643,anatomy_closed_pos,anatomy_yesno,brain,Is the brain visible in the image?,yes,yes,Yes
+6649,pathology_closed_neg,pathology_yesno,brain,Is there evidence of intraarticular abnormality in this image?,no,no,No
+6652,anatomy_closed_pos,anatomy_yesno,ankle foot,Can you identify the ankle foot in this image?,yes,yes,Yes
+6662,anatomy_closed_neg,anatomy_yesno,lung,Can you identify the ankle foot in this image?,no,no,No
+6663,anatomy_mc,anatomy_mcq,lung,Which of the following anatomical regions is depicted in this scan?,B,B,B
+6668,pathology_mc,pathology_mcq,lung,What pathology is shown in this scan of lung,C,B,B
+6672,anatomy_mc,anatomy_mcq,lung,Select the correct anatomical region.,D,D,D
+6677,pathology_mc,pathology_mcq,lung,What pathology is shown in this scan of lung,C,B,B
+6706,anatomy_closed_pos,anatomy_yesno,lung,Can you see the lung?,yes,yes,Yes
+6780,anatomy_mc,anatomy_mcq,lung,What is the correct anatomical region for this scan?,A,D,D
+6781,abnormal_closed,abnormality_yesno,lung,Is this image abnormal?,no,yes,Yes
+6785,pathology_mc,pathology_mcq,lung,Which of the following pathologies is present in this image?,B,C,C
+6817,abnormal_closed,abnormality_yesno,ankle foot,Does this scan reveal any abnormalities?,yes,no,No
+6844,abnormal_closed,abnormality_yesno,abdomen,Does this scan reveal any abnormalities?,yes,yes,Yes
+6851,anatomy_closed_neg,anatomy_yesno,knee,Can you identify the lung in this image?,no,no,No
+6852,anatomy_mc,anatomy_mcq,knee,Which of the following anatomical regions is depicted in this scan?,A,A,A
+6857,pathology_mc,pathology_mcq,knee,What pathology is shown in this scan of knee,D,D,D
+6864,pathology_closed_pos,pathology_yesno,lung,Is the lung affected by airspace opacity?,yes,yes,Yes
+6879,anatomy_mc,anatomy_mcq,lung,Select the correct anatomical region.,C,B,B
+6884,pathology_mc,pathology_mcq,lung,What pathology is shown in this scan of lung,A,C,C
+6910,pathology_closed_neg,pathology_yesno,knee,Is there evidence of bone inflammation in this image?,no,yes,Yes
+6961,abnormal_closed,abnormality_yesno,abdomen,Is this image abnormal?,no,yes,Yes
+6970,abnormal_closed,abnormality_yesno,ankle foot,Does the ankle foot look abnormal?,yes,yes,Yes
+6972,pathology_closed_pos,pathology_yesno,ankle foot,Does the patient have plantar plate tear?,yes,yes,Yes
+7006,abnormal_closed,abnormality_yesno,abdomen,Is there an abnormality present?,no,yes,Yes
+7086,anatomy_mc,anatomy_mcq,lung,Select the correct anatomical region.,D,D,D
+7089,pathology_closed_pos,pathology_yesno,lung,Is there evidence of airspace opacity in this image?,yes,yes,Yes
+7091,pathology_mc,pathology_mcq,lung,Select the pathology that best describes this image:,C,C,C
+7096,abnormal_closed,abnormality_yesno,abdomen,Is there an abnormality present?,yes,yes,Yes
+7117,pathology_closed_neg,pathology_yesno,knee,Is there evidence of posterior cruciate ligament pathology in this image?,no,yes,Yes
+7141,abnormal_closed,abnormality_yesno,lung,Is there an abnormality present?,no,yes,Yes
+7159,abnormal_closed,abnormality_yesno,brain,Is this image abnormal?,no,yes,Yes
+7188,pathology_closed_pos,pathology_yesno,brain,Is the brain affected by white matter changes?,yes,yes,Yes
+7195,abnormal_closed,abnormality_yesno,abdomen,Is this image abnormal?,yes,yes,Yes
+7207,pathology_closed_neg,pathology_yesno,abdomen,Are there signs of splenic lesion?,no,no,No
+7301,anatomy_closed_neg,anatomy_yesno,shoulder,Is the abdomen part of this scan?,no,no,No
+7302,anatomy_mc,anatomy_mcq,shoulder,Which of the following anatomical regions is depicted in this scan?,B,B,B
+7307,pathology_mc,pathology_mcq,shoulder,What pathology is shown in this scan of shoulder,B,C,C
+7309,anatomy_closed_pos,anatomy_yesno,lung,Can you see the lung?,yes,yes,Yes
+7366,abnormal_closed,abnormality_yesno,lung,Is this image abnormal?,no,yes,Yes
+7378,pathology_closed_neg,pathology_yesno,lung,Is nodule present?,no,yes,Yes
+7383,anatomy_mc,anatomy_mcq,abdomen,What is the correct anatomical region for this scan?,B,B,B
+7388,pathology_mc,pathology_mcq,abdomen,What is the most likely pathology in this image?,A,B,B
+7437,anatomy_mc,anatomy_mcq,ankle foot,What is the correct anatomical region for this scan?,B,B,B
+7442,pathology_mc,pathology_mcq,ankle foot,Select the pathology that best describes this image:,B,B,B
+7447,abnormal_closed,abnormality_yesno,abdomen,Is this image abnormal?,no,yes,Yes
+7495,pathology_closed_neg,pathology_yesno,spine,Is dural or epidural abnormality present?,no,no,No
+7519,abnormal_closed,abnormality_yesno,abdomen,Is this image abnormal?,no,yes,Yes
+7535,anatomy_closed_neg,anatomy_yesno,knee,Can you see the ankle foot?,no,no,No
+7536,anatomy_mc,anatomy_mcq,knee,Which of the following anatomical regions is depicted in this scan?,D,D,D
+7539,pathology_closed_pos,pathology_yesno,knee,Is the knee affected by intraarticular abnormality?,yes,yes,Yes
+7541,pathology_mc,pathology_mcq,knee,What pathology is shown in this scan of knee,D,A,A
+7612,pathology_closed_neg,pathology_yesno,hip,Is the hip affected by hematoma?,no,no,No
+7648,pathology_closed_neg,pathology_yesno,ankle foot,Are there signs of peroneal tendon pathology?,no,yes,Yes
+7660,anatomy_closed_pos,anatomy_yesno,abdomen,Does this image show the abdomen?,yes,yes,Yes
+7693,pathology_closed_neg,pathology_yesno,spine,Is the spine affected by osseous abnormality?,no,yes,Yes
+7696,anatomy_closed_pos,anatomy_yesno,hip,Is the hip present in this image?,yes,no,No
+7699,abnormal_closed,abnormality_yesno,hip,Does this scan reveal any abnormalities?,yes,no,No
+7710,pathology_closed_pos,pathology_yesno,brain,Does the patient have chronic infarct?,yes,no,No
+7714,anatomy_closed_pos,anatomy_yesno,ankle foot,Is the ankle foot part of this scan?,yes,yes,Yes
+7733,anatomy_closed_neg,anatomy_yesno,shoulder,Does the picture contain the knee?,no,no,No
+7734,anatomy_mc,anatomy_mcq,shoulder,Which of the following anatomical regions is depicted in this scan?,C,C,C
+7739,pathology_mc,pathology_mcq,shoulder,What is the most likely pathology in this image?,D,D,D
+7750,anatomy_closed_pos,anatomy_yesno,brain,Can you see the brain?,yes,yes,Yes
+7797,anatomy_mc,anatomy_mcq,ankle foot,Select the correct anatomical region.,D,D,D
+7802,pathology_mc,pathology_mcq,ankle foot,What is the most likely pathology in this image?,D,C,C
+7807,abnormal_closed,abnormality_yesno,shoulder,Does the shoulder look abnormal?,no,yes,Yes
+7825,abnormal_closed,abnormality_yesno,abdomen,Does the abdomen look abnormal?,no,no,No
+7831,anatomy_closed_pos,anatomy_yesno,lung,Does the picture contain the lung?,yes,yes,Yes
+7890,pathology_closed_pos,pathology_yesno,abdomen,Are there signs of osseous neoplasm?,yes,no,No
+7899,pathology_closed_pos,pathology_yesno,abdomen,Are there signs of gallstone?,yes,no,No
+7914,anatomy_mc,anatomy_mcq,spine,Select the correct anatomical region.,B,B,B
+7919,pathology_mc,pathology_mcq,spine,What is the most likely pathology in this image?,B,B,B
+7949,anatomy_closed_neg,anatomy_yesno,brain,Can you identify the shoulder in this image?,no,no,No
+7950,anatomy_mc,anatomy_mcq,brain,Which of the following anatomical regions is depicted in this scan?,D,D,D
+7953,pathology_closed_pos,pathology_yesno,brain,Is the brain affected by extraaxial lesion?,yes,yes,Yes
+7955,pathology_mc,pathology_mcq,brain,What pathology is shown in this scan of brain,A,C,C
+8005,abnormal_closed,abnormality_yesno,abdomen,Does this scan reveal any abnormalities?,no,no,No
+8023,abnormal_closed,abnormality_yesno,lung,Is this image abnormal?,no,no,No
+8062,pathology_closed_neg,pathology_yesno,abdomen,Is there evidence of soft tissue mass in this image?,no,yes,Yes
+8093,anatomy_closed_neg,anatomy_yesno,abdomen,Can you identify the ankle foot in this image?,no,no,No
+8094,anatomy_mc,anatomy_mcq,abdomen,What is the correct anatomical region for this scan?,B,B,B
+8099,pathology_mc,pathology_mcq,abdomen,What is the most likely pathology in this image?,A,B,B
+8111,anatomy_closed_neg,anatomy_yesno,abdomen,Does the picture contain the knee?,no,no,No
+8112,anatomy_mc,anatomy_mcq,abdomen,Select the correct anatomical region.,B,A,A
+8117,pathology_mc,pathology_mcq,abdomen,What is the most likely pathology in this image?,C,A,A
+8120,anatomy_closed_neg,anatomy_yesno,knee,Can you identify the ankle foot in this image?,no,no,No
+8121,anatomy_mc,anatomy_mcq,knee,Select the correct anatomical region.,C,C,C
+8126,pathology_mc,pathology_mcq,knee,What pathology is shown in this scan of knee,D,B,B
+8131,abnormal_closed,abnormality_yesno,ankle foot,Is this image abnormal?,yes,yes,Yes
+8167,abnormal_closed,abnormality_yesno,abdomen,Is there an abnormality present?,yes,yes,Yes
+8215,pathology_closed_neg,pathology_yesno,spine,Are there signs of facet arthropathy?,no,no,No
+8290,anatomy_closed_pos,anatomy_yesno,abdomen,Can you identify the abdomen in this image?,yes,yes,Yes
+8293,abnormal_closed,abnormality_yesno,abdomen,Does this scan reveal any abnormalities?,yes,yes,Yes
+8317,anatomy_closed_pos,anatomy_yesno,hip,Does the picture contain the hip?,yes,yes,Yes
+8318,anatomy_closed_neg,anatomy_yesno,hip,Is the spine visible in the image?,no,no,No
+8319,anatomy_mc,anatomy_mcq,hip,Which of the following anatomical regions is depicted in this scan?,C,C,C
+8324,pathology_mc,pathology_mcq,hip,What is the most likely pathology in this image?,B,C,C
+8365,abnormal_closed,abnormality_yesno,lung,Is there an abnormality present?,no,yes,Yes
+8380,anatomy_closed_pos,anatomy_yesno,lung,Does the picture contain the lung?,yes,yes,Yes
+8437,abnormal_closed,abnormality_yesno,lung,Does the lung look abnormal?,yes,no,No
+8444,anatomy_closed_neg,anatomy_yesno,shoulder,Is the hip visible in the image?,no,no,No
+8445,anatomy_mc,anatomy_mcq,shoulder,Select the correct anatomical region.,A,A,A
+8450,pathology_mc,pathology_mcq,shoulder,What is the most likely pathology in this image?,A,A,A
+8455,abnormal_closed,abnormality_yesno,spine,Is there an abnormality present?,yes,yes,Yes
+8509,abnormal_closed,abnormality_yesno,lung,Does this scan reveal any abnormalities?,no,no,No
+8525,anatomy_closed_neg,anatomy_yesno,ankle foot,Is the hip visible in the image?,no,no,No
+8526,anatomy_mc,anatomy_mcq,ankle foot,Which of the following anatomical regions is depicted in this scan?,B,B,B
+8531,pathology_mc,pathology_mcq,ankle foot,What pathology is shown in this scan of ankle foot,B,C,C
+8563,abnormal_closed,abnormality_yesno,abdomen,Is this image abnormal?,yes,yes,Yes
+8593,pathology_closed_neg,pathology_yesno,abdomen,Are there signs of osseous neoplasm?,no,no,No
+8599,abnormal_closed,abnormality_yesno,lung,Does this scan reveal any abnormalities?,yes,no,No
+8626,abnormal_closed,abnormality_yesno,abdomen,Is there an abnormality present?,no,yes,Yes
+8628,pathology_closed_pos,pathology_yesno,abdomen,Are there signs of cystic lesions?,no,yes,Yes
+8664,pathology_closed_pos,pathology_yesno,abdomen,Are there signs of anterior cruciate ligament pathology?,no,no,No
+8704,anatomy_closed_pos,anatomy_yesno,abdomen,Can you identify the abdomen in this image?,yes,yes,Yes
+8737,pathology_closed_neg,pathology_yesno,hip,Does the patient have postoperative state?,no,no,No
+8759,anatomy_closed_neg,anatomy_yesno,abdomen,Can you identify the brain in this image?,no,no,No
+8760,anatomy_mc,anatomy_mcq,abdomen,Which of the following anatomical regions is depicted in this scan?,A,A,A
+8765,pathology_mc,pathology_mcq,abdomen,What is the most likely pathology in this image?,B,D,D
+8768,anatomy_closed_neg,anatomy_yesno,abdomen,Does this image show the spine?,no,no,No
+8769,anatomy_mc,anatomy_mcq,abdomen,Which of the following anatomical regions is depicted in this scan?,C,C,C
+8774,pathology_mc,pathology_mcq,abdomen,Which of the following pathologies is present in this image?,B,B,B
+8848,anatomy_closed_pos,anatomy_yesno,brain,Is the brain part of this scan?,yes,yes,Yes
+8876,anatomy_closed_neg,anatomy_yesno,lung,Is the abdomen visible in the image?,no,yes,Yes
+8877,anatomy_mc,anatomy_mcq,lung,Select the correct anatomical region.,D,A,A
+8878,abnormal_closed,abnormality_yesno,lung,Is there an abnormality present?,no,no,No
+8882,pathology_mc,pathology_mcq,lung,What pathology is shown in this scan of lung,B,A,A
+8889,pathology_closed_pos,pathology_yesno,ankle foot,Does the patient have plantar plate tear?,no,no,No
+8959,abnormal_closed,abnormality_yesno,ankle foot,Is this image abnormal?,yes,no,No
+8961,pathology_closed_pos,pathology_yesno,ankle foot,Is there evidence of spring ligament injury in this image?,yes,no,No
+8985,anatomy_mc,anatomy_mcq,shoulder,What is the correct anatomical region for this scan?,A,A,A
+8990,pathology_mc,pathology_mcq,shoulder,Which of the following pathologies is present in this image?,C,D,D

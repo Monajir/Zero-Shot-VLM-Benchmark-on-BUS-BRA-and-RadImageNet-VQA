@@ -1,0 +1,6 @@
+group,correct,n,accuracy
+abnormality_yesno,55,100,0.55
+anatomy_mcq,80,100,0.8
+anatomy_yesno,79,100,0.79
+pathology_mcq,32,100,0.32
+pathology_yesno,60,100,0.6
