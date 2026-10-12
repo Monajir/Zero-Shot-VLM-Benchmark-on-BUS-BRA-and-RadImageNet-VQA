@@ -5,10 +5,11 @@ on breast ultrasound classification and medical visual question answering.
 The primary comparisons are **within each model pair**, separately for each task.
 No training, fine-tuning, or in-context examples are planned.
 
-**Status:** initial experiment specification and notebook scaffolds. Dataset
-eligibility, checkpoint access, GPU compatibility, and full inference have not
-been validated. The notebooks deliberately stop before unimplemented execution;
-they are not yet complete, ready-to-run experiments.
+**Status:** `BUS_BRA.ipynb` now implements the standalone Kaggle smoke/pilot run
+for all four models. Its data preparation and CPU-side checks have been exercised
+locally; actual model loading and inference still require Kaggle GPU validation.
+The RadImageNet-VQA and analysis notebooks remain scaffolds. No final evaluation
+has been run and final dataset eligibility still requires review.
 
 ## Files and ownership
 
@@ -22,7 +23,8 @@ All inference runs on Kaggle. Each inference notebook will contain its own setup
 configuration, model adapters, prompts, parser, and saving/resumption logic. It
 must not import project Python modules or require another notebook to have run.
 Dataset attachments, frozen manifests, model downloads/access, and Kaggle secrets
-are still required external inputs. One model/configuration runs per execution.
+are still required external inputs. BUS-BRA can run a selected list of
+model/precision jobs sequentially, with one model loaded at a time.
 
 ## Selected models
 
@@ -56,11 +58,14 @@ all tested precision configurations. These patients are separate from the final
 evaluation patients. Do not infer patient identity from filenames without
 verifying the metadata.
 
-The local `Datasets/BUS-BRA.zip` archive is intentionally excluded from Git.
+Kaggle inference uses an attached BUS-BRA dataset. The local
+`Datasets/BUS-BRA.zip` archive remains in place and is intentionally excluded from Git.
 Its listing contains `BUSBRA/Images/`, masks, `BUSBRA/bus_data.csv`, supplied
 cross-validation CSVs, and `BUSBRA/LICENSE.txt`. The metadata columns include
 `ID`, `Case`, `Histology`, `Pathology`, `BIRADS`, `Device`, `Width`, `Height`,
-`Side`, and `BBOX`. This is a layout inspection, not an integrity/label audit.
+`Side`, and `BBOX`. The notebook checks the attached metadata and image-file
+fingerprints against this original copy. Automated screening is preliminary;
+patient identity and pathology are not independently verified from these files.
 The supplied cross-validation folds do not define this zero-shot benchmark.
 
 Audit both datasets for readable files, metadata consistency, labels/answer keys,
@@ -88,6 +93,43 @@ Twenty-image agreement cannot establish that quantization has no accuracy effect
 Use available free Kaggle GPUs first; do not assume a particular allocation.
 The planned T4 configurations need empirical validation. FP32 sharding and any
 BF16-capable fallback are unresolved; paid compute is not authorized by this plan.
+
+## Run the BUS-BRA smoke test on Kaggle
+
+1. Import `BUS_BRA.ipynb` into Kaggle and attach BUS-BRA through **Add Input**.
+   Use a copy containing original `bus_data.csv` and `Images/`, or the original
+   ZIP. Auto-discovery handles different Kaggle attachment names; set `DATA_ROOT`
+   explicitly if multiple copies are attached. Modified source copies stop for review.
+2. Enable Internet and choose **GPU T4 x2**, if available. One GPU is permitted,
+   but a Gemma FP32 load may fail; failures are saved as pilot evidence.
+3. Accept both Gemma checkpoints' Hugging Face terms and add a read-access token
+   as the Kaggle secret `HF_TOKEN`, enabled for the notebook.
+4. In a fresh session, keep the default six `JOBS` and **Run All**. This runs the
+   Qwen pair in FP16 and each Gemma model in FP32 and NF4 4-bit/FP32 compute:
+   up to 120 responses on one shared 20-image manifest. Set a subset of `JOBS`
+   if session time is limited. The 32-token limit is never automatically changed.
+5. Save the notebook version with outputs. Download
+   `/kaggle/working/bus_bra_smoke_results.zip` from the final cell or Output files.
+   Review that bundle before proceeding to final inference.
+
+The ZIP contains `pilot_summary.csv`, `per_case_review.csv`,
+`precision_comparison.csv`, the frozen pilot manifest, reserved source cases,
+contact sheet, audit/exclusion records, raw responses, failures, run settings,
+resolved checkpoint revisions, environment details, and coverage diagnostics.
+It contains neither downloaded model weights nor the full image dataset. Keep
+pilot artifacts private until identifiers and source terms have been reviewed.
+
+To resume, attach the saved output directory and point `RESUME_FROM` at its
+`bus_bra_smoke` folder. Completed identical records are reused; changed hardware,
+software, source, or configuration gets a separate run identity. A session killed
+before its output was persisted cannot be recovered automatically. Owned model
+caches are cleared after their last scheduled job to keep disk usage manageable.
+
+The shared pilot uses source `Case` IDs, one image per case, and a deterministic
+seed-42 sample after automated screening. In the inspected local copy, screening
+flagged 13 cases for later review and left enough eligible cases for the pilot.
+This is not a clinical audit or a final test-set approval. The notebook exports
+all exclusions and creates no final-test manifest. Parser checks run in the notebook.
 
 ## Shared inference and scoring rules
 
@@ -187,9 +229,9 @@ Holm correction across the four pair-by-task primary comparisons is proposed.
 - Add small meaningful checks inside notebooks alongside working implementations.
 - Freeze a common code version and manifests before distributed final runs.
 
-Next: implement the BUS-BRA audit/manifest preparation, inspect RadImageNet-VQA
-access/schema, implement parser checks, then validate GPU pilots. No feasibility
-test, full inference, or accuracy result is claimed by this initial commit.
+Next: run the BUS-BRA notebook on Kaggle and review its exported pilot bundle;
+in parallel inspect RadImageNet-VQA access/schema. No GPU feasibility result,
+full inference, or accuracy result is claimed by the current implementation.
 
 Results describe these released checkpoint pairs under the frozen protocol.
 Different adaptation histories, preprocessing, quantization, and incompletely
