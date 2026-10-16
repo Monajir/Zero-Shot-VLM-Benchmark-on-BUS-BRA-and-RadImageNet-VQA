@@ -1,0 +1,501 @@
+idx,image_id,source,category,question,true_answer,predicted_answer,raw_output,correct,correct_norm,bertscore_f1,is_empty,is_english,is_long,lave
+0,00001170_046,chest_xray,abnormality,কোনও অস্বাভাবিকতা আছে কি?,হ্যাঁ,no,no,False,False,0.7035719,False,True,False,0.0
+1,00016837_002,chest_xray,abnormality,এই ছবিতে কোনও অস্বাভাবিকতা লক্ষ্য করা গেছে কি?,হ্যাঁ,no,no,False,False,0.7035719,False,True,False,0.0
+2,00017981_004,chest_xray,abnormality,এই ছবিতে কি কোনও অস্বাভাবিকতা চিহ্নিত করা হয়েছে?,না,প্রাকৃতিক বিকৃতি,প্রাকৃতিক বিকৃতি,False,False,0.67460114,False,False,False,0.0
+3,00015770_010,chest_xray,abnormality,এই ছবিতে কোনও অস্বাভাবিকতা লক্ষ্য করা গেছে কি?,হ্যাঁ,প্রতিটি পায়ের মাথায় একটি অস্বাভাবিক প্রতিবেদন দেখা যায়,প্রতিটি পায়ের মাথায় একটি অস্বাভাবিক প্রতিবেদন দেখা যায়,False,False,0.6200573,False,False,True,0.0
+4,00028639_001,chest_xray,abnormality,এই ছবিতে কোনও অস্বাভাবিকতা চিহ্নিত করা হয়েছে কি?,না,প্রাকৃতিক অস্বাভাবিকতা,প্রাকৃতিক অস্বাভাবিকতা,False,False,0.6532639,False,False,False,0.0
+5,00012656_003,chest_xray,abnormality,এই ছবিতে কোনও অস্বাভাবিকতা আছে কি?,না,no,no,False,True,0.79789615,False,True,False,0.8
+6,00018694_001,chest_xray,abnormality,এই ছবিতে কোন অস্বাভাবিকতা আছে কি?,না।,There is no abnormality,There is no abnormality.,False,False,0.6781297,False,True,False,0.0
+7,00017670_005,chest_xray,abnormality,এই ছবিতে কোনও অস্বাভাবিকতা আছে কি?,হ্যাঁ,no,no,False,False,0.7035719,False,True,False,0.0
+8,00005791_008,chest_xray,abnormality,মেটাডেটাতে কোনো অস্বাভাবিকতা লক্ষ্য করা গেছে কি?,না,প্রাকৃতিক অস্বাভাবিকতা,প্রাকৃতিক অস্বাভাবিকতা,False,False,0.6532639,False,False,False,0.0
+9,00013601_016,chest_xray,abnormality,এই ছবিতে কোনো অস্বাভাবিকতা আছে কি?,না,No abnormality,No abnormality,False,False,0.7094839,False,True,False,0.0
+10,00025707_015,chest_xray,abnormality,এই ছবিতে কি কোনো অস্বাভাবিকতা আছে?,হ্যাঁ,There is no abnormality,There is no abnormality.,False,False,0.65657854,False,True,False,0.0
+11,00006321_002,chest_xray,abnormality,এই ছবিতে কোনও অস্বাভাবিকতা চিহ্নিত হয়েছে কি?,না।,প্রাকৃতিক অস্বাভাবিকতা,প্রাকৃতিক অস্বাভাবিকতা,False,False,0.65818673,False,False,False,0.0
+12,00029711_001,chest_xray,abnormality,এই ছবিতে কোন অস্বাভাবিকতা সনাক্ত হয়েছে কি?,না,প্রাকৃতিক অস্বাভাবিকতা,প্রাকৃতিক অস্বাভাবিকতা,False,False,0.6532639,False,False,False,0.0
+13,00027737_000,chest_xray,abnormality,ছবিতে কোনও অস্বাভাবিকতা সনাক্ত হয়েছে কি?,না,no,no,False,True,0.79789615,False,True,False,0.8
+14,00005353_000,chest_xray,abnormality,কোন অস্বাভাবিকতা আছে কি?,হ্যাঁ,প্রাকৃতিক বিকৃতি,প্রাকৃতিক বিকৃতি,False,False,0.6742928,False,False,False,0.0
+15,00015078_013,chest_xray,abnormality,কোনও অস্বাভাবিকতা আছে কি?,হ্যাঁ,no,no,False,False,0.7035719,False,True,False,0.0
+16,00000830_000,chest_xray,abnormality,কোনও অস্বাভাবিকতা উপস্থিত আছে কি?,হ্যাঁ,No abnormalities,No abnormalities,False,False,0.6690466,False,True,False,0.0
+17,00020845_002,chest_xray,abnormality,এই ইমেজে কোন অস্বাভাবিকতা চিহ্নিত করা হয়েছে?,হ্যাঁ,প্রাকৃতিক স্থানীয় অস্বাভাবিকতা,প্রাকৃতিক স্থানীয় অস্বাভাবিকতা,False,False,0.6450587,False,False,False,0.0
+18,00015605_050,chest_xray,abnormality,এই ছবিতে কোনো অস্বাভাবিকতা লক্ষ্য করা গেছে কি?,না,প্রাকৃতিক অস্বাভাবিকতা,প্রাকৃতিক অস্বাভাবিকতা,False,False,0.6532639,False,False,False,0.0
+19,00013177_004,chest_xray,abnormality,এই ছবিতে কোনো অস্বাভাবিকতা লক্ষ্য করা গেছে কি?,না,প্রতিটি পায়ের মাথা বিক্রম দেখা যায়,প্রতিটি পায়ের মাথা বিক্রম দেখা যায়,False,False,0.64914346,False,False,False,0.0
+20,00013031_005,chest_xray,abnormality,এই ছবিটি কি কোনও অস্বাভাবিকতা দেখায়?,হ্যাঁ,প্রতিটি প্রতিটি অস্বাভাবিক,প্রতিটি প্রতিটি অস্বাভাবিক,False,False,0.6456083,False,False,False,0.0
+21,00029617_006,chest_xray,abnormality,এই ছবিতে কোনও অস্বাভাবিকতা আছে কি?,হ্যাঁ,no,no,False,False,0.7035719,False,True,False,0.0
+22,00028974_016,chest_xray,abnormality,এই ছবিতে কোনও অস্বাভাবিকতা লক্ষ্য করা গেছে কি?,হ্যাঁ,no,no,False,False,0.7035719,False,True,False,0.0
+23,00001609_000,chest_xray,abnormality,এই চিত্রে কোন অস্বাভাবিকতা পরিলক্ষিত হয়েছে কি?,না,প্রাকৃতিক অস্বাভাবিকতা,প্রাকৃতিক অস্বাভাবিকতা,False,False,0.6532639,False,False,False,0.0
+24,00008339_010,chest_xray,abnormality,এই ছবিতে কোনও অস্বাভাবিকতা আছে কি?,হ্যাঁ,no,no,False,False,0.7035719,False,True,False,0.0
+25,00018720_000,chest_xray,abnormality,এই ছবিতে কোনো অস্বাভাবিকতা দেখা যাচ্ছে কি?,না,প্রাকৃতিক অস্বাভাবিকতা,প্রাকৃতিক অস্বাভাবিকতা,False,False,0.6532639,False,False,False,0.0
+26,00017835_003,chest_xray,abnormality,এই ছবিতে কোনও অস্বাভাবিকতা লক্ষ্য করা গেছে কি?,না,প্রাকৃতিক অস্বাভাবিকতা,প্রাকৃতিক অস্বাভাবিকতা,False,False,0.6532639,False,False,False,0.0
+27,00004006_038,chest_xray,abnormality,এই ছবিতে কোনও অস্বাভাবিকতা আছে কি?,না,no,no,False,True,0.79789615,False,True,False,0.8
+28,00022048_000,chest_xray,abnormality,কি কোনো অস্বাভাবিকতা চিহ্নিত করা হয়েছে?,না।,প্রাকৃতিক অস্বাভাবিকতা,প্রাকৃতিক অস্বাভাবিকতা,False,False,0.65818673,False,False,False,0.0
+29,00012270_005,chest_xray,abnormality,এই ছবিতে কোন অস্বাভাবিকতা আছে কি?,হ্যাঁ,There is no abnormality,There is no abnormality.,False,False,0.65657854,False,True,False,0.0
+30,00007741_002,chest_xray,abnormality,এই ইমেজে কোনও অস্বাভাবিকতা আছে কি?,না,No abnormalities,No abnormalities,False,False,0.7018932,False,True,False,0.0
+31,00012636_000,chest_xray,abnormality,এই ছবিতে কোনো অস্বাভাবিকতা আছে কি?,হ্যাঁ,no,no,False,False,0.7035719,False,True,False,0.0
+32,00027604_000,chest_xray,abnormality,কোনো অস্বাভাবিকতা আছে কি?,না,no,no,False,True,0.79789615,False,True,False,0.8
+33,00000067_002,chest_xray,abnormality,এই ছবিতে কোনো অস্বাভাবিকতা আছে কি?,না,No abnormality,No abnormality,False,False,0.7094839,False,True,False,0.0
+34,00019058_004,chest_xray,abnormality,এই ছবিতে কোন অস্বাভাবিকতা উপস্থিত আছে?,হ্যাঁ,There is no abnormality,There is no abnormality.,False,False,0.65657854,False,True,False,0.0
+35,00028089_000,chest_xray,abnormality,এই ছবিতে কোনও অস্বাভাবিকতা আছে কি?,না,no,no,False,True,0.79789615,False,True,False,0.5
+36,00028509_007,chest_xray,abnormality,এই ছবিতে কোনও অস্বাভাবিকতা দৃশ্যমান আছে কি?,হ্যাঁ,no,no,False,False,0.703572,False,True,False,0.0
+37,00004499_000,chest_xray,abnormality,এই ছবিতে কি কোন সাধারণ অস্বাভাবিকতা দেখা যাচ্ছে?,না,প্রাকৃতিক অস্বাভাবিকতা,প্রাকৃতিক অস্বাভাবিকতা,False,False,0.6532639,False,False,False,0.0
+38,00016522_023,chest_xray,abnormality,কোন অস্বাভাবিকতা আছে কি?,হ্যাঁ,There is no abnormality,There is no abnormality.,False,False,0.65657854,False,True,False,0.0
+39,00016327_001,chest_xray,abnormality,কোনো অস্বাভাবিকতা চিহ্নিত হয়েছে কি?,না,প্রাসারিত হয়,প্রাসারিত হয়,False,False,0.7181464,False,False,False,0.0
+40,00017870_001,chest_xray,abnormality,এই ছবিতে কোনও অস্বাভাবিকতা আছে কি?,না,no,no,False,True,0.79789615,False,True,False,0.8
+41,00023283_019,chest_xray,abnormality,এই ছবিতে কোন অস্বাভাবিকতা আছে কি?,হ্যাঁ,There is no abnormality,There is no abnormality.,False,False,0.65657854,False,True,False,0.0
+42,00027355_013,chest_xray,abnormality,এই ছবিতে কোনও অস্বাভাবিকতা আছে কি?,না,no,no,False,True,0.79789615,False,True,False,0.8
+43,00028383_002,chest_xray,abnormality,এই ছবিতে কোনও অস্বাভাবিকতা আছে কি?,হ্যাঁ,no,no,False,False,0.703572,False,True,False,0.0
+44,00005140_001,chest_xray,abnormality,এই চিত্রে কোনও অস্বাভাবিকতা আছে কি?,হ্যাঁ,no,no,False,False,0.703572,False,True,False,0.0
+45,00020986_000,chest_xray,abnormality,এই ছবিতে কোনো অস্বাভাবিকতা আছে কি?,হ্যাঁ,no,no,False,False,0.703572,False,True,False,0.0
+46,00012973_005,chest_xray,abnormality,এই ছবিতে কোনও অস্বাভাবিকতা আছে কি?,হ্যাঁ,no,no,False,False,0.703572,False,True,False,0.0
+47,00012267_000,chest_xray,abnormality,এই ছবিতে কোন অস্বাভাবিকতা আছে কি?,না,There is no abnormality,There is no abnormality.,False,False,0.6772812,False,True,False,0.0
+48,00000149_006,chest_xray,abnormality,কোন অস্বাভাবিকতা উপস্থিত আছে কি?,হ্যাঁ,There is no abnormality,There is no abnormality.,False,False,0.65657854,False,True,False,0.0
+49,00017137_016,chest_xray,abnormality,ছবিতে কোনো অস্বাভাবিকতা আছে কি?,হ্যাঁ,No abnormalities,No abnormalities,False,False,0.6690465,False,True,False,0.0
+50,00026911_000,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,"প্রলেপ, অনুপ্রবেশ, গন্ড এবং অনুপ্রবেশ (মাঝখানে ডান দিকে)।",cardiomegaly,cardiomegaly,False,False,0.5987311,False,True,False,0.0
+51,00014574_000,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,"কার্ডিওমেগালি, মাঝখানে ডান দিকে অবস্থিত।",pneumonia,pneumonia,False,False,0.62317514,False,True,False,0.0
+52,00017582_003,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,এ্যাটালেক্টাসিস (বাম মাঝখানে) এবং এফিউশন,pneumonia,pneumonia,False,False,0.6302767,False,True,False,0.0
+53,00026392_005,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থাগুলি চিহ্নিত করা হয়েছে?,"এম্ফিসেমা, নিউমোথোরেক্স (ডান উপরের দিকে)",cardiac pacemaker,cardiac pacemaker,False,False,0.6452038,False,True,False,0.0
+54,00020482_011,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,"কনসোলিডেশন, অনুপ্রবেশ এবং অনুপ্রবেশ মধ্য ডানদিকে।",cardiomegaly,cardiomegaly,False,False,0.60181844,False,True,False,0.0
+55,00028974_016,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,এফিউশন (মধ্য ডান),pneumonia,pneumonia,False,False,0.66613984,False,True,False,0.0
+56,00001170_046,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,"অ্যাটালেক্টাসিস (ডান মাঝখানে),  প্লেউরাল এফিউশন, নিউমোথোরেক্স",pneumonia,pneumonia,False,False,0.6117941,False,True,False,0.1
+57,00009895_000,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,কোন অবস্থা চিহ্নিত হয়নি।,pneumonia,pneumonia,False,False,0.6360377,False,True,False,0.0
+58,00015058_024,chest_xray,condition,এখানে কী কী বিশেষ অবস্থা চিহ্নিত করা হয়েছে?,"অ্যাটালেক্টাসিস, এবং নিম্নে ডানদিকে প্রয়োজনীয়তা।",pneumonia,pneumonia,False,False,0.61393917,False,True,False,0.0
+59,00010575_002,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,"অ্যাটেলেক্টাসিস (নীচের বাম দিকে),  উদ্বৃত্ত এবং অনুপ্রবেশ।",pneumonia,pneumonia,False,False,0.63569325,False,True,False,0.0
+60,00012834_122,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,এফিউশন (মধ্য বাম),cardiomegaly,cardiomegaly,False,False,0.6547961,False,True,False,0.0
+61,00000179_000,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,কোনটিই চিহ্নিত হয়নি।,pneumonia,pneumonia,False,False,0.61975515,False,True,False,0.0
+62,00007882_001,chest_xray,condition,এখানে কী কী বিশেষ অবস্থা চিহ্নিত করা হয়েছে?,"প্রয়োজনীয়তা (মাঝখানে বামে), নডিউল",pneumonia,pneumonia,False,False,0.6494688,False,True,False,0.0
+63,00029579_014,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,"প্রলায়, এম্ফিসেমা, এবং মাঝ বাম দিকে নিউমোথোরেক্স",pneumonia,pneumonia,False,False,0.6480188,False,True,False,0.0
+64,00014125_042,chest_xray,condition,এখানে কী কী নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,"এডিমা (N/A), নিউমোনিয়া (মধ্য ডানদিকে)",pneumonia,pneumonia,False,False,0.64350134,False,True,False,0.5
+65,00021818_026,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,"কনসোলিডেশন (N/A), মধ্য ডান দিকে নিউমোনিয়া",pneumonia,pneumonia,False,False,0.65009975,False,True,False,0.5
+66,00009985_001,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়নি।,pneumonia,pneumonia,False,False,0.6280621,False,True,False,0.0
+67,00011322_006,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,"কার্ডিওমেগালি (মধ্য ডানদিকে), এডিমা (N/A)",cardiac tamponade,cardiac tamponade,False,False,0.63636196,False,True,False,0.0
+68,00012374_000,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,ডানদিকে উপরে নোডুল।,pneumonia,pneumonia,False,False,0.6353357,False,True,False,0.0
+69,00016568_010,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,"শোথ, অনুপ্রবেশ, ভর (মধ্য ডানে), এবং নিউমোনিয়া।",Pneumothorax,Pneumothorax,False,False,0.60751843,False,True,False,0.0
+70,00030379_000,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,কোনও অবস্থা চিহ্নিত হয়নি।,pneumonia,pneumonia,False,False,0.63439167,False,True,False,0.0
+71,00011925_072,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,"অ্যাটালেক্টাসিস (N/A), অনুপ্রবেশ (N/A), ভর (N/A), প্লেউরাল ঘনীভবন (N/A), এবং অনুপ্রবেশ (বাম দিকের মাঝখানে)।",pneumonia,pneumonia,False,False,0.5864162,False,True,False,0.0
+72,00019499_000,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,মধ্যম ডানদিকে একটি গোলক,pneumonia,pneumonia,False,False,0.6375464,False,True,False,0.0
+73,00022706_001,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,"কারডিওমেগালি (মধ্য ডান),  এফিউশন",pneumonia,pneumonia,False,False,0.6166715,False,True,False,0.0
+74,00017968_000,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,কোন অবস্থা চিহ্নিত হয়নি।,pneumonia,pneumonia,False,False,0.6360378,False,True,False,0.0
+75,00019688_000,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,কোন নির্দিষ্ট অবস্থা চিহ্নিত হয়নি।,pneumonia,pneumonia,False,False,0.6311201,False,True,False,0.0
+76,00028180_003,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়নি।,The image shows a chest X-ray with a metallic device,The image shows a chest X-ray with a metallic device.,False,False,0.64445806,False,True,True,0.0
+77,00007735_040,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,"কার্ডিওমেগালি, নীচের ডানে অবস্থিত।",cardiomegaly,cardiomegaly,False,False,0.6265806,False,True,False,0.4
+78,00029105_015,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,"এম্ফিসেমা, নিউমোথোরেক্স এবং বাম দিকে মাঝখানে একটি গোলক।",pneumonia,pneumonia,False,False,0.61932,False,True,False,0.0
+79,00014203_018,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,"অ্যাটালেক্টাসিস, অনুস্রাব, অনুস্রাব (মধ্য ডান)",pneumonia,pneumonia,False,False,0.6352788,False,True,False,0.0
+80,00007328_013,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,কোনও অবস্থা চিহ্নিত হয়নি।,pneumonia,pneumonia,False,False,0.63439167,False,True,False,0.0
+81,00011649_008,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়নি।,pneumonia,pneumonia,False,False,0.6280621,False,True,False,0.0
+82,00006991_008,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,কোন অবস্থা চিহ্নিত হয়নি।,pneumonia,pneumonia,False,False,0.6360378,False,True,False,0.0
+83,00003894_005,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,"নোডুল (অবস্থান N/A), নিউমোনিয়া (মধ্য ডানদিকে)",pneumonia,pneumonia,False,False,0.6289388,False,True,False,0.5
+84,00029431_002,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,কোন নির্দিষ্ট অবস্থা চিহ্নিত হয়নি।,cardiac tamponade,cardiac tamponade,False,False,0.6362785,False,True,False,0.0
+85,00018814_000,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,মধ্য ডানদিকে নডিউল।,pneumonia,pneumonia,False,False,0.6485712,False,True,False,0.0
+86,00012842_001,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত হয়েছে?,কোন নির্দিষ্ট অবস্থা চিহ্নিত হয়নি।,pneumonia,pneumonia,False,False,0.6311201,False,True,False,0.0
+87,00003803_010,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,"শোথ (অবস্থান N/A), প্রলায় (অবস্থান মধ্য বাম)",pneumonia,pneumonia,False,False,0.61502516,False,True,False,0.0
+88,00025335_000,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,কোন নির্দিষ্ট অবস্থা নয়,pneumonia,pneumonia,False,False,0.6680874,False,True,False,0.0
+89,00008707_009,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,কোন নির্দিষ্ট অবস্থা চিহ্নিত হয়নি।,pneumonia,pneumonia,False,False,0.6311201,False,True,False,0.0
+90,00014149_028,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়নি।,pneumonia,pneumonia,False,False,0.6280621,False,True,False,0.0
+91,00004342_023,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,কারডিওমেগালি (মধ্য ডান),cardiac pacemaker,cardiac pacemaker,False,False,0.65756136,False,True,False,0.0
+92,00016987_019,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থাগুলি চিহ্নিত করা হয়েছে?,"অ্যাটালেক্টাসিস (মধ্য বাম), নিউমোথোরেক্স",The image shows the lungs,The image shows the lungs.,False,False,0.64835846,False,True,False,0.2
+93,00027866_002,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,"অ্যাটালেক্টাসিস (নীচের বাম), এফিউশন, ইনফিলট্রেশন",cardiac pacemaker,cardiac pacemaker,False,False,0.6332568,False,True,False,0.0
+94,00018721_010,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,ইনফিল্ট্রেশন এবং মাঝের বাম দিকে ইনফিল্ট্রেট,pneumonia,pneumonia,False,False,0.61450154,False,True,False,0.0
+95,00004342_002,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,"কারডিওমেগালি (নীচের বাম দিকে), ইনফিলট্রেশন (প্রযোজ্য নয়)",cardiac pacemaker,cardiac pacemaker,False,False,0.6349222,False,True,False,0.0
+96,00010726_003,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,কোনও নির্দিষ্ট অবস্থা চিহ্নিত হয়নি।,pneumonia,pneumonia,False,False,0.62718695,False,True,False,0.0
+97,00019198_000,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,কোন নির্দিষ্ট অবস্থা চিহ্নিত হয়নি।,pneumonia,pneumonia,False,False,0.6311201,False,True,False,0.0
+98,00026398_000,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,"প্লুরাল ঘনীভবন, নডুল (উপর বাম)",pneumonia,pneumonia,False,False,0.62235725,False,True,False,0.0
+99,00006519_008,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়নি।,pneumonia,pneumonia,False,False,0.6280621,False,True,False,0.0
+100,00005532_014,chest_xray,modality,এই গবেষণায় কোন ইমেজিং পদ্ধতি ব্যবহার করা হয়েছে?,এক্স-রে,X-ray,X-ray,False,False,0.76184946,False,True,False,0.9
+101,00002856_009,chest_xray,modality,এটি কোন ধরণের ইমেজিং পদ্ধতি?,এক্স-রে,X-ray,X-ray,False,False,0.76184946,False,True,False,0.9
+102,00018182_014,chest_xray,modality,ইমেজিং পদ্ধতি কী?,এক্স-রে,X-ray,X-ray,False,False,0.76184946,False,True,False,0.9
+103,00018694_001,chest_xray,modality,এই ইমেজটি কোন মডালিটি?,বুকের এক্স-রে।,X-ray,X-ray,False,False,0.6387402,False,True,False,0.6
+104,00011477_000,chest_xray,modality,এই ইমেজিং পদ্ধতিটি কী ধরণের?,এক্স-রে,lung,lung,False,False,0.73572856,False,True,False,0.0
+105,00020146_005,chest_xray,modality,এটি কী ধরণের ইমেজিং পদ্ধতি?,এক্স-রে,X-ray,X-ray,False,False,0.76184946,False,True,False,0.8
+106,00012364_045,chest_xray,modality,ইমেজিং পদ্ধতি কি?,এক্স-রে,X-ray,X-ray,False,False,0.76184946,False,True,False,0.9
+107,00006875_013,chest_xray,modality,এটি কী ধরণের ইমেজিং পদ্ধতি?,এক্স-রে,X-ray,X-ray,False,False,0.76184946,False,True,False,0.9
+108,00023000_000,chest_xray,modality,এই কোন ধরণের ইমেজিং পদ্ধতি?,এক্স-রে,X-ray,X-ray,False,False,0.76184946,False,True,False,0.9
+109,00015794_000,chest_xray,modality,এটি কোন ধরণের ইমেজিং পদ্ধতি?,বুকের এক্স-রে,X-ray,X-ray,False,False,0.7062905,False,True,False,0.6
+110,00023058_004,chest_xray,modality,এই ধরণের ইমেজিং পদ্ধতি কি?,এক্স-রে,This is a chest x-ray,This is a chest x-ray.,False,False,0.69812393,False,True,False,0.3
+111,00018253_030,chest_xray,modality,এই ছবির ইমেজিং পদ্ধতি কী?,এক্স-রে,X-ray,X-ray,False,False,0.76184946,False,True,False,0.9
+112,00009431_004,chest_xray,modality,এই ইমেজিং পদ্ধতিটি কী?,এক্স-রে,X-ray,X-ray,False,False,0.76184946,False,True,False,0.8
+113,00013775_000,chest_xray,modality,এই ইমেজিং পদ্ধতিটি কী ধরণের?,এক্স-রে,lung,lung,False,False,0.73572856,False,True,False,0.0
+114,00022185_005,chest_xray,modality,এই ইমেজিং পদ্ধতিটি কী ধরণের?,এক্স-রে,lung cancer,lung cancer,False,False,0.6678189,False,True,False,0.0
+115,00012271_000,chest_xray,modality,এই গবেষণার জন্য ব্যবহৃত ইমেজিং পদ্ধতিটি কী?,এক্স-রে,X-ray,X-ray,False,False,0.76184946,False,True,False,0.9
+116,00001373_009,chest_xray,modality,এই ইমেজিং পদ্ধতিটি কী ধরণের?,এক্স-রে,X-ray,X-ray,False,False,0.76184946,False,True,False,0.9
+117,00012686_003,chest_xray,modality,এটি কী ধরণের ইমেজিং মডালিটি?,এক্স-রে,lung,lung,False,False,0.73572856,False,True,False,0.0
+118,00002397_001,chest_xray,modality,এই স্ক্যানের ইমেজিং পদ্ধতি কী?,এক্স-রে,X-ray,X-ray,False,False,0.76184946,False,True,False,0.9
+119,00007328_013,chest_xray,modality,কোন ইমেজিং পদ্ধতি ব্যবহার করা হয়েছে?,এক্স-রে,X-ray,X-ray,False,False,0.76184946,False,True,False,0.9
+120,00028173_016,chest_xray,modality,এই ধরণের ইমেজিং পদ্ধতি কী?,এক্স-রে,AP,AP,False,False,0.71603113,False,True,False,0.0
+121,00013991_000,chest_xray,modality,এটি কোন ধরণের ইমেজিং পদ্ধতি?,এক্স-রে,X-ray,X-ray,False,False,0.76184946,False,True,False,0.8
+122,00004344_022,chest_xray,modality,কোন ধরণের ইমেজিং পদ্ধতি দেখানো হচ্ছে?,এক্স-রে,X-ray,X-ray,False,False,0.76184946,False,True,False,0.8
+123,00025270_000,chest_xray,modality,এটি কী ধরণের চিকিৎসা ইমেজিং পদ্ধতি?,এক্স-রে বুক,X-ray,X-ray,False,False,0.72101825,False,True,False,0.6
+124,00020405_041,chest_xray,modality,এটি কী ধরণের ইমেজিং পদ্ধতি?,এক্স-রে,X-ray,X-ray,False,False,0.76184946,False,True,False,0.9
+125,00018961_000,chest_xray,modality,এই ইমেজিং পদ্ধতির ধরণ কী?,এক্স-রে,This is a chest x-ray,This is a chest x-ray.,False,False,0.69812393,False,True,False,0.3
+126,00009437_008,chest_xray,modality,এই ইমেজিং পদ্ধতিটি কী ধরণের?,এক্স-রে,lung,lung,False,False,0.73572856,False,True,False,0.0
+127,00017255_001,chest_xray,modality,এটি কী ধরণের চিকিৎসা ইমেজিং পদ্ধতি?,এক্স-রে,X-ray,X-ray,False,False,0.76184946,False,True,False,0.9
+128,00009229_012,chest_xray,modality,এই ছবির ইমেজিং পদ্ধতি কি?,এক্স-রে,X-ray,X-ray,False,False,0.7618494,False,True,False,0.8
+129,00021447_000,chest_xray,modality,এই ইমেজিং মডালিটি কী ধরণের?,এক্স-রে,lung disease,lung disease,False,False,0.67359084,False,True,False,0.0
+130,00009229_007,chest_xray,modality,কোন ধরণের ইমেজিং পদ্ধতি দেখানো হচ্ছে?,এক্স-রে,X-ray,X-ray,False,False,0.7618494,False,True,False,0.9
+131,00007741_002,chest_xray,modality,এটি কী ধরণের ইমেজিং মডালিটি?,এক্স-রে,X-ray,X-ray,False,False,0.7618494,False,True,False,0.9
+132,00006948_002,chest_xray,modality,ইমেজিং পদ্ধতিটি কী?,এক্স-রে,X-ray,X-ray,False,False,0.7618494,False,True,False,0.9
+133,00011831_008,chest_xray,modality,এই ইমেজিং পদ্ধতিটি কী?,এক্স-রে,X-ray,X-ray,False,False,0.7618494,False,True,False,0.9
+134,00015605_051,chest_xray,modality,এই ইমেজিং মডালিটি কি ধরণের?,এক্স-রে,প্রাকৃতিক,প্রাকৃতিক,False,False,0.72930115,False,False,False,0.0
+135,00003491_000,chest_xray,modality,ইমেজিং পদ্ধতিটি কী?,এক্স-রে,X-ray,X-ray,False,False,0.7618494,False,True,False,0.9
+136,00025212_002,chest_xray,modality,চিত্রগ্রহণের পদ্ধতিটি কী?,এক্স-রে,X-ray,X-ray,False,False,0.7618494,False,True,False,0.9
+137,00004533_014,chest_xray,modality,এই ধরণের মেডিকেল ইমেজিং পদ্ধতিটি কী?,এক্স-রে,X-ray,X-ray,False,False,0.7618494,False,True,False,0.9
+138,00000143_005,chest_xray,modality,এই ইমেজিং পদ্ধতিটি কী ধরণের?,এক্স-রে,lung,lung,False,False,0.73572856,False,True,False,0.0
+139,00006111_001,chest_xray,modality,এই ছবির ইমেজিং পদ্ধতি কী?,এক্স-রে,X-ray,X-ray,False,False,0.7618494,False,True,False,0.9
+140,00014738_000,chest_xray,modality,এই ছবিতে কোন ইমেজিং পদ্ধতি ব্যবহার করা হয়েছে?,এক্স-রে,X-ray,X-ray,False,False,0.7618494,False,True,False,0.9
+141,00001931_024,chest_xray,modality,ইমেজিং পদ্ধতিটি কী?,এক্স-রে,X-ray,X-ray,False,False,0.7618494,False,True,False,0.9
+142,00011151_004,chest_xray,modality,এটি কোন ধরণের ইমেজিং পদ্ধতি?,এক্স-রে,X-ray,X-ray,False,False,0.7618494,False,True,False,0.8
+143,00003148_004,chest_xray,modality,এই ইমেজিং মডালিটির ধরণ কি?,এক্স-রে,lung,lung,False,False,0.73572856,False,True,False,0.0
+144,00023283_019,chest_xray,modality,কোন ধরণের ইমেজিং পদ্ধতি দেখানো হচ্ছে?,এক্স-রে,X-ray,X-ray,False,False,0.7618494,False,True,False,0.9
+145,00016797_003,chest_xray,modality,এটি কোন ধরণের ইমেজিং পদ্ধতি?,এক্স-রে,X-ray,X-ray,False,False,0.7618494,False,True,False,0.9
+146,00029588_004,chest_xray,modality,এই স্ক্যানের ইমেজিং পদ্ধতি কি?,এক্স-রে,AP,AP,False,False,0.7160311,False,True,False,0.0
+147,00022977_000,chest_xray,modality,এই ছবির পদ্ধতি কি?,এক্স-রে,X-ray,X-ray,False,False,0.7618494,False,True,False,0.9
+148,00019862_000,chest_xray,modality,এই ছবিতে কোন ধরণের ইমেজিং পদ্ধতি ব্যবহার করা হয়েছে?,এক্স-রে,AP,AP,False,False,0.7160311,False,True,False,0.0
+149,00019260_001,chest_xray,modality,এটি কী ধরণের ইমেজিং পদ্ধতি?,এক্স-রে,AP,AP,False,False,0.7160311,False,True,False,0.0
+150,00026319_000,chest_xray,organ,এই ছবিতে মূলত কোন অঙ্গ দেখানো হয়েছে?,বুকের,লং দেখা যায়,লং দেখা যায়,False,False,0.75118613,False,False,False,0.0
+151,00011157_001,chest_xray,organ,এই ছবিতে প্রাথমিকভাবে কোন শরীরের অংশ বা অঙ্গ দেখানো হয়েছে?,বুকের,প্রাথমিকভাবে পায়ের অংশ বা অঙ্গ দেখানো হয়েছে,প্রাথমিকভাবে পায়ের অংশ বা অঙ্গ দেখানো হয়েছে।,False,False,0.7164518,False,False,True,0.0
+152,00020113_030,chest_xray,organ,এই ছবিতে কোন অঙ্গতন্ত্র প্রধানত প্রদর্শিত হয়েছে?,বুক,লাইন,লাইন,False,False,0.81914884,False,False,False,0.0
+153,00028975_000,chest_xray,organ,এই ছবিতে প্রাথমিকভাবে কোন অঙ্গ ব্যবস্থা দেখানো হয়েছে?,বুক,প্রাথমিকভাবে কোন অঙ্গ ব্যবস্থা দেখানো হয়েছে,প্রাথমিকভাবে কোন অঙ্গ ব্যবস্থা দেখানো হয়েছে,False,False,0.7096483,False,False,False,0.0
+154,00003028_026,chest_xray,organ,কোন শরীরের অংশ দেখানো হয়েছে?,বুক,রক্ত,রক্ত,False,False,0.80614233,False,False,False,0.0
+155,00012782_001,chest_xray,organ,এই ছবির প্রাথমিক ফোকাস কোন অঙ্গ ব্যবস্থা?,বুক,Right,Right,False,False,0.7853765,False,True,False,0.0
+156,00016484_013,chest_xray,organ,এই ছবিতে প্রাথমিকভাবে কোন প্রধান অঙ্গ ব্যবস্থা চিত্রিত করা হয়েছে?,বুক,লাইন,লাইন,False,False,0.81914884,False,False,False,0.0
+157,00027355_013,chest_xray,organ,এই ছবিতে প্রধানত কোন অঙ্গটি দেখানো হয়েছে?,বুক,Aorta,Aorta,False,False,0.7573198,False,True,False,0.0
+158,00015649_000,chest_xray,organ,এই ছবিটি কোন অঙ্গের উপর দৃষ্টি নিবদ্ধ করে?,বুক,Thoracic,Thoracic,False,False,0.6989636,False,True,False,0.0
+159,00011576_000,chest_xray,organ,এখানে কোন প্রাথমিক অঙ্গতন্ত্রের ছবি তোলা হয়েছে?,বুক,Aortic valve,Aortic valve,False,False,0.68013203,False,True,False,0.0
+160,00018055_045,chest_xray,organ,এই ছবিতে কোন শরীরের অংশ দেখানো হয়েছে?,বুক,রক্ত,রক্ত,False,False,0.80614233,False,False,False,0.0
+161,00025954_032,chest_xray,organ,এই ছবিতে মূলত কোন অঙ্গতন্ত্র প্রদর্শিত হয়েছে?,বুকের,লাইন,লাইন,False,False,0.8285412,False,False,False,0.0
+162,00004533_014,chest_xray,organ,এই ছবিতে কোন অ্যানাটমিক্যাল অঞ্চল দেখানো হয়েছে?,বুকের,প্রাকৃতিক প্রাণী এর উপরের দিকে,প্রাকৃতিক প্রাণী এর উপরের দিকে,False,False,0.72202784,False,False,False,0.0
+163,00016705_006,chest_xray,organ,এই ছবিতে প্রাথমিকভাবে কোন অঙ্গতন্ত্র চিত্রিত হয়েছে?,বুক,লাইন,লাইন,False,False,0.81914896,False,False,False,0.0
+164,00023026_008,chest_xray,organ,এই ছবিতে প্রাথমিকভাবে কোন অঙ্গতন্ত্র দেখা যাচ্ছে?,বুক,L,L,False,False,0.673181,False,True,False,0.0
+165,00011831_008,chest_xray,organ,এই ছবিতে প্রাথমিকভাবে কোন অঙ্গ ব্যবস্থা দেখানো হয়েছে?,বুক,লাইন,লাইন,False,False,0.81914896,False,False,False,0.0
+166,00017717_004,chest_xray,organ,এই মেডিকেল ইমেজে কোন প্রাথমিক অঙ্গ ব্যবস্থা দৃশ্যমান?,বুক,লাইনার,লাইনার,False,False,0.79743,False,False,False,0.0
+167,00020393_001,chest_xray,organ,এই ছবিতে প্রাথমিকভাবে কোন অঙ্গ ব্যবস্থা চিত্রিত করা হয়েছে?,বুকের,লাইন,লাইন,False,False,0.8285412,False,False,False,0.0
+168,00000756_001,chest_xray,organ,এই ছবিতে প্রাথমিকভাবে কোন অ্যানাটোমিক্যাল অঞ্চল প্রদর্শিত হচ্ছে?,বুকের,প্রাথমিকভাবে প্রাসাদ,প্রাথমিকভাবে প্রাসাদ,False,False,0.7233189,False,False,False,0.0
+169,00015968_001,chest_xray,organ,কোন অঙ্গতন্ত্র প্রাথমিকভাবে প্রদর্শিত হয়েছে?,বুক,লাইন,লাইন,False,False,0.81914896,False,False,False,0.0
+170,00003920_000,chest_xray,organ,এই ছবিতে কোন শরীরের অংশ চিত্রিত করা হয়েছে?,বুক,Thorax,Thorax,False,False,0.7517946,False,True,False,0.0
+171,00020482_011,chest_xray,organ,এই ছবিতে কোন দেহের অংশ দেখানো হচ্ছে?,বুকের,heart,heart,False,False,0.7336051,False,True,False,0.6
+172,00000377_004,chest_xray,organ,কোন অ্যানাটোমিক্যাল অঞ্চল প্রাথমিকভাবে দেখানো হয়েছে?,বুক,প্রাথমিকভাবে দেখা যায় না,প্রাথমিকভাবে দেখা যায় না,False,False,0.6878637,False,False,False,0.0
+173,00020393_003,chest_xray,organ,এই ছবিতে কোন শারীরবৃত্তীয় অঞ্চল দেখানো হয়েছে?,বুক,প্রাকৃতিক প্রাণীর মূল শারীরবৃত্তীয় অঞ্চল হল পানি প্রাণীর মূল শারীরবৃত্তীয় অঞ্চল,প্রাকৃতিক প্রাণীর মূল শারীরবৃত্তীয় অঞ্চল হল পানি প্রাণীর মূল শারীরবৃত্তীয় অঞ্চল,False,False,0.59704924,False,False,True,0.0
+174,00029588_004,chest_xray,organ,এই ছবিতে কোন অঙ্গ ব্যবস্থা মূলত চিত্রিত করা হয়েছে?,বুক,লাইন,লাইন,False,False,0.81914896,False,False,False,0.0
+175,00016568_026,chest_xray,organ,কোন অঙ্গতন্ত্র প্রাথমিকভাবে দৃশ্যমান?,বুক,Aortic,Aortic,False,False,0.709222,False,True,False,0.0
+176,00025132_002,chest_xray,organ,এই ছবিতে প্রাথমিকভাবে কোন অঙ্গতন্ত্র চিত্রিত করা হয়েছে?,বুকে,ap,ap,False,False,0.64556676,False,True,False,0.0
+177,00019260_001,chest_xray,organ,কোন প্রাথমিক শরীরের অঞ্চল দেখানো হয়েছে?,বুক,Thorax,Thorax,False,False,0.7517946,False,True,False,0.0
+178,00011925_072,chest_xray,organ,এই ছবিতে প্রাথমিকভাবে কোন অ্যানাটমিক্যাল অঞ্চল দেখানো হয়েছে?,বুক,প্রাথমিকভাবে পায়েন্টারিয়ান স্ট্যান্ডার্ড অ্যানাটমিক অঞ্চল দেখা যায়,প্রাথমিকভাবে পায়েন্টারিয়ান স্ট্যান্ডার্ড অ্যানাটমিক অঞ্চল দেখা যায়,False,False,0.66229033,False,False,True,0.0
+179,00014015_003,chest_xray,organ,এই ছবিতে প্রাথমিকভাবে কোন অঙ্গ দেখানো হয়েছে?,বুক,লাইন,লাইন,False,False,0.81914896,False,False,False,0.0
+180,00003658_000,chest_xray,organ,এই ছবিতে কোন শরীরের অংশ দেখানো হয়েছে?,বুক,heart,heart,False,False,0.7125911,False,True,False,0.0
+181,00008320_000,chest_xray,organ,এই ছবিতে প্রাথমিকভাবে কোন প্রধান অঙ্গতন্ত্র চিত্রিত করা হয়েছে?,বুক,lung,lung,False,False,0.7449849,False,True,False,0.3
+182,00008841_025,chest_xray,organ,এই ছবিতে কোন প্রধান শরীরের অংশ দেখানো হয়েছে?,বুক,প্যাসেট,প্যাসেট,False,False,0.81431866,False,False,False,0.0
+183,00028208_005,chest_xray,organ,এই ছবিতে কোন শরীরের অংশ চিত্রিত করা হয়েছে?,বুক,প্রাণীর শরীরে,প্রাণীর শরীরে,False,False,0.71680504,False,False,False,0.0
+184,00022416_048,chest_xray,organ,কোন অ্যানাটমিক্যাল অঞ্চলটি প্রাথমিকভাবে দেখানো হয়েছে?,বুক,পাইপ,পাইপ,False,False,0.8226094,False,False,False,0.0
+185,00029075_013,chest_xray,organ,এই ছবিটি কোন শরীরের অংশ দেখায়?,বুক,Thorax,Thorax,False,False,0.7517946,False,True,False,0.0
+186,00020065_008,chest_xray,organ,এখানে প্রাথমিকভাবে কোন অঙ্গতন্ত্রের ছবি তোলা হয়েছে?,বুকের,lung,lung,False,False,0.761116,False,True,False,0.0
+187,00012505_007,chest_xray,organ,এই ছবিতে কোন অঙ্গ দেখানো হয়েছে?,বুকে,লাইন,লাইন,False,False,0.8293225,False,False,False,0.0
+188,00009608_024,chest_xray,organ,এই ছবিতে মূলত কোন শারীরিক অংশ দেখানো হয়েছে?,বুক,heart,heart,False,False,0.7125911,False,True,False,0.0
+189,00022356_001,chest_xray,organ,এই ছবিতে প্রাথমিকভাবে কোন অঙ্গতন্ত্র প্রদর্শিত হচ্ছে?,বুক,Aortic arch,Aortic arch,False,False,0.68174183,False,True,False,0.0
+190,00025662_006,chest_xray,organ,এই এক্স-রেতে কোন শরীরের অংশ দেখানো হয়েছে?,বুক,প্যাসেট,প্যাসেট,False,False,0.81431866,False,False,False,0.0
+191,00017359_001,chest_xray,organ,এই ছবিতে কোন প্রধান অঙ্গতন্ত্র চিত্রিত হয়েছে?,বুক,The image shows the chest,The image shows the chest.,False,False,0.68668824,False,True,False,0.2
+192,00017877_001,chest_xray,organ,এই ইমেজে প্রাথমিকভাবে কোন প্রধান অঙ্গতন্ত্র দেখানো হয়েছে?,ছাতি,ap,ap,False,False,0.64292777,False,True,False,0.0
+193,00012592_005,chest_xray,organ,এই ছবিতে প্রাথমিকভাবে কোন অঙ্গতন্ত্র চিত্রিত হয়েছে?,বুক,Aortic,Aortic,False,False,0.709222,False,True,False,0.0
+194,00014607_007,chest_xray,organ,এই ছবিতে কোন অঙ্গ ব্যবস্থা প্রাথমিকভাবে চিত্রিত হয়েছে?,বুকের,লাইন,লাইন,False,False,0.82854116,False,False,False,0.0
+195,00021490_003,chest_xray,organ,এই ছবিতে প্রাথমিকভাবে কোন অঙ্গের অঞ্চল দেখানো হয়েছে?,বুক,প্রাথমিকভাবে প্রাসাদের অঞ্চল দেখানো হয়েছে,প্রাথমিকভাবে প্রাসাদের অঞ্চল দেখানো হয়েছে,False,False,0.7001227,False,False,False,0.0
+196,00025368_018,chest_xray,organ,এই ছবিতে মূলত কোন অঙ্গ ব্যবস্থা চিত্রিত হয়েছে?,বুকের,Cardiac pacemaker,Cardiac pacemaker,False,False,0.74051416,False,True,False,0.0
+197,00018055_038,chest_xray,organ,এই ছবিতে মূলত কোন অঙ্গ দেখানো হয়েছে?,বুক,লাইন,লাইন,False,False,0.81914884,False,False,False,0.0
+198,00003945_000,chest_xray,organ,এই ছবিতে প্রাথমিকভাবে কোন অ্যানাটমিক্যাল এলাকা দেখানো হয়েছে?,বুক,লাইন,লাইন,False,False,0.81914884,False,False,False,0.0
+199,00001941_002,chest_xray,organ,কোন প্রধান শারীরবৃত্তীয় অঞ্চল চিত্রিত করা হয়েছে?,বুক,পান্ডাল,পান্ডাল,False,False,0.80375445,False,False,False,0.0
+200,00002578_000,chest_xray,position,নডিউলটি কোথায় অবস্থিত?,ডানদিকের মাঝখানে,lung,lung,False,False,0.67861515,False,True,False,0.0
+201,00019373_036,chest_xray,position,এ্যাটেলেক্টাসিস কোথায় অবস্থিত?,ডানদিকের মাঝখানে,The image shows the chest,The image shows the chest.,False,False,0.69714004,False,True,False,0.0
+202,00025769_001,chest_xray,position,অ্যাটালেক্টাসিসটি কোথায় অবস্থিত?,মধ্য ডান,Lungs,Lungs,False,False,0.7692016,False,True,False,0.0
+203,00007424_001,chest_xray,position,চিহ্নিত অবস্থাগুলি কোথায় অবস্থিত?,কোন অবস্থা চিহ্নিত হয়নি,The image shows the lungs,The image shows the lungs.,False,False,0.6745022,False,True,False,0.0
+204,00012670_000,chest_xray,position,কার্ডিওমেগালি কোথায় অবস্থিত?,মধ্য ডানদিকে,cardiomegaly,cardiomegaly,False,False,0.6469485,False,True,False,0.0
+205,00029088_023,chest_xray,position,অ্যাটেল্যাক্টাসিস কোথায় অবস্থিত?,মধ্য বাম,Lungs,Lungs,False,False,0.788856,False,True,False,0.0
+206,00010625_014,chest_xray,position,অ্যাটেলেক্টাসিস কোথায় অবস্থিত?,মধ্য ডান দিকে,heart,heart,False,False,0.70983285,False,True,False,0.0
+207,00017124_004,chest_xray,position,এডিমা কোথায় অবস্থিত?,নির্দিষ্ট করা হয়নি,Lungs,Lungs,False,False,0.69124913,False,True,False,0.0
+208,00029464_015,chest_xray,position,এফিউশন কোথায় অবস্থিত?,ডান মাঝখানে,The image shows the chest,The image shows the chest.,False,False,0.6942805,False,True,False,0.0
+209,00025656_006,chest_xray,position,এই চিত্রে সাধারণ অ্যানাটমিক অবস্থান কী?,সামনের দিক,The image shows the chest,The image shows the chest.,False,False,0.7024,False,True,False,0.2
+210,00022458_015,chest_xray,position,চিহ্নিত কোন অবস্থার অ্যানাটোমিক্যাল অবস্থান কি?,কোন নির্দিষ্ট অবস্থা চিহ্নিত হয়নি।,লাইনার,লাইনার,False,False,0.66236407,False,False,False,0.0
+211,00011655_000,chest_xray,position,নির্দিষ্ট অ্যানাটমিকাল অবস্থান সহ কোন অস্বাভাবিক ফলাফল আছে কি?,"না, রিপোর্ট করার জন্য কোন অস্বাভাবিক ফলাফল নেই।",no,no,False,False,0.6000516,False,True,False,0.2
+212,00016568_010,chest_xray,position,ভরটি কোথায় অবস্থিত?,মধ্য ডানে,Lungs,Lungs,False,False,0.76197934,False,True,False,0.0
+213,00002633_005,chest_xray,position,চিহ্নিত কোনও অবস্থার অ্যানাটোমিক্যাল অবস্থানগুলি কী কী?,কোন অবস্থা চিহ্নিত করা হয়নি।,lung,lung,False,False,0.65946054,False,True,False,0.0
+214,00025962_000,chest_xray,position,নিউমোনিয়া কোথায় অবস্থিত?,মধ্য ডানদিকে,lung,lung,False,False,0.7134638,False,True,False,0.0
+215,00019373_058,chest_xray,position,গঠনটি কোথায় অবস্থিত?,মাঝখানে বাম দিকে,পান্ডাল,পান্ডাল,False,False,0.6879661,False,False,False,0.0
+216,00006189_003,chest_xray,position,কোনও চিহ্নিত রোগের অ্যানাটোমিক্যাল অবস্থানগুলি কী কী?,কোনও রোগ চিহ্নিত হয়নি।,প্রাকৃতিক রোগ,প্রাকৃতিক রোগ,False,False,0.7185378,False,False,False,0.2
+217,00028974_016,chest_xray,position,এফিউশন কোথায় অবস্থিত?,মধ্য ডান,AP,AP,False,False,0.7198796,False,True,False,0.0
+218,00029200_006,chest_xray,position,অ্যাটালেক্টাসিস কোথায় অবস্থিত?,মধ্য বাম,Lungs,Lungs,False,False,0.788856,False,True,False,0.0
+219,00002580_001,chest_xray,position,নির্দিষ্ট অবস্থাগুলি কোথায় অবস্থিত?,কোন নির্দিষ্ট অবস্থা চিহ্নিত হয়নি।,Lungs,Lungs,False,False,0.6547894,False,True,False,0.0
+220,00014702_001,chest_xray,position,চিহ্নিত কোনও অবস্থার শারীরবৃত্তীয় অবস্থানগুলি কোথায়?,কোনও অবস্থা উপস্থিত না থাকায় কোনও নির্দিষ্ট শারীরবৃত্তীয় অবস্থান চিহ্নিত করা হয়নি।,পান্ডাল,পান্ডাল,False,False,0.6418283,False,False,False,0.0
+221,00021782_028,chest_xray,position,নিউমোথোরেক্স কোথায় অবস্থিত?,বাম উপরের দিকে,The image is a chest X-ray,The image is a chest X-ray.,False,False,0.66213477,False,True,False,0.0
+222,00008547_001,chest_xray,position,প্রয়োজনীয়তা কোথায় অবস্থিত?,নিম্নে ডানে,The image shows the lungs,The image shows the lungs.,False,False,0.64612263,False,True,False,0.0
+223,00000500_004,chest_xray,position,এই ছবির প্রজেকশন কি?,এপি,lung cancer,lung cancer,False,False,0.7197765,False,True,False,0.0
+224,00022416_049,chest_xray,position,অ্যাটালেক্টাসিস কোথায় অবস্থিত?,ডান মাঝখানে,Lungs,Lungs,False,False,0.7090294,False,True,False,0.0
+225,00000796_008,chest_xray,position,রোগের কোন নির্দিষ্ট অ্যানাটমিকাল অবস্থান চিহ্নিত করা হয়েছে?,কোনও রোগের অবস্থান চিহ্নিত হয়নি,প্রাক্তন প্রান্ত,প্রাক্তন প্রান্ত,False,False,0.66321397,False,False,False,0.0
+226,00024064_000,chest_xray,position,চিহ্নিত প্রতিটি অবস্থার অ্যানাটমিক্যাল অবস্থান কোথায়?,কোন অবস্থা চিহ্নিত হয়নি।,The image shows the lungs,The image shows the lungs.,False,False,0.6657413,False,True,False,0.0
+227,00027685_003,chest_xray,position,কারডিওমেগালি কোথায় অবস্থিত?,মধ্য ডান,Lungs,Lungs,False,False,0.76920164,False,True,False,0.0
+228,00019625_002,chest_xray,position,ইনফিল্ট্রেট কোথায় অবস্থিত?,ডান মাঝখানে,রেলে,রেলে,False,False,0.72150683,False,False,False,0.0
+229,00027931_000,chest_xray,position,এই চিত্রে প্রাথমিকভাবে কোন অ্যানাটমিক অঞ্চল ধরা পড়েছে?,বক্ষ,প্রাথমিকভাবে পায়ের অঞ্চল ধরা পড়েছে,প্রাথমিকভাবে পায়ের অঞ্চল ধরা পড়েছে,False,False,0.70186925,False,False,False,0.0
+230,00011832_002,chest_xray,position,নডুলটি কোথায় অবস্থিত?,ডানদিকের মাঝখানে,লাইনে,লাইনে,False,False,0.7195233,False,False,False,0.0
+231,00012829_004,chest_xray,position,অ্যাটালেক্টাসিস কোথায় অবস্থিত?,মধ্য বাম,The image shows the chest,The image shows the chest.,False,False,0.71014273,False,True,False,0.0
+232,00004547_003,chest_xray,position,নোডুলটি কোথায় অবস্থিত?,নিচের ডান,লুপ্ত,লুপ্ত,False,False,0.6924297,False,False,False,0.0
+233,00006892_000,chest_xray,position,চিহ্নিত অবস্থাগুলির শারীরবৃত্তীয় অবস্থানগুলি কী?,কোনও অবস্থা চিহ্নিত হয়নি।,lung,lung,False,False,0.66175246,False,True,False,0.0
+234,00013051_000,chest_xray,position,নডিউলটি কোথায় অবস্থিত?,বাম মাঝখানে,রেলে,রেলে,False,False,0.7318887,False,False,False,0.0
+235,00021926_007,chest_xray,position,অনুপ্রবেশটি কোথায় অবস্থিত?,মাঝখানের বাম দিকে,The image shows the chest,The image shows the chest.,False,False,0.69855624,False,True,False,0.0
+236,00014738_000,chest_xray,position,উদ্বেগ কোথায় অবস্থিত?,মধ্য বাম,The image shows the chest,The image shows the chest.,False,False,0.71014273,False,True,False,0.0
+237,00021741_000,chest_xray,position,কোনও চিহ্নিত অবস্থার শারীরস্থানিক অবস্থান কী?,"কোনও অবস্থা চিহ্নিত করা হয়নি, তাই কোনও শারীরস্থানিক অবস্থান নেই।",লাইন,লাইন,False,False,0.6526014,False,False,False,0.0
+238,00015321_003,chest_xray,position,চিহ্নিত যেকোনও অবস্থার অ্যানাটমিক অবস্থান কী?,চিহ্নিত হয়নি,প্রাকৃতিক,প্রাকৃতিক,False,False,0.67691034,False,False,False,0.0
+239,00017514_008,chest_xray,position,কারডিওমেগালি কোথায় অবস্থিত?,মধ্য ডান।,Thoracic cavity,Thoracic cavity,False,False,0.6780604,False,True,False,0.0
+240,00010767_016,chest_xray,position,নিউমোথোরেক্স কোথায় অবস্থিত?,বামদিকের মাঝখানে,The image shows the chest,The image shows the chest.,False,False,0.70785713,False,True,False,0.0
+241,00012973_005,chest_xray,position,এফিউশনটি কোথায় অবস্থিত?,মধ্য বাম,রেলে,রেলে,False,False,0.82868755,False,False,False,0.0
+242,00013177_004,chest_xray,position,এই এক্স-রে-এর জন্য রোগীর অবস্থান কী ছিল?,AP পোর্টেবল,প্রাসারিত,প্রাসারিত,False,False,0.7351956,False,False,False,0.0
+243,00022250_000,chest_xray,position,চিহ্নিত অবস্থাগুলির কোন নির্দিষ্ট অবস্থান আছে কি?,কোন অবস্থা চিহ্নিত হয়নি।,pneumonia,pneumonia,False,False,0.6360377,False,True,False,0.0
+244,00013723_001,chest_xray,position,অস্বাভাবিকতা কোথায় অবস্থিত?,কোনও অস্বাভাবিকতা শনাক্ত হয়নি।,The image shows a chest X-ray,The image shows a chest X-ray.,False,False,0.6364054,False,True,False,0.0
+245,00019143_005,chest_xray,position,চিহ্নিত কোনও অবস্থা কোথায় অবস্থিত?,কোন অবস্থা চিহ্নিত হয়নি।,The image shows a chest X-ray,The image shows a chest X-ray.,False,False,0.65845907,False,True,False,0.0
+246,00000193_019,chest_xray,position,নিউমোনিয়া কোথায় অবস্থিত?,ডান নিচে,Lungs,Lungs,False,False,0.70604515,False,True,False,0.0
+247,00018233_057,chest_xray,position,কার্ডিওমেগালি কোথায় অবস্থিত?,মধ্য ডান,cardiomegaly,cardiomegaly,False,False,0.66942394,False,True,False,0.0
+248,00019271_030,chest_xray,position,অ্যাটালেক্টাসিস কোথায় অবস্থিত?,বাম নিচে,The image shows the chest,The image shows the chest.,False,False,0.6706816,False,True,False,0.0
+249,00001921_001,chest_xray,position,চিহ্নিত কোনো অবস্থার শারীরবৃত্তীয় অবস্থান কী?,ছবিতে কোন অবস্থা চিহ্নিত হয়নি,প্রাকৃতিক অবস্থান,প্রাকৃতিক অবস্থান,False,False,0.68517286,False,False,False,0.3
+250,1406,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা দেখা যাচ্ছে?,হ্যাঁ,A: A mass in the right temporal lobe,A: A mass in the right temporal lobe,False,False,0.63868463,False,True,True,0.0
+251,371,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা আছে?,না,no,no,False,True,0.79789597,False,True,False,0.8
+252,66,medicat,abnormality,ছবিতে কোনো অস্বাভাবিকতা আছে কি?,না,No abnormalities,No abnormalities,False,False,0.7018932,False,True,False,0.0
+253,862,medicat,abnormality,ছবিতে কোনো অস্বাভাবিকতা আছে কি?,না,No,No,False,True,0.79435325,False,True,False,0.0
+254,1328,medicat,abnormality,কোনো অস্বাভাবিকতা কি বিদ্যমান?,না,,,False,False,0.0,True,False,False,0.0
+255,1466,medicat,abnormality,ছবিতে কোনো অস্বাভাবিকতা আছে কি?,হ্যাঁ,No abnormalities,No abnormalities,False,False,0.66904646,False,True,False,0.0
+256,1025,medicat,abnormality,ছবিতে কোনো অস্বাভাবিকতা আছে কি?,না,No,No,False,True,0.7943534,False,True,False,0.0
+257,929,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা রয়েছে?,হ্যাঁ।,A) Pulmonary edema,A) Pulmonary edema,False,False,0.6410449,False,True,False,0.0
+258,798,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা দেখা যাচ্ছে?,হ্যাঁ,No abnormality,No abnormality,False,False,0.6790594,False,True,False,0.0
+259,835,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা আছে?,না,Left temporal lobe infarct,Left temporal lobe infarct,False,False,0.6533373,False,True,False,0.0
+260,580,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা আছে?,না।,No abnormality,No abnormality,False,False,0.69646364,False,True,False,0.0
+261,92,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা দেখা যাচ্ছে?,না,There is no abnormality,There is no abnormality.,False,False,0.6772813,False,True,False,0.0
+262,998,medicat,abnormality,কোন অস্বাভাবিকতা আছে কি?,না,There is no abnormality,There is no abnormality.,False,False,0.6772813,False,True,False,0.0
+263,964,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা আছে?,না,There is no abnormality,There is no abnormality.,False,False,0.6772813,False,True,False,0.0
+264,282,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা আছে?,হ্যাঁ,Subdural collection,Subdural collection,False,False,0.67493415,False,True,False,0.0
+265,1205,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা বিদ্যমান?,না,,,False,False,0.0,True,False,False,0.0
+266,816,medicat,abnormality,ছবিতে কি কোন অস্বাভাবিকতা আছে?,হ্যাঁ,The image shows a chest X-ray and a computed tomography (CT) scan,The image shows a chest X-ray and a computed tomography (CT) scan.,False,False,0.60723245,False,True,True,0.0
+267,380,medicat,abnormality,কোনো অস্বাভাবিকতা কি উপস্থিত আছে?,হ্যাঁ,A: The image shows a liver with a mass (arrow),A: The image shows a liver with a mass (arrow).,False,False,0.6368723,False,True,True,0.0
+268,552,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা বিদ্যমান?,না।,no,no,False,True,0.7621785,False,True,False,0.0
+269,190,medicat,abnormality,ছবিতে কোনো অস্বাভাবিকতা আছে কি?,না,No abnormalities,No abnormalities,False,False,0.70189327,False,True,False,0.0
+270,891,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা আছে?,না।,No abnormality,No abnormality,False,False,0.69646364,False,True,False,0.0
+271,1310,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা দেখা যাচ্ছে?,না,No abnormality,No abnormality,False,False,0.7094839,False,True,False,0.0
+272,345,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা বিদ্যমান?,হ্যাঁ,There is no abnormality,There is no abnormality.,False,False,0.6565786,False,True,False,0.0
+273,683,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা আছে?,হ্যাঁ,,,False,False,0.0,True,False,False,0.0
+274,954,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা দেখা যাচ্ছে?,না,There is no abnormality,There is no abnormality.,False,False,0.6772813,False,True,False,0.0
+275,1159,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা আছে?,না,PCu,PCu,False,False,0.7411752,False,True,False,0.0
+276,927,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা রয়েছে?,না।,Cavity with fluid in the right lung (lung abscess),Cavity with fluid in the right lung (lung abscess),False,False,0.6335363,False,True,True,0.0
+277,1111,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা আছে?,হ্যাঁ,No abnormalities,No abnormalities,False,False,0.66904664,False,True,False,0.0
+278,1008,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা আছে?,হ্যাঁ।,No abnormalities,No abnormalities,False,False,0.6779583,False,True,False,0.0
+279,944,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা দেখা যাচ্ছে?,না,There is no abnormality,There is no abnormality.,False,False,0.6772813,False,True,False,0.0
+280,1226,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা আছে?,হ্যাঁ,No abnormalities,No abnormalities,False,False,0.66904664,False,True,False,0.0
+281,1363,medicat,abnormality,কোনো অস্বাভাবিকতা কি আছে?,না,No abnormalities,No abnormalities,False,False,0.70189327,False,True,False,0.0
+282,69,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা দেখা যাচ্ছে?,হ্যাঁ,There is no abnormality,There is no abnormality.,False,False,0.6565786,False,True,False,0.0
+283,1348,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা দেখা যাচ্ছে?,না,A,A,False,False,0.7760574,False,True,False,0.0
+284,279,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা আছে?,হ্যাঁ,There is no abnormality,There is no abnormality.,False,False,0.6565786,False,True,False,0.0
+285,1087,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা আছে?,না,There is no abnormality,There is no abnormality.,False,False,0.6772813,False,True,False,0.0
+286,1331,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা আছে?,হ্যাঁ,No abnormality,No abnormality,False,False,0.6790594,False,True,False,0.0
+287,724,medicat,abnormality,ছবিতে কোনও অস্বাভাবিকতা আছে কি?,না,No,No,False,True,0.7943534,False,True,False,0.0
+288,1353,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা আছে?,হ্যাঁ,The image shows a liver lesion,The image shows a liver lesion.,False,False,0.63138604,False,True,False,0.0
+289,1050,medicat,abnormality,এখানে কি কোনো অস্বাভাবিকতা আছে?,হ্যাঁ,Optic nerve,Optic nerve,False,False,0.67200357,False,True,False,0.0
+290,1221,medicat,abnormality,ছবিতে কি কোনো অসঙ্গতি আছে?,না,There is no abnormality,There is no abnormality.,False,False,0.67728126,False,True,False,0.0
+291,941,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা দেখা যাচ্ছে?,হ্যাঁ,No abnormality,No abnormality,False,False,0.6790594,False,True,False,0.0
+292,490,medicat,abnormality,ছবিতে কোনো অস্বাভাবিকতা আছে কি?,হ্যাঁ,Cavitory lesion,Cavitory lesion,False,False,0.6783755,False,True,False,0.0
+293,1400,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা আছে?,হ্যাঁ,There is no abnormality,There is no abnormality.,False,False,0.6565786,False,True,False,0.0
+294,765,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা রয়েছে?,হ্যাঁ,The image shows a metastatic peritoneal tumor,The image shows a metastatic peritoneal tumor.,False,False,0.6151384,False,True,True,0.0
+295,1266,medicat,abnormality,ছবিতে কোনো অস্বাভাবিকতা আছে কি?,হ্যাঁ,No,No,False,False,0.7063005,False,True,False,0.0
+296,402,medicat,abnormality,ছবিতে কোনো অস্বাভাবিকতা আছে কি?,হ্যাঁ,A) A) Axial T2 Weighted image shows abnormal signal intensity in the right cerebellum,A) A) Axial T2 Weighted image shows abnormal signal intensity in the right cerebellum,False,False,0.60236853,False,True,True,0.0
+297,1079,medicat,abnormality,ছবিতে কোনো অস্বাভাবিকতা আছে কি?,হ্যাঁ,A,A,False,False,0.7202312,False,True,False,0.0
+298,953,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা দেখা যাচ্ছে?,হ্যাঁ,There is no abnormality,There is no abnormality.,False,False,0.6565786,False,True,False,0.0
+299,564,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা দেখা যাচ্ছে?,না,There is no abnormality,There is no abnormality.,False,False,0.67728126,False,True,False,0.0
+300,1446,medicat,condition,ছবিতে কী কী অবস্থা দেখা যাচ্ছে?,"দুটি পাথর, এন্ডোক্লিপ",The image shows a liver with a mass (arrow),The image shows a liver with a mass (arrow).,False,False,0.66313237,False,True,True,0.0
+301,1373,medicat,condition,এই ছবিতে কি কি অবস্থা পরিলক্ষিত হচ্ছে?,ছোট বায়ু তরল স্তর,লাইনার প্রোটেরিয়াল প্রোটেরিয়াল প্রোটেরিয়াল প্রোটেরিয়াল প্রোটেরিয়াল প্রোটেরিয়াল,লাইনার প্রোটেরিয়াল প্রোটেরিয়াল প্রোটেরিয়াল প্রোটেরিয়াল প্রোটেরিয়াল প্রোটেরিয়াল,False,False,0.6241474,False,False,True,0.0
+302,435,medicat,condition,ছবিতে কি কি অবস্থা দেখা যাচ্ছে?,ফ্র্যাকচার।,"The image shows a spinal column with multiple vertebrae labeled T10, T11, T12, L1, L2, L3, L4, and L5","The image shows a spinal column with multiple vertebrae labeled T10, T11, T12, L1, L2, L3, L4, and L5.",False,False,0.5439344,False,True,True,0.0
+303,973,medicat,condition,ছবিতে কী কী অবস্থা দেখা যাচ্ছে?,"থ্রম্বোসিস, হেমোরেজ",Thrombosis,Thrombosis,False,False,0.6652204,False,True,False,0.5
+304,1452,medicat,condition,ছবিতে কি অবস্থা পরিলক্ষিত হচ্ছে?,আঘাত থেকে রক্তক্ষরণ,bleeding,bleeding,False,False,0.7368877,False,True,False,0.8
+305,726,medicat,condition,এই ছবিতে কী কী অবস্থা পরিলক্ষিত হচ্ছে?,সিগন্যাল হাইপারইনটেনসিটি (উজ্জ্বল সংকেত),The image shows a skull,The image shows a skull.,False,False,0.63727313,False,True,False,0.0
+306,935,medicat,condition,কি অবস্থা পরিলক্ষিত হচ্ছে?,কিছু পাওয়া যায়নি,Normal,Normal,False,False,0.7257059,False,True,False,0.0
+307,126,medicat,condition,ইমেজটিতে কী কী অবস্থা পরিলক্ষিত হচ্ছে?,নোड्यूल,The image shows lung nodules,The image shows lung nodules.,False,False,0.6660659,False,True,False,0.3
+308,1310,medicat,condition,ছবিতে কি অবস্থা দেখা যাচ্ছে?,কোনো কিছু পাওয়া যায়নি।,The image shows the brain obtained post ablation,The image shows the brain obtained post ablation.,False,False,0.6454945,False,True,True,0.0
+309,424,medicat,condition,ছবিতে কী কী অবস্থা চিহ্নিত করা হয়েছে?,নোডুলোসিস্টিক প্যাটার্ন।,A) Pulmonary edema,A) Pulmonary edema,False,False,0.61522037,False,True,False,0.0
+310,1051,medicat,condition,কি অবস্থা পরিলক্ষিত হয়?,বৃদ্ধিপ্রাপ্ত কার্যকলাপ,Same corner,Same corner,False,False,0.6548893,False,True,False,0.0
+311,841,medicat,condition,এই ছবিতে কি কি অবস্থা সনাক্ত করা যায়?,কিছু পাওয়া যায়নি,C,C,False,False,0.6593291,False,True,False,0.0
+312,985,medicat,condition,ছবিতে কোন অবস্থা সনাক্ত করা হয়েছে?,ভেস্টিবুলার শোয়ানোমা,প্রাসাদের অবস্থা,প্রাসাদের অবস্থা,False,False,0.66667384,False,False,False,0.0
+313,347,medicat,condition,ছবিতে কী কী অবস্থা দেখা যাচ্ছে?,প্লুরাল-ভিত্তিক ঘনত্ব,The image shows a chest radiograph,The image shows a chest radiograph.,False,False,0.67246103,False,True,False,0.0
+314,1107,medicat,condition,ছবিতে কী অবস্থা দেখা যাচ্ছে?,ক্ষুদ্রান্ত্র আবদ্ধ,The image shows a small bowel obstruction,The image shows a small bowel obstruction.,False,False,0.6596811,False,True,True,0.8
+315,9,medicat,condition,কী অবস্থা বিদ্যমান?,খালি সেলা,The image shows a brain scan,The image shows a brain scan.,False,False,0.69061494,False,True,False,0.0
+316,411,medicat,condition,কি অবস্থা বিদ্যমান?,উল্লেখযোগ্য কোন পরিবর্তন নেই,Normal,Normal,False,False,0.67774177,False,True,False,0.0
+317,427,medicat,condition,কী অবস্থা পরিলক্ষিত হচ্ছে?,নন-এনহ্যান্সিং ভর,A: Non-enhancing,A: Non-enhancing,False,False,0.69436723,False,True,False,0.4
+318,1332,medicat,condition,ছবিতে কী অবস্থা বিদ্যমান?,সিপিএম-এর হাইপারইনটেনস প্যাচ,The image shows a brain with a black arrow pointing to a lesion,The image shows a brain with a black arrow pointing to a lesion.,False,False,0.6219031,False,True,True,0.0
+319,544,medicat,condition,ছবিতে কী কী অবস্থা পরিলক্ষিত হচ্ছে?,অসম প্রতিসাম্যহীন এট্রোফি,The image shows the brain sections of a patient with semantic dementia,The image shows the brain sections of a patient with semantic dementia.,False,False,0.636034,False,True,True,0.1
+320,921,medicat,condition,এই ছবিতে কী অবস্থা লক্ষ্য করা যাচ্ছে?,সিস্টিক উপাদান,The image shows a brain scan,The image shows a brain scan.,False,False,0.6955394,False,True,False,0.0
+321,944,medicat,condition,ছবিতে কী কী অবস্থা চিহ্নিত করা হয়েছে?,কিছু পাওয়া যায়নি,The image shows a chest X-ray with a catheter in the esophagus,The image shows a chest X-ray with a catheter in the esophagus.,False,False,0.637182,False,True,True,0.0
+322,8,medicat,condition,ছবিতে কি অবস্থা দেখা যাচ্ছে?,কোনো ফাইন্ডিং নেই,Normal,Normal,False,False,0.7004316,False,True,False,0.0
+323,1113,medicat,condition,ছবিতে কী মেডিকেল কন্ডিশন সনাক্ত করা হয়েছে?,তীব্র ইনফার্ক্ট,The image shows a diffusion-weighted image and apparent diffusion coefficients,The image shows a diffusion-weighted image and apparent diffusion coefficients.,False,False,0.6162309,False,True,True,0.0
+324,645,medicat,condition,কী অবস্থা বিদ্যমান?,স্যাডল এম্বোলাস,Saddle embolus,Saddle embolus,False,False,0.67876554,False,True,False,0.9
+325,442,medicat,condition,ইমেজটিতে কী অবস্থা সনাক্ত করা হয়েছে?,কোনো প্রকার অস্বাভাবিকতা নেই,The image shows a brain scan,The image shows a brain scan.,False,False,0.6135401,False,True,False,0.0
+326,402,medicat,condition,কি অবস্থা দেখা যাচ্ছে?,হাইপারইনটেন্স সংকেত,A) A) Abnormal,A) A) Abnormal,False,False,0.6443852,False,True,False,0.0
+327,978,medicat,condition,এই ছবিতে কী কী অবস্থা দেখা যাচ্ছে?,সংহতকরণ,Bilateral consolidation,Bilateral consolidation,False,False,0.7113679,False,True,False,0.0
+328,85,medicat,condition,ছবিতে কী কী অবস্থা দেখা যাচ্ছে?,কিছু পাওয়া যায়নি,The image shows a liver with abnormality,The image shows a liver with abnormality.,False,False,0.6720959,False,True,True,0.0
+329,779,medicat,condition,এই ছবিতে কী কী অবস্থা পরিলক্ষিত হয়?,আটকে থাকা বহিরাগত বস্তু,Retained foreign body,Retained foreign body,False,False,0.6863911,False,True,False,0.8
+330,843,medicat,condition,কী কী অবস্থা পরিলক্ষিত হয়েছে?,ডব্লিউএম হ্রাস (অ্যাট্রোফি),A) স্বাস্থ্য,A) স্বাস্থ্য,False,False,0.67149186,False,False,False,0.0
+331,1390,medicat,condition,কী অবস্থা পরিলক্ষিত হয়েছে?,কার্সিনোমা,Cancer,Cancer,False,False,0.6912497,False,True,False,0.6
+332,17,medicat,condition,ছবিতে কী অবস্থা দেখা যাচ্ছে?,সংগঠিত ফোড়া,The image shows a brain MRI,The image shows a brain MRI.,False,False,0.6605249,False,True,False,0.0
+333,992,medicat,condition,ছবিতে কি কি অস্বাভাবিকতা সনাক্ত করা হয়েছে?,মেরুদণ্ডের ফাটল,The image shows a spine with abnormal vertebrae,The image shows a spine with abnormal vertebrae.,False,False,0.6606527,False,True,True,0.3
+334,229,medicat,condition,ইমেজটিতে কি অবস্থা দেখা যাচ্ছে?,কোনো প্রকার রোগ বা অবস্থা নেই,Retro-renal visceral fat,Retro-renal visceral fat,False,False,0.6081698,False,True,False,0.0
+335,746,medicat,condition,এই ছবিতে কী অবস্থা সনাক্ত করা হয়েছে?,কিছু পাওয়া যায়নি,প্রাক্তন প্রাণী বিশিষ্ট স্থানের অবস্থায় অবস্থান করা হয়েছে,প্রাক্তন প্রাণী বিশিষ্ট স্থানের অবস্থায় অবস্থান করা হয়েছে,False,False,0.6505408,False,False,True,0.0
+336,711,medicat,condition,কি অবস্থা পরিলক্ষিত হয়?,স্ট্রোক,The image shows a brain MRI shortly after the stroke,The image shows a brain MRI shortly after the stroke.,False,False,0.6248745,False,True,True,0.3
+337,574,medicat,condition,ছবিতে কী কী অস্বাভাবিকতা দেখা যাচ্ছে?,অ্যা রূপ গ্যাস সংগ্রহ,প্রাকৃতিক অস্বাভাবিকতা,প্রাকৃতিক অস্বাভাবিকতা,False,False,0.71074456,False,False,False,0.0
+338,400,medicat,condition,ছবিতে কি কি অবস্থা পরিলক্ষিত হয়েছে?,কোনো ফাইন্ডিং নেই,The image shows a spine,The image shows a spine.,False,False,0.67188996,False,True,False,0.0
+339,176,medicat,condition,ছবিতে কি অবস্থা পরিলক্ষিত হয়েছে?,প্রাথমিক টিউমার,The image shows a lung with a mass,The image shows a lung with a mass.,False,False,0.65709096,False,True,True,0.2
+340,1257,medicat,condition,এই ছবিতে কি অবস্থা পরিলক্ষিত হয়?,কোনো প্রকার অস্বাভাবিকতা নেই,The image shows a chest X-ray,The image shows a chest X-ray.,False,False,0.5990706,False,True,False,0.0
+341,190,medicat,condition,এই ছবিতে কী কী অবস্থা সনাক্ত করা হয়েছে?,কোনো রোগ নির্ণয় নেই,The image shows a chest X-ray of a child,The image shows a chest X-ray of a child.,False,False,0.64623904,False,True,True,0.0
+342,1087,medicat,condition,ছবিতে কী কী অবস্থা দেখা যাচ্ছে?,কিছু পাওয়া যায়নি,The image shows a brain and spinal cord MRI,The image shows a brain and spinal cord MRI.,False,False,0.64927584,False,True,True,0.0
+343,964,medicat,condition,ছবিতে কি কি অবস্থা দেখা যাচ্ছে?,কোনো কিছু পাওয়া যায়নি,প্রাক্তন প্রাণী অবস্থা,প্রাক্তন প্রাণী অবস্থা,False,False,0.6444308,False,False,False,0.0
+344,673,medicat,condition,ছবিতে কী কী অবস্থা দেখা যাচ্ছে?,অসমান ঘনত্বযুক্ত অস্বচ্ছতা,bronchiectasis,bronchiectasis,False,False,0.60467565,False,True,False,0.0
+345,532,medicat,condition,কি অবস্থা পরিলক্ষিত হচ্ছে?,বাই-থ্যালামিক ইনফার্কশন,The image shows a brain MRI,The image shows a brain MRI.,False,False,0.64008224,False,True,False,0.0
+346,321,medicat,condition,ছবিতে কী কী অবস্থা দেখা যাচ্ছে?,নেক্রোটিক মেটাস্ট্যাসিস,The image shows a liver with a mass,The image shows a liver with a mass.,False,False,0.6132875,False,True,True,0.1
+347,1158,medicat,condition,ছবিতে কি কি অবস্থা (condition) দেখা যাচ্ছে?,"কর্ডোমা, গ্লিওব্লাস্টোমা",The image shows a brain scan,The image shows a brain scan.,False,False,0.60536295,False,True,False,0.0
+348,444,medicat,condition,ইমেজটিতে কী অবস্থা পরিলক্ষিত হয়?,রেডিওলুসেন্ট আউটলাইন,প্রতিবর্তন,প্রতিবর্তন,False,False,0.6784234,False,False,False,0.0
+349,261,medicat,condition,ছবিতে কী কী অবস্থা পরিলক্ষিত হয়?,কোনো ফাইন্ডিং নেই,The image shows a brain scan,The image shows a brain scan.,False,False,0.6655648,False,True,False,0.0
+350,82,medicat,modality,কি ধরনের ইমেজিং মডালিটি দেখানো হয়েছে?,এমআরআই।,A) MRI,A) MRI,False,False,0.59277326,False,True,False,0.5
+351,52,medicat,modality,কী ধরণের ইমেজিং মোডালিটি ব্যবহার করা হয়েছে?,সিটি।,CT,CT,False,False,0.69133335,False,True,False,0.3
+352,958,medicat,modality,ইমেজিং পদ্ধতিটি কী?,সিটি,CT,CT,False,False,0.7381433,False,True,False,0.3
+353,314,medicat,modality,এটা কি ধরনের ইমেজিং পদ্ধতি?,এমআরআই,fMRI,fMRI,False,False,0.69797325,False,True,False,0.2
+354,496,medicat,modality,এটি কোন ধরনের ইমেজিং পদ্ধতি?,সিটি।,CT,CT,False,False,0.69133335,False,True,False,0.3
+355,665,medicat,modality,এটি কোন ধরনের ইমেজিং পদ্ধতি?,এমআরআই,MRI,MRI,False,False,0.678762,False,True,False,0.8
+356,979,medicat,modality,কোন ইমেজিং পদ্ধতি ব্যবহার করা হয়েছে?,এমআরআই,MRI,MRI,False,False,0.678762,False,True,False,0.9
+357,61,medicat,modality,এই ছবিতে কোন ইমেজিং পদ্ধতি ব্যবহার করা হয়েছে?,এমআরআই।,MRI,MRI,False,False,0.59919506,False,True,False,0.9
+358,44,medicat,modality,এই চিত্রে কোন ইমেজিং মোডালিটি ব্যবহার করা হয়েছে?,এমআরআই,MRI,MRI,False,False,0.678762,False,True,False,0.9
+359,617,medicat,modality,এটা কি ধরনের ইমেজিং পদ্ধতি?,এমআরআই,MRI,MRI,False,False,0.678762,False,True,False,0.8
+360,1338,medicat,modality,এই ক্ষেত্রে কোন ইমেজিং পদ্ধতি ব্যবহার করা হয়েছে?,এমআরআই,MRI,MRI,False,False,0.678762,False,True,False,0.9
+361,874,medicat,modality,ছবিতে কোন ইমেজিং মডালিটি (imaging modality) ব্যবহার করা হয়েছে?,এমআরআই,MRI,MRI,False,False,0.678762,False,True,False,0.9
+362,335,medicat,modality,এই ছবিতে কোন ইমেজিং পদ্ধতি ব্যবহার করা হয়েছে?,এমআরআই।,MRI,MRI,False,False,0.59919506,False,True,False,0.9
+363,997,medicat,modality,এই ছবিতে কোন ইমেজিং মোডালিটি ব্যবহার করা হয়েছে?,এমআরআই,T2,T2,False,False,0.672526,False,True,False,0.0
+364,301,medicat,modality,এই ছবিতে কোন ইমেজিং পদ্ধতি ব্যবহার করা হয়েছে?,এমআরআই,MRI,MRI,False,False,0.678762,False,True,False,0.8
+365,368,medicat,modality,এই ছবিতে কোন ইমেজিং মোডালিটি ব্যবহার করা হয়েছে?,সিটি,CT,CT,False,False,0.7381433,False,True,False,0.3
+366,467,medicat,modality,এটি কোন ধরনের ছবি?,এক্স-রে,Chest x-ray,Chest x-ray,False,False,0.7349363,False,True,False,0.3
+367,373,medicat,modality,এই স্টাডিতে কোন ইমেজিং modality ব্যবহার করা হয়েছে?,এমআরআই,MRI,MRI,False,False,0.678762,False,True,False,0.9
+368,134,medicat,modality,এটি কি ধরনের ইমেজিং মোডালিটি?,সিটি,CT,CT,False,False,0.7381433,False,True,False,0.3
+369,1060,medicat,modality,ইমেজিং পদ্ধতিটি কি?,এমআরআই,The image shows brain scans,The image shows brain scans.,False,False,0.6024074,False,True,False,0.1
+370,400,medicat,modality,এটি কি ধরনের মেডিকেল ইমেজিং?,এক্স-রে,X-ray,X-ray,False,False,0.7618495,False,True,False,0.9
+371,356,medicat,modality,এটা কি ধরনের ইমেজিং মোডালিটি?,এক্স-রে,X-ray,X-ray,False,False,0.7618495,False,True,False,0.9
+372,870,medicat,modality,এই ছবিতে কোন ধরনের ইমেজিং পদ্ধতি ব্যবহার করা হয়েছে?,এমআরআই,a,a,False,False,0.59893703,False,True,False,0.0
+373,361,medicat,modality,এই চিত্রে কোন ইমেজিং পদ্ধতি ব্যবহার করা হয়েছে?,সিটি,Axial,Axial,False,False,0.73906124,False,True,False,0.0
+374,1136,medicat,modality,এটি কোন ধরনের ইমেজিং পদ্ধতি?,সিটি।,CT,CT,False,False,0.69133335,False,True,False,0.3
+375,4,medicat,modality,এই চিত্রে কোন ইমেজিং পদ্ধতি ব্যবহার করা হয়েছে?,এমআরআই,A,A,False,False,0.6663996,False,True,False,0.0
+376,1104,medicat,modality,এই ছবিতে কোন ইমেজিং মোডালিটি ব্যবহার করা হয়েছে?,এমআরআই,MRI,MRI,False,False,0.678762,False,True,False,0.8
+377,1042,medicat,modality,এটি কোন ধরনের ইমেজিং মোডালিটি?,এমআরআই,MRI,MRI,False,False,0.678762,False,True,False,0.9
+378,1349,medicat,modality,এই ছবিতে কোন ইমেজিং মোডালিটি ব্যবহার করা হয়েছে?,সিটি,CT,CT,False,False,0.7381433,False,True,False,0.3
+379,1085,medicat,modality,এই ছবিতে কোন ইমেজিং পদ্ধতি ব্যবহার করা হয়েছে?,সিটি (কম্পিউটেড টমোগ্রাফি),CT,CT,False,False,0.61075896,False,True,False,0.6
+380,586,medicat,modality,এই ছবিতে কি ধরনের ইমেজিং মোডালিটি ব্যবহার করা হয়েছে?,সিটি,CT,CT,False,False,0.7381433,False,True,False,0.4
+381,113,medicat,modality,এটি কোন ধরনের ইমেজিং পদ্ধতি?,সিটি,CT,CT,False,False,0.7381433,False,True,False,0.3
+382,1332,medicat,modality,এটি কোন ধরনের ইমেজিং পদ্ধতি?,এমআরআই,MRI,MRI,False,False,0.678762,False,True,False,0.9
+383,599,medicat,modality,এই চিত্রে কোন ইমেজিং পদ্ধতি ব্যবহার করা হয়েছে?,সিটি,CT,CT,False,False,0.7381433,False,True,False,0.3
+384,1372,medicat,modality,এই ছবিতে কোন ইমেজিং পদ্ধতি ব্যবহার করা হয়েছে?,আলট্রাসাউন্ড,Ultrasound,Ultrasound,False,False,0.69082433,False,True,False,0.9
+385,148,medicat,modality,এটি কোন ধরনের ইমেজিং পদ্ধতি?,সিটি,CT,CT,False,False,0.73814344,False,True,False,0.3
+386,177,medicat,modality,এই ছবিতে কোন ইমেজিং পদ্ধতি ব্যবহার করা হয়েছে?,সিটি,CT,CT,False,False,0.73814344,False,True,False,0.3
+387,780,medicat,modality,ইমেজিং পদ্ধতিটি কী?,এক্স-রে,A) X-ray,A) X-ray,False,False,0.71630806,False,True,False,0.8
+388,89,medicat,modality,এই ছবিতে কোন ইমেজিং মডালিটি (imaging modality) ব্যবহার করা হয়েছে?,এমআরআই,MRI,MRI,False,False,0.67876226,False,True,False,0.9
+389,830,medicat,modality,কোন ইমেজিং পদ্ধতি ব্যবহার করা হয়েছে?,সিটি,CT,CT,False,False,0.73814344,False,True,False,0.3
+390,738,medicat,modality,এটি কি ধরনের ইমেজিং modality?,এমআরআই।,MRI,MRI,False,False,0.59919506,False,True,False,0.9
+391,1177,medicat,modality,এটি কোন ধরনের ইমেজিং মোডালিটি?,এক্স-রে,X-ray,X-ray,False,False,0.7618494,False,True,False,0.8
+392,1162,medicat,modality,ছবিতে কোন ইমেজিং পদ্ধতি দেখানো হয়েছে?,সিটি,Computed tomography,Computed tomography,False,False,0.66120636,False,True,False,0.0
+393,1370,medicat,modality,এই ছবিতে কোন ইমেজিং মোডালিটি ব্যবহার করা হয়েছে?,সিটি,CT,CT,False,False,0.73814344,False,True,False,0.3
+394,421,medicat,modality,এই ছবিতে কোন ইমেজিং পদ্ধতি ব্যবহার করা হয়েছে?,সিটি,Computed tomography,Computed tomography,False,False,0.66120636,False,True,False,0.0
+395,761,medicat,modality,এটি কি ধরনের ইমেজিং পদ্ধতি?,এক্স-রে,X-ray,X-ray,False,False,0.7618494,False,True,False,0.9
+396,567,medicat,modality,ইমেজটিতে কোন ইমেজিং পদ্ধতি দেখানো হয়েছে?,সিটি,CT,CT,False,False,0.73814344,False,True,False,0.3
+397,614,medicat,modality,এই ছবিতে কোন ইমেজিং পদ্ধতি ব্যবহার করা হয়েছে?,সিটি,CT,CT,False,False,0.73814344,False,True,False,0.3
+398,552,medicat,modality,ছবিতে কোন ইমেজিং পদ্ধতি দেখানো হয়েছে?,সিটি।,Brain computed tomography,Brain computed tomography,False,False,0.6256091,False,True,False,0.0
+399,482,medicat,modality,এই ছবিতে কোন ইমেজিং পদ্ধতি ব্যবহার করা হয়েছে?,সিটি।,CT,CT,False,False,0.69133353,False,True,False,0.3
+400,1406,medicat,organ,ছবিতে কোন অঙ্গটি দেখানো হয়েছে?,মস্তিষ্ক,A,A,False,False,0.6835532,False,True,False,0.0
+401,706,medicat,organ,এই ছবিতে প্রধানত কোন অঙ্গ দেখানো হয়েছে?,মস্তিষ্ক,Cerebral,Cerebral,False,False,0.6984163,False,True,False,0.3
+402,180,medicat,organ,এই ছবিতে প্রধানত কোন অঙ্গ দেখানো হয়েছে?,বুক,প্রধানত কোন অঙ্গ দেখানো হয়েছে,প্রধানত কোন অঙ্গ দেখানো হয়েছে,False,False,0.68599874,False,False,False,0.0
+403,1466,medicat,organ,এই ছবিতে প্রাথমিকভাবে কোন অঙ্গ দেখানো হয়েছে?,মস্তিষ্ক,c) সাইক্লাসিক অঙ্গ,c) সাইক্লাসিক অঙ্গ,False,False,0.6669886,False,False,False,0.0
+404,929,medicat,organ,এই ছবিতে প্রাথমিকভাবে কোন অঙ্গ দেখানো হয়েছে?,বুক।,A) Right atrium,A) Right atrium,False,False,0.63538903,False,True,False,0.0
+405,798,medicat,organ,এই ছবিতে কোন অঙ্গ চিত্রিত করা হয়েছে?,মস্তিষ্ক,c,c,False,False,0.6538599,False,True,False,0.0
+406,1372,medicat,organ,ছবিতে কোন অঙ্গ দেখানো হয়েছে?,মস্তিষ্ক,The image shows a right upper quadrant (RUQ) mass,The image shows a right upper quadrant (RUQ) mass.,False,False,0.60956764,False,True,True,0.0
+407,627,medicat,organ,এই ছবিতে প্রধানত কোন অঙ্গ দেখানো হয়েছে?,বুক,প্রধানত কোন অঙ্গ দেখানো হয়েছে,প্রধানত কোন অঙ্গ দেখানো হয়েছে,False,False,0.68599874,False,False,False,0.0
+408,92,medicat,organ,ছবিতে কোন অঙ্গ দেখানো হয়েছে?,অন্যান্য,The image shows the ribs,The image shows the ribs.,False,False,0.5872952,False,True,False,0.0
+409,874,medicat,organ,ছবিতে প্রাথমিকভাবে কোন অঙ্গ দেখানো হয়েছে?,মস্তিষ্ক,The image shows the brain and spinal cord,The image shows the brain and spinal cord.,False,False,0.66887146,False,True,True,0.3
+410,526,medicat,organ,এই ছবিতে প্রধানত কোন অঙ্গ দেখানো হয়েছে?,বুক,Chest tubes,Chest tubes,False,False,0.7202224,False,True,False,0.0
+411,282,medicat,organ,ছবিতে কোন অঙ্গ দেখানো হয়েছে?,মস্তিস্ক,Subdural,Subdural,False,False,0.698723,False,True,False,0.0
+412,314,medicat,organ,ছবিতে কোন অঙ্গ দেখানো হয়েছে?,মস্তিষ্ক,The image shows the ventral striatum,The image shows the ventral striatum.,False,False,0.63850015,False,True,False,0.0
+413,816,medicat,organ,এই ছবিতে কোন অঙ্গ দেখানো হয়েছে?,বুক,Aorta,Aorta,False,False,0.7573197,False,True,False,0.0
+414,373,medicat,organ,এই ছবিতে মূলত কোন অঙ্গ দেখানো হয়েছে?,মস্তিষ্ক,P,P,False,False,0.65342295,False,True,False,0.0
+415,902,medicat,organ,ছবিতে কোন অঙ্গ দেখানো হয়েছে?,মস্তিষ্ক।,The image shows the brain,The image shows the brain.,False,False,0.65495306,False,True,False,0.6
+416,380,medicat,organ,ছবিতে প্রাথমিকভাবে কোন অঙ্গ দেখানো হয়েছে?,পেট,A,A,False,False,0.75655043,False,True,False,0.0
+417,1275,medicat,organ,ছবিতে কোন অঙ্গ দেখানো হয়েছে?,মস্তিষ্ক,A,A,False,False,0.68355334,False,True,False,0.0
+418,319,medicat,organ,এই ছবিতে মূলত কোন অঙ্গ দেখানো হয়েছে?,বুক,রেলিশ,রেলিশ,False,False,0.8195419,False,False,False,0.0
+419,522,medicat,organ,এই ছবিতে প্রাথমিকভাবে কোন অঙ্গ দেখানো হয়েছে?,পেট।,Arrow,Arrow,False,False,0.71631974,False,True,False,0.0
+420,1418,medicat,organ,ছবিতে কোন অঙ্গ দেখানো হয়েছে?,মস্তিষ্ক,A,A,False,False,0.68355334,False,True,False,0.0
+421,969,medicat,organ,ছবিতে কোন অঙ্গ দেখানো হয়েছে?,মস্তিস্ক,The image shows hyperintensities in the medulla oblongata,The image shows hyperintensities in the medulla oblongata.,False,False,0.6305837,False,True,True,0.0
+422,714,medicat,organ,এই ছবিতে মূলত কোন অঙ্গ দেখানো হয়েছে?,বুক,লেজার,লেজার,False,False,0.77610976,False,False,False,0.0
+423,1310,medicat,organ,এই ছবিতে কোন অঙ্গ দেখানো হয়েছে?,মস্তিষ্ক,Aortic,Aortic,False,False,0.70120347,False,True,False,0.0
+424,762,medicat,organ,এই ছবিতে মূলত কোন অঙ্গ দেখানো হয়েছে?,শ্রোণী (পেলভিস),লাল চিহ্নিত অঙ্গ,লাল চিহ্নিত অঙ্গ,False,False,0.6990714,False,False,False,0.2
+425,384,medicat,organ,এই ছবিতে প্রাথমিকভাবে কোন অঙ্গ দেখানো হয়েছে?,মেরুদণ্ড,H,H,False,False,0.6605138,False,True,False,0.0
+426,446,medicat,organ,ছবিতে কোন অঙ্গ দেখানো হয়েছে?,অন্যান্য।,The image shows the trachea,The image shows the trachea.,False,False,0.519188,False,True,False,0.0
+427,786,medicat,organ,ছবিতে কোন অঙ্গ দেখানো হয়েছে?,বুক,A,A,False,False,0.75153637,False,True,False,0.0
+428,595,medicat,organ,ছবিতে কোন অঙ্গ দেখানো হয়েছে?,মস্তিস্ক।,A) Basal ganglia,A) Basal ganglia,False,False,0.64346826,False,True,False,0.0
+429,663,medicat,organ,ছবিতে কোন অঙ্গ দেখানো হয়েছে?,মস্তিষ্ক,A,A,False,False,0.68355334,False,True,False,0.0
+430,1078,medicat,organ,ছবিতে কোন অঙ্গ দেখানো হয়েছে?,মস্তিষ্ক,4th,4th,False,False,0.57591623,False,True,False,0.0
+431,776,medicat,organ,ছবিতে কোন অঙ্গ দেখানো হয়েছে?,মস্তিষ্ক,PCu,PCu,False,False,0.73001045,False,True,False,0.0
+432,461,medicat,organ,ছবিতে কোন অঙ্গ দেখানো হয়েছে?,বুক,A,A,False,False,0.75153637,False,True,False,0.0
+433,944,medicat,organ,এই ছবিতে প্রধানত কোন অঙ্গ দেখানো হয়েছে?,বুক,লাইন,লাইন,False,False,0.81914884,False,False,False,0.0
+434,1363,medicat,organ,ছবিতে কোন অঙ্গ দেখানো হয়েছে?,মস্তিষ্ক,The image shows the brain,The image shows the brain.,False,False,0.6715485,False,True,False,0.8
+435,586,medicat,organ,এই ছবিতে কোন অঙ্গ দেখানো হয়েছে?,মস্তিষ্ক,লাল অঙ্গ,লাল অঙ্গ,False,False,0.74237233,False,False,False,0.0
+436,28,medicat,organ,এই ছবিতে কোন অঙ্গ দেখানো হয়েছে?,বুক,প্রাক্তন চৌম্বক অঙ্গ,প্রাক্তন চৌম্বক অঙ্গ,False,False,0.7110366,False,False,False,0.0
+437,600,medicat,organ,এই ছবিতে প্রধানত কোন অঙ্গ দেখানো হয়েছে?,মস্তিষ্ক,লাইন,লাইন,False,False,0.73354906,False,False,False,0.0
+438,49,medicat,organ,এই ছবিতে প্রধানত কোন অঙ্গ দেখানো হয়েছে?,বুক,Bilateral reticulonodular,Bilateral reticulonodular.,False,False,0.66251004,False,True,False,0.0
+439,1126,medicat,organ,এই ছবিতে প্রাথমিকভাবে কোন অঙ্গ দেখানো হয়েছে?,বুক,A,A,False,False,0.75153637,False,True,False,0.0
+440,148,medicat,organ,এই ছবিতে প্রাথমিকভাবে কোন অঙ্গ দেখানো হয়েছে?,পেট,A,A,False,False,0.75655043,False,True,False,0.0
+441,593,medicat,organ,এই ছবিতে প্রধানত কোন অঙ্গ দেখানো হয়েছে?,বুক।,লাইন,লাইন,False,False,0.74172866,False,False,False,0.0
+442,1121,medicat,organ,ছবিতে কোন অঙ্গ দেখানো হয়েছে?,মস্তিষ্ক,লাইনে দেখা যায় না,লাইনে দেখা যায় না,False,False,0.67520106,False,False,False,0.0
+443,1447,medicat,organ,এই ছবিতে কোন অঙ্গ দেখানো হয়েছে?,মস্তিষ্ক,Vertex,Vertex,False,False,0.73495746,False,True,False,0.0
+444,618,medicat,organ,এই ছবিতে প্রাথমিকভাবে কোন অঙ্গ দেখানো হয়েছে?,মস্তিষ্ক,Premotor,Premotor,False,False,0.72094786,False,True,False,0.0
+445,520,medicat,organ,ছবিতে কোন অঙ্গ দেখানো হয়েছে?,পেট।,The image shows the 7th and 8th lumbar vertebrae (black arrows),The image shows the 7th and 8th lumbar vertebrae (black arrows).,False,False,0.6343491,False,True,True,0.0
+446,1124,medicat,organ,এই ছবিতে প্রাথমিকভাবে কোন অঙ্গ দেখানো হয়েছে?,বুক,(a),(a),False,False,0.70734423,False,True,False,0.0
+447,136,medicat,organ,ছবিতে প্রধানত কোন অঙ্গ দেখানো হয়েছে?,পেট,প্রধানত কোন অঙ্গ দেখানো হয়েছে,প্রধানত কোন অঙ্গ দেখানো হয়েছে,False,False,0.699388,False,False,False,0.0
+448,1397,medicat,organ,এই ছবিতে প্রধানত কোন অঙ্গ দেখানো হয়েছে?,শ্রোণী (পেলভিস),প্রধানত কোন অঙ্গ দেখানো হয়েছে,প্রধানত কোন অঙ্গ দেখানো হয়েছে,False,False,0.6875443,False,False,False,0.0
+449,43,medicat,organ,ছবিতে কোন অঙ্গ দেখানো হয়েছে?,পেট,Aorta,Aorta,False,False,0.7783157,False,True,False,0.0
+450,731,medicat,position,একাউস্টিক শ্যাডোইং সহ ডিফিউসলি হাইপারেকোক মায়োকার্ডিয়াম কোথায় অবস্থিত?,বাম ভেন্ট্রিকল।,C,C,False,False,0.64334124,False,True,False,0.0
+451,1408,medicat,position,বি. ম্যান্ড্রিলারিসের জন্য ইতিবাচক ইমিউনোফ্লুরোসেন্স পরীক্ষার অবস্থান কোথায়?,অনির্দিষ্ট,H,H,False,False,0.7065748,False,True,False,0.0
+452,302,medicat,position,বিলম্বিত মায়েলিনেশন কোথায় অবস্থিত?,অনির্দিষ্ট,The image shows a brain CT scan,The image shows a brain CT scan.,False,False,0.6512561,False,True,True,0.0
+453,1015,medicat,position,বৃদ্ধিপ্রাপ্ত ডিফিউস এনহ্যান্সমেন্ট এর অবস্থান কোথায়?,ডান সেরিব্রাম।,The image shows a brain scan,The image shows a brain scan.,False,False,0.629839,False,True,False,0.1
+454,995,medicat,position,ত্বকের নিচে বাতাসের অবস্থান কি?,অনির্দিষ্ট,Pneumomediastinum,Pneumomediastinum,False,False,0.6258591,False,True,False,0.0
+455,831,medicat,position,পার্ট-সলিড নোডিউল এর অবস্থান কোথায়?,বুক,(F),(F),False,False,0.67007697,False,True,False,0.0
+456,509,medicat,position,বহু প্রকোষ্ঠযুক্ত সিস্টিক স্থান দখলকারী ক্ষতটির অবস্থান কী?,অনির্দিষ্ট,The image shows a CT scan of the abdomen,The image shows a CT scan of the abdomen.,False,False,0.6395235,False,True,True,0.0
+457,635,medicat,position,একাধিক লিম্ফ নোড কোথায় অবস্থিত?,ক্ষুদ্রান্ত্রের মেসেনটারি,ABDOMEN,ABDOMEN,False,False,0.650098,False,True,False,0.0
+458,218,medicat,position,দুটি বড় পাথর কোথায় অবস্থিত?,পিত্তথলি,The image shows the abdominal cavity,The image shows the abdominal cavity.,False,False,0.6490078,False,True,False,0.0
+459,729,medicat,position,নডিউলটি কোথায় অবস্থিত?,থাইরয়েড গ্রন্থিতে।,D,D,False,False,0.5848599,False,True,False,0.0
+460,1251,medicat,position,স্পষ্ট সীমারেখা যুক্ত সিস্ট (৩৫ মিমি) কোথায় অবস্থিত?,সম্মুখবর্তী মিডিয়াস্টিনাম,A,A,False,False,0.64676887,False,True,False,0.0
+461,787,medicat,position,থ্রম্বোসিসের কারণে সম্পূর্ণ অবরোধের অবস্থান কোথায়?,আইভি,The image shows the liver,The image shows the liver.,False,False,0.6793464,False,True,False,0.0
+462,504,medicat,position,প্লুরাল ইফিউশন কোথায় অবস্থিত?,ডান দিকে,A: The image shows the lungs,A: The image shows the lungs.,False,False,0.6748278,False,True,False,0.0
+463,641,medicat,position,সাবঅ্যারাকনয়েড হেমোরেজ (SAH) এর অবস্থান কোথায়?,ইন্ট্রাক্রানিয়াল,C,C,False,False,0.64337987,False,True,False,0.0
+464,426,medicat,position,অসিমেট্রিক গ্রাউন্ড-গ্লাস অপাসিটিস কোথায় অবস্থিত?,দ্বিপার্শ্বীয় নিম্ন ফুসফুস।,Right lung,Right lung,False,False,0.63058746,False,True,False,0.0
+465,1055,medicat,position,সিকাল মাসের অবস্থান কোথায়?,সিকাম,a) left,a) left,False,False,0.6265773,False,True,False,0.0
+466,604,medicat,position,আইসোডেনস টিউমার (দেরী কন্ট্রাস্ট) কোথায় অবস্থিত?,অনির্দিষ্ট,c,c,False,False,0.68089646,False,True,False,0.0
+467,1084,medicat,position,নিউমোমেডিয়াসটিনাম কোথায় অবস্থিত?,বুক,a) Mediastinum,a) Mediastinum,False,False,0.63251853,False,True,False,0.0
+468,590,medicat,position,বৃদ্ধিপ্রাপ্ত রেটিকুলার এবং নোডুলার ইন্টারস্টিশিয়াল ডেনসিটি কোথায় অবস্থিত?,উভয় ফুসফুসে।,রেটিকুলার,রেটিকুলার,False,False,0.6877215,False,False,False,0.0
+469,626,medicat,position,মেটাস্ট্যাটিক ক্ষতটি কোথায় অবস্থিত?,অগ্ন্যাশয়ের মাথা,পানাইটিক ক্ষতটি অবস্থিত,পানাইটিক ক্ষতটি অবস্থিত,False,False,0.6859917,False,False,False,0.0
+470,1179,medicat,position,উল্লেখযোগ্যভাবে হ্রাসকৃত ওইইএফ এর অবস্থান কি?,"মস্তিষ্ক, বাম প্যারাইটাল লোব",c,c,False,False,0.61909664,False,True,False,0.0
+471,952,medicat,position,"ডান হিলাসের (hilum) প্রমিনেন্স লিম্ফাডেনোপ্যাথির (lymphadenopathy) ইঙ্গিত দিচ্ছে, এটি কোথায় অবস্থিত?",ডান হিলাসে,(a) right,(a) right,False,False,0.62054217,False,True,False,0.3
+472,300,medicat,position,হেটেরোজেনাস রেট্রোপেরিটোনিয়াল মাস এর অবস্থান কোথায়?,এল১ থেকে এস১,C,C,False,False,0.6581671,False,True,False,0.0
+473,531,medicat,position,একাধিক বিক্ষিপ্ত নডিউলগুলো কোথায় অবস্থিত?,বুক,a) পায়ের মাথায়,a) পায়ের মাথায়,False,False,0.6749208,False,False,False,0.0
+474,885,medicat,position,বিস্তৃত উচ্চ-তীব্রতার সংকেতগুলো কোথায় অবস্থিত?,মেরুদণ্ড।,The image shows multiple high-intensity signals in the periventricular region,The image shows multiple high-intensity signals in the periventricular region.,False,False,0.6051729,False,True,True,0.0
+475,1424,medicat,position,তীব্র ইস্কেমিক ক্ষতগুলোর অবস্থান কোথায়?,দ্বিপাক্ষিক প্যারামিডিয়ান,The image shows the brain,The image shows the brain.,False,False,0.6165106,False,True,False,0.0
+476,366,medicat,position,স্টার্নামের দেবে যাওয়া অংশটি কোথায় অবস্থিত?,স্টার্নাম,The image shows the patient's chest imaging prior to surgical correction,The image shows the patient's chest imaging prior to surgical correction.,False,False,0.56209725,False,True,True,0.0
+477,188,medicat,position,নিউমোনিয়া কোথায় অবস্থিত?,উভয় দিকে,C,C,False,False,0.6686357,False,True,False,0.0
+478,740,medicat,position,Retroperitoneal ব্যাপন এর অবস্থান কোথায়?,রেট্রোপেরিটোনিয়াম।,The image shows the retroperitoneal region,The image shows the retroperitoneal region.,False,False,0.623064,False,True,False,0.4
+479,1371,medicat,position,সিএম (CM) এর সাথে সম্পর্কিত কনফরমেশনাল বৈশিষ্ট্যগুলি কোথায় অবস্থিত?,ক্রানিওসারভিকাল অঞ্চল,cerebellum,cerebellum,False,False,0.62905055,False,True,False,0.0
+480,275,medicat,position,সিস্টিক টিউমারের অবস্থান কি?,প্রিভার্টিব্রাল,প্রেভেরেল ক্যাসিটিক টিউমার,প্রেভেরেল ক্যাসিটিক টিউমার,False,False,0.770832,False,False,False,0.3
+481,568,medicat,position,স্ক্যাপুলার বডির ফ‍্যাকচারের অবস্থান কী?,উভয় দিকে,লাইনার বডি,লাইনার বডি,False,False,0.7027592,False,False,False,0.0
+482,810,medicat,position,হাইপোডেন্স কীলক আকৃতির এলাকাটি কোথায় অবস্থিত যা ইনফার্কশন নির্দেশ করে?,বাম প্যারাইটাল লোব,The image shows a hypodense wedge-shaped area in the brain,The image shows a hypodense wedge-shaped area in the brain.,False,False,0.64193666,False,True,True,0.2
+483,1036,medicat,position,উচ্চ সংকেত তীব্রতার অবস্থান কী?,অনির্দিষ্ট,A. Bilateral cerebellar atrophy,A. Bilateral cerebellar atrophy,False,False,0.6212459,False,True,False,0.0
+484,392,medicat,position,সামান্য বড় প্লীহা কোথায় অবস্থিত?,অনির্দিষ্ট,A,A,False,False,0.7348809,False,True,False,0.0
+485,905,medicat,position,ইউভিয়াল ট্র্যাক্টের ফোকাল থিকেনিং-এর অবস্থান কোথায়?,এলই।,The image shows the brain,The image shows the brain.,False,False,0.60407984,False,True,False,0.0
+486,110,medicat,position,"বড়, গোলাকার, সমসত্ত্ব রেডিওলুসেন্সি কোথায় অবস্থিত?",ডান উপরের চতুর্ভুজ।,The sigmoid colon is located in the right side of the abdomen,The sigmoid colon is located in the right side of the abdomen.,False,False,0.6363695,False,True,True,0.0
+487,847,medicat,position,পেরিলেশনাল ইডিমার অবস্থান কোথায়?,অনির্দিষ্ট,C,C,False,False,0.69226575,False,True,False,0.0
+488,851,medicat,position,নোডুলের অবস্থান কী?,বুকের ডান এলাকা,The tumor is in the lung,The tumor is in the lung.,False,False,0.70580083,False,True,False,0.0
+489,68,medicat,position,হাইপারট্রোফাইড মিড লেফট ভেন্ট্রিকুলার (এলভি) ওয়ালের অবস্থান কোথায়?,বাম ভেন্ট্রিকল,A,A,False,False,0.6719397,False,True,False,0.0
+490,1102,medicat,position,"গোলাকার, স্পষ্টভাবে চিহ্নিত ভরটি কোথায় অবস্থিত?",ডান হাইলাম,"The image shows a round, gołąkakar, spshtapbavah chihinit bhoyat","The image shows a round, gołąkakar, spshtapbavah chihinit bhoyat.",False,False,0.5953171,False,True,True,0.0
+491,676,medicat,position,gray-white পার্থক্যের হ্রাসের অবস্থান কোথায়?,অনির্দিষ্ট,* এবং একটি চিহ্নিত পার্থক্য,* এবং একটি চিহ্নিত পার্থক্য,False,False,0.718484,False,False,False,0.0
+492,1104,medicat,position,অসম্পূর্ণ সুপিরিয়র ক্লিফট সহ বাইফিড স্টার্নাম কোথায় অবস্থিত?,"ম্যানুব্রিয়াম, স্টার্নাল বডি",The image shows the stomach,The image shows the stomach.,False,False,0.64862597,False,True,False,0.0
+493,764,medicat,position,ছোট সাদা পদার্থ প্রসারণটির অবস্থান কোথায়?,ডান ফ্রন্টাল লোব,Right,Right,False,False,0.7026608,False,True,False,0.0
+494,32,medicat,position,তীব্র ফোকাল হাইপারমেটাবলিক অ্যাক্টিভিটির অবস্থান কোথায়?,পিত্তথলি,f,f,False,False,0.6606468,False,True,False,0.0
+495,1139,medicat,position,কোথায় প্রজাপতি-সদৃশ কশেরুকার মিথ্যা চিত্র অবস্থিত?,এবং কশেরুকা,Thoracic,Thoracic,False,False,0.6534179,False,True,False,0.0
+496,221,medicat,position,উন্নত জলের ব্যাপন কোথায় দেখা যায়?,সমস্ত মস্তিষ্কের অঞ্চলে।,C,C,False,False,0.6321475,False,True,False,0.0
+497,1365,medicat,position,খোলা ফন্টানেলগুলি কোথায় অবস্থিত?,করোটি,A,A,False,False,0.7151761,False,True,False,0.0
+498,1276,medicat,position,বিস্তৃত লেপ্টোমেনিনজিয়াল বৃদ্ধি কোথায় অবস্থিত?,অনির্দিষ্ট,A,A,False,False,0.7348809,False,True,False,0.0
+499,1403,medicat,position,কোথায় কোনো কর্ড (cord) প্রসারণ নেই?,স্পাইনাল কর্ড,No cord,No cord.,False,False,0.6389217,False,True,False,0.0
