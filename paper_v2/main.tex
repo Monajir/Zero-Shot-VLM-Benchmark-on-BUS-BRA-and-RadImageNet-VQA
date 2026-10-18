@@ -16,7 +16,6 @@
 %% ===========================================================================
 \documentclass[doublecolumn]{ijcvsplatex}
 \usepackage{graphicx}
-\usepackage{cuted}
 \usepackage{capt-of}
 \usepackage{amsmath}
 \usepackage{amssymb}
@@ -139,19 +138,22 @@ Closest to our work, Jeong et al.~\cite{jeong2024medadapt} compared medical lang
 Medical VQA has been evaluated almost only in English. IndoRad-VQA~\cite{indoradvqa2026} translated VQA-RAD into Indonesian and found gaps of 8--25\% between English and Indonesian, including answers in the wrong language. BanglaMedVQA~\cite{ahmed2026banglamedvqa}, the first Bangla medical VQA dataset, evaluated nine VLMs and found that medical VLMs (Med-LLaVA and MedGemma) underperformed general-purpose ones in zero-shot Bangla. Two known biases matter for our analysis: VQA models can exploit answer priors such as favouring ``yes''~\cite{goyal2017vqav2}, and language models prefer certain option letters in multiple-choice questions~\cite{zheng2024mcqbias}.
 
 %% ===========================================================================
+% Start a page with the full-width pipeline, then read Methodology down each column.
+\twocolumn[{
+\begin{minipage}{\textwidth}
+\centering
+\input{figures/pipeline.tex}
+\captionof{figure}{Experimental pipeline. (a) Each task uses a fixed, seeded sample that is identical for all models. (b) The four released models answer every item zero-shot with the same task prompt; the links denote comparison pairs, not training ancestry, and no model was trained in this study. (c) Answers are scored with task-specific parsers and metrics. (d) Each medical model is compared with its general-purpose counterpart on the same items, and answer distributions are analysed by question type.}
+\label{fig_pipeline}
+\end{minipage}
+\vspace{1em}
+}]
+
 \section{METHODOLOGY}
 \label{sec_method}
 
 \subsection{Study design}
 The study compares each medical VLM with its general-purpose counterpart (Fig.~\ref{fig_pipeline}, Table~\ref{tab_models}). For each task, all four models receive the same items in the same order, with the same prompt and greedy decoding; model-specific processing and output limits are described in Section~\ref{sec_inference}. No model is fine-tuned and the prompts contain no examples. We chose the zero-shot setting because it is how a team without labelled data or fine-tuning resources would use these models, and because it measures what the medical adaptation itself adds. Using one prompt for both members of a pair standardises the task instruction, at the cost of not giving each model its own best prompt (Section~\ref{sec_limitations}).
-
-% Keep the full-width pipeline inside Study design without deferring a page.
-\begin{strip}
-\centering
-\input{figures/pipeline.tex}
-\captionof{figure}{Experimental pipeline. (a) Each task uses a fixed, seeded sample that is identical for all models. (b) The four released models answer every item zero-shot with the same task prompt; the links denote comparison pairs, not training ancestry, and no model was trained in this study. (c) Answers are scored with task-specific parsers and metrics. (d) Each medical model is compared with its general-purpose counterpart on the same items, and answer distributions are analysed by question type.}
-\label{fig_pipeline}
-\end{strip}
 
 % Keep the model table with Study design.
 \par\medskip\noindent
