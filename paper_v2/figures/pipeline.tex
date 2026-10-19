@@ -41,18 +41,18 @@
 %% ---- (b) zero-shot inference ----------------------------------------------
 \node[txt, anchor=north, align=center] at (\xB+0.5*\wB,-0.42)
   {Same items and same task prompt\\ for all four models};
-\node[font=\scriptsize\itshape] at (\xB+1.05,-1.28) {General (base)};
+\node[font=\scriptsize\itshape] at (\xB+1.05,-1.28) {General-purpose};
 \node[font=\scriptsize\itshape] at (\xB+\wB-1.05,-1.28) {Medical};
 \node[model, fill=cQwen] (qwen) at (\xB+1.05,-1.82) {Qwen2-VL-2B};
 \node[model, fill=cMedVLM, text=white] (medvlm) at (\xB+\wB-1.05,-1.82) {MedVLM-R1};
 \node[model, fill=cGemma] (gemma) at (\xB+1.05,-2.50) {Gemma 3 4B};
 \node[model, fill=cMedGemma, text=white] (medgemma) at (\xB+\wB-1.05,-2.50) {MedGemma 4B};
-\draw[->, black!70] (qwen) -- (medvlm);
-\draw[->, black!70] (gemma) -- (medgemma);
+\draw[-, black!70] (qwen) -- (medvlm);
+\draw[-, black!70] (gemma) -- (medgemma);
 \node[txt, font=\tiny, text=black!75] at (\xB,-2.98)
-  {Arrows: adapted by the model authors\\
+  {Links: comparison pairs\\
    MedVLM-R1: RL, 600 MRI questions\\
-   MedGemma: medical image/text training};
+   MedGemma: from pretrained Gemma 3};
 \node[txt] at (\xB,-4.02)
   {No training in this study\\ No examples in the prompt\\ Greedy decoding, bf16, batch size 1};
 
@@ -66,7 +66,7 @@
 
 %% ---- (d) analysis ---------------------------------------------------------
 \node[txt] at (\xD,-0.62)
-  {\textbf{Medical vs.\ base model}\\ paired difference on the\\ same items, bootstrap\\ 95\% CI, McNemar test,\\ identical answers\\[6pt]
+  {\textbf{Medical vs.\ general}\\ paired difference on the\\ same items, bootstrap\\ 95\% CI, McNemar test,\\ identical answers\\[6pt]
    \textbf{Answer preferences}\\ constant labels, ``yes''/``no''\\ skew, favoured letters\\[6pt]
    \textbf{Question type}\\ anatomy and modality\\ vs.\ disease questions\\[6pt]
    \textbf{Answer language} (Bangla)};

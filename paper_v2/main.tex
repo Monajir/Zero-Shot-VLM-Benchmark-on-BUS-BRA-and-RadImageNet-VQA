@@ -16,6 +16,7 @@
 %% ===========================================================================
 \documentclass[doublecolumn]{ijcvsplatex}
 \usepackage{graphicx}
+\usepackage{capt-of}
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{booktabs}
@@ -80,14 +81,14 @@
 
 \begin{frontmatter}
 
-\title{Are Medical Vision-Language Models Better Than Their Base Models? A Paired Zero-Shot Evaluation on Three Medical Imaging Tasks}
+\title{Are Medical Vision-Language Models Better Than General-Purpose Models? A Paired Zero-Shot Evaluation on Three Medical Imaging Tasks}
 
 %% Double-blind review: keep anonymous until camera-ready.
 \author{Anonymous Authors}
 \address{Affiliation withheld for double-blind review}
 
 \begin{abstract}
-Medical vision-language models (VLMs) are usually built by further training a general-purpose VLM, and are expected to beat that base model on medical images. We test this directly with two small open model pairs: \medvlm{} versus its base \qwen{}-2B, and \medgemma{}~4B versus its base \gemma{}~4B. All four models answer the same items, zero-shot, with the same prompts, on three tasks: benign/malignant classification of breast ultrasound (BUS-BRA, 400 images), closed-ended CT/MRI question answering (RadImageNet-VQA, 500 questions) and open-ended medical question answering in Bangla (BanglaMedVQA, 500 questions). Medical adaptation did not give a consistent gain. \medvlm{} answered almost exactly like its base model on all three tasks. \medgemma{} improved on its base model only in Bangla (+7.4 LAVE points), was not significantly better on breast ultrasound, and was slightly worse on RadImageNet-VQA. All models recognised modality and anatomy far better than disease, and often answered from fixed preferences (one label, ``yes'' or ``no'', one option letter). In Bangla, most answers were in English, and the LLM-judged metric scored correct English answers inconsistently.
+Medical vision-language models (VLMs) are usually built by further training a general-purpose VLM, and are expected to outperform general-purpose models on medical images. We examine this with two small open model pairs: \medvlm{} versus its base \qwen{}-2B, and \medgemma{}~4B versus its general-purpose counterpart \gemma{}~4B. All four models answer the same items, zero-shot, with the same prompts, on three tasks: benign/malignant classification of breast ultrasound (BUS-BRA, 400 images), closed-ended CT/MRI question answering (RadImageNet-VQA, 500 questions) and open-ended medical question answering in Bangla (BanglaMedVQA, 500 questions). Under this shared direct-answer protocol, the medical models did not consistently outperform their counterparts. \medvlm{} showed high answer agreement with \qwen{} and no statistically detected aggregate improvement. \medgemma{} obtained a higher Bangla judge score (+7.4 LAVE points), but neither its higher breast-ultrasound accuracy nor its lower RadImageNet-VQA accuracy differed significantly from \gemma{}'s. Modality and anatomy scores were higher than disease scores, and several answer distributions were strongly skewed. Most Bangla-task answers contained no Bangla script, and the LLM judge scored correct English answers inconsistently, limiting interpretation of the score advantage.
 \\
 \textbf{Contribution of the Paper:} A paired comparison of medical VLMs against their own base models on three tasks, showing that medical adaptation does not consistently improve zero-shot performance and that answer biases and cross-lingual scoring can hide this behind headline accuracy.
 \end{abstract}
@@ -106,25 +107,25 @@ A growing number of vision-language models (VLMs) are released for medicine. Mos
 
 This is rarely tested directly. New medical models are usually compared with other medical models or with large proprietary systems, and the most informative baseline, the original base model under the same conditions, is often missing. When the comparison has been made carefully, medical models have often not come out ahead~\cite{jeong2024medadapt}, and some benchmarks found medical VLMs scoring below general ones~\cite{hu2024omnimedvqa}.
 
-We ask this question for small, open VLMs that a hospital or research group with limited resources could run locally: \emph{when used zero-shot, does a medical VLM answer medical image questions better than its own base model?} We compare two pairs. \medvlm{}~\cite{pan2025medvlmr1} was built from \qwen{}-2B~\cite{wang2024qwen2vl} with reinforcement learning, and \medgemma{}~4B~\cite{sellergren2025medgemma} was built from \gemma{}~4B~\cite{gemma3} with large-scale medical training. Within each pair the architecture is the same, so differences can be attributed to the medical adaptation.
+We ask this question for small, open VLMs that a hospital or research group with limited resources could run locally: \emph{when used zero-shot, does a medical VLM answer medical image questions better than its general-purpose counterpart?} We compare two pairs. \medvlm{}~\cite{pan2025medvlmr1} was built from \qwen{}-2B~\cite{wang2024qwen2vl} with reinforcement learning, and \medgemma{}~4B~\cite{sellergren2025medgemma} was built from \gemma{}~4B~\cite{gemma3} with large-scale medical training. Within each pair the architecture is the same, so differences can be attributed to the medical adaptation.
 
 We use three tasks, each adding something the previous one cannot show:
 \begin{itemize}
-\item \textbf{Breast ultrasound classification} on BUS-BRA~\cite{gomezflores2024busbra}: one binary diagnostic decision with a known chance level. It shows whether a model uses the image at all.
+\item \textbf{Breast ultrasound classification} on BUS-BRA~\cite{gomezflores2024busbra}: one binary diagnostic decision with a known chance level. It reveals whether predictions vary across images and exceed a constant-label baseline.
 \item \textbf{Closed-ended CT/MRI VQA} on RadImageNet-VQA~\cite{butsanets2025radimagenetvqa}: yes/no and multiple-choice questions that separate recognising anatomy from recognising disease, scored exactly.
 \item \textbf{Open-ended Bangla VQA} on BanglaMedVQA~\cite{ahmed2026banglamedvqa}: free-text answers to questions in a low-resource language, closest to how a clinician or patient might actually use a model.
 \end{itemize}
 
-Across the three tasks, medical adaptation did not give a consistent advantage: one medical model behaved almost as a copy of its base model, and the other was better on one task, not significantly different on one and slightly worse on one. The answers also show \emph{why} accuracy alone is misleading here: several models gave nearly the same answer to every image, and the Bangla metrics mis-scored correct answers given in English.
+Across the three tasks, the medical models did not show a consistent advantage under our shared direct-answer protocol: \medvlm{} showed high answer agreement with \qwen{} without a statistically detected aggregate gain, while \medgemma{} obtained a higher Bangla judge score but no significant accuracy difference on the other two tasks. The answers also show \emph{why} accuracy alone is misleading here: several models gave nearly the same answer to every image, and the Bangla judge mis-scored correct answers given in English.
 
-Our contributions are: (1) a paired, base-model-controlled zero-shot comparison of two medical VLMs on three tasks with identical items, prompts and decoding; (2) an analysis of how the models fail, including constant answers, yes/no and option-letter preferences, and the gap between anatomy and disease questions; and (3) an audit of the Bangla evaluation showing that an LLM-judged metric~\cite{manas2024lave} gives inconsistent credit to correct English answers.
+Our contributions are: (1) a paired zero-shot comparison of two medical VLMs with general-purpose counterparts on three tasks using identical items and prompts with greedy decoding; (2) an analysis of observed failures, including constant answers, skewed yes/no and option-letter distributions, and the gap between anatomy and disease questions; and (3) an audit of the Bangla evaluation showing that an LLM-judged metric~\cite{manas2024lave} gives inconsistent credit to correct English answers.
 
 %% ===========================================================================
 \section{RELATED WORKS}
 \label{sec_rl}
 
 \subsection{Medical VLMs and their base models}
-\textbf{Base models.} \qwen{}~\cite{wang2024qwen2vl} combines a vision transformer with the Qwen2 language model. It processes images at their native resolution, turning each image into a variable number of visual tokens, and was released at 2B, 8B and 72B parameters. \gemma{}~\cite{gemma3} is a family of open models from 1B to 27B parameters; the report introduces vision input through a SigLIP-based encoder, a longer context and improved multilingual ability over Gemma~2. We use the instruction-tuned 2B and 4B models.
+\textbf{General-purpose models.} \qwen{}~\cite{wang2024qwen2vl} combines a vision transformer with the Qwen2 language model. It supports variable image resolutions within processor limits, turning each image into a variable number of visual tokens, and was released at 2B, 7B and 72B parameters. \gemma{}~\cite{gemma3} is a family of open models from 1B to 27B parameters; the report introduces vision input through a SigLIP-based encoder, a longer context and improved multilingual ability over Gemma~2. We use the instruction-tuned 2B and 4B models.
 
 \textbf{Medical VLMs.} Early medical VLMs adapted general models with biomedical image--text data: LLaVA-Med~\cite{li2023llavamed} fine-tuned LLaVA on PubMed Central figure--caption pairs and GPT-4-generated instructions, Med-PaLM~M~\cite{tu2023medpalmm} trained one large model on 14 biomedical tasks, and HuatuoGPT-Vision~\cite{chen2024huatuogptvision} was trained on 1.3 million medical VQA samples refined with GPT-4V. The two medical models we test represent two different strategies for small models. \textbf{\medgemma{}}~\cite{sellergren2025medgemma} builds on \gemma{} with a medically tuned vision encoder (MedSigLIP) and further medical image and text training; its report describes gains of 2.6--10\% on out-of-distribution medical multimodal question answering over the base models. \textbf{\medvlm{}}~\cite{pan2025medvlmr1} applies Group Relative Policy Optimization~\cite{shao2024deepseekmath} to \qwen{}-2B using only 600 MRI multiple-choice questions. The reward checks that the model writes its reasoning in \texttt{<think>} tags and its final letter in \texttt{<answer>} tags, and that the letter is correct. The authors report an accuracy increase from 55.11\% to 78.22\% on MRI, CT and X-ray test questions.
 
@@ -137,28 +138,34 @@ Closest to our work, Jeong et al.~\cite{jeong2024medadapt} compared medical lang
 Medical VQA has been evaluated almost only in English. IndoRad-VQA~\cite{indoradvqa2026} translated VQA-RAD into Indonesian and found gaps of 8--25\% between English and Indonesian, including answers in the wrong language. BanglaMedVQA~\cite{ahmed2026banglamedvqa}, the first Bangla medical VQA dataset, evaluated nine VLMs and found that medical VLMs (Med-LLaVA and MedGemma) underperformed general-purpose ones in zero-shot Bangla. Two known biases matter for our analysis: VQA models can exploit answer priors such as favouring ``yes''~\cite{goyal2017vqav2}, and language models prefer certain option letters in multiple-choice questions~\cite{zheng2024mcqbias}.
 
 %% ===========================================================================
+% Start a page with the full-width pipeline, then read Methodology down each column.
+\twocolumn[{
+\begin{minipage}{\textwidth}
+\centering
+\input{figures/pipeline.tex}
+\captionof{figure}{Experimental pipeline. (a) Each task uses a fixed, seeded sample that is identical for all models. (b) The four released models answer every item zero-shot with the same task prompt; the links denote comparison pairs, not training ancestry, and no model was trained in this study. (c) Answers are scored with task-specific parsers and metrics. (d) Each medical model is compared with its general-purpose counterpart on the same items, and answer distributions are analysed by question type.}
+\label{fig_pipeline}
+\end{minipage}
+\vspace{1em}
+}]
+
 \section{METHODOLOGY}
 \label{sec_method}
 
-\begin{figure*}[tb]
-\centering
-\input{figures/pipeline.tex}
-\caption{Experimental pipeline. (a) Each task uses a fixed, seeded sample that is identical for all models. (b) The four models answer every item zero-shot with the same task prompt; the medical models were adapted from their base models by their original authors, and no model was trained in this study. (c) Answers are scored with task-specific parsers and metrics. (d) Each medical model is compared with its own base model on the same items, and the answers are analysed for fixed preferences and by question type.}
-\label{fig_pipeline}
-\end{figure*}
-
 \subsection{Study design}
-The study has one controlled comparison: each medical VLM against its own base model (Fig.~\ref{fig_pipeline}, Table~\ref{tab_models}). For each task, all four models receive the same items in the same order, with the same prompt and the same deterministic decoding; only the model-loading code differs. No model is fine-tuned and the prompts contain no examples. We chose the zero-shot setting because it is how a team without labelled data or fine-tuning resources would use these models, and because it measures what the medical adaptation itself adds. Using one prompt for both members of a pair keeps the comparison fair, at the cost of not giving each model its own best prompt (Section~\ref{sec_limitations}).
+The study compares each medical VLM with its general-purpose counterpart (Fig.~\ref{fig_pipeline}, Table~\ref{tab_models}). For each task, all four models receive the same items in the same order, with the same prompt and greedy decoding; model-specific processing and output limits are described in Section~\ref{sec_inference}. No model is fine-tuned and the prompts contain no examples. We chose the zero-shot setting because it is how a team without labelled data or fine-tuning resources would use these models, and because it measures what the medical adaptation itself adds. Using one prompt for both members of a pair standardises the task instruction, at the cost of not giving each model its own best prompt (Section~\ref{sec_limitations}).
 
-\begin{table}[tb]
+% Keep the model table with Study design.
+\par\medskip\noindent
+\begin{minipage}{\columnwidth}
 \centering
-\caption{Model pairs. Each medical model was trained from the general model in the same row (Hugging Face IDs in typewriter font).}
+\captionof{table}{Model pairs. Each medical model was trained from the general model in the same row (Hugging Face IDs in typewriter font).}
 \label{tab_models}
 \footnotesize
 \setlength{\tabcolsep}{3pt}
 \begin{tabular}{@{}lll@{}}
 \toprule
- & \textbf{General (base)} & \textbf{Medical version} \\
+ & \textbf{General-purpose} & \textbf{Medical version} \\
 \midrule
 $\sim$2B & \qwen{}-2B-Instruct~\cite{wang2024qwen2vl} & \medvlm{}~\cite{pan2025medvlmr1} \\
  & \scriptsize\texttt{Qwen/Qwen2-VL-2B-Instruct} & \scriptsize\texttt{JZPeterPan/MedVLM-R1} \\
@@ -169,13 +176,16 @@ $\sim$4B & \gemma{}~4B-it~\cite{gemma3} & \medgemma{}~4B-it~\cite{sellergren2025
  & & \scriptsize medical image and text training \\
 \bottomrule
 \end{tabular}
-\end{table}
+\end{minipage}
+\par\medskip
 
 \subsection{Datasets and sampling}
 \label{sec_data}
 Fig.~\ref{fig_pipeline}(a) summarises the three samples and Fig.~\ref{fig_samples} shows example images. All samples were drawn with seed 42 and saved, so every model saw identical items. Every binary label set is balanced (benign/malignant, and ``yes''/``no'' within each yes/no group), so a model that always gives the same answer scores exactly chance and any answer preference becomes visible.
 
-\begin{figure}[tb]
+% Keep the sample images after the Datasets and sampling introduction.
+\par\medskip\noindent
+\begin{minipage}{\columnwidth}
 \centering
 \begin{tabular}{@{}c@{\hspace{3pt}}c@{\hspace{3pt}}c@{}}
 \includegraphics[height=2.75cm]{figures/busbra_benign.png} &
@@ -183,9 +193,10 @@ Fig.~\ref{fig_pipeline}(a) summarises the three samples and Fig.~\ref{fig_sample
 \includegraphics[height=2.75cm]{figures/bnvqa_chestxray_00001170_046.jpg} \\
 \scriptsize (a) BUS-BRA, benign & \scriptsize (b) BUS-BRA, malignant & \scriptsize (c) BanglaMedVQA \\
 \end{tabular}
-\caption{Example images from our samples. (a, b) BUS-BRA~\cite{gomezflores2024busbra} images bus\_0007-l and bus\_0001-l (CC~BY~4.0); only \medgemma{} classified both correctly. (c) ChestX-ray8~\cite{wang2017chestxray8} image 00001170\_046 with the question \bn{কোনও অস্বাভাবিকতা আছে কি?} (``Are any abnormalities present?''; reference \bn{হ্যাঁ}, ``yes''). RadImageNet-VQA images are not shown because its research-use agreement does not allow any part of the dataset to be reproduced.}
+\captionof{figure}{Example images from our samples. (a, b) BUS-BRA~\cite{gomezflores2024busbra} images bus\_0007-l and bus\_0001-l (CC~BY~4.0); only \medgemma{} classified both correctly. (c) ChestX-ray8~\cite{wang2017chestxray8} image 00001170\_046 with the question \bn{কোনও অস্বাভাবিকতা আছে কি?} (``Are any abnormalities present?''; reference \bn{হ্যাঁ}, ``yes''). RadImageNet-VQA images are not shown because its research-use agreement does not allow any part of the dataset to be reproduced.}
 \label{fig_samples}
-\end{figure}
+\end{minipage}
+\par\medskip
 
 \textbf{BUS-BRA}~\cite{gomezflores2024busbra} contains 1,875 breast ultrasound images from 1,064 patients with biopsy-proven benign or malignant labels (1,268 benign, 607 malignant). We chose it because the task is a clinically meaningful binary decision with a clear chance level, the labels are biopsy-proven, the dataset is openly licensed (CC~BY~4.0), and case identifiers let us take one image per case. We sampled 400 images from 400 different cases, excluding 20 cases used in an earlier pilot run and 13 cases flagged during data checks. The final ID list was frozen and verified with a SHA-256 hash before each run.
 
@@ -229,6 +240,7 @@ Position & \bn{নডিউলটি কোথায় অবস্থিত?} 
 \end{table*}
 
 \subsection{Inference and answer parsing}
+\label{sec_inference}
 All models ran in bfloat16 with greedy decoding (no sampling), batch size~1 and seed~42, using each model's own chat template. Greedy decoding makes outputs deterministic for a given setup, and batch size~1 avoids padding effects. The output limit was 32 new tokens for BUS-BRA, 16 for RadImageNet-VQA and 96 for BanglaMedVQA (256 for \medvlm{}, so that a reasoning block, if produced, would not cut off the answer). The BUS-BRA runs pinned model revisions and library versions and ran on Kaggle T4 GPUs. In the two VQA runs, \medvlm{}'s own processor did not load with the installed \texttt{transformers} version, so we used the processor of its base model, \qwen{}-2B-Instruct; for BanglaMedVQA the Qwen processors were limited to $256$--$1280$ visual patches of $28\times28$ pixels.
 
 Answers that could not be parsed would count as wrong, but every output was parseable. BUS-BRA answers had to be exactly \texttt{benign} or \texttt{malignant}; RadImageNet-VQA took the first standalone letter A--D or the first ``yes''/``no''; BanglaMedVQA answers were only stripped of whitespace, quotes and a final full stop or Bangla \emph{dari}. All 3,600 classification and closed-VQA outputs were a single word or letter, and no model produced \texttt{<think>} or \texttt{<answer>} tags in any task.
@@ -238,19 +250,19 @@ For BUS-BRA and RadImageNet-VQA we report accuracy with 95\% Wilson intervals~\c
 
 For BanglaMedVQA we follow the original paper and report exact match (EM), BERTScore F1~\cite{zhang2020bertscore} (cased multilingual BERT-base, layer~9, no rescaling) and LAVE~\cite{manas2024lave}, in which an LLM judge rates each answer between 0 and 1 against the reference. As in the original paper, the judge was GPT-4.1-mini with the paper's judge prompt, which shows only the reference and the answer, not the question; we used one call per answer at temperature~0, and no call failed. LAVE is our main Bangla metric because EM is close to zero for all models. We also checked LAVE with two rule-based audits that use no judge: whether a yes/no answer is correct in either language, and whether the modality named in a modality answer is correct.
 
-Each medical model is compared with its base model on the same items. We report the paired difference with a 95\% bootstrap interval (5,000 resamples of items), and for accuracy the exact McNemar test~\cite{mcnemar1947}.
+Each medical model is compared with its general-purpose counterpart on the same items. We report the paired difference with a 95\% bootstrap interval (5,000 resamples of items), and for accuracy the exact McNemar test~\cite{mcnemar1947}.
 
 %% ===========================================================================
 \section{RESULTS AND ANALYSIS}
 \label{sec_results}
 
-\subsection{Main result: medical versus base model}
+\subsection{Main result: medical versus general-purpose model}
 \label{sec_res_main}
-Table~\ref{tab_pairs} compares each medical model with its base model on all three tasks. Medical adaptation did not give a consistent advantage.
+Table~\ref{tab_pairs} compares each medical model with its general-purpose counterpart on all three tasks. The medical models did not show a consistent advantage under our shared direct-answer protocol.
 
 \begin{table}[tb]
 \centering
-\caption{Medical model minus its base model on the same items: difference in accuracy (BUS-BRA, RadImageNet-VQA) or LAVE (BanglaMedVQA), in percentage points, with 95\% paired bootstrap interval; exact McNemar $p$; share of identical answers.}
+\caption{Medical model minus its general-purpose counterpart on the same items: difference in accuracy (BUS-BRA, RadImageNet-VQA) or LAVE (BanglaMedVQA), in percentage points, with 95\% paired bootstrap interval; exact McNemar $p$; share of identical answers.}
 \label{tab_pairs}
 \footnotesize
 \setlength{\tabcolsep}{2.5pt}
@@ -273,13 +285,13 @@ Table~\ref{tab_pairs} compares each medical model with its base model on all thr
 
 \textbf{\medvlm{} behaved like a copy of \qwen{}.} It gave identical answers on every BUS-BRA image, on 93\% of RadImageNet-VQA questions and on 72\% of BanglaMedVQA questions, and none of the differences is distinguishable from zero. This fits its training: it was tuned on 600 MRI multiple-choice questions to write a reasoning block before a letter answer. Our prompts asked for a bare answer, the model complied, and the reinforcement learning left its direct answers essentially unchanged.
 
-\textbf{\medgemma{} changed its answers a lot, but not consistently for the better.} Only 35--55\% of its answers matched \gemma{}'s. It was clearly better on Bangla, ahead but not significantly on BUS-BRA, and slightly (not significantly) behind on RadImageNet-VQA. The next three subsections show what each task adds to this picture.
+\textbf{\medgemma{} gave different answers, without a consistent score advantage.} Only 35--55\% of its answers matched \gemma{}'s. It obtained a higher Bangla judge score, higher but not significantly different accuracy on BUS-BRA, and lower but not significantly different accuracy on RadImageNet-VQA. The Bangla audit limits interpretation of that judge-score gain. The next three subsections show what each task adds to this picture.
 
 \subsection{BUS-BRA: accuracy hides constant answers}
 \label{sec_res_busbra}
-Three of the four models scored at chance on BUS-BRA (Table~\ref{tab_busbra}), and the reason is visible in their answers: \qwen{} and \medvlm{} answered ``benign'' for all 400 images, and \gemma{} answered ``malignant'' for 391. On a balanced sample a constant answer earns exactly 50\%. \gemma{}'s 98\% sensitivity therefore means nothing on its own: with 2.5\% specificity it flags almost every patient.
+Three of the four models scored at or near chance on BUS-BRA (Table~\ref{tab_busbra}), and the reason is visible in their answers: \qwen{} and \medvlm{} answered ``benign'' for all 400 images, and \gemma{} answered ``malignant'' for 391. On a balanced sample a constant answer earns exactly 50\%. \gemma{}'s 98\% sensitivity was accompanied by only 2.5\% specificity: it labelled almost every image malignant.
 
-\medgemma{} was the only model whose answers depended on the image. It reached 57.5\% (95\% CI 52.6--62.3\%), significantly above chance ($p=0.0016$, still significant after Bonferroni correction for four models). It leaned towards ``benign'', however, and missed 118 of the 200 cancers. Its gain over \gemma{} (+29 images) was not significant in the paired test (144 images correct only for \medgemma{} against 115 only for \gemma{}). So \medgemma{} shows a weak signal that its base model lacks, but this sample does not establish that medical training caused it.
+\medgemma{} was the only model with accuracy significantly above chance. It reached 57.5\% (95\% CI 52.6--62.3\%; $p=0.0016$, still significant after Bonferroni correction for four models). It leaned towards ``benign'', however, and misclassified 118 of the 200 malignant images. Its gain over \gemma{} (+29 images) was not significant in the paired test (144 images correct only for \medgemma{} against 115 only for \gemma{}). Thus, above-chance accuracy does not establish superiority over \gemma{} or isolate dependence on image content.
 
 \begin{table}[tb]
 \centering
@@ -302,7 +314,7 @@ Three of the four models scored at chance on BUS-BRA (Table~\ref{tab_busbra}), a
 
 \subsection{RadImageNet-VQA: anatomy is easy, disease is not}
 \label{sec_res_radimagenet}
-Overall accuracy was similar for all four models: 64.2\% (\qwen{}), 65.0\% (\medvlm{}), 63.0\% (\gemma{}) and 61.2\% (\medgemma{}), against a chance level of 40\%. The question groups tell a clearer story (Fig.~\ref{fig_radimagenet}). Every model recognised anatomy well (79--88\% on both anatomy groups), but on questions about disease all of them were near chance: 52--61\% on abnormality and pathology yes/no (chance 50\%) and 32--37\% on pathology multiple choice (chance 25\%). With 100 questions per group the 95\% interval is about $\pm$9 points, so several of the disease scores cannot be separated from guessing. Neither medical model narrowed this gap; \medgemma{} was in fact below \gemma{} on both anatomy groups, although neither difference is significant ($p=0.39$ and $0.79$).
+Overall accuracy was similar for all four models: 64.2\% (\qwen{}), 65.0\% (\medvlm{}), 63.0\% (\gemma{}) and 61.2\% (\medgemma{}), against a chance level of 40\%. The question groups tell a clearer story (Fig.~\ref{fig_radimagenet}). Every model recognised anatomy well (79--88\% on both anatomy groups), but disease scores were substantially lower: 52--61\% on abnormality and pathology yes/no (chance 50\%) and 32--37\% on pathology multiple choice (chance 25\%). With 100 questions per group the 95\% interval is about $\pm$9 points, so several of the disease scores cannot be separated from guessing. A large anatomy--disease gap remained for both medical models; \medgemma{} was below \gemma{} on both anatomy groups, although neither difference is significant ($p=0.39$ and $0.79$).
 
 \begin{figure}[tb]
 \centering
@@ -351,9 +363,9 @@ Top letter, path.\ MCQ & C (37) & C (35) & B (35) & B (42) \\
 
 The four models also failed together: all of them were wrong on the same 65 questions (13\%). Accuracy varied by body region (hip was hardest for every model, 37--53\% on 38 questions), but most region-level cells are too small to interpret.
 
-\subsection{BanglaMedVQA: the one clear gain, and why it needs care}
+\subsection{BanglaMedVQA: a judge-score gain that needs care}
 \label{sec_res_bangla}
-BanglaMedVQA is the only task where a medical model clearly beat its base model (Table~\ref{tab_bangla}): \medgemma{} reached 31.5\% LAVE against 24.1\% for \gemma{}. The two Qwen-family models were close to each other at about 15--16\%. Exact match was near zero for all models, which is why LAVE carries the comparison.
+BanglaMedVQA is the only task with a statistically detected aggregate score gain for a medical model (Table~\ref{tab_bangla}): \medgemma{} reached 31.5\% LAVE against 24.1\% for \gemma{}. This is a judge-score gain whose interpretation depends on the audit below. The two Qwen-family models were close to each other at about 15--16\%. Exact match was near zero for all models, which is why LAVE carries the comparison.
 
 \begin{table}[tb]
 \centering
@@ -374,7 +386,7 @@ BanglaMedVQA is the only task where a medical model clearly beat its base model 
 \end{tabular}}
 \end{table}
 
-\textbf{The gain is in the easy categories.} Fig.~\ref{fig_bangla} shows the same anatomy-versus-disease pattern as RadImageNet-VQA. Modality was the easiest category for every model, and organ questions were answered well only by the Gemma pair. Condition, abnormality and position stayed between 0\% and 13\% LAVE for all four models in both sources. \medgemma{}'s lead over \gemma{} came almost entirely from chest X-ray organ (+30.6 points) and chest X-ray modality (+20.4) questions, the only two cells whose paired intervals exclude zero. Modality is also close to a base-rate question here: X-ray is the reference for 56 of our 100 modality questions.
+\textbf{The judge-score gain is concentrated in modality and organ questions.} Fig.~\ref{fig_bangla} shows LAVE by question category. Modality had the highest LAVE for every model, and only the Gemma pair scored highly on organ questions. Condition, abnormality and position stayed between 0\% and 13\% LAVE for all four models in both sources. \medgemma{}'s lead over \gemma{} came almost entirely from chest X-ray organ (+30.6 points) and chest X-ray modality (+20.4) questions, the only two cells whose paired intervals exclude zero. Modality is also close to a base-rate question here: X-ray is the reference for 56 of our 100 modality questions.
 
 \begin{figure}[tb]
 \centering
@@ -393,13 +405,13 @@ BanglaMedVQA is the only task where a medical model clearly beat its base model 
 \label{fig_bangla}
 \end{figure}
 
-\textbf{The models mostly answered in English.} Although every question was in Bangla, 82--98\% of each model's answers contained no Bangla script; \medgemma{}, the best model, answered in Bangla least often. When the Qwen models did answer in Bangla the answer was often meaningless; their most frequent answer to chest X-ray organ questions was \bn{লাইন} (``line''). They also answered some MedICaT questions with a bare option letter although no options were given (39 answers for \qwen{}, 27 for \medvlm{}). Several models repeated one stock answer: \medvlm{} said ``pneumonia'' to 37 of the 50 chest X-ray condition questions. On the balanced abnormality questions, the yes/no preferences from RadImageNet-VQA appeared again: the Qwen models never answered ``yes'', while 62 of \medgemma{}'s 79 clear yes/no answers were ``yes''.
+\textbf{Most answers contained no Bangla script.} Although every question was in Bangla, 82--98\% of each model's answers contained no Bangla script; \medgemma{}, the highest LAVE-scoring model, had the lowest share containing Bangla script. When the Qwen models did answer in Bangla the answer was often meaningless; their most frequent answer to chest X-ray organ questions was \bn{লাইন} (``line''). They also answered some MedICaT questions with a bare option letter although no options were given (39 answers for \qwen{}, 27 for \medvlm{}). Several models repeated one stock answer: \medvlm{} said ``pneumonia'' to 37 of the 50 chest X-ray condition questions. On the balanced abnormality questions, the yes/no preferences from RadImageNet-VQA appeared again: the Qwen models never answered ``yes'', while 62 of \medgemma{}'s 79 clear yes/no answers were ``yes''.
 
-\textbf{The metric under-credits correct English answers} (Table~\ref{tab_audit}). The LAVE judge sees only the Bangla reference and the model's answer. \medgemma{} answered 34 Bangla ``yes'' questions with the English ``Yes''; every one of these correct answers scored 0, while its three answers of \bn{হ্যাঁ} (Bangla ``yes'') to the same kind of question all scored 1.0. The judge was also inconsistent across models: some of the Qwen models' correct ``no'' answers received credit, but none of the Gemma models' correct yes/no answers did. Correct ``CT'' answers to modality questions averaged about 0.31 LAVE against about 0.87 for correct ``X-ray'' answers, for every model. BERTScore without rescaling did not help either: incorrect answers still scored about 66--70, and its rank correlation with LAVE was only 0.27--0.43.
+\textbf{The metric under-credits correct English answers} (Table~\ref{tab_audit}). The LAVE judge sees only the Bangla reference and the model's answer. After normalising reference punctuation, \medgemma{} answered 36 Bangla ``yes'' questions with the English ``Yes''; every one of these correct answers scored 0. Across all abnormality questions, its 53 correct English yes/no answers scored 0, while its five correct Bangla yes/no answers scored 1.0. Some of the Qwen models' correct ``no'' answers received credit, but none of \gemma{}'s 12 correct yes/no answers did. Correct ``CT'' answers to modality questions averaged about 0.31 LAVE against about 0.87 for correct ``X-ray'' answers, for every model. Answers assigned zero LAVE still averaged about 66--70 BERTScore without rescaling, and the metrics' rank correlation was only 0.27--0.43; this disagreement does not independently establish correctness.
 
 \begin{table}[tb]
 \centering
-\caption{Audit of LAVE on answers that are correct by a rule-based check. Top: correct yes/no answers to abnormality questions and how many the judge credited (LAVE $>0$). Bottom: correct modality answers found by keyword matching (of 100).}
+\caption{Audit of LAVE using rule-based checks (100 questions per category). Top: correct English/Bangla yes/no answers, including explicit negative phrases, after case and punctuation normalisation; counts credited by LAVE ($>0$). Bottom: broad modality matches using English/Bangla synonyms, including radiography as X-ray and fMRI as MRI.}
 \label{tab_audit}
 \footnotesize
 \setlength{\tabcolsep}{3pt}
@@ -408,16 +420,16 @@ BanglaMedVQA is the only task where a medical model clearly beat its base model 
 \toprule
  & \textbf{Qwen2} & \textbf{MedVLM} & \textbf{Gemma3} & \textbf{MedGemma} \\
 \midrule
-Correct yes/no answers & 31 & 34 & 12 & 53 \\
-\quad credited by LAVE & 8 & 11 & 0 & 0 \\
+Correct yes/no answers & 31 & 34 & 12 & 58 \\
+\quad credited by LAVE & 8 & 11 & 0 & 5 \\
 \midrule
-Correct modality (rule) & 82 & 84 & 98 & 99 \\
+Correct modality (rule) & 82 & 84 & 99 & 99 \\
 Modality LAVE (\%) & 55.8 & 56.5 & 60.7 & 73.3 \\
 \bottomrule
 \end{tabular}}
 \end{table}
 
-So the LAVE scores in Table~\ref{tab_bangla} are a noisy lower bound, and the size of the gap between models partly depends on which language they answer in. This also limits comparison with the original paper, which reported 19.85\% zero-shot LAVE for \medgemma{}~4B on the test split~\cite{ahmed2026banglamedvqa}, against our 31.5\% on a different sample. Table~\ref{tab_examples} shows typical answers.
+These examples show under-crediting of correct answers, but do not establish a lower bound on correctness or quantify how much of the overall model gap is due to answer language. This limits interpretation of the LAVE scores in Table~\ref{tab_bangla}. The original paper reported 19.85\% zero-shot LAVE for \medgemma{}~4B on the test split~\cite{ahmed2026banglamedvqa}, against our 31.5\% on a different sample; the scores are not directly comparable. Table~\ref{tab_examples} shows example answers.
 
 \begin{table*}[tb]
 \centering
@@ -439,9 +451,9 @@ MedICaT, \newline position & (Where is the diffusely hyperechoic myocardium with
 \end{table*}
 
 \subsection{Discussion}
-Across the three tasks the four models behaved similarly. They recognised \emph{what kind of image} they were given (modality, anatomy) much better than \emph{what was wrong} in it. When the image did not settle the answer, they used a fixed preference (one class label, ``yes'' or ``no'', one option letter, one stock disease name), and this preference was either kept or simply reversed by medical training. In Bangla they mostly answered in English, which the standard metrics do not score fairly.
+Across the three tasks the four models behaved similarly. They recognised \emph{what kind of image} they were given (modality, anatomy) much better than \emph{what was wrong} in it. When the image did not settle the answer, they used a fixed preference (one class label, ``yes'' or ``no'', one option letter, one stock disease name), and this preference was either kept or simply reversed by medical training. In the Bangla task most answers contained no Bangla script, and the LAVE audit verified under-crediting of correct English answers.
 
-Each task contributes a different piece of evidence to the main finding. BUS-BRA shows that the reinforcement-learning adaptation did not change behaviour at all, and that \medgemma{}'s improvement over a chance-level base is weak and not significant. RadImageNet-VQA shows that neither adaptation closed the gap between anatomy and disease, even though \medvlm{} was trained on MRI questions of a similar style. BanglaMedVQA gives the only clear gain, but it comes from general questions, and its size depends on how answers in the wrong language are scored.
+Each task contributes a different piece of evidence to the main finding. BUS-BRA shows that the reinforcement-learning adaptation did not change behaviour at all, and that \medgemma{}'s improvement over a chance-level base is weak and not significant. RadImageNet-VQA shows that neither adaptation closed the gap between anatomy and disease, even though \medvlm{} was trained on MRI questions of a similar style. BanglaMedVQA gives the only statistically detected aggregate judge-score gain, concentrated in modality and organ questions; verified scoring failures limit its interpretation but do not quantify their effect on the model gap.
 
 Two practical points follow. First, balanced samples and answer distributions were essential: on BUS-BRA's natural class mix (68\% benign) the always-``benign'' Qwen models would have reached about 68\% accuracy, and on the full RadImageNet-VQA benchmark, where 72\% of abnormality questions have the answer ``yes'', \gemma{}'s ``yes'' preference would look like skill. Reporting the share of each answer costs nothing and exposed every such case. Second, a medical model should be compared with its own base model before claiming an improvement, as Jeong et al.~\cite{jeong2024medadapt} also argue. For the small models we tested, general medical training was not enough to improve zero-shot diagnosis; this points to the need for training methods and high-quality data aimed specifically at diagnostic questions and at low-resource languages.
 
@@ -457,7 +469,7 @@ Two practical points follow. First, balanced samples and answer distributions we
 
 \textbf{Bangla evaluation.} LAVE relies on a proprietary judge that sees no question and scored correct English answers inconsistently, and BERTScore was computed without rescaling. The BanglaMedVQA references were LLM-generated and machine-translated, with expert checks on a subset only. We did not run the English versions of the questions, which would separate visual errors from language errors, and our train-split sample differs from the original paper's test split.
 
-\textbf{Possible training-data overlap.} \medvlm{}'s training questions come from the OmniMedVQA collection; example questions on its model card use labels such as ``flexor pathology'' that also appear in our RadImageNet-VQA sample. \medgemma{}'s training data are not fully public. Overlap, if any, would favour the medical models.
+\textbf{Possible training-data overlap.} \medvlm{}'s 600 MRI training pairs were drawn from the HuatuoGPT-Vision evaluation collection, which combines several benchmarks including OmniMedVQA~\cite{pan2025medvlmr1}. This does not establish overlap with our samples. Complete training provenance is unavailable for the evaluated models, so we cannot rule out prior exposure for either medical or general-purpose models, or determine its effect on their comparison.
 
 \textbf{Reproducibility and scope.} Model revisions and library versions were pinned for BUS-BRA but not recorded for the two VQA tasks. We tested two pairs of 2B and 4B models on three datasets; larger models or fine-tuned use may behave differently. None of these results is a clinical evaluation.
 

@@ -36,3 +36,15 @@ __pycache__/
 .DS_Store
 Thumbs.db
 *.swp
+
+# Generated paper output (keep template and reference PDFs tracked).
+/paper_v2/build/
+/paper_v2/main.aux
+/paper_v2/main.bbl
+/paper_v2/main.blg
+/paper_v2/main.fdb_latexmk
+/paper_v2/main.fls
+/paper_v2/main.pdf
+/paper_v2/main.spl
+/paper_v2/main.synctex.gz
+/paper_v2/main.xdv
