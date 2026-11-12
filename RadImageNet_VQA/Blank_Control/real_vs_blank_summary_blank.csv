@@ -1,0 +1,25 @@
+model,group,real_correct,blank_correct,n,real_acc,blank_acc,delta,chance
+Gemma 3 4B-it,anatomy_yesno,81,52,100,0.81,0.52,-0.29,0.5
+Gemma 3 4B-it,anatomy_mcq,84,11,100,0.84,0.11,-0.73,0.25
+Gemma 3 4B-it,pathology_yesno,61,53,100,0.61,0.53,-0.08,0.5
+Gemma 3 4B-it,abnormality_yesno,52,54,100,0.52,0.54,0.02,0.5
+Gemma 3 4B-it,pathology_mcq,37,24,100,0.37,0.24,-0.13,0.25
+Gemma 3 4B-it,overall,315,194,500,0.63,0.388,-0.242,
+MedGemma 4B-it,anatomy_yesno,79,51,100,0.79,0.51,-0.28,0.5
+MedGemma 4B-it,anatomy_mcq,80,15,100,0.8,0.15,-0.65,0.25
+MedGemma 4B-it,pathology_yesno,60,51,100,0.6,0.51,-0.09,0.5
+MedGemma 4B-it,abnormality_yesno,55,50,100,0.55,0.5,-0.05,0.5
+MedGemma 4B-it,pathology_mcq,32,25,100,0.32,0.25,-0.07,0.25
+MedGemma 4B-it,overall,306,192,500,0.612,0.384,-0.228,
+MedVLM-R1,anatomy_yesno,86,57,100,0.86,0.57,-0.29,0.5
+MedVLM-R1,anatomy_mcq,88,36,100,0.88,0.36,-0.52,0.25
+MedVLM-R1,pathology_yesno,57,51,100,0.57,0.51,-0.06,0.5
+MedVLM-R1,abnormality_yesno,61,50,100,0.61,0.5,-0.11,0.5
+MedVLM-R1,pathology_mcq,33,25,100,0.33,0.25,-0.08,0.25
+MedVLM-R1,overall,325,219,500,0.65,0.438,-0.212,
+Qwen2-VL-2B-Instruct,anatomy_yesno,88,55,100,0.88,0.55,-0.33,0.5
+Qwen2-VL-2B-Instruct,anatomy_mcq,87,28,100,0.87,0.28,-0.59,0.25
+Qwen2-VL-2B-Instruct,pathology_yesno,57,51,100,0.57,0.51,-0.06,0.5
+Qwen2-VL-2B-Instruct,abnormality_yesno,55,50,100,0.55,0.5,-0.05,0.5
+Qwen2-VL-2B-Instruct,pathology_mcq,34,24,100,0.34,0.24,-0.1,0.25
+Qwen2-VL-2B-Instruct,overall,321,208,500,0.642,0.416,-0.226,
