@@ -1,0 +1,53 @@
+model,source,category,n,real_lave,blank_lave,delta_lave,real_exact_correct,blank_exact_correct
+Gemma 3 4B-it,chest_xray,abnormality,50,0.0,0.006,0.006,0,0
+Gemma 3 4B-it,chest_xray,condition,50,0.036000000000000004,0.034,-0.0020000000000000018,0,0
+Gemma 3 4B-it,chest_xray,modality,50,0.6439999999999999,0.884,0.2400000000000001,0,2
+Gemma 3 4B-it,chest_xray,organ,50,0.47800000000000004,0.004,-0.47400000000000003,0,0
+Gemma 3 4B-it,chest_xray,position,50,0.026000000000000002,0.048,0.022,0,0
+Gemma 3 4B-it,chest_xray,all,250,0.2368,0.19519999999999998,-0.041600000000000026,0,2
+Gemma 3 4B-it,medicat,abnormality,50,0.0,0.0,0.0,0,0
+Gemma 3 4B-it,medicat,condition,50,0.096,0.0,-0.096,0,0
+Gemma 3 4B-it,medicat,modality,50,0.57,0.09,-0.48,0,0
+Gemma 3 4B-it,medicat,organ,50,0.46399999999999997,0.006,-0.45799999999999996,12,0
+Gemma 3 4B-it,medicat,position,50,0.09600000000000002,0.09600000000000002,0.0,0,0
+Gemma 3 4B-it,medicat,all,250,0.2452,0.038400000000000004,-0.20679999999999998,12,0
+Gemma 3 4B-it,all,all,500,0.241,0.1168,-0.12419999999999999,12,2
+MedGemma 4B-it,chest_xray,abnormality,50,0.06,0.02,-0.039999999999999994,3,0
+MedGemma 4B-it,chest_xray,condition,50,0.098,0.044000000000000004,-0.054,0,0
+MedGemma 4B-it,chest_xray,modality,50,0.848,0.004,-0.844,0,0
+MedGemma 4B-it,chest_xray,organ,50,0.7839999999999998,0.016,-0.7679999999999998,0,0
+MedGemma 4B-it,chest_xray,position,50,0.032,0.012,-0.02,0,0
+MedGemma 4B-it,chest_xray,all,250,0.3644,0.019200000000000002,-0.3452,3,0
+MedGemma 4B-it,medicat,abnormality,50,0.04,0.0,-0.04,2,0
+MedGemma 4B-it,medicat,condition,50,0.12400000000000003,0.0,-0.12400000000000003,0,0
+MedGemma 4B-it,medicat,modality,50,0.618,0.14200000000000002,-0.476,0,0
+MedGemma 4B-it,medicat,organ,50,0.478,0.41200000000000003,-0.06599999999999995,3,0
+MedGemma 4B-it,medicat,position,50,0.066,0.068,0.0020000000000000018,0,0
+MedGemma 4B-it,medicat,all,250,0.26520000000000005,0.1244,-0.14080000000000004,5,0
+MedGemma 4B-it,all,all,500,0.3148,0.0718,-0.24300000000000002,8,0
+MedVLM-R1,chest_xray,abnormality,50,0.128,0.0,-0.128,0,0
+MedVLM-R1,chest_xray,condition,50,0.038,0.034,-0.003999999999999997,0,0
+MedVLM-R1,chest_xray,modality,50,0.586,0.012000000000000002,-0.574,0,0
+MedVLM-R1,chest_xray,organ,50,0.052000000000000005,0.006,-0.046000000000000006,0,0
+MedVLM-R1,chest_xray,position,50,0.04,0.034,-0.005999999999999998,0,0
+MedVLM-R1,chest_xray,all,250,0.1688,0.0172,-0.1516,0,0
+MedVLM-R1,medicat,abnormality,50,0.0,0.07800000000000001,0.07800000000000001,0,0
+MedVLM-R1,medicat,condition,50,0.122,0.036000000000000004,-0.086,0,0
+MedVLM-R1,medicat,modality,50,0.544,0.034,-0.51,0,0
+MedVLM-R1,medicat,organ,50,0.054000000000000006,0.0,-0.054000000000000006,0,0
+MedVLM-R1,medicat,position,50,0.034,0.025999999999999995,-0.008000000000000007,0,0
+MedVLM-R1,medicat,all,250,0.15080000000000002,0.0348,-0.11600000000000002,0,0
+MedVLM-R1,all,all,500,0.1598,0.026,-0.1338,0,0
+Qwen2-VL-2B-Instruct,chest_xray,abnormality,50,0.10600000000000001,0.027999999999999997,-0.07800000000000001,0,0
+Qwen2-VL-2B-Instruct,chest_xray,condition,50,0.044000000000000004,0.028000000000000004,-0.016,0,0
+Qwen2-VL-2B-Instruct,chest_xray,modality,50,0.612,0.016,-0.596,0,0
+Qwen2-VL-2B-Instruct,chest_xray,organ,50,0.022,0.008,-0.013999999999999999,0,0
+Qwen2-VL-2B-Instruct,chest_xray,position,50,0.018000000000000002,0.10800000000000001,0.09000000000000001,0,0
+Qwen2-VL-2B-Instruct,chest_xray,all,250,0.16040000000000001,0.0376,-0.12280000000000002,0,0
+Qwen2-VL-2B-Instruct,medicat,abnormality,50,0.016,0.0,-0.016,0,0
+Qwen2-VL-2B-Instruct,medicat,condition,50,0.12200000000000001,0.028000000000000008,-0.094,0,0
+Qwen2-VL-2B-Instruct,medicat,modality,50,0.504,0.016,-0.488,0,0
+Qwen2-VL-2B-Instruct,medicat,organ,50,0.044000000000000004,0.0,-0.044000000000000004,0,0
+Qwen2-VL-2B-Instruct,medicat,position,50,0.026000000000000002,0.038,0.011999999999999997,0,0
+Qwen2-VL-2B-Instruct,medicat,all,250,0.14239999999999997,0.016399999999999998,-0.12599999999999997,0,0
+Qwen2-VL-2B-Instruct,all,all,500,0.1514,0.027,-0.12440000000000001,0,0
