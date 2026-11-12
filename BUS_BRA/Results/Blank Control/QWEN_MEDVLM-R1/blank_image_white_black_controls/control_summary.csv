@@ -1,0 +1,5 @@
+model,color,completed_trials,expected_trials,stable,parsed_prediction,raw_output,derived_rows,derived_accuracy,unique_raw_outputs,unique_parsed_predictions,model_revision,status
+qwen2_vl,white,5,5,True,benign,benign,400,0.5,1,1,895c3a49bc3fa70a340399125c650a463535e71c,ready_for_paired_comparison
+qwen2_vl,black,5,5,True,benign,benign,400,0.5,1,1,895c3a49bc3fa70a340399125c650a463535e71c,ready_for_paired_comparison
+medvlm_r1,white,5,5,True,benign,benign,400,0.5,1,1,d256f2cfdf98c6872c1dc9f20b7dd52f49374fe9,ready_for_paired_comparison
+medvlm_r1,black,5,5,True,benign,benign,400,0.5,1,1,d256f2cfdf98c6872c1dc9f20b7dd52f49374fe9,ready_for_paired_comparison

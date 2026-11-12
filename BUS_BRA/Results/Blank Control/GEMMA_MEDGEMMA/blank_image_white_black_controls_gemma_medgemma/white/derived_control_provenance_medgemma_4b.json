@@ -1,0 +1,29 @@
+{
+  "control": "constant_blank_image",
+  "color": "white",
+  "rgb": [
+    255,
+    255,
+    255
+  ],
+  "size": [
+    512,
+    512
+  ],
+  "pixel_sha256": "902ab44f9b6b07c34a29958b325726ba7f6d506403335cf95a2af25e0ca1ad00",
+  "actual_inference_count": 5,
+  "derived_prediction_count": 400,
+  "prediction": "benign",
+  "raw_output": "benign\n<end_of_turn>",
+  "model_tag": "medgemma_4b",
+  "checkpoint": "google/medgemma-4b-it",
+  "revision": "290cda5eeccbee130f987c4ad74a59ae6f196408",
+  "decoding": {
+    "do_sample": false,
+    "num_beams": 1,
+    "max_new_tokens": 32
+  },
+  "prompt_sha256": "b23683bc6999c947409d762fcecf452120e368a50a6a142e8100af70a47765b0",
+  "frozen_manifest_sha256": "a8caa6ad39310c2871e53bc4b9f80d4b76c1b6f850b1c474c0abae8db1181283",
+  "description": "Derived case-level scores; only 5 identical-input inferences per color/model"
+}

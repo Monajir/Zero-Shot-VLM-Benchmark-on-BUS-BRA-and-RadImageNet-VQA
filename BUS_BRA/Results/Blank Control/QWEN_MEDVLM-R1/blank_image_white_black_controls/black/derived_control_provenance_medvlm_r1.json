@@ -1,0 +1,30 @@
+{
+  "actual_inferences": 5,
+  "code_version": "bus-bra-white-black-stability-v2-bf16-greedy",
+  "condition": "black",
+  "condition_spec": {
+    "color_rgb": [
+      0,
+      0,
+      0
+    ],
+    "mode": "constant_solid_black_rgb",
+    "pixel_sha256": "599c1bb5ffd4b87229a81958f33f1060821cd01cd7aa7ccafa0d862f4522f3f6",
+    "size_px": [
+      512,
+      512
+    ]
+  },
+  "derived_not_independently_inferred": true,
+  "derived_prediction_rows": 400,
+  "generation": "greedy do_sample=False",
+  "manifest_sha256": "a8caa6ad39310c2871e53bc4b9f80d4b76c1b6f850b1c474c0abae8db1181283",
+  "model": "medvlm_r1",
+  "model_id": "JZPeterPan/MedVLM-R1",
+  "model_revision": "d256f2cfdf98c6872c1dc9f20b7dd52f49374fe9",
+  "prompt": "You are a medical assistant. Examine this breast ultrasound image.\nClassify the lesion as exactly ONE of the following:\n- benign: non-cancerous lesion\n- malignant: cancerous lesion\n\nRespond with ONLY the label: benign or malignant.",
+  "raw_outputs_observed": 1,
+  "requested_repetitions": 5,
+  "stable_raw_and_parsed_output": true,
+  "unique_parsed_outputs": 1
+}

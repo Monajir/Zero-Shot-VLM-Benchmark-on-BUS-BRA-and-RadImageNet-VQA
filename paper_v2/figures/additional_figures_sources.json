@@ -1,0 +1,156 @@
+{
+  "source_sha256": {
+    "BanglaMedVQA/QWEN/bnvqa_results_qwen2vl_2b.csv": "74cee91e80e251e4f3642471b7bfd05016cbc728e5d540fc18f89f370adfaa7c",
+    "BanglaMedVQA/MEDVLM/bnvqa_results_medvlm_r1.csv": "63856159600e8bd698795163605775ac06200c55daf980b0db868d546dce8df1",
+    "BanglaMedVQA/Gemma/bnvqa_results_gemma3_4b.csv": "4607dd617abb9a375056f93e79400f89c6dbb373541db8d7218eadfd02990cc6",
+    "BanglaMedVQA/Medgemma/bnvqa_results_medgemma_4b.csv": "c67be36f431785e139805b55995b5be6c0cea6d6f58e47f97e74dd96dba89d82"
+  },
+  "forest_source": "paper_v2/main.tex, Table 3; existing rounded estimates and intervals preserved",
+  "forest": [
+    [
+      "BUS-BRA",
+      "Accuracy difference (percentage points)",
+      [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          7.3,
+          -0.3,
+          15.0
+        ]
+      ]
+    ],
+    [
+      "RadImageNet-VQA",
+      "Accuracy difference (percentage points)",
+      [
+        [
+          0.8,
+          -1.2,
+          2.8
+        ],
+        [
+          -1.8,
+          -7.2,
+          3.6
+        ]
+      ]
+    ],
+    [
+      "BanglaMedVQA",
+      "LAVE difference (points on a 0–100 scale)",
+      [
+        [
+          0.8,
+          -0.3,
+          2.0
+        ],
+        [
+          7.4,
+          4.8,
+          10.0
+        ]
+      ]
+    ]
+  ],
+  "language_counts": [
+    {
+      "model": "Qwen2-VL-2B",
+      "with_bangla_script": 90,
+      "without_bangla_script": 410
+    },
+    {
+      "model": "MedVLM-R1",
+      "with_bangla_script": 54,
+      "without_bangla_script": 446
+    },
+    {
+      "model": "Gemma 3 4B",
+      "with_bangla_script": 50,
+      "without_bangla_script": 450
+    },
+    {
+      "model": "MedGemma 4B",
+      "with_bangla_script": 9,
+      "without_bangla_script": 491
+    }
+  ],
+  "script_rule": "Any character U+0980–U+09FF in predicted_answer",
+  "examples": {
+    "same_item": [
+      {
+        "idx": "352",
+        "image_id": "958",
+        "source": "medicat",
+        "category": "modality",
+        "question": "ইমেজিং পদ্ধতিটি কী?",
+        "true_answer": "সিটি",
+        "predicted_answer": "CT",
+        "raw_output": "CT",
+        "correct": "False",
+        "correct_norm": "False",
+        "bertscore_f1": "0.7381433",
+        "is_empty": "False",
+        "is_english": "True",
+        "is_long": "False",
+        "lave": "0.3"
+      },
+      {
+        "idx": "352",
+        "image_id": "958",
+        "source": "medicat",
+        "category": "modality",
+        "question": "ইমেজিং পদ্ধতিটি কী?",
+        "true_answer": "সিটি",
+        "predicted_answer": "CT scan",
+        "raw_output": "CT scan",
+        "correct": "False",
+        "correct_norm": "False",
+        "bertscore_f1": "0.712827",
+        "is_empty": "False",
+        "is_english": "True",
+        "is_long": "False",
+        "lave": "0.0"
+      }
+    ],
+    "different_items": [
+      {
+        "idx": "0",
+        "image_id": "00001170_046",
+        "source": "chest_xray",
+        "category": "abnormality",
+        "question": "কোনও অস্বাভাবিকতা আছে কি?",
+        "true_answer": "হ্যাঁ",
+        "predicted_answer": "হ্যাঁ",
+        "raw_output": "হ্যাঁ",
+        "correct": "True",
+        "correct_norm": "True",
+        "bertscore_f1": "1.0",
+        "is_empty": "False",
+        "is_english": "False",
+        "is_long": "False",
+        "lave": "1.0"
+      },
+      {
+        "idx": "3",
+        "image_id": "00015770_010",
+        "source": "chest_xray",
+        "category": "abnormality",
+        "question": "এই ছবিতে কোনও অস্বাভাবিকতা লক্ষ্য করা গেছে কি?",
+        "true_answer": "হ্যাঁ",
+        "predicted_answer": "Yes",
+        "raw_output": "Yes",
+        "correct": "False",
+        "correct_norm": "True",
+        "bertscore_f1": "0.7270813",
+        "is_empty": "False",
+        "is_english": "True",
+        "is_long": "False",
+        "lave": "0.0"
+      }
+    ]
+  }
+}

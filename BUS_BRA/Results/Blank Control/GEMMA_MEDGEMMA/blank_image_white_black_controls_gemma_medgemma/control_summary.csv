@@ -1,0 +1,7 @@
+model,color,completed_trials,expected_trials,stable,parsed_prediction,raw_output,derived_rows,derived_accuracy,unique_raw_outputs,unique_parsed_predictions,model_revision,status
+gemma3_4b,white,5,5,True,benign,benign<end_of_turn>,400,0.5,1,1,093f9f388b31de276ce2de164bdc2081324b9767,stable
+gemma3_4b,black,5,5,True,benign,benign<end_of_turn>,400,0.5,1,1,093f9f388b31de276ce2de164bdc2081324b9767,stable
+medgemma_4b,white,5,5,True,benign,"benign
+<end_of_turn>",400,0.5,1,1,290cda5eeccbee130f987c4ad74a59ae6f196408,stable
+medgemma_4b,black,5,5,True,benign,"benign
+<end_of_turn>",400,0.5,1,1,290cda5eeccbee130f987c4ad74a59ae6f196408,stable
