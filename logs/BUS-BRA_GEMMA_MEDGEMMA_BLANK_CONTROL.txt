@@ -1,0 +1,168 @@
+8.5s 1 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+8.5s 2 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+8.5s 3 0.00s - to python to disable frozen modules.
+8.5s 4 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+9.1s 5 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+9.1s 6 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+9.1s 7 0.00s - to python to disable frozen modules.
+9.1s 8 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+10.2s 9 [2026-11-11T16:22:22+00:00] Notebook started: bus-bra-gemma-medgemma-blank-dual-control-v1 | 2 models x 2 colors x 5 inferences | BF16
+10.2s 10 [2026-11-11T16:22:22+00:00] Installing pinned dependencies; preserving: {'torch': '2.11.0+cu130', 'torchvision': '0.26.0+cu130', 'Pillow': '13.0.0'}
+11.3s 11 [2026-11-11T16:22:23+00:00] pip | Collecting transformers==4.57.1
+11.4s 12 [2026-11-11T16:22:23+00:00] pip |   Downloading transformers-4.57.1-py3-none-any.whl.metadata (43 kB)
+11.6s 13 [2026-11-11T16:22:23+00:00] pip | Collecting accelerate==1.11.0
+11.6s 14 [2026-11-11T16:22:23+00:00] pip |   Downloading accelerate-1.11.0-py3-none-any.whl.metadata (19 kB)
+11.7s 15 [2026-11-11T16:22:23+00:00] pip | Collecting bitsandbytes==0.48.1
+11.7s 16 [2026-11-11T16:22:23+00:00] pip |   Downloading bitsandbytes-0.48.1-py3-none-manylinux_2_24_x86_64.whl.metadata (10 kB)
+11.8s 17 [2026-11-11T16:22:24+00:00] pip | Collecting huggingface-hub==0.36.0
+11.8s 18 [2026-11-11T16:22:24+00:00] pip |   Downloading huggingface_hub-0.36.0-py3-none-any.whl.metadata (14 kB)
+12.2s 19 [2026-11-11T16:22:24+00:00] pip | Collecting tokenizers==0.22.1
+12.2s 20 [2026-11-11T16:22:24+00:00] pip |   Downloading tokenizers-0.22.1-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.8 kB)
+12.5s 21 [2026-11-11T16:22:24+00:00] pip | Collecting safetensors==0.6.2
+12.5s 22 [2026-11-11T16:22:24+00:00] pip |   Downloading safetensors-0.6.2-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.1 kB)
+12.6s 23 [2026-11-11T16:22:24+00:00] pip | Collecting sentencepiece==0.2.1
+12.6s 24 [2026-11-11T16:22:24+00:00] pip |   Downloading sentencepiece-0.2.1-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (10 kB)
+12.7s 25 [2026-11-11T16:22:24+00:00] pip | Requirement already satisfied: filelock in /usr/local/lib/python3.13/dist-packages (from transformers==4.57.1) (4.2.4)
+12.7s 26 [2026-11-11T16:22:24+00:00] pip | Requirement already satisfied: numpy>=1.17 in /usr/local/lib/python3.13/dist-packages (from transformers==4.57.1) (2.1.3)
+12.7s 27 [2026-11-11T16:22:24+00:00] pip | Requirement already satisfied: packaging>=20.0 in /usr/local/lib/python3.13/dist-packages (from transformers==4.57.1) (26.3)
+12.7s 28 [2026-11-11T16:22:24+00:00] pip | Requirement already satisfied: pyyaml>=5.1 in /usr/local/lib/python3.13/dist-packages (from transformers==4.57.1) (6.0.3)
+12.7s 29 [2026-11-11T16:22:24+00:00] pip | Requirement already satisfied: regex!=2019.12.17 in /usr/local/lib/python3.13/dist-packages (from transformers==4.57.1) (2025.11.3)
+12.7s 30 [2026-11-11T16:22:24+00:00] pip | Requirement already satisfied: requests in /usr/local/lib/python3.13/dist-packages (from transformers==4.57.1) (2.34.2)
+12.7s 31 [2026-11-11T16:22:24+00:00] pip | Requirement already satisfied: tqdm>=4.27 in /usr/local/lib/python3.13/dist-packages (from transformers==4.57.1) (4.67.3)
+12.7s 32 [2026-11-11T16:22:24+00:00] pip | Requirement already satisfied: fsspec>=2023.5.0 in /usr/local/lib/python3.13/dist-packages (from huggingface-hub==0.36.0) (2025.12.0)
+12.7s 33 [2026-11-11T16:22:24+00:00] pip | Requirement already satisfied: typing-extensions>=3.7.4.3 in /usr/local/lib/python3.13/dist-packages (from huggingface-hub==0.36.0) (4.16.0)
+12.7s 34 [2026-11-11T16:22:24+00:00] pip | Requirement already satisfied: hf-xet<2.0.0,>=1.1.3 in /usr/local/lib/python3.13/dist-packages (from huggingface-hub==0.36.0) (1.7.0)
+12.7s 35 [2026-11-11T16:22:24+00:00] pip | Requirement already satisfied: psutil in /usr/local/lib/python3.13/dist-packages (from accelerate==1.11.0) (5.9.5)
+12.7s 36 [2026-11-11T16:22:24+00:00] pip | Requirement already satisfied: torch>=2.0.0 in /usr/local/lib/python3.13/dist-packages (from accelerate==1.11.0) (2.11.0+cu130)
+12.7s 37 [2026-11-11T16:22:24+00:00] pip | Requirement already satisfied: setuptools<82 in /usr/local/lib/python3.13/dist-packages (from torch>=2.0.0->accelerate==1.11.0) (81.0.0)
+12.7s 38 [2026-11-11T16:22:24+00:00] pip | Requirement already satisfied: sympy>=1.13.3 in /usr/local/lib/python3.13/dist-packages (from torch>=2.0.0->accelerate==1.11.0) (1.14.0)
+12.7s 39 [2026-11-11T16:22:24+00:00] pip | Requirement already satisfied: networkx>=2.5.1 in /usr/local/lib/python3.13/dist-packages (from torch>=2.0.0->accelerate==1.11.0) (3.7)
+12.7s 40 [2026-11-11T16:22:24+00:00] pip | Requirement already satisfied: jinja2 in /usr/local/lib/python3.13/dist-packages (from torch>=2.0.0->accelerate==1.11.0) (3.1.6)
+12.7s 41 [2026-11-11T16:22:24+00:00] pip | Requirement already satisfied: cuda-toolkit==13.0.2 in /usr/local/lib/python3.13/dist-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch>=2.0.0->accelerate==1.11.0) (13.0.2)
+12.7s 42 [2026-11-11T16:22:24+00:00] pip | Requirement already satisfied: cuda-bindings<14,>=13.0.3 in /usr/local/lib/python3.13/dist-packages (from torch>=2.0.0->accelerate==1.11.0) (13.0.3)
+12.7s 43 [2026-11-11T16:22:24+00:00] pip | Requirement already satisfied: nvidia-cudnn-cu13==9.19.0.56 in /usr/local/lib/python3.13/dist-packages (from torch>=2.0.0->accelerate==1.11.0) (9.19.0.56)
+12.7s 44 [2026-11-11T16:22:24+00:00] pip | Requirement already satisfied: nvidia-cusparselt-cu13==0.8.0 in /usr/local/lib/python3.13/dist-packages (from torch>=2.0.0->accelerate==1.11.0) (0.8.0)
+12.7s 45 [2026-11-11T16:22:24+00:00] pip | Requirement already satisfied: nvidia-nccl-cu13==2.28.9 in /usr/local/lib/python3.13/dist-packages (from torch>=2.0.0->accelerate==1.11.0) (2.28.9)
+12.7s 46 [2026-11-11T16:22:24+00:00] pip | Requirement already satisfied: nvidia-nvshmem-cu13==3.4.5 in /usr/local/lib/python3.13/dist-packages (from torch>=2.0.0->accelerate==1.11.0) (3.4.5)
+12.7s 47 [2026-11-11T16:22:24+00:00] pip | Requirement already satisfied: triton==3.6.0 in /usr/local/lib/python3.13/dist-packages (from torch>=2.0.0->accelerate==1.11.0) (3.6.0)
+12.7s 48 [2026-11-11T16:22:24+00:00] pip | Requirement already satisfied: nvidia-cublas==13.1.0.3.* in /usr/local/lib/python3.13/dist-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch>=2.0.0->accelerate==1.11.0) (13.1.0.3)
+12.7s 49 [2026-11-11T16:22:24+00:00] pip | Requirement already satisfied: nvidia-cuda-runtime==13.0.96.* in /usr/local/lib/python3.13/dist-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch>=2.0.0->accelerate==1.11.0) (13.0.96)
+12.7s 50 [2026-11-11T16:22:24+00:00] pip | Requirement already satisfied: nvidia-cufft==12.0.0.61.* in /usr/local/lib/python3.13/dist-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch>=2.0.0->accelerate==1.11.0) (12.0.0.61)
+12.7s 51 [2026-11-11T16:22:24+00:00] pip | Requirement already satisfied: nvidia-cufile==1.15.1.6.* in /usr/local/lib/python3.13/dist-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch>=2.0.0->accelerate==1.11.0) (1.15.1.6)
+12.7s 52 [2026-11-11T16:22:24+00:00] pip | Requirement already satisfied: nvidia-cuda-cupti==13.0.85.* in /usr/local/lib/python3.13/dist-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch>=2.0.0->accelerate==1.11.0) (13.0.85)
+12.7s 53 [2026-11-11T16:22:24+00:00] pip | Requirement already satisfied: nvidia-curand==10.4.0.35.* in /usr/local/lib/python3.13/dist-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch>=2.0.0->accelerate==1.11.0) (10.4.0.35)
+12.7s 54 [2026-11-11T16:22:24+00:00] pip | Requirement already satisfied: nvidia-cusolver==12.0.4.66.* in /usr/local/lib/python3.13/dist-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch>=2.0.0->accelerate==1.11.0) (12.0.4.66)
+12.7s 55 [2026-11-11T16:22:24+00:00] pip | Requirement already satisfied: nvidia-cusparse==12.6.3.3.* in /usr/local/lib/python3.13/dist-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch>=2.0.0->accelerate==1.11.0) (12.6.3.3)
+12.7s 56 [2026-11-11T16:22:24+00:00] pip | Requirement already satisfied: nvidia-nvjitlink==13.0.88.* in /usr/local/lib/python3.13/dist-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch>=2.0.0->accelerate==1.11.0) (13.0.88)
+12.7s 57 [2026-11-11T16:22:24+00:00] pip | Requirement already satisfied: nvidia-cuda-nvrtc==13.0.88.* in /usr/local/lib/python3.13/dist-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch>=2.0.0->accelerate==1.11.0) (13.0.88)
+12.7s 58 [2026-11-11T16:22:24+00:00] pip | Requirement already satisfied: nvidia-nvtx==13.0.85.* in /usr/local/lib/python3.13/dist-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch>=2.0.0->accelerate==1.11.0) (13.0.85)
+12.7s 59 [2026-11-11T16:22:24+00:00] pip | Requirement already satisfied: cuda-pathfinder~=1.1 in /usr/local/lib/python3.13/dist-packages (from cuda-bindings<14,>=13.0.3->torch>=2.0.0->accelerate==1.11.0) (1.8.4)
+12.8s 60 [2026-11-11T16:22:25+00:00] pip | Requirement already satisfied: mpmath<1.4,>=1.1.0 in /usr/local/lib/python3.13/dist-packages (from sympy>=1.13.3->torch>=2.0.0->accelerate==1.11.0) (1.3.0)
+12.8s 61 [2026-11-11T16:22:25+00:00] pip | Requirement already satisfied: MarkupSafe>=2.0 in /usr/local/lib/python3.13/dist-packages (from jinja2->torch>=2.0.0->accelerate==1.11.0) (3.0.4)
+12.8s 62 [2026-11-11T16:22:25+00:00] pip | Requirement already satisfied: charset_normalizer<4,>=2 in /usr/local/lib/python3.13/dist-packages (from requests->transformers==4.57.1) (3.4.9)
+12.8s 63 [2026-11-11T16:22:25+00:00] pip | Requirement already satisfied: idna<4,>=2.5 in /usr/local/lib/python3.13/dist-packages (from requests->transformers==4.57.1) (3.20)
+12.8s 64 [2026-11-11T16:22:25+00:00] pip | Requirement already satisfied: urllib3<3,>=1.26 in /usr/local/lib/python3.13/dist-packages (from requests->transformers==4.57.1) (2.8.0)
+12.8s 65 [2026-11-11T16:22:25+00:00] pip | Requirement already satisfied: certifi>=2023.5.7 in /usr/local/lib/python3.13/dist-packages (from requests->transformers==4.57.1) (2026.10.23)
+12.8s 66 [2026-11-11T16:22:25+00:00] pip | Downloading transformers-4.57.1-py3-none-any.whl (12.0 MB)
+13.4s 67 [2026-11-11T16:22:25+00:00] pip | Downloading huggingface_hub-0.36.0-py3-none-any.whl (566 kB)
+13.5s 68 [2026-11-11T16:22:25+00:00] pip | Downloading tokenizers-0.22.1-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.3 MB)
+13.6s 69 [2026-11-11T16:22:25+00:00] pip | Downloading accelerate-1.11.0-py3-none-any.whl (375 kB)
+13.6s 70 [2026-11-11T16:22:25+00:00] pip | Downloading bitsandbytes-0.48.1-py3-none-manylinux_2_24_x86_64.whl (60.1 MB)
+16.4s 71 [2026-11-11T16:22:28+00:00] pip | Downloading safetensors-0.6.2-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (485 kB)
+16.5s 72 [2026-11-11T16:22:28+00:00] pip | Downloading sentencepiece-0.2.1-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (1.4 MB)
+18.6s 73 [2026-11-11T16:22:30+00:00] pip | Installing collected packages: sentencepiece, safetensors, huggingface-hub, tokenizers, transformers, bitsandbytes, accelerate
+18.6s 74 [2026-11-11T16:22:30+00:00] pip |   Attempting uninstall: sentencepiece
+18.6s 75 [2026-11-11T16:22:30+00:00] pip |     Found existing installation: sentencepiece 0.2.2
+18.6s 76 [2026-11-11T16:22:30+00:00] pip |     Uninstalling sentencepiece-0.2.2:
+18.6s 77 [2026-11-11T16:22:30+00:00] pip |       Successfully uninstalled sentencepiece-0.2.2
+18.7s 78 [2026-11-11T16:22:30+00:00] pip |   Attempting uninstall: safetensors
+18.7s 79 [2026-11-11T16:22:30+00:00] pip |     Found existing installation: safetensors 0.8.0
+18.7s 80 [2026-11-11T16:22:30+00:00] pip |     Uninstalling safetensors-0.8.0:
+18.7s 81 [2026-11-11T16:22:30+00:00] pip |       Successfully uninstalled safetensors-0.8.0
+18.7s 82 [2026-11-11T16:22:30+00:00] pip |   Attempting uninstall: huggingface-hub
+18.8s 83 [2026-11-11T16:22:31+00:00] pip |     Found existing installation: huggingface_hub 1.33.0
+18.8s 84 [2026-11-11T16:22:31+00:00] pip |     Uninstalling huggingface_hub-1.33.0:
+19.0s 85 [2026-11-11T16:22:31+00:00] pip |       Successfully uninstalled huggingface_hub-1.33.0
+19.3s 86 [2026-11-11T16:22:31+00:00] pip |   Attempting uninstall: tokenizers
+19.3s 87 [2026-11-11T16:22:31+00:00] pip |     Found existing installation: tokenizers 0.23.3
+19.4s 88 [2026-11-11T16:22:31+00:00] pip |     Uninstalling tokenizers-0.23.3:
+19.4s 89 [2026-11-11T16:22:31+00:00] pip |       Successfully uninstalled tokenizers-0.23.3
+19.5s 90 [2026-11-11T16:22:31+00:00] pip |   Attempting uninstall: transformers
+19.6s 91 [2026-11-11T16:22:31+00:00] pip |     Found existing installation: transformers 5.20.2
+20.1s 92 [2026-11-11T16:22:32+00:00] pip |     Uninstalling transformers-5.20.2:
+22.6s 93 [2026-11-11T16:22:34+00:00] pip |       Successfully uninstalled transformers-5.20.2
+31.1s 94 [2026-11-11T16:22:43+00:00] pip |   Attempting uninstall: accelerate
+31.2s 95 [2026-11-11T16:22:43+00:00] pip |     Found existing installation: accelerate 1.15.0
+31.2s 96 [2026-11-11T16:22:43+00:00] pip |     Uninstalling accelerate-1.15.0:
+31.3s 97 [2026-11-11T16:22:43+00:00] pip |       Successfully uninstalled accelerate-1.15.0
+31.5s 98 [2026-11-11T16:22:43+00:00] pip | ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+31.5s 99 [2026-11-11T16:22:43+00:00] pip | gradio-client 2.7.2 requires huggingface-hub<3.0,>=1.16.0, but you have huggingface-hub 0.36.0 which is incompatible.
+31.5s 100 [2026-11-11T16:22:43+00:00] pip | gradio 6.30.0 requires huggingface-hub<3.0,>=1.16.0, but you have huggingface-hub 0.36.0 which is incompatible.
+31.5s 101 [2026-11-11T16:22:43+00:00] pip | gradio 6.30.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.
+31.5s 102 [2026-11-11T16:22:43+00:00] pip | diffusers 0.42.0 requires huggingface-hub<3.0,>=1.32.0, but you have huggingface-hub 0.36.0 which is incompatible.
+31.5s 103 [2026-11-11T16:22:43+00:00] pip | diffusers 0.42.0 requires safetensors>=0.8.0, but you have safetensors 0.6.2 which is incompatible.
+31.6s 104 [2026-11-11T16:22:43+00:00] pip | Successfully installed accelerate-1.11.0 bitsandbytes-0.48.1 huggingface-hub-0.36.0 safetensors-0.6.2 sentencepiece-0.2.1 tokenizers-0.22.1 transformers-4.57.1
+31.8s 105 [2026-11-11T16:22:44+00:00] Dependencies ready: {'transformers': '4.57.1', 'accelerate': '1.11.0', 'bitsandbytes': '0.48.1', 'huggingface-hub': '0.36.0', 'tokenizers': '0.22.1', 'safetensors': '0.6.2', 'sentencepiece': '0.2.1'}
+33.8s 106 [2026-11-11T16:22:46+00:00] Loading the frozen final sample and verifying image content
+81.4s 107 [2026-11-11T16:23:33+00:00] Sample ready: 400 images / 400 source Cases; 200 benign + 200 malignant
+81.4s 108 [2026-11-11T16:23:33+00:00] Dataset: original | manifest SHA256: a8caa6ad39310c2871e53bc4b9f80d4b76c1b6f850b1c474c0abae8db1181283
+81.4s 109 [2026-11-11T16:23:33+00:00] Fixed prompt: 'You are a medical assistant. Examine this breast ultrasound image.\nClassify the lesion as exactly ONE of the following:\n- benign: non-cancerous lesion\n- malignant: cancerous lesion\n\nRespond with ONLY the label: benign or malignant.'
+111.2s 110 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+111.2s 111 I0000 00:00:1794414243.345404      22 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+111.4s 112 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+111.4s 113 I0000 00:00:1794414243.345404      22 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+111.4s 114 
+111.4s 115 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+111.4s 116 I0000 00:00:1794414243.345404      22 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+118.2s 117 [2026-11-11T16:24:10+00:00] Runtime: 3.13.16 | torch: 2.11.0+cu130 | CUDA: 13.0
+118.2s 118 [2026-11-11T16:24:10+00:00] GPU 0 Tesla T4 | native BF16: False
+118.4s 119 [2026-11-11T16:24:10+00:00] GPU 1 Tesla T4 | native BF16: False
+118.5s 120 [2026-11-11T16:24:10+00:00] Loading processor: gemma3_4b | checkpoint: google/gemma-3-4b-it | revision: 093f9f388b31de276ce2de164bdc2081324b9767
+122.9s 121 [2026-11-11T16:24:15+00:00] Loading BF16 model: gemma3_4b
+122.9s 122 `torch_dtype` is deprecated! Use `dtype` instead!
+122.9s 123 
+122.9s 124 `torch_dtype` is deprecated! Use `dtype` instead!
+170.6s 125 [2026-11-11T16:25:02+00:00] gemma3_4b parameter dtypes: {'torch.bfloat16': 4300079472}
+170.6s 126 [2026-11-11T16:25:02+00:00] Resolved generation: {'use_model_defaults': False, 'generation_mode': 'greedy_search', 'max_new_tokens': 32, 'do_sample': False, 'num_beams': 1, 'num_return_sequences': 1, 'use_cache': True, 'temperature': 1.0, 'top_k': 50, 'top_p': 1.0, 'eos_token_id': [1, 106]}
+170.6s 127 [2026-11-11T16:25:02+00:00] Starting gemma3_4b white 5 repetitions pixel SHA256: 902ab44f9b6b07c34a29958b325726ba7f6d506403335cf95a2af25e0ca1ad00
+176.7s 128 [2026-11-11T16:25:08+00:00] gemma3_4b white 1/5 predicted: benign raw: 'benign<end_of_turn>' tokens=3 eos
+180.6s 129 [2026-11-11T16:25:12+00:00] gemma3_4b white 2/5 predicted: benign raw: 'benign<end_of_turn>' tokens=3 eos
+184.5s 130 [2026-11-11T16:25:16+00:00] gemma3_4b white 3/5 predicted: benign raw: 'benign<end_of_turn>' tokens=3 eos
+188.5s 131 [2026-11-11T16:25:20+00:00] gemma3_4b white 4/5 predicted: benign raw: 'benign<end_of_turn>' tokens=3 eos
+192.4s 132 [2026-11-11T16:25:24+00:00] gemma3_4b white 5/5 predicted: benign raw: 'benign<end_of_turn>' tokens=3 eos
+192.5s 133 [2026-11-11T16:25:24+00:00] Finished: gemma3_4b white stable: True derived rows: 400 score: {'group': 'lesion_classification', 'correct': 200, 'n': 400, 'accuracy': 0.5}
+192.5s 134 [2026-11-11T16:25:24+00:00] Starting gemma3_4b black 5 repetitions pixel SHA256: 599c1bb5ffd4b87229a81958f33f1060821cd01cd7aa7ccafa0d862f4522f3f6
+196.5s 135 [2026-11-11T16:25:28+00:00] gemma3_4b black 1/5 predicted: benign raw: 'benign<end_of_turn>' tokens=3 eos
+200.5s 136 [2026-11-11T16:25:32+00:00] gemma3_4b black 2/5 predicted: benign raw: 'benign<end_of_turn>' tokens=3 eos
+204.6s 137 [2026-11-11T16:25:36+00:00] gemma3_4b black 3/5 predicted: benign raw: 'benign<end_of_turn>' tokens=3 eos
+208.7s 138 [2026-11-11T16:25:40+00:00] gemma3_4b black 4/5 predicted: benign raw: 'benign<end_of_turn>' tokens=3 eos
+212.9s 139 [2026-11-11T16:25:45+00:00] gemma3_4b black 5/5 predicted: benign raw: 'benign<end_of_turn>' tokens=3 eos
+212.9s 140 [2026-11-11T16:25:45+00:00] Finished: gemma3_4b black stable: True derived rows: 400 score: {'group': 'lesion_classification', 'correct': 200, 'n': 400, 'accuracy': 0.5}
+213.7s 141 [2026-11-11T16:25:45+00:00] Loading processor: medgemma_4b | checkpoint: google/medgemma-4b-it | revision: 290cda5eeccbee130f987c4ad74a59ae6f196408
+217.8s 142 [2026-11-11T16:25:49+00:00] Loading BF16 model: medgemma_4b
+253.3s 143 [2026-11-11T16:26:25+00:00] medgemma_4b parameter dtypes: {'torch.bfloat16': 4300079472}
+253.3s 144 [2026-11-11T16:26:25+00:00] Resolved generation: {'use_model_defaults': False, 'generation_mode': 'greedy_search', 'max_new_tokens': 32, 'do_sample': False, 'num_beams': 1, 'num_return_sequences': 1, 'use_cache': True, 'temperature': 1.0, 'top_k': 50, 'top_p': 1.0, 'eos_token_id': [1, 106]}
+253.3s 145 [2026-11-11T16:26:25+00:00] Starting medgemma_4b white 5 repetitions pixel SHA256: 902ab44f9b6b07c34a29958b325726ba7f6d506403335cf95a2af25e0ca1ad00
+257.7s 146 [2026-11-11T16:26:29+00:00] medgemma_4b white 1/5 predicted: benign raw: 'benign\n<end_of_turn>' tokens=4 eos
+263.3s 147 [2026-11-11T16:26:34+00:00] medgemma_4b white 2/5 predicted: benign raw: 'benign\n<end_of_turn>' tokens=4 eos
+266.5s 148 [2026-11-11T16:26:38+00:00] medgemma_4b white 3/5 predicted: benign raw: 'benign\n<end_of_turn>' tokens=4 eos
+271.0s 149 [2026-11-11T16:26:43+00:00] medgemma_4b white 4/5 predicted: benign raw: 'benign\n<end_of_turn>' tokens=4 eos
+275.5s 150 [2026-11-11T16:26:47+00:00] medgemma_4b white 5/5 predicted: benign raw: 'benign\n<end_of_turn>' tokens=4 eos
+275.5s 151 [2026-11-11T16:26:47+00:00] Finished: medgemma_4b white stable: True derived rows: 400 score: {'group': 'lesion_classification', 'correct': 200, 'n': 400, 'accuracy': 0.5}
+275.5s 152 [2026-11-11T16:26:47+00:00] Starting medgemma_4b black 5 repetitions pixel SHA256: 599c1bb5ffd4b87229a81958f33f1060821cd01cd7aa7ccafa0d862f4522f3f6
+280.1s 153 [2026-11-11T16:26:52+00:00] medgemma_4b black 1/5 predicted: benign raw: 'benign\n<end_of_turn>' tokens=4 eos
+284.8s 154 [2026-11-11T16:26:57+00:00] medgemma_4b black 2/5 predicted: benign raw: 'benign\n<end_of_turn>' tokens=4 eos
+289.5s 155 [2026-11-11T16:27:01+00:00] medgemma_4b black 3/5 predicted: benign raw: 'benign\n<end_of_turn>' tokens=4 eos
+294.2s 156 [2026-11-11T16:27:06+00:00] medgemma_4b black 4/5 predicted: benign raw: 'benign\n<end_of_turn>' tokens=4 eos
+298.8s 157 [2026-11-11T16:27:11+00:00] medgemma_4b black 5/5 predicted: benign raw: 'benign\n<end_of_turn>' tokens=4 eos
+298.8s 158 [2026-11-11T16:27:11+00:00] Finished: medgemma_4b black stable: True derived rows: 400 score: {'group': 'lesion_classification', 'correct': 200, 'n': 400, 'accuracy': 0.5}
+299.7s 159 [2026-11-11T16:27:11+00:00] Completed actual blank-image inferences: 20 expected: 20
+299.8s 160 [2026-11-11T16:27:11+00:00] COMPLETE: 20 actual calls; 4 matched 400-row control CSVs; original CSVs unchanged
+305.9s 161 /usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\|'
+305.9s 162 cells[i][c] = re.sub('\\\\\|', '|', cell)
+306.1s 163 /usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\_'
+306.1s 164 text = re.sub(r'_', '\_', text) # Escape underscores in display text
+306.8s 165 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+307.0s 166 [NbConvertApp] Writing 427315 bytes to __notebook__.ipynb
+309.4s 167 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+310.1s 168 [NbConvertApp] Writing 715504 bytes to __results__.html

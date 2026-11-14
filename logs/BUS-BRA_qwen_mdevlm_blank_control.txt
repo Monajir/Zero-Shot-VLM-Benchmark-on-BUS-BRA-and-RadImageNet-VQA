@@ -1,0 +1,245 @@
+8.2s 1 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+8.2s 2 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+8.2s 3 0.00s - to python to disable frozen modules.
+8.2s 4 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+8.8s 5 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+8.8s 6 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+8.8s 7 0.00s - to python to disable frozen modules.
+8.8s 8 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+9.9s 9 [2026-11-11T12:46:16.088905+00:00] Notebook execution started
+9.9s 10 [2026-11-11T12:46:16+00:00] Notebook execution started; progress log: /tmp/bus_bra_dual_blank_control_qwen_medvlm_state/logs/20261111T124616Z_884bf11f/progress.log
+9.9s 11 [2026-11-11T12:46:16+00:00] Python: 3.13.16 | dependency timeout: 900 seconds
+9.9s 12 [2026-11-11T12:46:16+00:00] BLANK IMAGE CONTROLS: 5 white + 5 black per model, total 20 inferences; 400 derived rows per stable condition
+9.9s 13 [2026-11-11T12:46:16+00:00] Final code version: bus-bra-white-black-stability-v2-bf16-greedy | parser: strict-final-v2-terminal-eos
+10.0s 14 [2026-11-11T12:46:16+00:00] START Dependency installation and version verification
+10.0s 15 [2026-11-11T12:46:16+00:00] Preserving Kaggle runtime packages: {'torch': '2.11.0+cu130', 'torchvision': '0.26.0+cu130', 'Pillow': '13.0.0'}
+10.0s 16 [2026-11-11T12:46:16+00:00] Installing pinned dependencies; pip output: /tmp/bus_bra_dual_blank_control_qwen_medvlm_state/logs/20261111T124616Z_884bf11f/install.log
+11.0s 17 [2026-11-11T12:46:17+00:00] pip | Collecting transformers==4.57.1
+11.1s 18 [2026-11-11T12:46:17+00:00] pip |   Downloading transformers-4.57.1-py3-none-any.whl.metadata (43 kB)
+11.3s 19 [2026-11-11T12:46:17+00:00] pip | Collecting accelerate==1.11.0
+11.3s 20 [2026-11-11T12:46:17+00:00] pip |   Downloading accelerate-1.11.0-py3-none-any.whl.metadata (19 kB)
+11.4s 21 [2026-11-11T12:46:17+00:00] pip | Collecting bitsandbytes==0.48.1
+11.4s 22 [2026-11-11T12:46:17+00:00] pip |   Downloading bitsandbytes-0.48.1-py3-none-manylinux_2_24_x86_64.whl.metadata (10 kB)
+11.6s 23 [2026-11-11T12:46:17+00:00] pip | Collecting huggingface-hub==0.36.0
+11.6s 24 [2026-11-11T12:46:17+00:00] pip |   Downloading huggingface_hub-0.36.0-py3-none-any.whl.metadata (14 kB)
+11.9s 25 [2026-11-11T12:46:18+00:00] pip | Collecting tokenizers==0.22.1
+11.9s 26 [2026-11-11T12:46:18+00:00] pip |   Downloading tokenizers-0.22.1-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.8 kB)
+12.2s 27 [2026-11-11T12:46:18+00:00] pip | Collecting safetensors==0.6.2
+12.2s 28 [2026-11-11T12:46:18+00:00] pip |   Downloading safetensors-0.6.2-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.1 kB)
+12.3s 29 [2026-11-11T12:46:18+00:00] pip | Collecting sentencepiece==0.2.1
+12.3s 30 [2026-11-11T12:46:18+00:00] pip |   Downloading sentencepiece-0.2.1-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (10 kB)
+12.3s 31 [2026-11-11T12:46:18+00:00] pip | Requirement already satisfied: filelock in /usr/local/lib/python3.13/dist-packages (from transformers==4.57.1) (4.2.4)
+12.3s 32 [2026-11-11T12:46:18+00:00] pip | Requirement already satisfied: numpy>=1.17 in /usr/local/lib/python3.13/dist-packages (from transformers==4.57.1) (2.1.3)
+12.3s 33 [2026-11-11T12:46:18+00:00] pip | Requirement already satisfied: packaging>=20.0 in /usr/local/lib/python3.13/dist-packages (from transformers==4.57.1) (26.3)
+12.3s 34 [2026-11-11T12:46:18+00:00] pip | Requirement already satisfied: pyyaml>=5.1 in /usr/local/lib/python3.13/dist-packages (from transformers==4.57.1) (6.0.3)
+12.3s 35 [2026-11-11T12:46:18+00:00] pip | Requirement already satisfied: regex!=2019.12.17 in /usr/local/lib/python3.13/dist-packages (from transformers==4.57.1) (2025.11.3)
+12.3s 36 [2026-11-11T12:46:18+00:00] pip | Requirement already satisfied: requests in /usr/local/lib/python3.13/dist-packages (from transformers==4.57.1) (2.34.2)
+12.3s 37 [2026-11-11T12:46:18+00:00] pip | Requirement already satisfied: tqdm>=4.27 in /usr/local/lib/python3.13/dist-packages (from transformers==4.57.1) (4.67.3)
+12.4s 38 [2026-11-11T12:46:18+00:00] pip | Requirement already satisfied: fsspec>=2023.5.0 in /usr/local/lib/python3.13/dist-packages (from huggingface-hub==0.36.0) (2025.12.0)
+12.4s 39 [2026-11-11T12:46:18+00:00] pip | Requirement already satisfied: typing-extensions>=3.7.4.3 in /usr/local/lib/python3.13/dist-packages (from huggingface-hub==0.36.0) (4.16.0)
+12.4s 40 [2026-11-11T12:46:18+00:00] pip | Requirement already satisfied: hf-xet<2.0.0,>=1.1.3 in /usr/local/lib/python3.13/dist-packages (from huggingface-hub==0.36.0) (1.7.0)
+12.4s 41 [2026-11-11T12:46:18+00:00] pip | Requirement already satisfied: psutil in /usr/local/lib/python3.13/dist-packages (from accelerate==1.11.0) (5.9.5)
+12.4s 42 [2026-11-11T12:46:18+00:00] pip | Requirement already satisfied: torch>=2.0.0 in /usr/local/lib/python3.13/dist-packages (from accelerate==1.11.0) (2.11.0+cu130)
+12.4s 43 [2026-11-11T12:46:18+00:00] pip | Requirement already satisfied: setuptools<82 in /usr/local/lib/python3.13/dist-packages (from torch>=2.0.0->accelerate==1.11.0) (81.0.0)
+12.4s 44 [2026-11-11T12:46:18+00:00] pip | Requirement already satisfied: sympy>=1.13.3 in /usr/local/lib/python3.13/dist-packages (from torch>=2.0.0->accelerate==1.11.0) (1.14.0)
+12.4s 45 [2026-11-11T12:46:18+00:00] pip | Requirement already satisfied: networkx>=2.5.1 in /usr/local/lib/python3.13/dist-packages (from torch>=2.0.0->accelerate==1.11.0) (3.7)
+12.4s 46 [2026-11-11T12:46:18+00:00] pip | Requirement already satisfied: jinja2 in /usr/local/lib/python3.13/dist-packages (from torch>=2.0.0->accelerate==1.11.0) (3.1.6)
+12.4s 47 [2026-11-11T12:46:18+00:00] pip | Requirement already satisfied: cuda-toolkit==13.0.2 in /usr/local/lib/python3.13/dist-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch>=2.0.0->accelerate==1.11.0) (13.0.2)
+12.4s 48 [2026-11-11T12:46:18+00:00] pip | Requirement already satisfied: cuda-bindings<14,>=13.0.3 in /usr/local/lib/python3.13/dist-packages (from torch>=2.0.0->accelerate==1.11.0) (13.0.3)
+12.4s 49 [2026-11-11T12:46:18+00:00] pip | Requirement already satisfied: nvidia-cudnn-cu13==9.19.0.56 in /usr/local/lib/python3.13/dist-packages (from torch>=2.0.0->accelerate==1.11.0) (9.19.0.56)
+12.4s 50 [2026-11-11T12:46:18+00:00] pip | Requirement already satisfied: nvidia-cusparselt-cu13==0.8.0 in /usr/local/lib/python3.13/dist-packages (from torch>=2.0.0->accelerate==1.11.0) (0.8.0)
+12.4s 51 [2026-11-11T12:46:18+00:00] pip | Requirement already satisfied: nvidia-nccl-cu13==2.28.9 in /usr/local/lib/python3.13/dist-packages (from torch>=2.0.0->accelerate==1.11.0) (2.28.9)
+12.4s 52 [2026-11-11T12:46:18+00:00] pip | Requirement already satisfied: nvidia-nvshmem-cu13==3.4.5 in /usr/local/lib/python3.13/dist-packages (from torch>=2.0.0->accelerate==1.11.0) (3.4.5)
+12.4s 53 [2026-11-11T12:46:18+00:00] pip | Requirement already satisfied: triton==3.6.0 in /usr/local/lib/python3.13/dist-packages (from torch>=2.0.0->accelerate==1.11.0) (3.6.0)
+12.4s 54 [2026-11-11T12:46:18+00:00] pip | Requirement already satisfied: nvidia-cublas==13.1.0.3.* in /usr/local/lib/python3.13/dist-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch>=2.0.0->accelerate==1.11.0) (13.1.0.3)
+12.4s 55 [2026-11-11T12:46:18+00:00] pip | Requirement already satisfied: nvidia-cuda-runtime==13.0.96.* in /usr/local/lib/python3.13/dist-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch>=2.0.0->accelerate==1.11.0) (13.0.96)
+12.4s 56 [2026-11-11T12:46:18+00:00] pip | Requirement already satisfied: nvidia-cufft==12.0.0.61.* in /usr/local/lib/python3.13/dist-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch>=2.0.0->accelerate==1.11.0) (12.0.0.61)
+12.4s 57 [2026-11-11T12:46:18+00:00] pip | Requirement already satisfied: nvidia-cufile==1.15.1.6.* in /usr/local/lib/python3.13/dist-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch>=2.0.0->accelerate==1.11.0) (1.15.1.6)
+12.4s 58 [2026-11-11T12:46:18+00:00] pip | Requirement already satisfied: nvidia-cuda-cupti==13.0.85.* in /usr/local/lib/python3.13/dist-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch>=2.0.0->accelerate==1.11.0) (13.0.85)
+12.4s 59 [2026-11-11T12:46:18+00:00] pip | Requirement already satisfied: nvidia-curand==10.4.0.35.* in /usr/local/lib/python3.13/dist-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch>=2.0.0->accelerate==1.11.0) (10.4.0.35)
+12.4s 60 [2026-11-11T12:46:18+00:00] pip | Requirement already satisfied: nvidia-cusolver==12.0.4.66.* in /usr/local/lib/python3.13/dist-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch>=2.0.0->accelerate==1.11.0) (12.0.4.66)
+12.4s 61 [2026-11-11T12:46:18+00:00] pip | Requirement already satisfied: nvidia-cusparse==12.6.3.3.* in /usr/local/lib/python3.13/dist-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch>=2.0.0->accelerate==1.11.0) (12.6.3.3)
+12.4s 62 [2026-11-11T12:46:18+00:00] pip | Requirement already satisfied: nvidia-nvjitlink==13.0.88.* in /usr/local/lib/python3.13/dist-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch>=2.0.0->accelerate==1.11.0) (13.0.88)
+12.4s 63 [2026-11-11T12:46:18+00:00] pip | Requirement already satisfied: nvidia-cuda-nvrtc==13.0.88.* in /usr/local/lib/python3.13/dist-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch>=2.0.0->accelerate==1.11.0) (13.0.88)
+12.4s 64 [2026-11-11T12:46:18+00:00] pip | Requirement already satisfied: nvidia-nvtx==13.0.85.* in /usr/local/lib/python3.13/dist-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch>=2.0.0->accelerate==1.11.0) (13.0.85)
+12.4s 65 [2026-11-11T12:46:18+00:00] pip | Requirement already satisfied: cuda-pathfinder~=1.1 in /usr/local/lib/python3.13/dist-packages (from cuda-bindings<14,>=13.0.3->torch>=2.0.0->accelerate==1.11.0) (1.8.4)
+12.5s 66 [2026-11-11T12:46:18+00:00] pip | Requirement already satisfied: mpmath<1.4,>=1.1.0 in /usr/local/lib/python3.13/dist-packages (from sympy>=1.13.3->torch>=2.0.0->accelerate==1.11.0) (1.3.0)
+12.5s 67 [2026-11-11T12:46:18+00:00] pip | Requirement already satisfied: MarkupSafe>=2.0 in /usr/local/lib/python3.13/dist-packages (from jinja2->torch>=2.0.0->accelerate==1.11.0) (3.0.4)
+12.5s 68 [2026-11-11T12:46:18+00:00] pip | Requirement already satisfied: charset_normalizer<4,>=2 in /usr/local/lib/python3.13/dist-packages (from requests->transformers==4.57.1) (3.4.9)
+12.5s 69 [2026-11-11T12:46:18+00:00] pip | Requirement already satisfied: idna<4,>=2.5 in /usr/local/lib/python3.13/dist-packages (from requests->transformers==4.57.1) (3.20)
+12.5s 70 [2026-11-11T12:46:18+00:00] pip | Requirement already satisfied: urllib3<3,>=1.26 in /usr/local/lib/python3.13/dist-packages (from requests->transformers==4.57.1) (2.8.0)
+12.5s 71 [2026-11-11T12:46:18+00:00] pip | Requirement already satisfied: certifi>=2023.5.7 in /usr/local/lib/python3.13/dist-packages (from requests->transformers==4.57.1) (2026.10.23)
+12.5s 72 [2026-11-11T12:46:18+00:00] pip | Downloading transformers-4.57.1-py3-none-any.whl (12.0 MB)
+13.0s 73 [2026-11-11T12:46:19+00:00] pip | Downloading huggingface_hub-0.36.0-py3-none-any.whl (566 kB)
+13.0s 74 [2026-11-11T12:46:19+00:00] pip | Downloading tokenizers-0.22.1-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.3 MB)
+13.1s 75 [2026-11-11T12:46:19+00:00] pip | Downloading accelerate-1.11.0-py3-none-any.whl (375 kB)
+13.1s 76 [2026-11-11T12:46:19+00:00] pip | Downloading bitsandbytes-0.48.1-py3-none-manylinux_2_24_x86_64.whl (60.1 MB)
+13.8s 77 [2026-11-11T12:46:19+00:00] pip | Downloading safetensors-0.6.2-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (485 kB)
+13.9s 78 [2026-11-11T12:46:20+00:00] pip | Downloading sentencepiece-0.2.1-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (1.4 MB)
+15.9s 79 [2026-11-11T12:46:22+00:00] pip | Installing collected packages: sentencepiece, safetensors, huggingface-hub, tokenizers, transformers, bitsandbytes, accelerate
+15.9s 80 [2026-11-11T12:46:22+00:00] pip |   Attempting uninstall: sentencepiece
+16.0s 81 [2026-11-11T12:46:22+00:00] pip |     Found existing installation: sentencepiece 0.2.2
+16.0s 82 [2026-11-11T12:46:22+00:00] pip |     Uninstalling sentencepiece-0.2.2:
+16.0s 83 [2026-11-11T12:46:22+00:00] pip |       Successfully uninstalled sentencepiece-0.2.2
+16.0s 84 [2026-11-11T12:46:22+00:00] pip |   Attempting uninstall: safetensors
+16.1s 85 [2026-11-11T12:46:22+00:00] pip |     Found existing installation: safetensors 0.8.0
+16.1s 86 [2026-11-11T12:46:22+00:00] pip |     Uninstalling safetensors-0.8.0:
+16.1s 87 [2026-11-11T12:46:22+00:00] pip |       Successfully uninstalled safetensors-0.8.0
+16.1s 88 [2026-11-11T12:46:22+00:00] pip |   Attempting uninstall: huggingface-hub
+16.1s 89 [2026-11-11T12:46:22+00:00] pip |     Found existing installation: huggingface_hub 1.33.0
+16.2s 90 [2026-11-11T12:46:22+00:00] pip |     Uninstalling huggingface_hub-1.33.0:
+16.4s 91 [2026-11-11T12:46:22+00:00] pip |       Successfully uninstalled huggingface_hub-1.33.0
+16.7s 92 [2026-11-11T12:46:22+00:00] pip |   Attempting uninstall: tokenizers
+16.7s 93 [2026-11-11T12:46:22+00:00] pip |     Found existing installation: tokenizers 0.23.3
+16.7s 94 [2026-11-11T12:46:22+00:00] pip |     Uninstalling tokenizers-0.23.3:
+16.8s 95 [2026-11-11T12:46:22+00:00] pip |       Successfully uninstalled tokenizers-0.23.3
+16.9s 96 [2026-11-11T12:46:23+00:00] pip |   Attempting uninstall: transformers
+16.9s 97 [2026-11-11T12:46:23+00:00] pip |     Found existing installation: transformers 5.20.2
+17.4s 98 [2026-11-11T12:46:23+00:00] pip |     Uninstalling transformers-5.20.2:
+20.1s 99 [2026-11-11T12:46:26+00:00] pip |       Successfully uninstalled transformers-5.20.2
+28.5s 100 [2026-11-11T12:46:34+00:00] pip |   Attempting uninstall: accelerate
+28.5s 101 [2026-11-11T12:46:34+00:00] pip |     Found existing installation: accelerate 1.15.0
+28.6s 102 [2026-11-11T12:46:34+00:00] pip |     Uninstalling accelerate-1.15.0:
+28.7s 103 [2026-11-11T12:46:34+00:00] pip |       Successfully uninstalled accelerate-1.15.0
+28.9s 104 [2026-11-11T12:46:35+00:00] pip | ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+28.9s 105 [2026-11-11T12:46:35+00:00] pip | gradio-client 2.7.2 requires huggingface-hub<3.0,>=1.16.0, but you have huggingface-hub 0.36.0 which is incompatible.
+28.9s 106 [2026-11-11T12:46:35+00:00] pip | gradio 6.30.0 requires huggingface-hub<3.0,>=1.16.0, but you have huggingface-hub 0.36.0 which is incompatible.
+28.9s 107 [2026-11-11T12:46:35+00:00] pip | gradio 6.30.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.
+28.9s 108 [2026-11-11T12:46:35+00:00] pip | diffusers 0.42.0 requires huggingface-hub<3.0,>=1.32.0, but you have huggingface-hub 0.36.0 which is incompatible.
+28.9s 109 [2026-11-11T12:46:35+00:00] pip | diffusers 0.42.0 requires safetensors>=0.8.0, but you have safetensors 0.6.2 which is incompatible.
+29.0s 110 [2026-11-11T12:46:35+00:00] pip | Successfully installed accelerate-1.11.0 bitsandbytes-0.48.1 huggingface-hub-0.36.0 safetensors-0.6.2 sentencepiece-0.2.1 tokenizers-0.22.1 transformers-4.57.1
+29.2s 111 [2026-11-11T12:46:35+00:00] Inference dependencies verified. Kaggle torch/torchvision/Pillow were preserved.
+29.2s 112 [2026-11-11T12:46:35+00:00] DONE Dependency installation and version verification (19.2s)
+29.3s 113 [2026-11-11T12:46:35+00:00] START Dataset discovery and extraction
+31.6s 114 [2026-11-11T12:46:37+00:00] DONE Dataset discovery and extraction (2.4s)
+31.6s 115 [2026-11-11T12:46:37+00:00] Dataset found: /kaggle/input/datasets/claraotipeseku/breast-busbra-cancer-dataset/BUSBRA
+32.5s 116 [2026-11-11T12:46:38+00:00] START Load the frozen 400-image final sample
+62.5s 117 [2026-11-11T12:47:08+00:00] WAIT Load the frozen 400-image final sample (30s elapsed; call has not returned)
+92.5s 118 [2026-11-11T12:47:38+00:00] WAIT Load the frozen 400-image final sample (60s elapsed; call has not returned)
+104.8s 119 [2026-11-11T12:47:50+00:00] DONE Load the frozen 400-image final sample (72.3s)
+104.8s 120 [2026-11-11T12:47:50+00:00] Final sample: 400 images / 400 source Cases; 200 benign + 200 malignant
+104.8s 121 [2026-11-11T12:47:50+00:00] Excluded pilot Cases: 20 | previously flagged Cases: 13
+104.8s 122 [2026-11-11T12:47:50+00:00] Dataset variant: original | metadata SHA256: f218d0f10b0aeeb14ff4b2cfed8631b2f4a7cf608e564548b35bddd55f3aafb3
+104.8s 123 [2026-11-11T12:47:50+00:00] Final manifest SHA256: a8caa6ad39310c2871e53bc4b9f80d4b76c1b6f850b1c474c0abae8db1181283
+104.8s 124 [2026-11-11T12:47:50+00:00] Fixed prompt: 'You are a medical assistant. Examine this breast ultrasound image.\nClassify the lesion as exactly ONE of the following:\n- benign: non-cancerous lesion\n- malignant: cancerous lesion\n\nRespond with ONLY the label: benign or malignant.'
+104.8s 125 [2026-11-11T12:47:50+00:00] CONTROL VISUAL INPUTS: {'white': {'mode': 'constant_solid_white_rgb', 'size_px': [512, 512], 'color_rgb': [255, 255, 255], 'pixel_sha256': '902ab44f9b6b07c34a29958b325726ba7f6d506403335cf95a2af25e0ca1ad00'}, 'black': {'mode': 'constant_solid_black_rgb', 'size_px': [512, 512], 'color_rgb': [0, 0, 0], 'pixel_sha256': '599c1bb5ffd4b87229a81958f33f1060821cd01cd7aa7ccafa0d862f4522f3f6'}}
+104.8s 126 [2026-11-11T12:47:50+00:00] Original image paths/hashes are checked for pairing, never opened during inference.
+104.9s 127 [2026-11-11T12:47:51+00:00] START ML library imports and GPU setup
+134.5s 128 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+134.5s 129 I0000 00:00:1794401300.586116      23 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+134.7s 130 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+134.7s 131 I0000 00:00:1794401300.586116      23 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+134.7s 132 
+134.7s 133 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+134.7s 134 I0000 00:00:1794401300.586116      23 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+134.9s 135 [2026-11-11T12:48:21+00:00] WAIT ML library imports and GPU setup (30s elapsed; call has not returned)
+141.6s 136 [2026-11-11T12:48:27+00:00] HF_TOKEN is unavailable. Enable that Kaggle secret for the gated Gemma models.
+142.0s 137 [2026-11-11T12:48:27+00:00] BF16 capability: {'gpu': 0, 'native_supported': False, 'including_emulation_supported': True, 'probe_scope': 'PyTorch capability/tensor-allocation check; not full operator validation', 'execution_expectation': 'non_native_bf16_requested'}
+142.0s 138 [2026-11-11T12:48:28+00:00] BF16 capability: {'gpu': 1, 'native_supported': False, 'including_emulation_supported': True, 'probe_scope': 'PyTorch capability/tensor-allocation check; not full operator validation', 'execution_expectation': 'non_native_bf16_requested'}
+142.0s 139 [2026-11-11T12:48:28+00:00] BF16 is requested for every job. Using the BF16 path validated in v7; no precision fallback.
+143.0s 140 [2026-11-11T12:48:29+00:00] GPUs: [(0, 'Tesla T4'), (1, 'Tesla T4')]
+143.0s 141 [2026-11-11T12:48:29+00:00] No CPU/disk offloading or automatic precision fallback will be used.
+143.0s 142 [2026-11-11T12:48:29+00:00] DONE ML library imports and GPU setup (38.1s)
+143.1s 143 [2026-11-11T12:48:29+00:00] --- Model 1/2: qwen2_vl (bf16) ---
+143.5s 144 [2026-11-11T12:48:29+00:00] START qwen2_vl: resolving checkpoint revision
+143.6s 145 [2026-11-11T12:48:29+00:00] DONE qwen2_vl: resolving checkpoint revision (0.2s)
+143.6s 146 [2026-11-11T12:48:29+00:00] START qwen2_vl/bf16: load model and processor
+143.6s 147 [2026-11-11T12:48:29+00:00] START qwen2_vl/bf16: processor download and load
+146.7s 148 [2026-11-11T12:48:32+00:00] DONE qwen2_vl/bf16: processor download and load (3.1s)
+146.7s 149 [2026-11-11T12:48:32+00:00] START qwen2_vl/bf16: model download and load
+146.7s 150 `torch_dtype` is deprecated! Use `dtype` instead!
+146.7s 151 
+146.7s 152 `torch_dtype` is deprecated! Use `dtype` instead!
+173.6s 153 [2026-11-11T12:48:59+00:00] WAIT qwen2_vl/bf16: load model and processor (30s elapsed; call has not returned)
+174.4s 154 [2026-11-11T12:49:00+00:00] DONE qwen2_vl/bf16: model download and load (27.7s)
+174.4s 155 [2026-11-11T12:49:00+00:00] qwen2_vl loaded parameter dtypes: {'torch.bfloat16': 2208985600}
+174.4s 156 [2026-11-11T12:49:00+00:00] DONE qwen2_vl/bf16: load model and processor (30.8s)
+174.4s 157 [2026-11-11T12:49:00+00:00] qwen2_vl: control=white, RGB=(255, 255, 255)
+174.4s 158 [2026-11-11T12:49:00+00:00] START qwen2_vl: white 1/5
+174.5s 159 [2026-11-11T12:49:00+00:00] Resolved generation: {'use_model_defaults': False, 'generation_mode': 'greedy_search', 'max_new_tokens': 32, 'do_sample': False, 'num_beams': 1, 'num_return_sequences': 1, 'use_cache': True, 'temperature': 1.0, 'top_k': 50, 'top_p': 1.0, 'eos_token_id': [151645, 151643], 'pad_token_id': 151643, 'bos_token_id': 151643}
+179.7s 160 [2026-11-11T12:49:05+00:00] DONE qwen2_vl: white 1/5 (5.2s)
+179.7s 161 [2026-11-11T12:49:05+00:00] qwen2_vl white 1 => 'benign' / parsed: benign
+179.7s 162 [2026-11-11T12:49:05+00:00] START qwen2_vl: white 2/5
+181.2s 163 [2026-11-11T12:49:07+00:00] DONE qwen2_vl: white 2/5 (1.5s)
+181.2s 164 [2026-11-11T12:49:07+00:00] qwen2_vl white 2 => 'benign' / parsed: benign
+181.2s 165 [2026-11-11T12:49:07+00:00] START qwen2_vl: white 3/5
+182.7s 166 [2026-11-11T12:49:08+00:00] DONE qwen2_vl: white 3/5 (1.5s)
+182.7s 167 [2026-11-11T12:49:08+00:00] qwen2_vl white 3 => 'benign' / parsed: benign
+182.7s 168 [2026-11-11T12:49:08+00:00] START qwen2_vl: white 4/5
+184.1s 169 [2026-11-11T12:49:10+00:00] DONE qwen2_vl: white 4/5 (1.4s)
+184.1s 170 [2026-11-11T12:49:10+00:00] qwen2_vl white 4 => 'benign' / parsed: benign
+184.1s 171 [2026-11-11T12:49:10+00:00] START qwen2_vl: white 5/5
+185.6s 172 [2026-11-11T12:49:11+00:00] DONE qwen2_vl: white 5/5 (1.4s)
+185.6s 173 [2026-11-11T12:49:11+00:00] qwen2_vl white 5 => 'benign' / parsed: benign
+185.6s 174 [2026-11-11T12:49:11+00:00] qwen2_vl: control=black, RGB=(0, 0, 0)
+185.6s 175 [2026-11-11T12:49:11+00:00] START qwen2_vl: black 1/5
+187.0s 176 [2026-11-11T12:49:13+00:00] DONE qwen2_vl: black 1/5 (1.5s)
+187.0s 177 [2026-11-11T12:49:13+00:00] qwen2_vl black 1 => 'benign' / parsed: benign
+187.1s 178 [2026-11-11T12:49:13+00:00] START qwen2_vl: black 2/5
+188.5s 179 [2026-11-11T12:49:14+00:00] DONE qwen2_vl: black 2/5 (1.5s)
+188.5s 180 [2026-11-11T12:49:14+00:00] qwen2_vl black 2 => 'benign' / parsed: benign
+188.5s 181 [2026-11-11T12:49:14+00:00] START qwen2_vl: black 3/5
+190.0s 182 [2026-11-11T12:49:16+00:00] DONE qwen2_vl: black 3/5 (1.5s)
+190.0s 183 [2026-11-11T12:49:16+00:00] qwen2_vl black 3 => 'benign' / parsed: benign
+190.0s 184 [2026-11-11T12:49:16+00:00] START qwen2_vl: black 4/5
+191.4s 185 [2026-11-11T12:49:17+00:00] DONE qwen2_vl: black 4/5 (1.5s)
+191.5s 186 [2026-11-11T12:49:17+00:00] qwen2_vl black 4 => 'benign' / parsed: benign
+191.5s 187 [2026-11-11T12:49:17+00:00] START qwen2_vl: black 5/5
+192.9s 188 [2026-11-11T12:49:19+00:00] DONE qwen2_vl: black 5/5 (1.5s)
+192.9s 189 [2026-11-11T12:49:19+00:00] qwen2_vl black 5 => 'benign' / parsed: benign
+193.4s 190 [2026-11-11T12:49:19+00:00] Removing owned model cache qwen2_vl
+193.6s 191 [2026-11-11T12:49:19+00:00] --- Model 2/2: medvlm_r1 (bf16) ---
+193.9s 192 [2026-11-11T12:49:20+00:00] START medvlm_r1: resolving checkpoint revision
+194.0s 193 [2026-11-11T12:49:20+00:00] DONE medvlm_r1: resolving checkpoint revision (0.1s)
+194.0s 194 [2026-11-11T12:49:20+00:00] START medvlm_r1/bf16: load model and processor
+194.0s 195 [2026-11-11T12:49:20+00:00] START medvlm_r1/bf16: processor download and load
+200.4s 196 [2026-11-11T12:49:26+00:00] DONE medvlm_r1/bf16: processor download and load (6.4s)
+200.4s 197 [2026-11-11T12:49:26+00:00] START medvlm_r1/bf16: model download and load
+213.5s 198 [2026-11-11T12:49:39+00:00] DONE medvlm_r1/bf16: model download and load (13.1s)
+225.8s 199 [2026-11-11T12:49:39+00:00] medvlm_r1 loaded parameter dtypes: {'torch.bfloat16': 2208985600}
+225.8s 200 [2026-11-11T12:49:50+00:00] WAIT medvlm_r1/bf16: load model and processor (30s elapsed; call has not returned)
+225.8s 201 [2026-11-11T12:49:51+00:00] DONE medvlm_r1/bf16: load model and processor (31.8s)
+225.8s 202 [2026-11-11T12:49:51+00:00] medvlm_r1: control=white, RGB=(255, 255, 255)
+225.8s 203 [2026-11-11T12:49:51+00:00] START medvlm_r1: white 1/5
+225.8s 204 [2026-11-11T12:49:51+00:00] Resolved generation: {'use_model_defaults': False, 'generation_mode': 'greedy_search', 'max_new_tokens': 32, 'do_sample': False, 'num_beams': 1, 'num_return_sequences': 1, 'use_cache': True, 'temperature': 1.0, 'top_k': 50, 'top_p': 1.0, 'eos_token_id': [151645, 151643], 'pad_token_id': 151643, 'bos_token_id': 151643}
+227.6s 205 [2026-11-11T12:49:53+00:00] DONE medvlm_r1: white 1/5 (1.8s)
+227.6s 206 [2026-11-11T12:49:53+00:00] medvlm_r1 white 1 => 'benign' / parsed: benign
+227.6s 207 [2026-11-11T12:49:53+00:00] START medvlm_r1: white 2/5
+229.1s 208 [2026-11-11T12:49:55+00:00] DONE medvlm_r1: white 2/5 (1.5s)
+229.1s 209 [2026-11-11T12:49:55+00:00] medvlm_r1 white 2 => 'benign' / parsed: benign
+229.1s 210 [2026-11-11T12:49:55+00:00] START medvlm_r1: white 3/5
+230.6s 211 [2026-11-11T12:49:56+00:00] DONE medvlm_r1: white 3/5 (1.5s)
+230.6s 212 [2026-11-11T12:49:56+00:00] medvlm_r1 white 3 => 'benign' / parsed: benign
+230.6s 213 [2026-11-11T12:49:56+00:00] START medvlm_r1: white 4/5
+232.1s 214 [2026-11-11T12:49:58+00:00] DONE medvlm_r1: white 4/5 (1.5s)
+232.1s 215 [2026-11-11T12:49:58+00:00] medvlm_r1 white 4 => 'benign' / parsed: benign
+232.1s 216 [2026-11-11T12:49:58+00:00] START medvlm_r1: white 5/5
+233.6s 217 [2026-11-11T12:49:59+00:00] DONE medvlm_r1: white 5/5 (1.5s)
+233.6s 218 [2026-11-11T12:49:59+00:00] medvlm_r1 white 5 => 'benign' / parsed: benign
+233.6s 219 [2026-11-11T12:49:59+00:00] medvlm_r1: control=black, RGB=(0, 0, 0)
+233.6s 220 [2026-11-11T12:49:59+00:00] START medvlm_r1: black 1/5
+235.1s 221 [2026-11-11T12:50:01+00:00] DONE medvlm_r1: black 1/5 (1.5s)
+235.1s 222 [2026-11-11T12:50:01+00:00] medvlm_r1 black 1 => 'benign' / parsed: benign
+235.1s 223 [2026-11-11T12:50:01+00:00] START medvlm_r1: black 2/5
+236.6s 224 [2026-11-11T12:50:02+00:00] DONE medvlm_r1: black 2/5 (1.5s)
+236.6s 225 [2026-11-11T12:50:02+00:00] medvlm_r1 black 2 => 'benign' / parsed: benign
+236.6s 226 [2026-11-11T12:50:02+00:00] START medvlm_r1: black 3/5
+238.1s 227 [2026-11-11T12:50:04+00:00] DONE medvlm_r1: black 3/5 (1.5s)
+238.1s 228 [2026-11-11T12:50:04+00:00] medvlm_r1 black 3 => 'benign' / parsed: benign
+238.1s 229 [2026-11-11T12:50:04+00:00] START medvlm_r1: black 4/5
+239.6s 230 [2026-11-11T12:50:05+00:00] DONE medvlm_r1: black 4/5 (1.5s)
+239.6s 231 [2026-11-11T12:50:05+00:00] medvlm_r1 black 4 => 'benign' / parsed: benign
+239.6s 232 [2026-11-11T12:50:05+00:00] START medvlm_r1: black 5/5
+241.1s 233 [2026-11-11T12:50:07+00:00] DONE medvlm_r1: black 5/5 (1.5s)
+241.1s 234 [2026-11-11T12:50:07+00:00] medvlm_r1 black 5 => 'benign' / parsed: benign
+241.6s 235 [2026-11-11T12:50:07+00:00] Removing owned model cache medvlm_r1
+241.7s 236 [2026-11-11T12:50:07+00:00] Completed control inferences: 20 of 20
+241.9s 237 [2026-11-11T12:50:07+00:00] COMPLETE: 20 actual control inferences; four separate, derived 400-row CSVs ready for paired analysis.
+247.8s 238 /usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\|'
+247.8s 239 cells[i][c] = re.sub('\\\\\|', '|', cell)
+248.0s 240 /usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\_'
+248.0s 241 text = re.sub(r'_', '\_', text) # Escape underscores in display text
+248.7s 242 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+248.9s 243 [NbConvertApp] Writing 419671 bytes to __notebook__.ipynb
+251.4s 244 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+252.1s 245 [NbConvertApp] Writing 783346 bytes to __results__.html
