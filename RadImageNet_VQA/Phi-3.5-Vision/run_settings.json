@@ -1,0 +1,28 @@
+{
+  "attention": "eager",
+  "conditions": [
+    "real",
+    "white"
+  ],
+  "dataset_revision": "9add2548cca069f088b9d0e44bfac849a53a5c31",
+  "dtype": "torch.bfloat16",
+  "gpu": "Tesla T4",
+  "max_new_tokens": 16,
+  "models": {
+    "chex_phi35_sft": [
+      "HaiZhiYan/CheX-Phi35V",
+      "fc6ff2f91c9ed4a6ec9b81d9315a10352a6d7ad4",
+      "CheX-Phi-3.5-vision-instruct-SFT"
+    ],
+    "phi35_vision": [
+      "microsoft/Phi-3.5-vision-instruct",
+      "12b77fb40b63a2c73c68243d3f767aab688a1b2a",
+      ""
+    ]
+  },
+  "num_crops": 16,
+  "protocol": 2,
+  "sample_and_prompts_sha256": "f1af3d2a67070246caad28d162acfe6291d74faf57e35a74c348afa74baa439d",
+  "seed": 42,
+  "torch": "2.11.0+cu130"
+}

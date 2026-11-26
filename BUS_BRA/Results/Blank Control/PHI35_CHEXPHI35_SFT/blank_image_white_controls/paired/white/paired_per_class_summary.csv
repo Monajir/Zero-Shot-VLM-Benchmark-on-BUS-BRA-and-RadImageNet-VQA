@@ -1,0 +1,5 @@
+model,true_answer,n,real_accuracy_pct,blank_accuracy_pct,real_only_correct,blank_only_correct
+chex_phi35_sft,benign,200,13.5,0.0,27,0
+chex_phi35_sft,malignant,200,0.0,0.0,0,0
+phi35_vision,benign,200,100.0,100.0,0,0
+phi35_vision,malignant,200,0.0,0.0,0,0

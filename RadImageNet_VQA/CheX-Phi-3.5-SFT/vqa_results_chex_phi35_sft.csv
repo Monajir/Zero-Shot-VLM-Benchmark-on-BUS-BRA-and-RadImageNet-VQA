@@ -1,0 +1,589 @@
+idx,question_id,group,anatomy,question,true_answer,predicted_answer,raw_output
+22,abnormal_closed,abnormality_yesno,hip,Does this scan reveal any abnormalities?,yes,yes, Yes.     The image indicates low lung volumes
+82,anatomy_closed_pos,anatomy_yesno,ankle foot,Can you see the ankle foot?,yes,yes, Yes.     The image demonstrates the presence
+93,anatomy_mc,anatomy_mcq,shoulder,Select the correct anatomical region.,D,D,D. shoulder
+98,pathology_mc,pathology_mcq,shoulder,What is the most likely pathology in this image?,C,D,D. no pathology seen
+169,pathology_closed_neg,pathology_yesno,lung,Does the patient have parenchyma destruction?,no,no, No.     The image indicates that the l
+210,anatomy_mc,anatomy_mcq,abdomen,Select the correct anatomical region.,B,C,C. spine
+215,pathology_mc,pathology_mcq,abdomen,Select the pathology that best describes this image:,B,B,B. no pathology seen
+222,pathology_closed_pos,pathology_yesno,abdomen,Does the patient have pancreatic lesion?,yes,yes, Yes.     The image demonstrates a large
+262,anatomy_closed_pos,anatomy_yesno,knee,Is the knee visible in the image?,yes,yes, Yes.     The image demonstrates the presence
+273,anatomy_mc,anatomy_mcq,abdomen,Which of the following anatomical regions is depicted in this scan?,D,D,D. abdomen
+278,pathology_mc,pathology_mcq,abdomen,What pathology is shown in this scan of abdomen,C,A,"A. no pathology seen. 
+
+The image indicates that the l"
+310,abnormal_closed,abnormality_yesno,lung,Does the lung look abnormal?,no,yes, Yes.     The image indicates that the l
+330,pathology_closed_pos,pathology_yesno,abdomen,Is the abdomen affected by bowel mass?,yes,no, No.     The image indicates that the l
+331,pathology_closed_neg,pathology_yesno,abdomen,Does the patient have abnormal entire organ?,no,yes, Yes.     The image indicates that the heart
+340,pathology_closed_neg,pathology_yesno,knee,Are there signs of fracture?,no,yes, Yes.     The image indicates a chronic
+346,abnormal_closed,abnormality_yesno,brain,Does this scan reveal any abnormalities?,yes,yes, Yes.     The image indicates low lung volumes
+354,anatomy_mc,anatomy_mcq,abdomen,What is the correct anatomical region for this scan?,B,B,B. abdomen
+359,pathology_mc,pathology_mcq,abdomen,What pathology is shown in this scan of abdomen,A,D,D. no pathology seen
+379,anatomy_closed_pos,anatomy_yesno,abdomen,Does the picture contain the abdomen?,yes,no, No.     The image indicates that the l
+382,abnormal_closed,abnormality_yesno,abdomen,Does this scan reveal any abnormalities?,no,no, No.     The image indicates that the l
+384,pathology_closed_pos,pathology_yesno,abdomen,Is there evidence of renal lesion in this image?,no,no, No.     The image indicates that the l
+393,pathology_closed_pos,pathology_yesno,abdomen,Are there signs of urolithiasis?,yes,no, No.     The image indicates that the l
+411,pathology_closed_pos,pathology_yesno,spine,Is there evidence of foraminal pathology in this image?,yes,yes, Yes.     The image demonstrates mild
+424,anatomy_closed_pos,anatomy_yesno,abdomen,Can you see the abdomen?,yes,no, No.     The image indicates that the l
+484,pathology_closed_neg,pathology_yesno,abdomen,Does the patient have renal lesion?,no,no, No.     The image indicates that the l
+489,anatomy_mc,anatomy_mcq,hip,What is the correct anatomical region for this scan?,B,B,B. hip
+494,pathology_mc,pathology_mcq,hip,What pathology is shown in this scan of hip,A,B,B. no pathology seen
+505,anatomy_closed_pos,anatomy_yesno,brain,Can you identify the brain in this image?,yes,yes, Yes.     The image indicates that the card
+533,anatomy_closed_neg,anatomy_yesno,abdomen,Is the spine present in this image?,no,yes, Yes.     The image demonstrates a m
+534,anatomy_mc,anatomy_mcq,abdomen,What is the correct anatomical region for this scan?,D,D,D. abdomen
+539,pathology_mc,pathology_mcq,abdomen,What is the most likely pathology in this image?,A,C,C. no pathology seen
+555,pathology_closed_pos,pathology_yesno,ankle foot,Are there signs of flexor pathology?,yes,no, No.     The image indicates that the l
+570,anatomy_mc,anatomy_mcq,abdomen,Which of the following anatomical regions is depicted in this scan?,B,B,B. abdomen
+575,pathology_mc,pathology_mcq,abdomen,Which of the following pathologies is present in this image?,A,C,C. liver lesion.  The image demonstrates a large
+595,anatomy_closed_pos,anatomy_yesno,abdomen,Can you identify the abdomen in this image?,yes,no, No.     The image does not show any
+597,anatomy_mc,anatomy_mcq,abdomen,What is the correct anatomical region for this scan?,A,D,D. shoulder
+602,pathology_mc,pathology_mcq,abdomen,Which of the following pathologies is present in this image?,D,C,C. liver lesion.  The image demonstrates a large
+606,anatomy_mc,anatomy_mcq,abdomen,Which of the following anatomical regions is depicted in this scan?,B,C,C. spine
+611,pathology_mc,pathology_mcq,abdomen,Select the pathology that best describes this image:,C,C,C. no pathology seen
+631,anatomy_closed_pos,anatomy_yesno,lung,Can you see the lung?,yes,no, No.     The image indicates that the l
+633,anatomy_mc,anatomy_mcq,lung,Which of the following anatomical regions is depicted in this scan?,D,A,A. abdomen
+638,pathology_mc,pathology_mcq,lung,What is the most likely pathology in this image?,D,D,D. no pathology seen.  The image indicates that the l
+686,anatomy_closed_neg,anatomy_yesno,knee,Does the picture contain the hip?,no,yes, Yes.     The image demonstrates the presence
+687,anatomy_mc,anatomy_mcq,knee,Select the correct anatomical region.,C,C,C. knee
+692,pathology_mc,pathology_mcq,knee,What pathology is shown in this scan of knee,D,B,B. no pathology seen
+715,abnormal_closed,abnormality_yesno,abdomen,Does this scan reveal any abnormalities?,yes,yes, Yes.     The image indicates a mild
+762,pathology_closed_pos,pathology_yesno,knee,Are there signs of soft tissue fluid collection?,yes,no, No.     The image indicates that there is
+778,abnormal_closed,abnormality_yesno,abdomen,Is there an abnormality present?,no,yes, Yes.     The image indicates low lung volumes
+795,anatomy_mc,anatomy_mcq,knee,Select the correct anatomical region.,C,A,A. spine
+798,pathology_closed_pos,pathology_yesno,knee,Is meniscal abnormality present?,yes,no, No.     The image indicates that the l
+800,pathology_mc,pathology_mcq,knee,What is the most likely pathology in this image?,D,A,"A. no pathology seen. 
+
+The image indicates that the l"
+811,anatomy_closed_pos,anatomy_yesno,abdomen,Is the abdomen visible in the image?,yes,yes, Yes.     The image indicates that the ab
+825,pathology_closed_pos,pathology_yesno,knee,Is there evidence of meniscal abnormality in this image?,yes,no, No.     The image indicates that the l
+832,abnormal_closed,abnormality_yesno,spine,Is this image abnormal?,no,yes, Yes.     The image indicates a mild
+838,anatomy_closed_pos,anatomy_yesno,knee,Can you identify the knee in this image?,yes,yes, Yes.     The image demonstrates the presence
+859,abnormal_closed,abnormality_yesno,spine,Is this image abnormal?,yes,yes, Yes.     The image indicates low lung volumes
+861,pathology_closed_pos,pathology_yesno,spine,Does the patient have foraminal pathology?,yes,yes, Yes.     The image indicates a large o
+866,anatomy_closed_neg,anatomy_yesno,brain,Can you see the ankle foot?,no,no, No.     The image does not show any
+867,anatomy_mc,anatomy_mcq,brain,Select the correct anatomical region.,A,A,A. brain
+872,pathology_mc,pathology_mcq,brain,Select the pathology that best describes this image:,D,A,"A. no pathology seen. 
+
+The image indicates that the l"
+901,anatomy_closed_pos,anatomy_yesno,shoulder,Is the shoulder visible in the image?,yes,no, No.     The image does not show any
+911,anatomy_closed_neg,anatomy_yesno,lung,Is the ankle foot visible in the image?,no,no, No.     The image does not show any
+912,anatomy_mc,anatomy_mcq,lung,Which of the following anatomical regions is depicted in this scan?,A,A,A. lung
+917,pathology_mc,pathology_mcq,lung,What is the most likely pathology in this image?,A,C,C. no pathology seen
+922,abnormal_closed,abnormality_yesno,knee,Is this image abnormal?,yes,yes, Yes.     The image indicates a mild
+925,pathology_closed_neg,pathology_yesno,knee,Are there signs of postoperative acl reconstruction?,no,no, No.     The image does not show any
+966,anatomy_mc,anatomy_mcq,spine,What is the correct anatomical region for this scan?,A,A,A. spine
+971,pathology_mc,pathology_mcq,spine,Select the pathology that best describes this image:,A,D,"D. no pathology seen. 
+
+The image indicates that the l"
+987,pathology_closed_pos,pathology_yesno,abdomen,Is there evidence of liver lesion in this image?,yes,yes, Yes.     The image demonstrates a large
+1014,pathology_closed_pos,pathology_yesno,lung,Is there evidence of parenchyma destruction in this image?,yes,yes, Yes.     The image indicates a chronic
+1048,abnormal_closed,abnormality_yesno,brain,Does the brain look abnormal?,yes,yes, Yes.     The image indicates that the card
+1057,abnormal_closed,abnormality_yesno,spine,Does the spine look abnormal?,yes,yes, Yes.     The image indicates multilevel
+1120,abnormal_closed,abnormality_yesno,abdomen,Does the abdomen look abnormal?,no,yes, Yes.     The image indicates a large hi
+1183,abnormal_closed,abnormality_yesno,abdomen,Does the abdomen look abnormal?,no,no, No.     The image indicates that the l
+1226,anatomy_closed_neg,anatomy_yesno,ankle foot,Does the picture contain the shoulder?,no,no, No.     The image does not show any
+1227,anatomy_mc,anatomy_mcq,ankle foot,What is the correct anatomical region for this scan?,C,B,B. spine
+1228,abnormal_closed,abnormality_yesno,ankle foot,Does the ankle foot look abnormal?,yes,yes, Yes.     The image indicates that the b
+1232,pathology_mc,pathology_mcq,ankle foot,What pathology is shown in this scan of ankle foot,D,C,C. no pathology seen
+1253,anatomy_closed_neg,anatomy_yesno,lung,Does the picture contain the shoulder?,no,no, No.     The image does not show any
+1254,anatomy_mc,anatomy_mcq,lung,What is the correct anatomical region for this scan?,A,A,A. lung
+1259,pathology_mc,pathology_mcq,lung,What pathology is shown in this scan of lung,C,A,"A. no pathology seen. 
+
+The image indicates that the l"
+1291,abnormal_closed,abnormality_yesno,brain,Does the brain look abnormal?,yes,yes, Yes.     The image indicates that the card
+1302,pathology_closed_pos,pathology_yesno,lung,Are there signs of nodule?,yes,yes, Yes.     The image demonstrates a 
+1347,pathology_closed_pos,pathology_yesno,ankle foot,Are there signs of achilles pathology?,yes,yes, Yes.     The image demonstrates degener
+1462,abnormal_closed,abnormality_yesno,abdomen,Does the abdomen look abnormal?,no,yes, Yes.     The image indicates a large hi
+1507,abnormal_closed,abnormality_yesno,lung,Does the lung look abnormal?,no,yes, Yes.     The image indicates low lung volumes
+1516,abnormal_closed,abnormality_yesno,abdomen,Is this image abnormal?,no,yes, Yes.     The image indicates a mild
+1549,anatomy_closed_pos,anatomy_yesno,abdomen,Is the abdomen part of this scan?,yes,no, No.     The image indicates that the l
+1568,anatomy_closed_neg,anatomy_yesno,abdomen,Does this image show the shoulder?,no,no, No.     The image does not show any
+1569,anatomy_mc,anatomy_mcq,abdomen,What is the correct anatomical region for this scan?,C,C,C. abdomen
+1574,pathology_mc,pathology_mcq,abdomen,Which of the following pathologies is present in this image?,C,D,"D. renal lesion. 
+
+The image demonstrates a large"
+1608,pathology_closed_pos,pathology_yesno,lung,Is interstitial lung disease present?,yes,yes, Yes.     The image indicates the presence of
+1681,pathology_closed_neg,pathology_yesno,ankle foot,Is the ankle foot affected by osseous neoplasm?,no,yes, Yes.     The image demonstrates a s
+1690,pathology_closed_neg,pathology_yesno,knee,Is there evidence of muscle strain in this image?,no,no, No.     The image indicates that the l
+1784,anatomy_closed_neg,anatomy_yesno,knee,Can you identify the hip in this image?,no,yes, Yes.     The image demonstrates a right
+1785,anatomy_mc,anatomy_mcq,knee,Select the correct anatomical region.,C,C,C. knee
+1786,abnormal_closed,abnormality_yesno,knee,Is this image abnormal?,yes,yes, Yes.     The image indicates a moderate
+1790,pathology_mc,pathology_mcq,knee,What is the most likely pathology in this image?,A,C,C. no pathology seen
+1806,pathology_closed_pos,pathology_yesno,spine,Is the spine affected by disc pathology?,yes,yes, Yes.     The image demonstrates multile
+1843,pathology_closed_neg,pathology_yesno,lung,Is there evidence of interstitial lung disease in this image?,no,yes, Yes.     The image indicates the presence of
+1884,anatomy_mc,anatomy_mcq,abdomen,Select the correct anatomical region.,D,B,B. spine
+1885,abnormal_closed,abnormality_yesno,abdomen,Is this image abnormal?,yes,yes, Yes.     The image indicates low lung volumes
+1889,pathology_mc,pathology_mcq,abdomen,What pathology is shown in this scan of abdomen,D,A,"A. no pathology seen. 
+
+The image indicates that the l"
+1892,anatomy_closed_neg,anatomy_yesno,abdomen,Does this image show the hip?,no,yes," Yes.     The image demonstrates a """
+1893,anatomy_mc,anatomy_mcq,abdomen,Select the correct anatomical region.,B,B,B. abdomen
+1898,pathology_mc,pathology_mcq,abdomen,Which of the following pathologies is present in this image?,C,B,B. no pathology seen
+1918,anatomy_closed_pos,anatomy_yesno,abdomen,Can you identify the abdomen in this image?,yes,no, No.     The image indicates that the l
+1939,abnormal_closed,abnormality_yesno,brain,Does this scan reveal any abnormalities?,no,yes, Yes.     The image indicates low lung volumes
+1965,anatomy_mc,anatomy_mcq,abdomen,Select the correct anatomical region.,B,D,D. spine
+1970,pathology_mc,pathology_mcq,abdomen,Which of the following pathologies is present in this image?,D,C,C. no pathology seen
+1984,abnormal_closed,abnormality_yesno,abdomen,Does the abdomen look abnormal?,yes,yes, Yes.     The image indicates a mild
+1987,pathology_closed_neg,pathology_yesno,abdomen,Is there evidence of pancreatic lesion in this image?,no,yes, Yes.     The image demonstrates a large
+1992,anatomy_mc,anatomy_mcq,shoulder,Which of the following anatomical regions is depicted in this scan?,C,B,B. hip
+1997,pathology_mc,pathology_mcq,shoulder,What pathology is shown in this scan of shoulder,D,B,B. no pathology seen
+2095,pathology_closed_neg,pathology_yesno,spine,Are there signs of spinal cord pathology?,no,yes, Yes.     The image indicates a mild
+2098,anatomy_closed_pos,anatomy_yesno,abdomen,Can you see the abdomen?,yes,no, No.     The image indicates that the l
+2117,anatomy_closed_neg,anatomy_yesno,hip,Is the shoulder present in this image?,no,no, No.     The image does not show any
+2118,anatomy_mc,anatomy_mcq,hip,Which of the following anatomical regions is depicted in this scan?,C,C,C. hip
+2123,pathology_mc,pathology_mcq,hip,Which of the following pathologies is present in this image?,B,D,D. no pathology seen
+2146,abnormal_closed,abnormality_yesno,lung,Is there an abnormality present?,no,yes, Yes.     The image indicates low lung volumes
+2182,abnormal_closed,abnormality_yesno,abdomen,Is there an abnormality present?,no,yes, Yes.     The image indicates a mild
+2283,pathology_closed_pos,pathology_yesno,abdomen,Is the abdomen affected by degenerative changes?,yes,yes, Yes.     The image indicates the presence of
+2287,anatomy_closed_pos,anatomy_yesno,lung,Does this image show the lung?,yes,yes, Yes.     The image indicates that the l
+2299,abnormal_closed,abnormality_yesno,shoulder,Is this image abnormal?,yes,yes, Yes.     The image indicates low lung volumes
+2346,pathology_closed_pos,pathology_yesno,knee,Is the knee affected by chondral abnormality?,yes,no, No.     The image indicates that the b
+2352,anatomy_mc,anatomy_mcq,lung,What is the correct anatomical region for this scan?,C,C,C. lung
+2357,pathology_mc,pathology_mcq,lung,What pathology is shown in this scan of lung,A,C,C. no pathology seen
+2371,abnormal_closed,abnormality_yesno,ankle foot,Is this image abnormal?,yes,yes, Yes.     The image indicates low lung volumes
+2377,anatomy_closed_pos,anatomy_yesno,shoulder,Is the shoulder present in this image?,yes,yes, Yes.     The image demonstrates degener
+2409,pathology_closed_pos,pathology_yesno,knee,Is the knee affected by fibular collateral ligament pathology?,yes,yes, Yes.     The image indicates a chronic
+2434,abnormal_closed,abnormality_yesno,ankle foot,Does the ankle foot look abnormal?,yes,yes, Yes.     The image indicates degenerative
+2478,anatomy_mc,anatomy_mcq,hip,Select the correct anatomical region.,D,D,D. hip
+2483,pathology_mc,pathology_mcq,hip,Which of the following pathologies is present in this image?,D,A,"A. no pathology seen. 
+
+The image indicates that the l"
+2495,anatomy_closed_neg,anatomy_yesno,hip,Can you identify the brain in this image?,no,no, No.     The image indicates that the l
+2496,anatomy_mc,anatomy_mcq,hip,What is the correct anatomical region for this scan?,C,C,C. hip
+2501,pathology_mc,pathology_mcq,hip,Which of the following pathologies is present in this image?,D,D,D. labral pathology.  The image demonstrates a moder
+2522,anatomy_closed_neg,anatomy_yesno,lung,Can you identify the brain in this image?,no,no, No.     The image indicates that the l
+2523,anatomy_mc,anatomy_mcq,lung,Select the correct anatomical region.,D,C,C. brain
+2528,pathology_mc,pathology_mcq,lung,What is the most likely pathology in this image?,B,D,D. interstitial lung disease.  The image indicates low
+2533,abnormal_closed,abnormality_yesno,lung,Is there an abnormality present?,no,no, No.     The image indicates that the l
+2560,abnormal_closed,abnormality_yesno,abdomen,Does the abdomen look abnormal?,no,yes, Yes.     The image indicates a large hi
+2587,abnormal_closed,abnormality_yesno,lung,Does the lung look abnormal?,no,no, No.     The image indicates that the l
+2590,pathology_closed_neg,pathology_yesno,lung,Is parenchyma destruction present?,no,no, No.     The image indicates that the l
+2604,anatomy_mc,anatomy_mcq,lung,What is the correct anatomical region for this scan?,B,B,B. lung
+2609,pathology_mc,pathology_mcq,lung,Which of the following pathologies is present in this image?,A,A,"A. no pathology seen. 
+
+The image indicates that the l"
+2616,pathology_closed_pos,pathology_yesno,lung,Does the patient have airspace opacity?,yes,no, No.     The image indicates that the l
+2631,anatomy_mc,anatomy_mcq,lung,What is the correct anatomical region for this scan?,D,D,D. lung
+2632,abnormal_closed,abnormality_yesno,lung,Does this scan reveal any abnormalities?,no,yes, Yes.     The image indicates low lung volumes
+2636,pathology_mc,pathology_mcq,lung,What is the most likely pathology in this image?,C,C,C. no pathology seen
+2638,anatomy_closed_pos,anatomy_yesno,lung,Can you identify the lung in this image?,yes,no, No.     The image indicates that the l
+2661,pathology_closed_pos,pathology_yesno,ankle foot,Is the ankle foot affected by syndesmosis pathology?,yes,yes, Yes.     The image demonstrates a mid
+2667,anatomy_mc,anatomy_mcq,brain,Which of the following anatomical regions is depicted in this scan?,A,A,A. brain
+2670,pathology_closed_pos,pathology_yesno,brain,Is there evidence of osseous lesion in this image?,no,yes, Yes.     The image demonstrates a s
+2672,pathology_mc,pathology_mcq,brain,Which of the following pathologies is present in this image?,C,A,"A. white matter changes. 
+
+The image demonstrates ""chronic"
+2693,anatomy_closed_neg,anatomy_yesno,ankle foot,Can you identify the shoulder in this image?,no,no, No.     The image does not show any
+2694,anatomy_mc,anatomy_mcq,ankle foot,What is the correct anatomical region for this scan?,C,C,C. ankle foot
+2699,pathology_mc,pathology_mcq,ankle foot,Select the pathology that best describes this image:,B,B,B. no pathology seen
+2719,anatomy_closed_pos,anatomy_yesno,abdomen,Is the abdomen part of this scan?,yes,no, No.     The image indicates that the l
+2766,anatomy_mc,anatomy_mcq,abdomen,What is the correct anatomical region for this scan?,C,C,C. abdomen
+2771,pathology_mc,pathology_mcq,abdomen,Which of the following pathologies is present in this image?,A,C,C. liver lesion.  The image demonstrates a large
+2787,pathology_closed_pos,pathology_yesno,abdomen,Is biceps pathology present?,no,no, No.     The image indicates that the b
+2794,abnormal_closed,abnormality_yesno,ankle foot,Is there an abnormality present?,yes,yes, Yes.     The image indicates that the heart
+2810,anatomy_closed_neg,anatomy_yesno,hip,Is the spine present in this image?,no,yes, Yes.     The image demonstrates a m
+2811,anatomy_mc,anatomy_mcq,hip,Which of the following anatomical regions is depicted in this scan?,B,B,B. hip
+2816,pathology_mc,pathology_mcq,hip,What is the most likely pathology in this image?,B,B,B. no pathology seen
+2827,anatomy_closed_pos,anatomy_yesno,abdomen,Does this image show the abdomen?,yes,yes, Yes.     The image demonstrates the presence
+2859,pathology_closed_pos,pathology_yesno,knee,Is the knee affected by chondral abnormality?,yes,yes, Yes.     The image demonstrates degener
+2865,anatomy_mc,anatomy_mcq,hip,Select the correct anatomical region.,D,B,B. spine
+2866,abnormal_closed,abnormality_yesno,hip,Is there an abnormality present?,yes,yes, Yes.     The image indicates a mild
+2870,pathology_mc,pathology_mcq,hip,Select the pathology that best describes this image:,B,A,"A. no pathology seen. 
+
+The image indicates that the l"
+2873,anatomy_closed_neg,anatomy_yesno,abdomen,Does this image show the shoulder?,no,no, No.     The image does not show any
+2874,anatomy_mc,anatomy_mcq,abdomen,Which of the following anatomical regions is depicted in this scan?,D,D,D. abdomen
+2879,pathology_mc,pathology_mcq,abdomen,What is the most likely pathology in this image?,C,C,"C. pancreatic lesion. 
+
+The image demonstrates a"
+2893,abnormal_closed,abnormality_yesno,knee,Is this image abnormal?,yes,yes, Yes.     The image indicates a mild
+2938,abnormal_closed,abnormality_yesno,lung,Does this scan reveal any abnormalities?,no,yes, Yes.     The image indicates mild card
+2946,anatomy_mc,anatomy_mcq,lung,Which of the following anatomical regions is depicted in this scan?,D,D,D. lung
+2951,pathology_mc,pathology_mcq,lung,What pathology is shown in this scan of lung,B,B,B. no pathology seen
+2954,anatomy_closed_neg,anatomy_yesno,lung,Is the ankle foot visible in the image?,no,no, No.     The image does not show any
+2955,anatomy_mc,anatomy_mcq,lung,Which of the following anatomical regions is depicted in this scan?,C,C,C. lung
+2959,pathology_closed_neg,pathology_yesno,lung,Is there evidence of airspace opacity in this image?,no,no, No.     The image indicates that the l
+2960,pathology_mc,pathology_mcq,lung,What is the most likely pathology in this image?,A,C,"C. interstitial lung disease
+
+  The image indicates"
+2977,pathology_closed_neg,pathology_yesno,ankle foot,Are there signs of coalition bone fusion?,no,yes, Yes.     The image demonstrates a s
+2994,pathology_closed_pos,pathology_yesno,ankle foot,Is the ankle foot affected by soft tissue mass?,yes,yes, Yes.     The image demonstrates a large
+3028,abnormal_closed,abnormality_yesno,lung,Does the lung look abnormal?,yes,yes, Yes.     The image indicates that the l
+3037,abnormal_closed,abnormality_yesno,abdomen,Does this scan reveal any abnormalities?,no,no, No.     The image indicates that the l
+3094,pathology_closed_neg,pathology_yesno,ankle foot,Is the ankle foot affected by deltoid pathology?,no,no, No.     The image indicates that the b
+3116,anatomy_closed_neg,anatomy_yesno,lung,Is the spine part of this scan?,no,no, No.     The image does not show any
+3117,anatomy_mc,anatomy_mcq,lung,Select the correct anatomical region.,A,A,A. lung
+3120,pathology_closed_pos,pathology_yesno,lung,Is there evidence of airspace opacity in this image?,yes,no, No.     The image indicates that the l
+3122,pathology_mc,pathology_mcq,lung,What pathology is shown in this scan of lung,D,A,"A. interstitial lung disease. 
+
+The image demonstrates"
+3235,abnormal_closed,abnormality_yesno,lung,Is there an abnormality present?,yes,yes, Yes.     The image indicates a mild
+3246,pathology_closed_pos,pathology_yesno,lung,Is the lung affected by nodule?,yes,yes, Yes.     The image demonstrates a 
+3250,anatomy_closed_pos,anatomy_yesno,ankle foot,Does the picture contain the ankle foot?,yes,no, No.     The image does not show any
+3332,anatomy_closed_neg,anatomy_yesno,abdomen,Can you see the lung?,no,yes, Yes.     The image indicates that the l
+3333,anatomy_mc,anatomy_mcq,abdomen,Which of the following anatomical regions is depicted in this scan?,A,A,A. abdomen
+3338,pathology_mc,pathology_mcq,abdomen,Select the pathology that best describes this image:,B,C,"C. liver lesion
+
+  Yes.   "
+3341,anatomy_closed_neg,anatomy_yesno,abdomen,Is the brain visible in the image?,no,no, No.     The image indicates that the l
+3342,anatomy_mc,anatomy_mcq,abdomen,What is the correct anatomical region for this scan?,A,A,A. abdomen
+3347,pathology_mc,pathology_mcq,abdomen,What is the most likely pathology in this image?,A,C,"C. no pathology seen
+
+  The image indicates that the"
+3417,pathology_closed_pos,pathology_yesno,lung,Is the lung affected by liver disease?,no,yes, Yes.     The image indicates a large hi
+3441,anatomy_mc,anatomy_mcq,spine,What is the correct anatomical region for this scan?,A,A,A. spine
+3446,pathology_mc,pathology_mcq,spine,Select the pathology that best describes this image:,D,D,D. scoliosis.  The image demonstrates a m
+3505,abnormal_closed,abnormality_yesno,abdomen,Does the abdomen look abnormal?,no,yes, Yes.     The image indicates a large hi
+3532,abnormal_closed,abnormality_yesno,knee,Does the knee look abnormal?,yes,yes, Yes.     The image indicates severe degener
+3538,anatomy_closed_pos,anatomy_yesno,lung,Can you identify the lung in this image?,yes,no, No.     The image indicates that the l
+3574,anatomy_closed_pos,anatomy_yesno,lung,Does this image show the lung?,yes,yes, Yes.     The image indicates that the l
+3624,pathology_closed_pos,pathology_yesno,hip,Are there signs of marrow inflammation?,yes,yes, Yes.     The image indicates diffuse s
+3700,anatomy_closed_pos,anatomy_yesno,abdomen,Can you identify the abdomen in this image?,yes,no, No.     The image indicates that the l
+3701,anatomy_closed_neg,anatomy_yesno,abdomen,Can you identify the shoulder in this image?,no,no, No.     The image does not show any
+3702,anatomy_mc,anatomy_mcq,abdomen,Select the correct anatomical region.,A,C,C. hip
+3707,pathology_mc,pathology_mcq,abdomen,Which of the following pathologies is present in this image?,C,A,"A. no pathology seen. 
+
+The image indicates that the l"
+3739,abnormal_closed,abnormality_yesno,abdomen,Is this image abnormal?,yes,yes, Yes.     The image indicates that the heart
+3768,pathology_closed_pos,pathology_yesno,spine,Are there signs of posterior cruciate ligament pathology?,no,no, No.     The image indicates that the b
+3781,anatomy_closed_pos,anatomy_yesno,shoulder,Can you identify the shoulder in this image?,yes,no, No.     The image does not show any
+3822,pathology_closed_pos,pathology_yesno,hip,Is the hip affected by abductor pathology?,yes,yes, Yes.     The image demonstrates degener
+3838,abnormal_closed,abnormality_yesno,brain,Does the brain look abnormal?,no,yes, Yes.     The image indicates a mild
+3858,pathology_closed_pos,pathology_yesno,abdomen,Is there evidence of uterine pathology in this image?,yes,yes, Yes.     The image indicates a large left
+3867,pathology_closed_pos,pathology_yesno,abdomen,Is there evidence of white matter changes in this image?,no,yes, Yes.     The image demonstrates mild
+3927,anatomy_mc,anatomy_mcq,ankle foot,Select the correct anatomical region.,B,C,C. brain
+3932,pathology_mc,pathology_mcq,ankle foot,Select the pathology that best describes this image:,C,D,D. no pathology seen
+3953,anatomy_closed_neg,anatomy_yesno,abdomen,Does this image show the lung?,no,no, No.     The image indicates that the l
+3954,anatomy_mc,anatomy_mcq,abdomen,What is the correct anatomical region for this scan?,D,D,D. abdomen
+3955,abnormal_closed,abnormality_yesno,abdomen,Does this scan reveal any abnormalities?,yes,yes, Yes.     The image indicates low lung volumes
+3959,pathology_mc,pathology_mcq,abdomen,Select the pathology that best describes this image:,A,B,"B. no pathology seen. 
+
+The image indicates that the l"
+3973,abnormal_closed,abnormality_yesno,hip,Does the hip look abnormal?,no,yes, Yes.     The image indicates that the left
+3997,anatomy_closed_pos,anatomy_yesno,shoulder,Is the shoulder part of this scan?,yes,yes, Yes.     The image demonstrates a right
+4020,pathology_closed_pos,pathology_yesno,knee,Is chondral abnormality present?,yes,no, No.     The image indicates that the l
+4036,abnormal_closed,abnormality_yesno,lung,Is this image abnormal?,no,yes, Yes.     The image indicates low lung volumes
+4062,anatomy_mc,anatomy_mcq,abdomen,What is the correct anatomical region for this scan?,A,A,A. abdomen
+4067,pathology_mc,pathology_mcq,abdomen,What is the most likely pathology in this image?,A,C,C. no pathology seen
+4093,pathology_closed_neg,pathology_yesno,abdomen,Are there signs of prostate lesion?,no,no, No.     The image indicates that the l
+4105,anatomy_closed_pos,anatomy_yesno,lung,Does this image show the lung?,yes,no, No.     The image indicates that the l
+4108,abnormal_closed,abnormality_yesno,lung,Is this image abnormal?,no,yes, Yes.     The image indicates low lung volumes
+4204,anatomy_closed_pos,anatomy_yesno,ankle foot,Can you see the ankle foot?,yes,no, No.     The image does not show any
+4222,anatomy_closed_pos,anatomy_yesno,brain,Can you see the brain?,yes,yes, Yes.     The image indicates that the card
+4254,pathology_closed_pos,pathology_yesno,brain,Is chronic infarct present?,yes,no, No.     The image indicates that the l
+4270,abnormal_closed,abnormality_yesno,ankle foot,Does the ankle foot look abnormal?,yes,yes, Yes.     The image indicates severe degener
+4282,pathology_closed_neg,pathology_yesno,abdomen,Is there evidence of bladder pathology in this image?,no,no, No.     The image indicates that the l
+4351,abnormal_closed,abnormality_yesno,lung,Does the lung look abnormal?,yes,no, No.     The image indicates that the l
+4363,pathology_closed_neg,pathology_yesno,ankle foot,Does the patient have bone inflammation?,no,yes, Yes.     The image demonstrates diffuse
+4366,anatomy_closed_pos,anatomy_yesno,brain,Is the brain present in this image?,yes,yes, Yes.     The image indicates that the card
+4396,abnormal_closed,abnormality_yesno,lung,Is this image abnormal?,no,yes, Yes.     The image indicates low lung volumes
+4440,anatomy_mc,anatomy_mcq,lung,What is the correct anatomical region for this scan?,A,A,A. lung
+4445,pathology_mc,pathology_mcq,lung,What pathology is shown in this scan of lung,D,D,"D. bronchiectasis. 
+
+The image demonstrates """
+4470,pathology_closed_pos,pathology_yesno,abdomen,Does the patient have adrenal pathology?,yes,no, No.     The image indicates that the card
+4493,anatomy_closed_neg,anatomy_yesno,lung,Is the hip present in this image?,no,no, No.     The image does not show any
+4494,anatomy_mc,anatomy_mcq,lung,Select the correct anatomical region.,C,C,C. lung
+4499,pathology_mc,pathology_mcq,lung,What pathology is shown in this scan of lung,C,A,"A. no pathology seen. 
+
+The image indicates that the l"
+4522,abnormal_closed,abnormality_yesno,abdomen,Does the abdomen look abnormal?,no,yes, Yes.     The image indicates the presence of
+4552,pathology_closed_neg,pathology_yesno,abdomen,Does the patient have prostate lesion?,no,no, No.     The image indicates that the l
+4588,pathology_closed_neg,pathology_yesno,shoulder,Is there evidence of subscapularis pathology in this image?,no,no, No.     The image indicates that the l
+4619,anatomy_closed_neg,anatomy_yesno,spine,Is the ankle foot present in this image?,no,no, No.     The image does not show any
+4620,anatomy_mc,anatomy_mcq,spine,Select the correct anatomical region.,D,D,D. spine
+4625,pathology_mc,pathology_mcq,spine,Select the pathology that best describes this image:,C,D,"D. no pathology seen. 
+
+The image indicates that the l"
+4672,anatomy_closed_pos,anatomy_yesno,knee,Can you see the knee?,yes,no, No.     The image does not show any
+4691,anatomy_closed_neg,anatomy_yesno,lung,Can you see the ankle foot?,no,no, No.     The image does not show any
+4692,anatomy_mc,anatomy_mcq,lung,Which of the following anatomical regions is depicted in this scan?,A,A,A. lung
+4697,pathology_mc,pathology_mcq,lung,What pathology is shown in this scan of lung,D,C,C. interstitial lung disease.  The image demonstrates
+4701,anatomy_mc,anatomy_mcq,spine,Which of the following anatomical regions is depicted in this scan?,D,D,D. spine
+4706,pathology_mc,pathology_mcq,spine,What is the most likely pathology in this image?,C,B,B. no pathology seen
+4741,pathology_closed_neg,pathology_yesno,spine,Is there evidence of foraminal pathology in this image?,no,yes, Yes.     The image indicates a large left
+4745,anatomy_closed_neg,anatomy_yesno,lung,Is the ankle foot present in this image?,no,no, No.     The image does not show any
+4746,anatomy_mc,anatomy_mcq,lung,What is the correct anatomical region for this scan?,D,D,D. lung
+4751,pathology_mc,pathology_mcq,lung,What is the most likely pathology in this image?,D,D,D. no pathology seen.  The image indicates that the l
+4758,pathology_closed_pos,pathology_yesno,lung,Are there signs of airspace opacity?,yes,no, No.     The image indicates that the l
+4776,pathology_closed_pos,pathology_yesno,spine,Is foraminal pathology present?,yes,yes, Yes.     The image indicates a large left
+4789,anatomy_closed_pos,anatomy_yesno,hip,Can you identify the hip in this image?,yes,yes, Yes.     The image demonstrates the presence
+4792,abnormal_closed,abnormality_yesno,hip,Is this image abnormal?,no,yes, Yes.     The image indicates a moderate
+4801,abnormal_closed,abnormality_yesno,abdomen,Does this scan reveal any abnormalities?,yes,yes, Yes.     The image indicates low lung volumes
+4812,pathology_closed_pos,pathology_yesno,lung,Is muscle strain present?,no,no, No.     The image indicates that the l
+4819,abnormal_closed,abnormality_yesno,lung,Is there an abnormality present?,yes,yes, Yes.     The image indicates low lung volumes
+4828,abnormal_closed,abnormality_yesno,lung,Does the lung look abnormal?,no,yes, Yes.     The image indicates low lung volumes
+4837,abnormal_closed,abnormality_yesno,lung,Is there an abnormality present?,no,yes, Yes.     The image indicates a mild
+4846,abnormal_closed,abnormality_yesno,abdomen,Is this image abnormal?,yes,yes, Yes.     The image indicates low lung volumes
+4881,anatomy_mc,anatomy_mcq,abdomen,What is the correct anatomical region for this scan?,C,A,A. lung
+4886,pathology_mc,pathology_mcq,abdomen,Which of the following pathologies is present in this image?,A,A,A. postoperative state.  The image indicates the presence of
+4890,anatomy_mc,anatomy_mcq,lung,Select the correct anatomical region.,C,C,C. lung
+4893,pathology_closed_pos,pathology_yesno,lung,Is there evidence of nodule in this image?,yes,yes, Yes.     The image demonstrates a 
+4895,pathology_mc,pathology_mcq,lung,What is the most likely pathology in this image?,C,D,"D. interstitial lung disease. 
+
+The image indicates that"
+4927,abnormal_closed,abnormality_yesno,abdomen,Does the abdomen look abnormal?,no,yes, Yes.     The image indicates a large hi
+4935,anatomy_mc,anatomy_mcq,abdomen,Which of the following anatomical regions is depicted in this scan?,C,C,C. abdomen
+4940,pathology_mc,pathology_mcq,abdomen,Which of the following pathologies is present in this image?,D,B,"B. liver lesion. 
+
+The image demonstrates a large"
+4943,anatomy_closed_neg,anatomy_yesno,hip,Does this image show the ankle foot?,no,no, No.     The image does not show any
+4944,anatomy_mc,anatomy_mcq,hip,What is the correct anatomical region for this scan?,A,D,D. spine
+4949,pathology_mc,pathology_mcq,hip,Select the pathology that best describes this image:,D,C,C. no pathology seen
+4966,pathology_closed_neg,pathology_yesno,hip,Is soft tissue fluid present?,no,no, No.     The image indicates that the l
+5019,pathology_closed_pos,pathology_yesno,ankle foot,Does the patient have soft tissue fluid?,yes,no, No.     The image indicates that there is
+5020,pathology_closed_neg,pathology_yesno,ankle foot,Is there evidence of bone inflammation in this image?,no,yes," Yes.     The image demonstrates a """
+5059,anatomy_closed_pos,anatomy_yesno,abdomen,Does the picture contain the abdomen?,yes,no, No.     The image indicates that the l
+5074,pathology_closed_neg,pathology_yesno,lung,Are there signs of bronchiectasis?,no,yes, Yes.     The image demonstrates bronch
+5110,pathology_closed_neg,pathology_yesno,hip,Is there evidence of osseous disruption in this image?,no,yes, Yes.     The image demonstrates a f
+5133,anatomy_mc,anatomy_mcq,abdomen,Which of the following anatomical regions is depicted in this scan?,A,C,C. lung
+5138,pathology_mc,pathology_mcq,abdomen,What pathology is shown in this scan of abdomen,B,A,"A. no pathology seen. 
+
+The image indicates that the l"
+5181,pathology_closed_pos,pathology_yesno,hip,Does the patient have hamstring pathology?,yes,no, No.     The image indicates that the l
+5188,abnormal_closed,abnormality_yesno,knee,Is this image abnormal?,yes,yes, Yes.     The image indicates that the heart
+5199,pathology_closed_pos,pathology_yesno,brain,Are there signs of white matter changes?,yes,yes, Yes.     The image indicates widesp
+5205,anatomy_mc,anatomy_mcq,abdomen,Select the correct anatomical region.,B,D,D. spine
+5206,abnormal_closed,abnormality_yesno,abdomen,Is this image abnormal?,yes,yes, Yes.     The image indicates low lung volumes
+5210,pathology_mc,pathology_mcq,abdomen,What is the most likely pathology in this image?,A,C,C. no pathology seen
+5258,anatomy_closed_neg,anatomy_yesno,abdomen,Is the knee part of this scan?,no,no, No.     The image does not show any
+5259,anatomy_mc,anatomy_mcq,abdomen,Select the correct anatomical region.,A,D,D. lung
+5264,pathology_mc,pathology_mcq,abdomen,Which of the following pathologies is present in this image?,C,C,"C. liver lesion. 
+
+The image demonstrates a large"
+5296,abnormal_closed,abnormality_yesno,shoulder,Does this scan reveal any abnormalities?,no,no, No.     The image indicates that the l
+5304,anatomy_mc,anatomy_mcq,abdomen,What is the correct anatomical region for this scan?,C,C,C. abdomen
+5305,abnormal_closed,abnormality_yesno,abdomen,Is this image abnormal?,no,yes, Yes.     The image indicates that the heart
+5309,pathology_mc,pathology_mcq,abdomen,What is the most likely pathology in this image?,D,D,"D. no pathology seen. 
+
+The image indicates that the l"
+5313,anatomy_mc,anatomy_mcq,lung,Which of the following anatomical regions is depicted in this scan?,A,A,A. lung
+5318,pathology_mc,pathology_mcq,lung,What pathology is shown in this scan of lung,C,A,"A. no pathology seen. 
+
+The image indicates that the l"
+5411,anatomy_closed_neg,anatomy_yesno,ankle foot,Is the lung present in this image?,no,no, No.     The image indicates that the l
+5412,anatomy_mc,anatomy_mcq,ankle foot,What is the correct anatomical region for this scan?,A,A,A. ankle foot
+5416,pathology_closed_neg,pathology_yesno,ankle foot,Is spring ligament injury present?,no,yes, Yes.     The image demonstrates a m
+5417,pathology_mc,pathology_mcq,ankle foot,Which of the following pathologies is present in this image?,C,B,"B. no pathology seen. 
+
+The image indicates that the l"
+5431,abnormal_closed,abnormality_yesno,ankle foot,Is this image abnormal?,yes,yes, Yes.     The image indicates low lung volumes
+5439,anatomy_mc,anatomy_mcq,lung,What is the correct anatomical region for this scan?,C,C,C. lung
+5444,pathology_mc,pathology_mcq,lung,What pathology is shown in this scan of lung,D,C,"C. interstitial lung disease
+
+  The image indicates"
+5451,pathology_closed_pos,pathology_yesno,abdomen,Is calcific tendinosis present?,no,yes, Yes.     The image demonstrates calcific
+5479,pathology_closed_neg,pathology_yesno,lung,Does the patient have bronchiectasis?,no,yes, Yes.     The image demonstrates bronch
+5556,anatomy_mc,anatomy_mcq,abdomen,Select the correct anatomical region.,C,C,C. abdomen
+5561,pathology_mc,pathology_mcq,abdomen,Select the pathology that best describes this image:,A,A,A. no pathology seen.  The image indicates that the l
+5591,anatomy_closed_neg,anatomy_yesno,knee,Is the lung part of this scan?,no,no, No.     The image indicates that the l
+5592,anatomy_mc,anatomy_mcq,knee,Select the correct anatomical region.,C,B,B. spine
+5597,pathology_mc,pathology_mcq,knee,What is the most likely pathology in this image?,A,B,B. no pathology seen
+5636,anatomy_closed_neg,anatomy_yesno,shoulder,Does the picture contain the ankle foot?,no,no, No.     The image does not show any
+5637,anatomy_mc,anatomy_mcq,shoulder,Which of the following anatomical regions is depicted in this scan?,D,D,D. shoulder
+5642,pathology_mc,pathology_mcq,shoulder,Which of the following pathologies is present in this image?,C,D,"D. no pathology seen. 
+
+The image indicates that there is"
+5647,abnormal_closed,abnormality_yesno,ankle foot,Is there an abnormality present?,yes,yes, Yes.     The image indicates a moderate
+5658,pathology_closed_pos,pathology_yesno,abdomen,Is gallbladder pathology present?,yes,yes, Yes.     The image indicates the presence of
+5676,pathology_closed_pos,pathology_yesno,abdomen,Is biliary dilation present?,yes,yes, Yes.     The image indicates that the b
+5698,anatomy_closed_pos,anatomy_yesno,abdomen,Can you identify the abdomen in this image?,yes,no, No.     The image indicates that the l
+5726,anatomy_closed_neg,anatomy_yesno,abdomen,Is the ankle foot visible in the image?,no,no, No.     The image does not show any
+5727,anatomy_mc,anatomy_mcq,abdomen,Select the correct anatomical region.,B,D,D. spine
+5732,pathology_mc,pathology_mcq,abdomen,What is the most likely pathology in this image?,B,D,"D. no pathology seen. 
+
+The image indicates that the l"
+5764,abnormal_closed,abnormality_yesno,abdomen,Does this scan reveal any abnormalities?,no,yes, Yes.     The image indicates a mild
+5836,abnormal_closed,abnormality_yesno,hip,Is this image abnormal?,yes,yes, Yes.     The image indicates that the heart
+5871,anatomy_mc,anatomy_mcq,abdomen,Which of the following anatomical regions is depicted in this scan?,A,B,B. shoulder
+5876,pathology_mc,pathology_mcq,abdomen,Select the pathology that best describes this image:,D,B,B. no pathology seen
+5942,anatomy_closed_neg,anatomy_yesno,lung,Does this image show the hip?,no,no, No.     The image does not show any
+5943,anatomy_mc,anatomy_mcq,lung,What is the correct anatomical region for this scan?,C,C,C. lung
+5944,abnormal_closed,abnormality_yesno,lung,Is this image abnormal?,yes,yes, Yes.     The image indicates hyperinflation
+5948,pathology_mc,pathology_mcq,lung,Which of the following pathologies is present in this image?,A,B,B. interstitial lung disease.  The image demonstrates
+5961,anatomy_mc,anatomy_mcq,knee,What is the correct anatomical region for this scan?,B,B,B. knee
+5966,pathology_mc,pathology_mcq,knee,Select the pathology that best describes this image:,A,D,D. no pathology seen
+5971,abnormal_closed,abnormality_yesno,knee,Does the knee look abnormal?,yes,yes, Yes.     The image indicates severe degener
+6034,abnormal_closed,abnormality_yesno,abdomen,Does this scan reveal any abnormalities?,yes,yes, Yes.     The image indicates low lung volumes
+6036,pathology_closed_pos,pathology_yesno,abdomen,Is the abdomen affected by uterine pathology?,yes,yes, Yes.     The image demonstrates a large
+6104,anatomy_closed_neg,anatomy_yesno,knee,Can you see the brain?,no,no, No.     The image indicates that the l
+6105,anatomy_mc,anatomy_mcq,knee,What is the correct anatomical region for this scan?,B,B,B. knee
+6110,pathology_mc,pathology_mcq,knee,Which of the following pathologies is present in this image?,B,C,C. no pathology seen
+6114,anatomy_mc,anatomy_mcq,abdomen,Select the correct anatomical region.,A,A,A. abdomen
+6119,pathology_mc,pathology_mcq,abdomen,Which of the following pathologies is present in this image?,C,C,C. liver lesion.  The image demonstrates a large
+6133,abnormal_closed,abnormality_yesno,abdomen,Does this scan reveal any abnormalities?,no,yes, Yes.     The image indicates low lung volumes
+6166,anatomy_closed_pos,anatomy_yesno,spine,Can you see the spine?,yes,yes, Yes.     The image indicates that the b
+6185,anatomy_closed_neg,anatomy_yesno,abdomen,Does the picture contain the brain?,no,no, No.     The image indicates that the l
+6186,anatomy_mc,anatomy_mcq,abdomen,Which of the following anatomical regions is depicted in this scan?,C,C,C. abdomen
+6191,pathology_mc,pathology_mcq,abdomen,Select the pathology that best describes this image:,D,D,"D. no pathology seen. 
+
+The image indicates that the l"
+6229,anatomy_closed_pos,anatomy_yesno,ankle foot,Can you identify the ankle foot in this image?,yes,yes, Yes.     The image demonstrates degener
+6231,anatomy_mc,anatomy_mcq,ankle foot,Which of the following anatomical regions is depicted in this scan?,A,A,A. ankle foot
+6236,pathology_mc,pathology_mcq,ankle foot,Select the pathology that best describes this image:,B,D,"D. no pathology seen. 
+
+The image indicates that the l"
+6292,anatomy_closed_pos,anatomy_yesno,brain,Is the brain part of this scan?,yes,yes, Yes.     The image indicates that the card
+6421,abnormal_closed,abnormality_yesno,abdomen,Is there an abnormality present?,no,yes, Yes.     The image indicates a mild
+6429,anatomy_mc,anatomy_mcq,lung,Select the correct anatomical region.,A,A,A. lung
+6434,pathology_mc,pathology_mcq,lung,What pathology is shown in this scan of lung,D,A,"A. interstitial lung disease. 
+
+The image demonstrates"
+6562,anatomy_closed_pos,anatomy_yesno,knee,Is the knee present in this image?,yes,yes, Yes.     The image demonstrates degener
+6585,pathology_closed_pos,pathology_yesno,hip,Does the patient have labral pathology?,yes,yes, Yes.     The image demonstrates a chron
+6635,anatomy_closed_neg,anatomy_yesno,brain,Is the ankle foot visible in the image?,no,no, No.     The image does not show any
+6636,anatomy_mc,anatomy_mcq,brain,What is the correct anatomical region for this scan?,A,A,A. brain
+6641,pathology_mc,pathology_mcq,brain,Which of the following pathologies is present in this image?,B,C,C. no pathology seen
+6643,anatomy_closed_pos,anatomy_yesno,brain,Is the brain visible in the image?,yes,yes, Yes.     The image indicates that the card
+6649,pathology_closed_neg,pathology_yesno,brain,Is there evidence of intraarticular abnormality in this image?,no,yes, Yes.     The image demonstrates severe deg
+6652,anatomy_closed_pos,anatomy_yesno,ankle foot,Can you identify the ankle foot in this image?,yes,yes, Yes.     The image demonstrates degener
+6662,anatomy_closed_neg,anatomy_yesno,lung,Can you identify the ankle foot in this image?,no,no, No.     The image does not show any
+6663,anatomy_mc,anatomy_mcq,lung,Which of the following anatomical regions is depicted in this scan?,B,B,B. lung
+6668,pathology_mc,pathology_mcq,lung,What pathology is shown in this scan of lung,C,C,C. no pathology seen
+6672,anatomy_mc,anatomy_mcq,lung,Select the correct anatomical region.,D,D,D. lung
+6677,pathology_mc,pathology_mcq,lung,What pathology is shown in this scan of lung,C,D,D. interstitial lung disease.  The image demonstrates
+6706,anatomy_closed_pos,anatomy_yesno,lung,Can you see the lung?,yes,yes, Yes.     The image indicates that the l
+6780,anatomy_mc,anatomy_mcq,lung,What is the correct anatomical region for this scan?,A,D,D. abdomen
+6781,abnormal_closed,abnormality_yesno,lung,Is this image abnormal?,no,yes, Yes.     The image indicates low lung volumes
+6785,pathology_mc,pathology_mcq,lung,Which of the following pathologies is present in this image?,B,A,"A. interstitial lung disease
+
+  Yes. "
+6817,abnormal_closed,abnormality_yesno,ankle foot,Does this scan reveal any abnormalities?,yes,yes, Yes.     The image indicates low lung volumes
+6844,abnormal_closed,abnormality_yesno,abdomen,Does this scan reveal any abnormalities?,yes,yes, Yes.     The image indicates a mild
+6851,anatomy_closed_neg,anatomy_yesno,knee,Can you identify the lung in this image?,no,yes, Yes.     The image indicates that the l
+6852,anatomy_mc,anatomy_mcq,knee,Which of the following anatomical regions is depicted in this scan?,A,C,C. lung
+6857,pathology_mc,pathology_mcq,knee,What pathology is shown in this scan of knee,D,C,C. no pathology seen
+6864,pathology_closed_pos,pathology_yesno,lung,Is the lung affected by airspace opacity?,yes,no, No.     The image indicates that the l
+6879,anatomy_mc,anatomy_mcq,lung,Select the correct anatomical region.,C,B,B. spine
+6884,pathology_mc,pathology_mcq,lung,What pathology is shown in this scan of lung,A,D,D. interstitial lung disease.  The image demonstrates
+6910,pathology_closed_neg,pathology_yesno,knee,Is there evidence of bone inflammation in this image?,no,yes, Yes.     The image demonstrates mild
+6961,abnormal_closed,abnormality_yesno,abdomen,Is this image abnormal?,no,yes, Yes.     The image indicates low lung volumes
+6970,abnormal_closed,abnormality_yesno,ankle foot,Does the ankle foot look abnormal?,yes,yes, Yes.     The image indicates degenerative
+6972,pathology_closed_pos,pathology_yesno,ankle foot,Does the patient have plantar plate tear?,yes,no, No.     The image indicates that the b
+7006,abnormal_closed,abnormality_yesno,abdomen,Is there an abnormality present?,no,no, No.     The image indicates that the l
+7086,anatomy_mc,anatomy_mcq,lung,Select the correct anatomical region.,D,D,D. lung
+7089,pathology_closed_pos,pathology_yesno,lung,Is there evidence of airspace opacity in this image?,yes,no, No.     The image indicates that the l
+7091,pathology_mc,pathology_mcq,lung,Select the pathology that best describes this image:,C,B,B. no pathology seen
+7096,abnormal_closed,abnormality_yesno,abdomen,Is there an abnormality present?,yes,yes, Yes.     The image indicates low lung volumes
+7117,pathology_closed_neg,pathology_yesno,knee,Is there evidence of posterior cruciate ligament pathology in this image?,no,no, No.     The image indicates that the b
+7141,abnormal_closed,abnormality_yesno,lung,Is there an abnormality present?,no,yes, Yes.     The image indicates low lung volumes
+7159,abnormal_closed,abnormality_yesno,brain,Is this image abnormal?,no,yes, Yes.     The image indicates low lung volumes
+7188,pathology_closed_pos,pathology_yesno,brain,Is the brain affected by white matter changes?,yes,yes, Yes.     The image indicates the presence of
+7195,abnormal_closed,abnormality_yesno,abdomen,Is this image abnormal?,yes,yes, Yes.     The image indicates a mild
+7207,pathology_closed_neg,pathology_yesno,abdomen,Are there signs of splenic lesion?,no,no, No.     The image indicates that the l
+7301,anatomy_closed_neg,anatomy_yesno,shoulder,Is the abdomen part of this scan?,no,no, No.     The image demonstrates findings
+7302,anatomy_mc,anatomy_mcq,shoulder,Which of the following anatomical regions is depicted in this scan?,B,B,B. shoulder
+7307,pathology_mc,pathology_mcq,shoulder,What pathology is shown in this scan of shoulder,B,C,"C. labral pathology
+
+  Yes.   "
+7309,anatomy_closed_pos,anatomy_yesno,lung,Can you see the lung?,yes,yes, Yes.     The image indicates that the l
+7366,abnormal_closed,abnormality_yesno,lung,Is this image abnormal?,no,yes, Yes.     The image indicates that the heart
+7378,pathology_closed_neg,pathology_yesno,lung,Is nodule present?,no,no, No.     The image indicates that the l
+7383,anatomy_mc,anatomy_mcq,abdomen,What is the correct anatomical region for this scan?,B,B,B. abdomen
+7388,pathology_mc,pathology_mcq,abdomen,What is the most likely pathology in this image?,A,B,"B. liver lesion
+
+  Yes.   "
+7437,anatomy_mc,anatomy_mcq,ankle foot,What is the correct anatomical region for this scan?,B,B,B. ankle foot
+7442,pathology_mc,pathology_mcq,ankle foot,Select the pathology that best describes this image:,B,A,"A. no pathology seen. 
+
+The image indicates that the b"
+7447,abnormal_closed,abnormality_yesno,abdomen,Is this image abnormal?,no,yes, Yes.     The image indicates low lung volumes
+7495,pathology_closed_neg,pathology_yesno,spine,Is dural or epidural abnormality present?,no,no, No.     The image indicates that the l
+7519,abnormal_closed,abnormality_yesno,abdomen,Is this image abnormal?,no,yes, Yes.     The image indicates low lung volumes
+7535,anatomy_closed_neg,anatomy_yesno,knee,Can you see the ankle foot?,no,no, No.     The image does not show any
+7536,anatomy_mc,anatomy_mcq,knee,Which of the following anatomical regions is depicted in this scan?,D,C,C. spine
+7539,pathology_closed_pos,pathology_yesno,knee,Is the knee affected by intraarticular abnormality?,yes,yes, Yes.     The image indicates the presence of
+7541,pathology_mc,pathology_mcq,knee,What pathology is shown in this scan of knee,D,B,B. no pathology seen
+7612,pathology_closed_neg,pathology_yesno,hip,Is the hip affected by hematoma?,no,no, No.     The image indicates that the l
+7648,pathology_closed_neg,pathology_yesno,ankle foot,Are there signs of peroneal tendon pathology?,no,no, No.     The image indicates that the os
+7660,anatomy_closed_pos,anatomy_yesno,abdomen,Does this image show the abdomen?,yes,no, No.     The image indicates that the l
+7693,pathology_closed_neg,pathology_yesno,spine,Is the spine affected by osseous abnormality?,no,no, No.     The image indicates that the os
+7696,anatomy_closed_pos,anatomy_yesno,hip,Is the hip present in this image?,yes,no, No.     The image does not show any
+7699,abnormal_closed,abnormality_yesno,hip,Does this scan reveal any abnormalities?,yes,yes, Yes.     The image indicates a large hi
+7710,pathology_closed_pos,pathology_yesno,brain,Does the patient have chronic infarct?,yes,no, No.     The image indicates that the card
+7714,anatomy_closed_pos,anatomy_yesno,ankle foot,Is the ankle foot part of this scan?,yes,no, No.     The image indicates that the l
+7733,anatomy_closed_neg,anatomy_yesno,shoulder,Does the picture contain the knee?,no,yes, Yes.     The image demonstrates degener
+7734,anatomy_mc,anatomy_mcq,shoulder,Which of the following anatomical regions is depicted in this scan?,C,A,A. knee
+7739,pathology_mc,pathology_mcq,shoulder,What is the most likely pathology in this image?,D,B,B. no pathology seen
+7750,anatomy_closed_pos,anatomy_yesno,brain,Can you see the brain?,yes,yes, Yes.     The image indicates that the card
+7797,anatomy_mc,anatomy_mcq,ankle foot,Select the correct anatomical region.,D,A,A. spine
+7802,pathology_mc,pathology_mcq,ankle foot,What is the most likely pathology in this image?,D,A,"A. no pathology seen. 
+
+The image indicates that the l"
+7807,abnormal_closed,abnormality_yesno,shoulder,Does the shoulder look abnormal?,no,yes, Yes.     The image indicates degenerative
+7825,abnormal_closed,abnormality_yesno,abdomen,Does the abdomen look abnormal?,no,no, No.     The image indicates that the l
+7831,anatomy_closed_pos,anatomy_yesno,lung,Does the picture contain the lung?,yes,yes, Yes.     The image indicates that the l
+7890,pathology_closed_pos,pathology_yesno,abdomen,Are there signs of osseous neoplasm?,yes,yes, Yes.     The image demonstrates a s
+7899,pathology_closed_pos,pathology_yesno,abdomen,Are there signs of gallstone?,yes,yes, Yes.     The image demonstrates a large
+7914,anatomy_mc,anatomy_mcq,spine,Select the correct anatomical region.,B,B,B. spine
+7919,pathology_mc,pathology_mcq,spine,What is the most likely pathology in this image?,B,A,"A. foraminal pathology
+
+  The image indicates a m"
+7949,anatomy_closed_neg,anatomy_yesno,brain,Can you identify the shoulder in this image?,no,no, No.     The image does not show any
+7950,anatomy_mc,anatomy_mcq,brain,Which of the following anatomical regions is depicted in this scan?,D,D,D. brain
+7953,pathology_closed_pos,pathology_yesno,brain,Is the brain affected by extraaxial lesion?,yes,no, No.     The image indicates that the l
+7955,pathology_mc,pathology_mcq,brain,What pathology is shown in this scan of brain,A,B,B. no pathology seen
+8005,abnormal_closed,abnormality_yesno,abdomen,Does this scan reveal any abnormalities?,no,no, No.     The image indicates that the l
+8023,abnormal_closed,abnormality_yesno,lung,Is this image abnormal?,no,yes, Yes.     The image indicates low lung volumes
+8062,pathology_closed_neg,pathology_yesno,abdomen,Is there evidence of soft tissue mass in this image?,no,yes, Yes.     The image demonstrates a large
+8093,anatomy_closed_neg,anatomy_yesno,abdomen,Can you identify the ankle foot in this image?,no,no, No.     The image does not show any
+8094,anatomy_mc,anatomy_mcq,abdomen,What is the correct anatomical region for this scan?,B,B,B. abdomen
+8099,pathology_mc,pathology_mcq,abdomen,What is the most likely pathology in this image?,A,C,"C. liver lesion
+
+  Yes.   "
+8111,anatomy_closed_neg,anatomy_yesno,abdomen,Does the picture contain the knee?,no,no, No.     The image does not show any
+8112,anatomy_mc,anatomy_mcq,abdomen,Select the correct anatomical region.,B,B,B. abdomen
+8117,pathology_mc,pathology_mcq,abdomen,What is the most likely pathology in this image?,C,C,C. no pathology seen
+8120,anatomy_closed_neg,anatomy_yesno,knee,Can you identify the ankle foot in this image?,no,no, No.     The image does not show any
+8121,anatomy_mc,anatomy_mcq,knee,Select the correct anatomical region.,C,C,C. knee
+8126,pathology_mc,pathology_mcq,knee,What pathology is shown in this scan of knee,D,C,C. no pathology seen
+8131,abnormal_closed,abnormality_yesno,ankle foot,Is this image abnormal?,yes,yes, Yes.     The image indicates low lung volumes
+8167,abnormal_closed,abnormality_yesno,abdomen,Is there an abnormality present?,yes,yes, Yes.     The image indicates low lung volumes
+8215,pathology_closed_neg,pathology_yesno,spine,Are there signs of facet arthropathy?,no,yes, Yes.     The image demonstrates degener
+8290,anatomy_closed_pos,anatomy_yesno,abdomen,Can you identify the abdomen in this image?,yes,no, No.     The image indicates that the l
+8293,abnormal_closed,abnormality_yesno,abdomen,Does this scan reveal any abnormalities?,yes,yes, Yes.     The image indicates a mild
+8317,anatomy_closed_pos,anatomy_yesno,hip,Does the picture contain the hip?,yes,yes, Yes.     The image demonstrates the presence
+8318,anatomy_closed_neg,anatomy_yesno,hip,Is the spine visible in the image?,no,yes," Yes.     The image demonstrates a """
+8319,anatomy_mc,anatomy_mcq,hip,Which of the following anatomical regions is depicted in this scan?,C,B,B
+8324,pathology_mc,pathology_mcq,hip,What is the most likely pathology in this image?,B,C,"C. labral pathology
+
+  No pathology seen."
+8365,abnormal_closed,abnormality_yesno,lung,Is there an abnormality present?,no,yes, Yes.     The image indicates low lung volumes
+8380,anatomy_closed_pos,anatomy_yesno,lung,Does the picture contain the lung?,yes,yes, Yes.     The image indicates that the l
+8437,abnormal_closed,abnormality_yesno,lung,Does the lung look abnormal?,yes,yes, Yes.     The image indicates low lung volumes
+8444,anatomy_closed_neg,anatomy_yesno,shoulder,Is the hip visible in the image?,no,yes, Yes.     The image indicates that the b
+8445,anatomy_mc,anatomy_mcq,shoulder,Select the correct anatomical region.,A,B,B. spine
+8450,pathology_mc,pathology_mcq,shoulder,What is the most likely pathology in this image?,A,C,C. no pathology seen
+8455,abnormal_closed,abnormality_yesno,spine,Is there an abnormality present?,yes,yes, Yes.     The image indicates low lung volumes
+8509,abnormal_closed,abnormality_yesno,lung,Does this scan reveal any abnormalities?,no,yes, Yes.     The image indicates low lung volumes
+8525,anatomy_closed_neg,anatomy_yesno,ankle foot,Is the hip visible in the image?,no,yes, Yes.     The image demonstrates the presence
+8526,anatomy_mc,anatomy_mcq,ankle foot,Which of the following anatomical regions is depicted in this scan?,B,D,D. hip
+8531,pathology_mc,pathology_mcq,ankle foot,What pathology is shown in this scan of ankle foot,B,D,D. no pathology seen
+8563,abnormal_closed,abnormality_yesno,abdomen,Is this image abnormal?,yes,yes, Yes.     The image indicates low lung volumes
+8593,pathology_closed_neg,pathology_yesno,abdomen,Are there signs of osseous neoplasm?,no,yes, Yes.     The image demonstrates a s
+8599,abnormal_closed,abnormality_yesno,lung,Does this scan reveal any abnormalities?,yes,yes, Yes.     The image indicates a large hi
+8626,abnormal_closed,abnormality_yesno,abdomen,Is there an abnormality present?,no,yes, Yes.     The image indicates low lung volumes
+8628,pathology_closed_pos,pathology_yesno,abdomen,Are there signs of cystic lesions?,no,yes, Yes.     The image demonstrates a large
+8664,pathology_closed_pos,pathology_yesno,abdomen,Are there signs of anterior cruciate ligament pathology?,no,no, No.     The image indicates that the b
+8704,anatomy_closed_pos,anatomy_yesno,abdomen,Can you identify the abdomen in this image?,yes,yes, Yes.     The image demonstrates a large
+8737,pathology_closed_neg,pathology_yesno,hip,Does the patient have postoperative state?,no,yes, Yes.     The image indicates that the patient
+8759,anatomy_closed_neg,anatomy_yesno,abdomen,Can you identify the brain in this image?,no,no, No.     The image indicates that the l
+8760,anatomy_mc,anatomy_mcq,abdomen,Which of the following anatomical regions is depicted in this scan?,A,A,A. abdomen
+8765,pathology_mc,pathology_mcq,abdomen,What is the most likely pathology in this image?,B,C,"C. liver lesion
+
+  Yes.   "
+8768,anatomy_closed_neg,anatomy_yesno,abdomen,Does this image show the spine?,no,yes, Yes.     The image demonstrates a m
+8769,anatomy_mc,anatomy_mcq,abdomen,Which of the following anatomical regions is depicted in this scan?,C,C,C. abdomen
+8774,pathology_mc,pathology_mcq,abdomen,Which of the following pathologies is present in this image?,B,A,"A. liver lesion. 
+
+The image demonstrates a large"
+8848,anatomy_closed_pos,anatomy_yesno,brain,Is the brain part of this scan?,yes,yes, Yes.     The image indicates that the card
+8876,anatomy_closed_neg,anatomy_yesno,lung,Is the abdomen visible in the image?,no,yes, Yes.     The image indicates that the ab
+8877,anatomy_mc,anatomy_mcq,lung,Select the correct anatomical region.,D,A,A. abdomen
+8878,abnormal_closed,abnormality_yesno,lung,Is there an abnormality present?,no,yes, Yes.     The image indicates low lung volumes
+8882,pathology_mc,pathology_mcq,lung,What pathology is shown in this scan of lung,B,B,B. no pathology seen
+8889,pathology_closed_pos,pathology_yesno,ankle foot,Does the patient have plantar plate tear?,no,no, No.     The image indicates that the b
+8959,abnormal_closed,abnormality_yesno,ankle foot,Is this image abnormal?,yes,yes, Yes.     The image indicates a mild
+8961,pathology_closed_pos,pathology_yesno,ankle foot,Is there evidence of spring ligament injury in this image?,yes,yes, Yes.     The image demonstrates a compression
+8985,anatomy_mc,anatomy_mcq,shoulder,What is the correct anatomical region for this scan?,A,A,A. shoulder
+8990,pathology_mc,pathology_mcq,shoulder,Which of the following pathologies is present in this image?,C,C,C. postoperative state.  The image indicates that the patient

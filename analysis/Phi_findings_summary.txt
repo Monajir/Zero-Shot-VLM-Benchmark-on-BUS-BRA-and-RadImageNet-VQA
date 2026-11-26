@@ -1,0 +1,33 @@
+Phi-3.5 Vision and CheX-Phi-3.5 Vision SFT
+Real-image and white-image results
+
+The general Phi model gained more accuracy from real images on RadImageNet-VQA than its medical counterpart did. On BUS-BRA, the general model always answered “benign.” The medical model changed its answers with the image, but its tendency to add an explanation made its score sensitive to the answer-format rule.
+
+RadImageNet-VQA
+
+Both models answered the same 500 questions, 100 in each of five task groups. All responses could be scored under both image conditions.
+
+                              Phi-3.5 Vision       CheX-Phi SFT
+Task                          Real    White        Real    White
+Anatomy, multiple choice       83%      22%         69%      42%
+Anatomy, yes/no                79%      50%         64%      50%
+Abnormality, yes/no            54%      50%         58%      50%
+Pathology, yes/no              65%      55%         55%      50%
+Pathology, multiple choice     25%      24%         23%      25%
+Overall                      61.2%    40.2%       53.8%    43.4%
+
+Real images improved accuracy by 21.0 percentage points for Phi and 10.4 for CheX-Phi. Anatomy multiple choice produced the largest gain for both, at 61 and 27 points respectively. Abnormality yes/no was the only real-image task on which CheX-Phi led. With white images, it answered “no” to all 300 yes/no questions.
+
+BUS-BRA
+
+The cohort contained 200 benign and 200 malignant cases. The blank baseline for each model came from five identical white-image trials. Each model gave the same response across its five trials, so that response was applied to the 400 matched case labels.
+
+Phi answered “benign” on every real image and every white trial. Its 50.0% accuracy in both conditions came entirely from the 200 benign cases.
+
+CheX-Phi scored 6.75% on real images (27/400) and 0% on the white control under the study’s strict label-only scoring rule. On real images, it gave 39 accepted “benign” answers, 27 of them correct. The other 361 responses began with “malignant” and were scored as unparsed. On white, its repeated response began with “benign” and continued with an explanation.
+
+An exploratory first-word check illustrates the effect of the scoring rule. Matching only the opening label gives CheX-Phi 215/400 correct (53.75%) on real images and 200/400 (50.0%) on white. It identified 188/200 malignant cases but only 27/200 benign cases by that reading. The official result remains the strict score. The opening labels show sensitivity to the image condition alongside a strong tendency to call real images malignant.
+
+Source archives (relative to this summary)
+../BUS_BRA/Results/Phi35_CheXPhi35_SFT_Kaggle.zip
+../RadImageNet_VQA/Phi35_CheXPhi35_SFT_Kaggle.zip

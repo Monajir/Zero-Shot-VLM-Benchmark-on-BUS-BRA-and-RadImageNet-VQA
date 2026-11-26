@@ -1,0 +1,2 @@
+group,correct,n,accuracy
+lesion_classification,200,400,0.5

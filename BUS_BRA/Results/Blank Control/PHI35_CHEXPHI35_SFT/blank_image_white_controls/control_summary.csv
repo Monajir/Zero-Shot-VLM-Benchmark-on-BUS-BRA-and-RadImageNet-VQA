@@ -1,0 +1,3 @@
+model,color,completed_trials,expected_trials,stable,parsed_prediction,raw_output,derived_rows,derived_accuracy,unique_raw_outputs,unique_parsed_predictions,model_revision,status
+chex_phi35_sft,white,5,5,True,unparsed," benign.     The image indicates that the previously seen left breast mass is no longer visualized, suggesting it may have been",400,0.0,1,1,fc6ff2f91c9ed4a6ec9b81d9315a10352a6d7ad4,ready_for_paired_comparison
+phi35_vision,white,5,5,True,benign,benign,400,0.5,1,1,12b77fb40b63a2c73c68243d3f767aab688a1b2a,ready_for_paired_comparison
