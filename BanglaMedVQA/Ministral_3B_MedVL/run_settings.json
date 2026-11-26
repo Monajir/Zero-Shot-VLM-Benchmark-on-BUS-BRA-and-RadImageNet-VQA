@@ -1,0 +1,25 @@
+{
+  "blank_size": null,
+  "condition": "real",
+  "dataset": "iiCEMAN/BanglaMedVQA",
+  "dtype": "torch.bfloat16",
+  "gpu": "Tesla T4",
+  "image_max_side": 512,
+  "image_preprocessing_version": "rgb_aspect_preserving_longest_edge_512_v1",
+  "judge_model": "gpt-4.1-mini",
+  "max_new_tokens": 96,
+  "model_id": "OpenMed/Ministral-3B-MedVL",
+  "model_revision": "4829656b3f34ae88307688a3d525ceff9daff972",
+  "model_tag": "ministral_3b_medvl",
+  "out_dir": "/content/ministral_3b_medvl_results/real",
+  "sample_hash": "caed7502c8c2",
+  "sample_size": 500,
+  "seed": 42,
+  "splits": {
+    "chest_xray": "chest_xray_train",
+    "medicat": "medicat_train"
+  },
+  "system_prompt_sha256": "84d2b094fafb71410d59be529241aa79b5e50fc3e96419e03d49dc2d2e8755f7",
+  "torch": "2.14.1+cu130",
+  "unique_image_ids": 455
+}

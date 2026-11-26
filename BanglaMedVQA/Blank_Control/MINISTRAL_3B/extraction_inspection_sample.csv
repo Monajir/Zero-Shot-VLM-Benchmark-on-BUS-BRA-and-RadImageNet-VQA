@@ -1,0 +1,98 @@
+idx,source,category,true_answer,predicted_answer,extracted_answer,extraction_method,is_verbose,raw_output
+13,chest_xray,abnormality,না,না,না,exact_clean,False,না
+30,chest_xray,abnormality,না,No abnormality,No abnormality,exact_clean,False,No abnormality
+39,chest_xray,abnormality,না,"হ্যাঁ
+(No visible abnormality)","হ্যাঁ
+(No visible abnormality)",exact_clean,True,"হ্যাঁ
+(No visible abnormality)"
+63,chest_xray,condition,"প্রলায়, এম্ফিসেমা, এবং মাঝ বাম দিকে নিউমোথোরেক্স","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition",No,leading_yesno,True,"No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition"
+80,chest_xray,condition,কোনও অবস্থা চিহ্নিত হয়নি।,"No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition",No,leading_yesno,True,"No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition"
+89,chest_xray,condition,কোন নির্দিষ্ট অবস্থা চিহ্নিত হয়নি।,"No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition",No,leading_yesno,True,"No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition"
+113,chest_xray,modality,এক্স-রে,X-ray,X-ray,exact_clean,False,X-ray
+130,chest_xray,modality,এক্স-রে,X-ray,X-ray,exact_clean,False,X-ray
+139,chest_xray,modality,এক্স-রে,X-ray,X-ray,exact_clean,False,X-ray
+163,chest_xray,organ,বুক,X-ray,X-ray,exact_clean,False,X-ray
+180,chest_xray,organ,বুক,X-ray,X-ray,exact_clean,False,X-ray
+189,chest_xray,organ,বুক,X-ray,X-ray,exact_clean,False,X-ray
+213,chest_xray,position,কোন অবস্থা চিহ্নিত করা হয়নি।,অবস্থা নেই,অবস্থা নেই,exact_clean,False,অবস্থা নেই
+230,chest_xray,position,ডানদিকের মাঝখানে,Lung apex,Lung apex,exact_clean,False,Lung apex
+239,chest_xray,position,মধ্য ডান।,হৃৎপিণ্ড,হৃৎপিণ্ড,exact_clean,False,হৃৎপিণ্ড
+263,medicat,abnormality,না,না,না,exact_clean,False,না
+280,medicat,abnormality,হ্যাঁ,না,না,exact_clean,False,না
+289,medicat,abnormality,হ্যাঁ,না,না,exact_clean,False,না
+313,medicat,condition,প্লুরাল-ভিত্তিক ঘনত্ব,"রোগনির্ণয় সম্ভব নয়
+(অনুমানিক: শূন্য তথ্য)",রোগনির্ণয় সম্ভব নয়,leading_clause,True,"রোগনির্ণয় সম্ভব নয়
+(অনুমানিক: শূন্য তথ্য)"
+330,medicat,condition,ডব্লিউএম হ্রাস (অ্যাট্রোফি),কোনো অবস্থা নেই,কোনো অবস্থা নেই,exact_clean,False,কোনো অবস্থা নেই।
+339,medicat,condition,প্রাথমিক টিউমার,ব্যবহারযোগ্য তথ্য নেই,ব্যবহারযোগ্য তথ্য নেই,exact_clean,False,ব্যবহারযোগ্য তথ্য নেই
+363,medicat,modality,এমআরআই,X-ray,X-ray,exact_clean,False,X-ray
+380,medicat,modality,সিটি,X-ray,X-ray,exact_clean,False,X-ray
+389,medicat,modality,সিটি,X-ray,X-ray,exact_clean,False,X-ray
+413,medicat,organ,বুক,X-ray,X-ray,exact_clean,False,X-ray
+430,medicat,organ,মস্তিষ্ক,X-ray,X-ray,exact_clean,False,X-ray
+439,medicat,organ,বুক,X-ray,X-ray,exact_clean,False,X-ray
+463,medicat,position,ইন্ট্রাক্রানিয়াল,"Lumbar
+(Note: Image is blank; cannot determine. Clarify if SAH is confirmed in clinical context.)",Lumbar,leading_clause,True,"Lumbar
+(Note: Image is blank; cannot determine. Clarify if SAH is confirmed in clinical context.)"
+480,medicat,position,প্রিভার্টিব্রাল,X-ray,X-ray,exact_clean,False,X-ray
+489,medicat,position,বাম ভেন্ট্রিকল,অবস্থান: অ্যান্টেরিওর ইনফেরিয়র,অবস্থান: অ্যান্টেরিওর ইনফেরিয়র,exact_clean,False,অবস্থান: অ্যান্টেরিওর ইনফেরিয়র

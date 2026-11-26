@@ -1,0 +1,2089 @@
+idx,image_id,source,category,question,true_answer,predicted_answer,raw_output,extracted_answer,extraction_method,gen_tokens,logits_invalid,is_empty,is_english_only,has_bangla,is_long,is_verbose,is_exact_compliant,raw_char_len,cleaned_word_count,correct,correct_norm,correct_extracted_exploratory,correct_extracted_norm_exploratory,bertscore_f1,lave
+0,00001170_046,chest_xray,abnormality,কোনও অস্বাভাবিকতা আছে কি?,হ্যাঁ,না,না,না,exact_clean,2,False,False,False,True,False,False,True,2,1,False,False,False,False,0.79119956,0.0
+1,00016837_002,chest_xray,abnormality,এই ছবিতে কোনও অস্বাভাবিকতা লক্ষ্য করা গেছে কি?,হ্যাঁ,No abnormality,No abnormality,No abnormality,exact_clean,3,False,False,True,False,False,False,True,14,2,False,False,False,False,0.6790593,0.0
+2,00017981_004,chest_xray,abnormality,এই ছবিতে কি কোনও অস্বাভাবিকতা চিহ্নিত করা হয়েছে?,না,No abnormality,No abnormality,No abnormality,exact_clean,3,False,False,True,False,False,False,True,14,2,False,False,False,False,0.7094838,0.0
+3,00015770_010,chest_xray,abnormality,এই ছবিতে কোনও অস্বাভাবিকতা লক্ষ্য করা গেছে কি?,হ্যাঁ,No abnormality,No abnormality,No abnormality,exact_clean,3,False,False,True,False,False,False,True,14,2,False,False,False,False,0.6790593,0.0
+4,00028639_001,chest_xray,abnormality,এই ছবিতে কোনও অস্বাভাবিকতা চিহ্নিত করা হয়েছে কি?,না,No abnormality,No abnormality,No abnormality,exact_clean,3,False,False,True,False,False,False,True,14,2,False,False,False,False,0.7094838,0.0
+5,00012656_003,chest_xray,abnormality,এই ছবিতে কোনও অস্বাভাবিকতা আছে কি?,না,No abnormality,No abnormality,No abnormality,exact_clean,3,False,False,True,False,False,False,True,14,2,False,False,False,False,0.7094838,0.0
+6,00018694_001,chest_xray,abnormality,এই ছবিতে কোন অস্বাভাবিকতা আছে কি?,না।,No abnormality,No abnormality,No abnormality,exact_clean,3,False,False,True,False,False,False,True,14,2,False,False,False,False,0.6964636,0.0
+7,00017670_005,chest_xray,abnormality,এই ছবিতে কোনও অস্বাভাবিকতা আছে কি?,হ্যাঁ,No abnormality,No abnormality,No abnormality,exact_clean,3,False,False,True,False,False,False,True,14,2,False,False,False,False,0.6790593,0.0
+8,00005791_008,chest_xray,abnormality,মেটাডেটাতে কোনো অস্বাভাবিকতা লক্ষ্য করা গেছে কি?,না,নেই,নেই,নেই,exact_clean,3,False,False,False,True,False,False,True,3,1,False,False,False,False,0.79494745,0.5
+9,00013601_016,chest_xray,abnormality,এই ছবিতে কোনো অস্বাভাবিকতা আছে কি?,না,No abnormality,No abnormality,No abnormality,exact_clean,3,False,False,True,False,False,False,True,14,2,False,False,False,False,0.7094838,0.0
+10,00025707_015,chest_xray,abnormality,এই ছবিতে কি কোনো অস্বাভাবিকতা আছে?,হ্যাঁ,No abnormality,No abnormality,No abnormality,exact_clean,3,False,False,True,False,False,False,True,14,2,False,False,False,False,0.6790593,0.0
+11,00006321_002,chest_xray,abnormality,এই ছবিতে কোনও অস্বাভাবিকতা চিহ্নিত হয়েছে কি?,না।,No abnormality,No abnormality,No abnormality,exact_clean,3,False,False,True,False,False,False,True,14,2,False,False,False,False,0.6964636,0.0
+12,00029711_001,chest_xray,abnormality,এই ছবিতে কোন অস্বাভাবিকতা সনাক্ত হয়েছে কি?,না,No abnormality,No abnormality,No abnormality,exact_clean,3,False,False,True,False,False,False,True,14,2,False,False,False,False,0.7094838,0.0
+13,00027737_000,chest_xray,abnormality,ছবিতে কোনও অস্বাভাবিকতা সনাক্ত হয়েছে কি?,না,না,না,না,exact_clean,2,False,False,False,True,False,False,True,2,1,True,True,True,True,0.99999994,1.0
+14,00005353_000,chest_xray,abnormality,কোন অস্বাভাবিকতা আছে কি?,হ্যাঁ,না,না,না,exact_clean,2,False,False,False,True,False,False,True,2,1,False,False,False,False,0.79119956,0.0
+15,00015078_013,chest_xray,abnormality,কোনও অস্বাভাবিকতা আছে কি?,হ্যাঁ,না,না,না,exact_clean,2,False,False,False,True,False,False,True,2,1,False,False,False,False,0.79119956,0.0
+16,00000830_000,chest_xray,abnormality,কোনও অস্বাভাবিকতা উপস্থিত আছে কি?,হ্যাঁ,না,না,না,exact_clean,2,False,False,False,True,False,False,True,2,1,False,False,False,False,0.79119956,0.0
+17,00020845_002,chest_xray,abnormality,এই ইমেজে কোন অস্বাভাবিকতা চিহ্নিত করা হয়েছে?,হ্যাঁ,No abnormality,No abnormality,No abnormality,exact_clean,3,False,False,True,False,False,False,True,14,2,False,False,False,False,0.6790593,0.0
+18,00015605_050,chest_xray,abnormality,এই ছবিতে কোনো অস্বাভাবিকতা লক্ষ্য করা গেছে কি?,না,No abnormality,No abnormality,No abnormality,exact_clean,3,False,False,True,False,False,False,True,14,2,False,False,False,False,0.7094838,0.0
+19,00013177_004,chest_xray,abnormality,এই ছবিতে কোনো অস্বাভাবিকতা লক্ষ্য করা গেছে কি?,না,No abnormality,No abnormality,No abnormality,exact_clean,3,False,False,True,False,False,False,True,14,2,False,False,False,False,0.7094838,0.0
+20,00013031_005,chest_xray,abnormality,এই ছবিটি কি কোনও অস্বাভাবিকতা দেখায়?,হ্যাঁ,No abnormality,No abnormality,No abnormality,exact_clean,3,False,False,True,False,False,False,True,14,2,False,False,False,False,0.6790593,0.0
+21,00029617_006,chest_xray,abnormality,এই ছবিতে কোনও অস্বাভাবিকতা আছে কি?,হ্যাঁ,No abnormality,No abnormality,No abnormality,exact_clean,3,False,False,True,False,False,False,True,14,2,False,False,False,False,0.6790593,0.0
+22,00028974_016,chest_xray,abnormality,এই ছবিতে কোনও অস্বাভাবিকতা লক্ষ্য করা গেছে কি?,হ্যাঁ,No abnormality,No abnormality,No abnormality,exact_clean,3,False,False,True,False,False,False,True,14,2,False,False,False,False,0.6790593,0.0
+23,00001609_000,chest_xray,abnormality,এই চিত্রে কোন অস্বাভাবিকতা পরিলক্ষিত হয়েছে কি?,না,No abnormality,No abnormality,No abnormality,exact_clean,3,False,False,True,False,False,False,True,14,2,False,False,False,False,0.7094838,0.0
+24,00008339_010,chest_xray,abnormality,এই ছবিতে কোনও অস্বাভাবিকতা আছে কি?,হ্যাঁ,No abnormality,No abnormality,No abnormality,exact_clean,3,False,False,True,False,False,False,True,14,2,False,False,False,False,0.6790593,0.0
+25,00018720_000,chest_xray,abnormality,এই ছবিতে কোনো অস্বাভাবিকতা দেখা যাচ্ছে কি?,না,No abnormality,No abnormality,No abnormality,exact_clean,3,False,False,True,False,False,False,True,14,2,False,False,False,False,0.7094838,0.0
+26,00017835_003,chest_xray,abnormality,এই ছবিতে কোনও অস্বাভাবিকতা লক্ষ্য করা গেছে কি?,না,No abnormality,No abnormality,No abnormality,exact_clean,3,False,False,True,False,False,False,True,14,2,False,False,False,False,0.7094838,0.0
+27,00004006_038,chest_xray,abnormality,এই ছবিতে কোনও অস্বাভাবিকতা আছে কি?,না,No abnormality,No abnormality,No abnormality,exact_clean,3,False,False,True,False,False,False,True,14,2,False,False,False,False,0.7094838,0.0
+28,00022048_000,chest_xray,abnormality,কি কোনো অস্বাভাবিকতা চিহ্নিত করা হয়েছে?,না।,নেই,নেই,নেই,exact_clean,3,False,False,False,True,False,False,True,3,1,False,False,False,False,0.76311,0.3
+29,00012270_005,chest_xray,abnormality,এই ছবিতে কোন অস্বাভাবিকতা আছে কি?,হ্যাঁ,No abnormality,No abnormality,No abnormality,exact_clean,3,False,False,True,False,False,False,True,14,2,False,False,False,False,0.6790593,0.0
+30,00007741_002,chest_xray,abnormality,এই ইমেজে কোনও অস্বাভাবিকতা আছে কি?,না,No abnormality,No abnormality,No abnormality,exact_clean,3,False,False,True,False,False,False,True,14,2,False,False,False,False,0.7094838,0.0
+31,00012636_000,chest_xray,abnormality,এই ছবিতে কোনো অস্বাভাবিকতা আছে কি?,হ্যাঁ,No abnormality,No abnormality,No abnormality,exact_clean,3,False,False,True,False,False,False,True,14,2,False,False,False,False,0.6790593,0.0
+32,00027604_000,chest_xray,abnormality,কোনো অস্বাভাবিকতা আছে কি?,না,না,না,না,exact_clean,2,False,False,False,True,False,False,True,2,1,True,True,True,True,1.0,1.0
+33,00000067_002,chest_xray,abnormality,এই ছবিতে কোনো অস্বাভাবিকতা আছে কি?,না,No abnormality,No abnormality,No abnormality,exact_clean,3,False,False,True,False,False,False,True,14,2,False,False,False,False,0.7094838,0.0
+34,00019058_004,chest_xray,abnormality,এই ছবিতে কোন অস্বাভাবিকতা উপস্থিত আছে?,হ্যাঁ,No abnormality,No abnormality,No abnormality,exact_clean,3,False,False,True,False,False,False,True,14,2,False,False,False,False,0.67905927,0.0
+35,00028089_000,chest_xray,abnormality,এই ছবিতে কোনও অস্বাভাবিকতা আছে কি?,না,No abnormality,No abnormality,No abnormality,exact_clean,3,False,False,True,False,False,False,True,14,2,False,False,False,False,0.7094838,0.0
+36,00028509_007,chest_xray,abnormality,এই ছবিতে কোনও অস্বাভাবিকতা দৃশ্যমান আছে কি?,হ্যাঁ,No abnormality,No abnormality,No abnormality,exact_clean,3,False,False,True,False,False,False,True,14,2,False,False,False,False,0.67905927,0.0
+37,00004499_000,chest_xray,abnormality,এই ছবিতে কি কোন সাধারণ অস্বাভাবিকতা দেখা যাচ্ছে?,না,No visible abnormality,No visible abnormality,No visible abnormality,exact_clean,4,False,False,True,False,False,False,True,22,3,False,False,False,False,0.6869988,0.0
+38,00016522_023,chest_xray,abnormality,কোন অস্বাভাবিকতা আছে কি?,হ্যাঁ,না,না,না,exact_clean,2,False,False,False,True,False,False,True,2,1,False,False,False,False,0.7911997,0.0
+39,00016327_001,chest_xray,abnormality,কোনো অস্বাভাবিকতা চিহ্নিত হয়েছে কি?,না,"হ্যাঁ
+(No visible abnormality)","হ্যাঁ
+(No visible abnormality)","হ্যাঁ
+(No visible abnormality)",exact_clean,10,False,False,False,True,False,True,False,30,4,False,False,False,False,0.66975373,0.0
+40,00017870_001,chest_xray,abnormality,এই ছবিতে কোনও অস্বাভাবিকতা আছে কি?,না,No abnormality,No abnormality,No abnormality,exact_clean,3,False,False,True,False,False,False,True,14,2,False,False,False,False,0.7094838,0.0
+41,00023283_019,chest_xray,abnormality,এই ছবিতে কোন অস্বাভাবিকতা আছে কি?,হ্যাঁ,No abnormality,No abnormality,No abnormality,exact_clean,3,False,False,True,False,False,False,True,14,2,False,False,False,False,0.67905927,0.0
+42,00027355_013,chest_xray,abnormality,এই ছবিতে কোনও অস্বাভাবিকতা আছে কি?,না,No abnormality,No abnormality,No abnormality,exact_clean,3,False,False,True,False,False,False,True,14,2,False,False,False,False,0.7094838,0.0
+43,00028383_002,chest_xray,abnormality,এই ছবিতে কোনও অস্বাভাবিকতা আছে কি?,হ্যাঁ,No abnormality,No abnormality,No abnormality,exact_clean,3,False,False,True,False,False,False,True,14,2,False,False,False,False,0.67905927,0.0
+44,00005140_001,chest_xray,abnormality,এই চিত্রে কোনও অস্বাভাবিকতা আছে কি?,হ্যাঁ,No abnormality,No abnormality,No abnormality,exact_clean,3,False,False,True,False,False,False,True,14,2,False,False,False,False,0.67905927,0.0
+45,00020986_000,chest_xray,abnormality,এই ছবিতে কোনো অস্বাভাবিকতা আছে কি?,হ্যাঁ,No abnormality,No abnormality,No abnormality,exact_clean,3,False,False,True,False,False,False,True,14,2,False,False,False,False,0.67905927,0.0
+46,00012973_005,chest_xray,abnormality,এই ছবিতে কোনও অস্বাভাবিকতা আছে কি?,হ্যাঁ,No abnormality,No abnormality,No abnormality,exact_clean,3,False,False,True,False,False,False,True,14,2,False,False,False,False,0.67905927,0.0
+47,00012267_000,chest_xray,abnormality,এই ছবিতে কোন অস্বাভাবিকতা আছে কি?,না,No abnormality,No abnormality,No abnormality,exact_clean,3,False,False,True,False,False,False,True,14,2,False,False,False,False,0.7094838,0.0
+48,00000149_006,chest_xray,abnormality,কোন অস্বাভাবিকতা উপস্থিত আছে কি?,হ্যাঁ,না,না,না,exact_clean,2,False,False,False,True,False,False,True,2,1,False,False,False,False,0.7911997,0.0
+49,00017137_016,chest_xray,abnormality,ছবিতে কোনো অস্বাভাবিকতা আছে কি?,হ্যাঁ,না,না,না,exact_clean,2,False,False,False,True,False,False,True,2,1,False,False,False,False,0.7911997,0.0
+50,00026911_000,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,"প্রলেপ, অনুপ্রবেশ, গন্ড এবং অনুপ্রবেশ (মাঝখানে ডান দিকে)।","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition",No,leading_yesno,38,False,False,True,False,True,True,False,146,23,False,False,False,False,0.57895416,0.0
+51,00014574_000,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,"কার্ডিওমেগালি, মাঝখানে ডান দিকে অবস্থিত।","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition",No,leading_yesno,38,False,False,True,False,True,True,False,146,23,False,False,False,False,0.55471206,0.0
+52,00017582_003,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,এ্যাটালেক্টাসিস (বাম মাঝখানে) এবং এফিউশন,"No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition",No,leading_yesno,38,False,False,True,False,True,True,False,146,23,False,False,False,False,0.5834933,0.0
+53,00026392_005,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থাগুলি চিহ্নিত করা হয়েছে?,"এম্ফিসেমা, নিউমোথোরেক্স (ডান উপরের দিকে)",No visible pathology,No visible pathology,No visible pathology,exact_clean,4,False,False,True,False,False,False,True,20,3,False,False,False,False,0.62390393,0.0
+54,00020482_011,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,"কনসোলিডেশন, অনুপ্রবেশ এবং অনুপ্রবেশ মধ্য ডানদিকে।","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition",No,leading_yesno,38,False,False,True,False,True,True,False,146,23,False,False,False,False,0.5618979,0.0
+55,00028974_016,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,এফিউশন (মধ্য ডান),"No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition",No,leading_yesno,38,False,False,True,False,True,True,False,146,23,False,False,False,False,0.5819203,0.0
+56,00001170_046,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,"অ্যাটালেক্টাসিস (ডান মাঝখানে),  প্লেউরাল এফিউশন, নিউমোথোরেক্স","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition",No,leading_yesno,38,False,False,True,False,True,True,False,146,23,False,False,False,False,0.56804335,0.0
+57,00009895_000,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,কোন অবস্থা চিহ্নিত হয়নি।,"No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition",No,leading_yesno,38,False,False,True,False,True,True,False,146,23,False,False,False,False,0.59480476,0.2
+58,00015058_024,chest_xray,condition,এখানে কী কী বিশেষ অবস্থা চিহ্নিত করা হয়েছে?,"অ্যাটালেক্টাসিস, এবং নিম্নে ডানদিকে প্রয়োজনীয়তা।",No abnormalities,No abnormalities,No abnormalities,exact_clean,3,False,False,True,False,False,False,True,16,2,False,False,False,False,0.62037104,0.0
+59,00010575_002,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,"অ্যাটেলেক্টাসিস (নীচের বাম দিকে),  উদ্বৃত্ত এবং অনুপ্রবেশ।","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition",No,leading_yesno,38,False,False,True,False,True,True,False,146,23,False,False,False,False,0.59115905,0.0
+60,00012834_122,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,এফিউশন (মধ্য বাম),"No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition",No,leading_yesno,38,False,False,True,False,True,True,False,146,23,False,False,False,False,0.5831585,0.0
+61,00000179_000,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,কোনটিই চিহ্নিত হয়নি।,"No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition",No,leading_yesno,38,False,False,True,False,True,True,False,146,23,False,False,False,False,0.558852,0.0
+62,00007882_001,chest_xray,condition,এখানে কী কী বিশেষ অবস্থা চিহ্নিত করা হয়েছে?,"প্রয়োজনীয়তা (মাঝখানে বামে), নডিউল",No abnormalities,No abnormalities,No abnormalities,exact_clean,3,False,False,True,False,False,False,True,16,2,False,False,False,False,0.6567576,0.0
+63,00029579_014,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,"প্রলায়, এম্ফিসেমা, এবং মাঝ বাম দিকে নিউমোথোরেক্স","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition",No,leading_yesno,38,False,False,True,False,True,True,False,146,23,False,False,False,False,0.58764297,0.0
+64,00014125_042,chest_xray,condition,এখানে কী কী নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,"এডিমা (N/A), নিউমোনিয়া (মধ্য ডানদিকে)","No abnormalities visible
+Modality: Blank/No image data","No abnormalities visible
+Modality: Blank/No image data",No,leading_yesno,13,False,False,True,False,True,True,False,54,7,False,False,False,False,0.6242955,0.0
+65,00021818_026,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,"কনসোলিডেশন (N/A), মধ্য ডান দিকে নিউমোনিয়া","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition",No,leading_yesno,38,False,False,True,False,True,True,False,146,23,False,False,False,False,0.5792529,0.0
+66,00009985_001,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়নি।,"No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition",No,leading_yesno,38,False,False,True,False,True,True,False,146,23,False,False,False,False,0.5945895,0.3
+67,00011322_006,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,"কার্ডিওমেগালি (মধ্য ডানদিকে), এডিমা (N/A)","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition",No,leading_yesno,38,False,False,True,False,True,True,False,146,23,False,False,False,False,0.56622064,0.0
+68,00012374_000,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,ডানদিকে উপরে নোডুল।,"No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition",No,leading_yesno,38,False,False,True,False,True,True,False,146,23,False,False,False,False,0.56053525,0.0
+69,00016568_010,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,"শোথ, অনুপ্রবেশ, ভর (মধ্য ডানে), এবং নিউমোনিয়া।","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition",No,leading_yesno,38,False,False,True,False,True,True,False,146,23,False,False,False,False,0.60097104,0.0
+70,00030379_000,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,কোনও অবস্থা চিহ্নিত হয়নি।,"No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition",No,leading_yesno,38,False,False,True,False,True,True,False,146,23,False,False,False,False,0.59058,0.1
+71,00011925_072,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,"অ্যাটালেক্টাসিস (N/A), অনুপ্রবেশ (N/A), ভর (N/A), প্লেউরাল ঘনীভবন (N/A), এবং অনুপ্রবেশ (বাম দিকের মাঝখানে)।","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition",No,leading_yesno,38,False,False,True,False,True,True,False,146,23,False,False,False,False,0.5811739,0.0
+72,00019499_000,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,মধ্যম ডানদিকে একটি গোলক,"No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition",No,leading_yesno,38,False,False,True,False,True,True,False,146,23,False,False,False,False,0.5814402,0.0
+73,00022706_001,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,"কারডিওমেগালি (মধ্য ডান),  এফিউশন","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition",No,leading_yesno,38,False,False,True,False,True,True,False,146,23,False,False,False,False,0.5534577,0.0
+74,00017968_000,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,কোন অবস্থা চিহ্নিত হয়নি।,"No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition",No,leading_yesno,38,False,False,True,False,True,True,False,146,23,False,False,False,False,0.5948047,0.3
+75,00019688_000,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,কোন নির্দিষ্ট অবস্থা চিহ্নিত হয়নি।,"No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition",No,leading_yesno,38,False,False,True,False,True,True,False,146,23,False,False,False,False,0.59807223,0.3
+76,00028180_003,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়নি।,"No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition",No,leading_yesno,38,False,False,True,False,True,True,False,146,23,False,False,False,False,0.5945895,0.3
+77,00007735_040,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,"কার্ডিওমেগালি, নীচের ডানে অবস্থিত।","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition",No,leading_yesno,38,False,False,True,False,True,True,False,146,23,False,False,False,False,0.5500334,0.0
+78,00029105_015,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,"এম্ফিসেমা, নিউমোথোরেক্স এবং বাম দিকে মাঝখানে একটি গোলক।","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition",No,leading_yesno,38,False,False,True,False,True,True,False,146,23,False,False,False,False,0.56751746,0.0
+79,00014203_018,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,"অ্যাটালেক্টাসিস, অনুস্রাব, অনুস্রাব (মধ্য ডান)","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition",No,leading_yesno,38,False,False,True,False,True,True,False,146,23,False,False,False,False,0.56728977,0.0
+80,00007328_013,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,কোনও অবস্থা চিহ্নিত হয়নি।,"No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition",No,leading_yesno,38,False,False,True,False,True,True,False,146,23,False,False,False,False,0.59058,0.1
+81,00011649_008,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়নি।,"No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition",No,leading_yesno,38,False,False,True,False,True,True,False,146,23,False,False,False,False,0.5945895,0.3
+82,00006991_008,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,কোন অবস্থা চিহ্নিত হয়নি।,"No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition",No,leading_yesno,38,False,False,True,False,True,True,False,146,23,False,False,False,False,0.5948047,0.2
+83,00003894_005,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,"নোডুল (অবস্থান N/A), নিউমোনিয়া (মধ্য ডানদিকে)","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition",No,leading_yesno,38,False,False,True,False,True,True,False,146,23,False,False,False,False,0.5677774,0.0
+84,00029431_002,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,কোন নির্দিষ্ট অবস্থা চিহ্নিত হয়নি।,"No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition",No,leading_yesno,38,False,False,True,False,True,True,False,146,23,False,False,False,False,0.59807223,0.3
+85,00018814_000,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,মধ্য ডানদিকে নডিউল।,"No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition",No,leading_yesno,38,False,False,True,False,True,True,False,146,23,False,False,False,False,0.571148,0.0
+86,00012842_001,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত হয়েছে?,কোন নির্দিষ্ট অবস্থা চিহ্নিত হয়নি।,"No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+Normal appearance","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+Normal appearance",No,leading_yesno,33,False,False,True,False,True,True,False,121,19,False,False,False,False,0.5958674,0.0
+87,00003803_010,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,"শোথ (অবস্থান N/A), প্রলায় (অবস্থান মধ্য বাম)","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition",No,leading_yesno,38,False,False,True,False,True,True,False,146,23,False,False,False,False,0.56882876,0.0
+88,00025335_000,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,কোন নির্দিষ্ট অবস্থা নয়,"No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition",No,leading_yesno,38,False,False,True,False,True,True,False,146,23,False,False,False,False,0.6141055,0.2
+89,00008707_009,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,কোন নির্দিষ্ট অবস্থা চিহ্নিত হয়নি।,"No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition",No,leading_yesno,38,False,False,True,False,True,True,False,146,23,False,False,False,False,0.59807223,0.3
+90,00014149_028,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়নি।,"No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition",No,leading_yesno,38,False,False,True,False,True,True,False,146,23,False,False,False,False,0.5945895,0.3
+91,00004342_023,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,কারডিওমেগালি (মধ্য ডান),"No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition",No,leading_yesno,38,False,False,True,False,True,True,False,146,23,False,False,False,False,0.5546514,0.0
+92,00016987_019,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থাগুলি চিহ্নিত করা হয়েছে?,"অ্যাটালেক্টাসিস (মধ্য বাম), নিউমোথোরেক্স",No visible pathology,No visible pathology,No visible pathology,exact_clean,4,False,False,True,False,False,False,True,20,3,False,False,False,False,0.6268831,0.0
+93,00027866_002,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,"অ্যাটালেক্টাসিস (নীচের বাম), এফিউশন, ইনফিলট্রেশন","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition",No,leading_yesno,38,False,False,True,False,True,True,False,146,23,False,False,False,False,0.57397896,0.0
+94,00018721_010,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,ইনফিল্ট্রেশন এবং মাঝের বাম দিকে ইনফিল্ট্রেট,"No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition",No,leading_yesno,38,False,False,True,False,True,True,False,146,23,False,False,False,False,0.57259756,0.0
+95,00004342_002,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,"কারডিওমেগালি (নীচের বাম দিকে), ইনফিলট্রেশন (প্রযোজ্য নয়)","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition",No,leading_yesno,38,False,False,True,False,True,True,False,146,23,False,False,False,False,0.5822111,0.0
+96,00010726_003,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,কোনও নির্দিষ্ট অবস্থা চিহ্নিত হয়নি।,"No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition",No,leading_yesno,38,False,False,True,False,True,True,False,146,23,False,False,False,False,0.5894632,0.3
+97,00019198_000,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,কোন নির্দিষ্ট অবস্থা চিহ্নিত হয়নি।,"No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition",No,leading_yesno,38,False,False,True,False,True,True,False,146,23,False,False,False,False,0.5980722,0.3
+98,00026398_000,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,"প্লুরাল ঘনীভবন, নডুল (উপর বাম)","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition",No,leading_yesno,38,False,False,True,False,True,True,False,146,23,False,False,False,False,0.5684128,0.0
+99,00006519_008,chest_xray,condition,এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে?,কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়নি।,"No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition","No visible pathology
+CT scan
+Axial view
+Bone
+Femur
+Cortical defect
+No fracture
+No lesion
+No abnormality
+White noise artifact
+No specific condition",No,leading_yesno,38,False,False,True,False,True,True,False,146,23,False,False,False,False,0.5945895,0.3
+100,00005532_014,chest_xray,modality,এই গবেষণায় কোন ইমেজিং পদ্ধতি ব্যবহার করা হয়েছে?,এক্স-রে,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.76184946,0.9
+101,00002856_009,chest_xray,modality,এটি কোন ধরণের ইমেজিং পদ্ধতি?,এক্স-রে,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.76184946,0.9
+102,00018182_014,chest_xray,modality,ইমেজিং পদ্ধতি কী?,এক্স-রে,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.76184946,0.9
+103,00018694_001,chest_xray,modality,এই ইমেজটি কোন মডালিটি?,বুকের এক্স-রে।,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.63874024,0.5
+104,00011477_000,chest_xray,modality,এই ইমেজিং পদ্ধতিটি কী ধরণের?,এক্স-রে,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.76184946,0.9
+105,00020146_005,chest_xray,modality,এটি কী ধরণের ইমেজিং পদ্ধতি?,এক্স-রে,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.76184946,0.9
+106,00012364_045,chest_xray,modality,ইমেজিং পদ্ধতি কি?,এক্স-রে,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.76184946,0.9
+107,00006875_013,chest_xray,modality,এটি কী ধরণের ইমেজিং পদ্ধতি?,এক্স-রে,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.76184946,0.9
+108,00023000_000,chest_xray,modality,এই কোন ধরণের ইমেজিং পদ্ধতি?,এক্স-রে,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.76184946,0.9
+109,00015794_000,chest_xray,modality,এটি কোন ধরণের ইমেজিং পদ্ধতি?,বুকের এক্স-রে,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7062905,0.6
+110,00023058_004,chest_xray,modality,এই ধরণের ইমেজিং পদ্ধতি কি?,এক্স-রে,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.76184946,0.9
+111,00018253_030,chest_xray,modality,এই ছবির ইমেজিং পদ্ধতি কী?,এক্স-রে,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.76184946,0.9
+112,00009431_004,chest_xray,modality,এই ইমেজিং পদ্ধতিটি কী?,এক্স-রে,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.76184946,0.9
+113,00013775_000,chest_xray,modality,এই ইমেজিং পদ্ধতিটি কী ধরণের?,এক্স-রে,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.76184946,0.9
+114,00022185_005,chest_xray,modality,এই ইমেজিং পদ্ধতিটি কী ধরণের?,এক্স-রে,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.76184946,0.9
+115,00012271_000,chest_xray,modality,এই গবেষণার জন্য ব্যবহৃত ইমেজিং পদ্ধতিটি কী?,এক্স-রে,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.76184946,0.9
+116,00001373_009,chest_xray,modality,এই ইমেজিং পদ্ধতিটি কী ধরণের?,এক্স-রে,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.76184946,0.9
+117,00012686_003,chest_xray,modality,এটি কী ধরণের ইমেজিং মডালিটি?,এক্স-রে,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.76184946,0.9
+118,00002397_001,chest_xray,modality,এই স্ক্যানের ইমেজিং পদ্ধতি কী?,এক্স-রে,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.76184946,0.9
+119,00007328_013,chest_xray,modality,কোন ইমেজিং পদ্ধতি ব্যবহার করা হয়েছে?,এক্স-রে,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.76184946,0.9
+120,00028173_016,chest_xray,modality,এই ধরণের ইমেজিং পদ্ধতি কী?,এক্স-রে,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.76184946,0.9
+121,00013991_000,chest_xray,modality,এটি কোন ধরণের ইমেজিং পদ্ধতি?,এক্স-রে,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.76184946,0.9
+122,00004344_022,chest_xray,modality,কোন ধরণের ইমেজিং পদ্ধতি দেখানো হচ্ছে?,এক্স-রে,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.76184946,0.9
+123,00025270_000,chest_xray,modality,এটি কী ধরণের চিকিৎসা ইমেজিং পদ্ধতি?,এক্স-রে বুক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.72101825,0.6
+124,00020405_041,chest_xray,modality,এটি কী ধরণের ইমেজিং পদ্ধতি?,এক্স-রে,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.76184946,0.9
+125,00018961_000,chest_xray,modality,এই ইমেজিং পদ্ধতির ধরণ কী?,এক্স-রে,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.76184946,0.9
+126,00009437_008,chest_xray,modality,এই ইমেজিং পদ্ধতিটি কী ধরণের?,এক্স-রে,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.76184946,0.9
+127,00017255_001,chest_xray,modality,এটি কী ধরণের চিকিৎসা ইমেজিং পদ্ধতি?,এক্স-রে,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.76184946,0.9
+128,00009229_012,chest_xray,modality,এই ছবির ইমেজিং পদ্ধতি কি?,এক্স-রে,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.76184946,0.9
+129,00021447_000,chest_xray,modality,এই ইমেজিং মডালিটি কী ধরণের?,এক্স-রে,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.76184946,0.9
+130,00009229_007,chest_xray,modality,কোন ধরণের ইমেজিং পদ্ধতি দেখানো হচ্ছে?,এক্স-রে,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.76184946,0.9
+131,00007741_002,chest_xray,modality,এটি কী ধরণের ইমেজিং মডালিটি?,এক্স-রে,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.76184946,0.9
+132,00006948_002,chest_xray,modality,ইমেজিং পদ্ধতিটি কী?,এক্স-রে,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.76184946,0.9
+133,00011831_008,chest_xray,modality,এই ইমেজিং পদ্ধতিটি কী?,এক্স-রে,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.76184946,0.9
+134,00015605_051,chest_xray,modality,এই ইমেজিং মডালিটি কি ধরণের?,এক্স-রে,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.76184946,0.9
+135,00003491_000,chest_xray,modality,ইমেজিং পদ্ধতিটি কী?,এক্স-রে,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.76184946,0.9
+136,00025212_002,chest_xray,modality,চিত্রগ্রহণের পদ্ধতিটি কী?,এক্স-রে,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.76184946,0.9
+137,00004533_014,chest_xray,modality,এই ধরণের মেডিকেল ইমেজিং পদ্ধতিটি কী?,এক্স-রে,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.76184946,0.9
+138,00000143_005,chest_xray,modality,এই ইমেজিং পদ্ধতিটি কী ধরণের?,এক্স-রে,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.76184946,0.9
+139,00006111_001,chest_xray,modality,এই ছবির ইমেজিং পদ্ধতি কী?,এক্স-রে,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.76184946,0.9
+140,00014738_000,chest_xray,modality,এই ছবিতে কোন ইমেজিং পদ্ধতি ব্যবহার করা হয়েছে?,এক্স-রে,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.76184946,0.9
+141,00001931_024,chest_xray,modality,ইমেজিং পদ্ধতিটি কী?,এক্স-রে,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.76184946,0.9
+142,00011151_004,chest_xray,modality,এটি কোন ধরণের ইমেজিং পদ্ধতি?,এক্স-রে,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.76184946,0.9
+143,00003148_004,chest_xray,modality,এই ইমেজিং মডালিটির ধরণ কি?,এক্স-রে,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.76184946,0.9
+144,00023283_019,chest_xray,modality,কোন ধরণের ইমেজিং পদ্ধতি দেখানো হচ্ছে?,এক্স-রে,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.76184946,0.9
+145,00016797_003,chest_xray,modality,এটি কোন ধরণের ইমেজিং পদ্ধতি?,এক্স-রে,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.76184946,0.9
+146,00029588_004,chest_xray,modality,এই স্ক্যানের ইমেজিং পদ্ধতি কি?,এক্স-রে,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.76184946,0.9
+147,00022977_000,chest_xray,modality,এই ছবির পদ্ধতি কি?,এক্স-রে,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.76184946,0.9
+148,00019862_000,chest_xray,modality,এই ছবিতে কোন ধরণের ইমেজিং পদ্ধতি ব্যবহার করা হয়েছে?,এক্স-রে,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.76184946,0.9
+149,00019260_001,chest_xray,modality,এটি কী ধরণের ইমেজিং পদ্ধতি?,এক্স-রে,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.76184946,0.9
+150,00026319_000,chest_xray,organ,এই ছবিতে মূলত কোন অঙ্গ দেখানো হয়েছে?,বুকের,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7515632,0.0
+151,00011157_001,chest_xray,organ,এই ছবিতে প্রাথমিকভাবে কোন শরীরের অংশ বা অঙ্গ দেখানো হয়েছে?,বুকের,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7515632,0.0
+152,00020113_030,chest_xray,organ,এই ছবিতে কোন অঙ্গতন্ত্র প্রধানত প্রদর্শিত হয়েছে?,বুক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7550788,0.0
+153,00028975_000,chest_xray,organ,এই ছবিতে প্রাথমিকভাবে কোন অঙ্গ ব্যবস্থা দেখানো হয়েছে?,বুক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7550788,0.0
+154,00003028_026,chest_xray,organ,কোন শরীরের অংশ দেখানো হয়েছে?,বুক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7550788,0.0
+155,00012782_001,chest_xray,organ,এই ছবির প্রাথমিক ফোকাস কোন অঙ্গ ব্যবস্থা?,বুক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7550788,0.0
+156,00016484_013,chest_xray,organ,এই ছবিতে প্রাথমিকভাবে কোন প্রধান অঙ্গ ব্যবস্থা চিত্রিত করা হয়েছে?,বুক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7550788,0.0
+157,00027355_013,chest_xray,organ,এই ছবিতে প্রধানত কোন অঙ্গটি দেখানো হয়েছে?,বুক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7550788,0.0
+158,00015649_000,chest_xray,organ,এই ছবিটি কোন অঙ্গের উপর দৃষ্টি নিবদ্ধ করে?,বুক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7550788,0.0
+159,00011576_000,chest_xray,organ,এখানে কোন প্রাথমিক অঙ্গতন্ত্রের ছবি তোলা হয়েছে?,বুক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7550788,0.0
+160,00018055_045,chest_xray,organ,এই ছবিতে কোন শরীরের অংশ দেখানো হয়েছে?,বুক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.75507885,0.0
+161,00025954_032,chest_xray,organ,এই ছবিতে মূলত কোন অঙ্গতন্ত্র প্রদর্শিত হয়েছে?,বুকের,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7515632,0.0
+162,00004533_014,chest_xray,organ,এই ছবিতে কোন অ্যানাটমিক্যাল অঞ্চল দেখানো হয়েছে?,বুকের,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7515632,0.0
+163,00016705_006,chest_xray,organ,এই ছবিতে প্রাথমিকভাবে কোন অঙ্গতন্ত্র চিত্রিত হয়েছে?,বুক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.75507885,0.0
+164,00023026_008,chest_xray,organ,এই ছবিতে প্রাথমিকভাবে কোন অঙ্গতন্ত্র দেখা যাচ্ছে?,বুক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.75507885,0.0
+165,00011831_008,chest_xray,organ,এই ছবিতে প্রাথমিকভাবে কোন অঙ্গ ব্যবস্থা দেখানো হয়েছে?,বুক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.75507885,0.0
+166,00017717_004,chest_xray,organ,এই মেডিকেল ইমেজে কোন প্রাথমিক অঙ্গ ব্যবস্থা দৃশ্যমান?,বুক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.75507885,0.0
+167,00020393_001,chest_xray,organ,এই ছবিতে প্রাথমিকভাবে কোন অঙ্গ ব্যবস্থা চিত্রিত করা হয়েছে?,বুকের,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7515632,0.0
+168,00000756_001,chest_xray,organ,এই ছবিতে প্রাথমিকভাবে কোন অ্যানাটোমিক্যাল অঞ্চল প্রদর্শিত হচ্ছে?,বুকের,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7515632,0.0
+169,00015968_001,chest_xray,organ,কোন অঙ্গতন্ত্র প্রাথমিকভাবে প্রদর্শিত হয়েছে?,বুক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.75507885,0.0
+170,00003920_000,chest_xray,organ,এই ছবিতে কোন শরীরের অংশ চিত্রিত করা হয়েছে?,বুক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.75507885,0.0
+171,00020482_011,chest_xray,organ,এই ছবিতে কোন দেহের অংশ দেখানো হচ্ছে?,বুকের,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7515632,0.0
+172,00000377_004,chest_xray,organ,কোন অ্যানাটোমিক্যাল অঞ্চল প্রাথমিকভাবে দেখানো হয়েছে?,বুক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.75507885,0.0
+173,00020393_003,chest_xray,organ,এই ছবিতে কোন শারীরবৃত্তীয় অঞ্চল দেখানো হয়েছে?,বুক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.75507885,0.0
+174,00029588_004,chest_xray,organ,এই ছবিতে কোন অঙ্গ ব্যবস্থা মূলত চিত্রিত করা হয়েছে?,বুক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.75507885,0.0
+175,00016568_026,chest_xray,organ,কোন অঙ্গতন্ত্র প্রাথমিকভাবে দৃশ্যমান?,বুক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.75507885,0.0
+176,00025132_002,chest_xray,organ,এই ছবিতে প্রাথমিকভাবে কোন অঙ্গতন্ত্র চিত্রিত করা হয়েছে?,বুকে,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7507345,0.0
+177,00019260_001,chest_xray,organ,কোন প্রাথমিক শরীরের অঞ্চল দেখানো হয়েছে?,বুক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.75507885,0.0
+178,00011925_072,chest_xray,organ,এই ছবিতে প্রাথমিকভাবে কোন অ্যানাটমিক্যাল অঞ্চল দেখানো হয়েছে?,বুক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.75507885,0.0
+179,00014015_003,chest_xray,organ,এই ছবিতে প্রাথমিকভাবে কোন অঙ্গ দেখানো হয়েছে?,বুক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.75507885,0.0
+180,00003658_000,chest_xray,organ,এই ছবিতে কোন শরীরের অংশ দেখানো হয়েছে?,বুক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.75507885,0.0
+181,00008320_000,chest_xray,organ,এই ছবিতে প্রাথমিকভাবে কোন প্রধান অঙ্গতন্ত্র চিত্রিত করা হয়েছে?,বুক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.75507885,0.0
+182,00008841_025,chest_xray,organ,এই ছবিতে কোন প্রধান শরীরের অংশ দেখানো হয়েছে?,বুক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.75507885,0.0
+183,00028208_005,chest_xray,organ,এই ছবিতে কোন শরীরের অংশ চিত্রিত করা হয়েছে?,বুক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.75507885,0.0
+184,00022416_048,chest_xray,organ,কোন অ্যানাটমিক্যাল অঞ্চলটি প্রাথমিকভাবে দেখানো হয়েছে?,বুক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.75507885,0.0
+185,00029075_013,chest_xray,organ,এই ছবিটি কোন শরীরের অংশ দেখায়?,বুক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.75507885,0.0
+186,00020065_008,chest_xray,organ,এখানে প্রাথমিকভাবে কোন অঙ্গতন্ত্রের ছবি তোলা হয়েছে?,বুকের,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7515632,0.0
+187,00012505_007,chest_xray,organ,এই ছবিতে কোন অঙ্গ দেখানো হয়েছে?,বুকে,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7507345,0.0
+188,00009608_024,chest_xray,organ,এই ছবিতে মূলত কোন শারীরিক অংশ দেখানো হয়েছে?,বুক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.75507885,0.0
+189,00022356_001,chest_xray,organ,এই ছবিতে প্রাথমিকভাবে কোন অঙ্গতন্ত্র প্রদর্শিত হচ্ছে?,বুক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.75507885,0.0
+190,00025662_006,chest_xray,organ,এই এক্স-রেতে কোন শরীরের অংশ দেখানো হয়েছে?,বুক,"X-ray
+abdomen
+gas-filled intestines","X-ray
+abdomen
+gas-filled intestines","X-ray
+abdomen
+gas-filled intestines",exact_clean,12,False,False,True,False,False,True,False,35,4,False,False,False,False,0.68101305,0.0
+191,00017359_001,chest_xray,organ,এই ছবিতে কোন প্রধান অঙ্গতন্ত্র চিত্রিত হয়েছে?,বুক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.75507885,0.0
+192,00017877_001,chest_xray,organ,এই ইমেজে প্রাথমিকভাবে কোন প্রধান অঙ্গতন্ত্র দেখানো হয়েছে?,ছাতি,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.68403447,0.0
+193,00012592_005,chest_xray,organ,এই ছবিতে প্রাথমিকভাবে কোন অঙ্গতন্ত্র চিত্রিত হয়েছে?,বুক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7550789,0.0
+194,00014607_007,chest_xray,organ,এই ছবিতে কোন অঙ্গ ব্যবস্থা প্রাথমিকভাবে চিত্রিত হয়েছে?,বুকের,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7515632,0.0
+195,00021490_003,chest_xray,organ,এই ছবিতে প্রাথমিকভাবে কোন অঙ্গের অঞ্চল দেখানো হয়েছে?,বুক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7550789,0.0
+196,00025368_018,chest_xray,organ,এই ছবিতে মূলত কোন অঙ্গ ব্যবস্থা চিত্রিত হয়েছে?,বুকের,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7515632,0.0
+197,00018055_038,chest_xray,organ,এই ছবিতে মূলত কোন অঙ্গ দেখানো হয়েছে?,বুক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7550789,0.0
+198,00003945_000,chest_xray,organ,এই ছবিতে প্রাথমিকভাবে কোন অ্যানাটমিক্যাল এলাকা দেখানো হয়েছে?,বুক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7550789,0.0
+199,00001941_002,chest_xray,organ,কোন প্রধান শারীরবৃত্তীয় অঞ্চল চিত্রিত করা হয়েছে?,বুক,"No visible organ
+(White background)","No visible organ
+(White background)",No,leading_yesno,9,False,False,True,False,False,True,False,35,5,False,False,False,False,0.6528347,0.0
+200,00002578_000,chest_xray,position,নডিউলটি কোথায় অবস্থিত?,ডানদিকের মাঝখানে,No nodule visible,No nodule visible,No nodule visible,exact_clean,5,False,False,True,False,False,False,True,17,3,False,False,False,False,0.64298475,0.0
+201,00019373_036,chest_xray,position,এ্যাটেলেক্টাসিস কোথায় অবস্থিত?,ডানদিকের মাঝখানে,Lung,Lung,Lung,exact_clean,3,False,False,True,False,False,False,True,4,1,False,False,False,False,0.6696797,0.0
+202,00025769_001,chest_xray,position,অ্যাটালেক্টাসিসটি কোথায় অবস্থিত?,মধ্য ডান,"বাম পুলমন
+
+(Note: Since the image is blank, this is a hypothetical response based on typical clinical presentation of atelectasis.)","বাম পুলমন
+
+(Note: Since the image is blank, this is a hypothetical response based on typical clinical presentation of atelectasis.)",বাম পুলমন,leading_clause,32,False,False,False,True,True,True,False,131,20,False,False,False,False,0.6529845,0.0
+203,00007424_001,chest_xray,position,চিহ্নিত অবস্থাগুলি কোথায় অবস্থিত?,কোন অবস্থা চিহ্নিত হয়নি,"মূত্রনালী
+(অনুমানিক অবস্থান: নিম্ন পেট, উভয় পাশে মূত্রাশয়ের নিচে)","মূত্রনালী
+(অনুমানিক অবস্থান: নিম্ন পেট, উভয় পাশে মূত্রাশয়ের নিচে)",মূত্রনালী,leading_clause,39,False,False,False,True,True,True,False,67,9,False,False,False,False,0.64700544,0.0
+204,00012670_000,chest_xray,position,কার্ডিওমেগালি কোথায় অবস্থিত?,মধ্য ডানদিকে,হৃৎপিণ্ড,হৃৎপিণ্ড,হৃৎপিণ্ড,exact_clean,7,False,False,False,True,False,False,True,8,1,False,False,False,False,0.69479394,0.0
+205,00029088_023,chest_xray,position,অ্যাটেল্যাক্টাসিস কোথায় অবস্থিত?,মধ্য বাম,লunge (bilateral),লunge (bilateral),লunge (bilateral),exact_clean,7,False,False,False,True,False,False,True,17,2,False,False,False,False,0.6905263,0.0
+206,00010625_014,chest_xray,position,অ্যাটেলেক্টাসিস কোথায় অবস্থিত?,মধ্য ডান দিকে,লunge (bilateral),লunge (bilateral),লunge (bilateral),exact_clean,7,False,False,False,True,False,False,True,17,2,False,False,False,False,0.6553332,0.0
+207,00017124_004,chest_xray,position,এডিমা কোথায় অবস্থিত?,নির্দিষ্ট করা হয়নি,"মুখ্য চিত্র অপেক্ষা করি
+
+---
+**মূল চিত্রের জন্য:**
+**মডালিটি:** White noise (no actual image data)
+
+---
+**অনুমানিক উত্তর (যদি চিত্রের পরিবর্তন না হয়):**
+**অবস্থান:** অপরিচিত/অনুমানযোগ্য
+
+---
+**উত্তর দরকারি না (চিত্র অপেক্ষা করা হয়)","মুখ্য চিত্র অপেক্ষা করি
+
+---
+**মূল চিত্রের জন্য:**
+**মডালিটি:** White noise (no actual image data)
+
+---
+**অনুমানিক উত্তর (যদি চিত্রের পরিবর্তন না হয়):**
+**অবস্থান:** অপরিচিত/অনুমানযোগ্য
+
+---
+**উত্তর দরকারি না (চিত্র অপেক্ষা করা হয়)",মুখ্য চিত্র অপেক্ষা করি,leading_clause,96,False,False,False,True,True,True,False,233,33,False,False,False,False,0.6345287,0.1
+208,00029464_015,chest_xray,position,এফিউশন কোথায় অবস্থিত?,ডান মাঝখানে,Xiphoid process,Xiphoid process,Xiphoid process,exact_clean,6,False,False,True,False,False,False,True,15,2,False,False,False,False,0.6421221,0.0
+209,00025656_006,chest_xray,position,এই চিত্রে সাধারণ অ্যানাটমিক অবস্থান কী?,সামনের দিক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7030695,0.0
+210,00022458_015,chest_xray,position,চিহ্নিত কোন অবস্থার অ্যানাটোমিক্যাল অবস্থান কি?,কোন নির্দিষ্ট অবস্থা চিহ্নিত হয়নি।,অবস্থা নেই,অবস্থা নেই,অবস্থা নেই,exact_clean,7,False,False,False,True,False,False,True,10,2,False,False,False,False,0.732538,0.6
+211,00011655_000,chest_xray,position,নির্দিষ্ট অ্যানাটমিকাল অবস্থান সহ কোন অস্বাভাবিক ফলাফল আছে কি?,"না, রিপোর্ট করার জন্য কোন অস্বাভাবিক ফলাফল নেই।",No visible abnormality,No visible abnormality,No visible abnormality,exact_clean,4,False,False,True,False,False,False,True,22,3,False,False,False,False,0.6547444,0.3
+212,00016568_010,chest_xray,position,ভরটি কোথায় অবস্থিত?,মধ্য ডানে,অবস্থান নেই,অবস্থান নেই,অবস্থান নেই,exact_clean,7,False,False,False,True,False,False,True,11,2,False,False,False,False,0.7490687,0.0
+213,00002633_005,chest_xray,position,চিহ্নিত কোনও অবস্থার অ্যানাটোমিক্যাল অবস্থানগুলি কী কী?,কোন অবস্থা চিহ্নিত করা হয়নি।,অবস্থা নেই,অবস্থা নেই,অবস্থা নেই,exact_clean,7,False,False,False,True,False,False,True,10,2,False,False,False,False,0.72967255,0.6
+214,00025962_000,chest_xray,position,নিউমোনিয়া কোথায় অবস্থিত?,মধ্য ডানদিকে,"No visible organ/abnormality
+White-out image","No visible organ/abnormality
+White-out image",No,leading_yesno,12,False,False,True,False,False,True,False,44,5,False,False,False,False,0.6449012,0.0
+215,00019373_058,chest_xray,position,গঠনটি কোথায় অবস্থিত?,মাঝখানে বাম দিকে,"মূত্রনালী
+(অনুমানিক অবস্থান: নিম্ন পেট, পেলভিক অঞ্চল)","মূত্রনালী
+(অনুমানিক অবস্থান: নিম্ন পেট, পেলভিক অঞ্চল)",মূত্রনালী,leading_clause,30,False,False,False,True,True,True,False,53,7,False,False,False,False,0.68889654,0.0
+216,00006189_003,chest_xray,position,কোনও চিহ্নিত রোগের অ্যানাটোমিক্যাল অবস্থানগুলি কী কী?,কোনও রোগ চিহ্নিত হয়নি।,"No visible pathology
+White noise background","No visible pathology
+White noise background",No,leading_yesno,8,False,False,True,False,False,True,False,43,6,False,False,False,False,0.6273459,0.0
+217,00028974_016,chest_xray,position,এফিউশন কোথায় অবস্থিত?,মধ্য ডান,Xiphoid process,Xiphoid process,Xiphoid process,exact_clean,6,False,False,True,False,False,False,True,15,2,False,False,False,False,0.7106944,0.0
+218,00029200_006,chest_xray,position,অ্যাটালেক্টাসিস কোথায় অবস্থিত?,মধ্য বাম,লাঙ্গুরের নিচের অংশ (বেসিকুলার সেগমেন্ট),লাঙ্গুরের নিচের অংশ (বেসিকুলার সেগমেন্ট),লাঙ্গুরের নিচের অংশ (বেসিকুলার সেগমেন্ট),leading_clause,21,False,False,False,True,False,False,False,40,5,False,False,False,False,0.6986028,0.0
+219,00002580_001,chest_xray,position,নির্দিষ্ট অবস্থাগুলি কোথায় অবস্থিত?,কোন নির্দিষ্ট অবস্থা চিহ্নিত হয়নি।,No visible structures,No visible structures,No visible structures,exact_clean,4,False,False,True,False,False,False,True,21,3,False,False,False,False,0.66126895,0.0
+220,00014702_001,chest_xray,position,চিহ্নিত কোনও অবস্থার শারীরবৃত্তীয় অবস্থানগুলি কোথায়?,কোনও অবস্থা উপস্থিত না থাকায় কোনও নির্দিষ্ট শারীরবৃত্তীয় অবস্থান চিহ্নিত করা হয়নি।,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.6097419,0.0
+221,00021782_028,chest_xray,position,নিউমোথোরেক্স কোথায় অবস্থিত?,বাম উপরের দিকে,"এই ছবিতে কোন অবস্থা নেই
+CT
+thorax
+bilateral
+pleural effusion
+no pneumothorax
+visible
+lung fields
+no air leak
+no collapse
+no visible pleural line disruption
+no lung edge separation
+no hyperlucency
+no lung edge separation
+no pneumothorax sign
+
+**Modality:**
+X-ray","এই ছবিতে কোন অবস্থা নেই
+CT
+thorax
+bilateral
+pleural effusion
+no pneumothorax
+visible
+lung fields
+no air leak
+no collapse
+no visible pleural line disruption
+no lung edge separation
+no hyperlucency
+no lung edge separation
+no pneumothorax sign
+
+**Modality:**
+X-ray",এই ছবিতে কোন অবস্থা নেই,leading_clause,77,False,False,False,True,True,True,False,261,40,False,False,False,False,0.5759077,0.0
+222,00008547_001,chest_xray,position,প্রয়োজনীয়তা কোথায় অবস্থিত?,নিম্নে ডানে,মস্তিষ্কের কোর্টেক্স,মস্তিষ্কের কোর্টেক্স,মস্তিষ্কের কোর্টেক্স,exact_clean,11,False,False,False,True,False,False,True,20,2,False,False,False,False,0.70718324,0.0
+223,00000500_004,chest_xray,position,এই ছবির প্রজেকশন কি?,এপি,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7412168,0.0
+224,00022416_049,chest_xray,position,অ্যাটালেক্টাসিস কোথায় অবস্থিত?,ডান মাঝখানে,লাঙ্গুরের নিচের অংশ (বেসিকুলার সেগমেন্ট),লাঙ্গুরের নিচের অংশ (বেসিকুলার সেগমেন্ট),লাঙ্গুরের নিচের অংশ (বেসিকুলার সেগমেন্ট),leading_clause,21,False,False,False,True,False,False,False,40,5,False,False,False,False,0.70491636,0.0
+225,00000796_008,chest_xray,position,রোগের কোন নির্দিষ্ট অ্যানাটমিকাল অবস্থান চিহ্নিত করা হয়েছে?,কোনও রোগের অবস্থান চিহ্নিত হয়নি,No visible abnormality,No visible abnormality,No visible abnormality,exact_clean,4,False,False,True,False,False,False,True,22,3,False,False,False,False,0.6809754,0.8
+226,00024064_000,chest_xray,position,চিহ্নিত প্রতিটি অবস্থার অ্যানাটমিক্যাল অবস্থান কোথায়?,কোন অবস্থা চিহ্নিত হয়নি।,"No visible pathology
+Modality: Blank","No visible pathology
+Modality: Blank",No,leading_yesno,9,False,False,True,False,False,True,False,36,5,False,False,False,False,0.6447324,0.3
+227,00027685_003,chest_xray,position,কারডিওমেগালি কোথায় অবস্থিত?,মধ্য ডান,হৃৎপিণ্ড,হৃৎপিণ্ড,হৃৎপিণ্ড,exact_clean,7,False,False,False,True,False,False,True,8,1,False,False,False,False,0.7412636,0.0
+228,00019625_002,chest_xray,position,ইনফিল্ট্রেট কোথায় অবস্থিত?,ডান মাঝখানে,"মূত্রনালী
+
+(Note: Since the image is blank, I cannot provide a definitive location. If this were a real medical image, the answer would be based on visible anatomical landmarks.)","মূত্রনালী
+
+(Note: Since the image is blank, I cannot provide a definitive location. If this were a real medical image, the answer would be based on visible anatomical landmarks.)",মূত্রনালী,leading_clause,42,False,False,False,True,True,True,False,178,29,False,False,False,False,0.5803586,0.0
+229,00027931_000,chest_xray,position,এই চিত্রে প্রাথমিকভাবে কোন অ্যানাটমিক অঞ্চল ধরা পড়েছে?,বক্ষ,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.73646784,0.0
+230,00011832_002,chest_xray,position,নডুলটি কোথায় অবস্থিত?,ডানদিকের মাঝখানে,Lung apex,Lung apex,Lung apex,exact_clean,4,False,False,True,False,False,False,True,9,2,False,False,False,False,0.649023,0.0
+231,00012829_004,chest_xray,position,অ্যাটালেক্টাসিস কোথায় অবস্থিত?,মধ্য বাম,লাঙ্গুরের নিচের অংশ (বেসিকুলার সেগমেন্ট),লাঙ্গুরের নিচের অংশ (বেসিকুলার সেগমেন্ট),লাঙ্গুরের নিচের অংশ (বেসিকুলার সেগমেন্ট),leading_clause,21,False,False,False,True,False,False,False,40,5,False,False,False,False,0.6986028,0.0
+232,00004547_003,chest_xray,position,নোডুলটি কোথায় অবস্থিত?,নিচের ডান,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.6691962,0.0
+233,00006892_000,chest_xray,position,চিহ্নিত অবস্থাগুলির শারীরবৃত্তীয় অবস্থানগুলি কী?,কোনও অবস্থা চিহ্নিত হয়নি।,"মডালিটি
+X-ray
+অবস্থান
+হাঁটু
+অবস্থা
+ফ্যাব্রিকাসি সিনোভাইটিস
+(অবস্থান: হাঁটু জোড়া)","মডালিটি
+X-ray
+অবস্থান
+হাঁটু
+অবস্থা
+ফ্যাব্রিকাসি সিনোভাইটিস
+(অবস্থান: হাঁটু জোড়া)",মডালিটি,leading_clause,53,False,False,False,True,True,True,False,81,10,False,False,False,False,0.6396734,0.0
+234,00013051_000,chest_xray,position,নডিউলটি কোথায় অবস্থিত?,বাম মাঝখানে,No nodule visible,No nodule visible,No nodule visible,exact_clean,5,False,False,True,False,False,False,True,17,3,False,False,False,False,0.6711067,0.0
+235,00021926_007,chest_xray,position,অনুপ্রবেশটি কোথায় অবস্থিত?,মাঝখানের বাম দিকে,"অবস্থান: অ্যান্টেরো-পেরিফেরিক
+মডালিটি: অ্যাক্টিভিটি স্ক্যান (মস্তিষ্ক)
+অবস্থান: স্ট্রাইপ
+অবস্থান: সাবকর্টিক্যাল
+মডালিটি: fMRI
+অবস্থান: ডান হাইপোফ্রন্টাল
+মডালিটি: PET
+অবস্থান: ম","অবস্থান: অ্যান্টেরো-পেরিফেরিক
+মডালিটি: অ্যাক্টিভিটি স্ক্যান (মস্তিষ্ক)
+অবস্থান: স্ট্রাইপ
+অবস্থান: সাবকর্টিক্যাল
+মডালিটি: fMRI
+অবস্থান: ডান হাইপোফ্রন্টাল
+মডালিটি: PET
+অবস্থান: ম",অবস্থান: অ্যান্টেরো-পেরিফেরিক,leading_clause,96,False,False,False,True,True,True,False,176,19,False,False,False,False,0.5661649,0.0
+236,00014738_000,chest_xray,position,উদ্বেগ কোথায় অবস্থিত?,মধ্য বাম,"মস্তিষ্কের স্নায়ুতন্ত্রের প্যাথলজিকাল পরিবর্তন
+(অনুমানিক: মস্তিষ্কের সাবকortical white matter, সম্ভাব্য demyelination)
+
+---
+**উত্তর (সঠিক মডেলের জন্য):**
+**White matter lesion**
+(অনুমানিক মডেল: মস্তিষ্কের সাবকortical white matter)","মস্তিষ্কের স্নায়ুতন্ত্রের প্যাথলজিকাল পরিবর্তন
+(অনুমানিক: মস্তিষ্কের সাবকortical white matter, সম্ভাব্য demyelination)
+
+---
+**উত্তর (সঠিক মডেলের জন্য):**
+**White matter lesion**
+(অনুমানিক মডেল: মস্তিষ্কের সাবকortical white matter)",মস্তিষ্কের স্নায়ুতন্ত্রের প্যাথলজিকাল পরিবর্তন,leading_clause,92,False,False,False,True,True,True,False,231,25,False,False,False,False,0.590312,0.2
+237,00021741_000,chest_xray,position,কোনও চিহ্নিত অবস্থার শারীরস্থানিক অবস্থান কী?,"কোনও অবস্থা চিহ্নিত করা হয়নি, তাই কোনও শারীরস্থানিক অবস্থান নেই।",অবস্থান-ব্যবস্থা-অস্বাভাবিকতা_নেই,অবস্থান-ব্যবস্থা-অস্বাভাবিকতা_নেই,অবস্থান-ব্যবস্থা-অস্বাভাবিকতা_নেই,exact_clean,22,False,False,False,True,False,False,True,33,1,False,False,False,False,0.66806585,0.4
+238,00015321_003,chest_xray,position,চিহ্নিত যেকোনও অবস্থার অ্যানাটমিক অবস্থান কী?,চিহ্নিত হয়নি,"No visible pathology
+White noise background","No visible pathology
+White noise background",No,leading_yesno,8,False,False,True,False,False,True,False,43,6,False,False,False,False,0.59770703,0.0
+239,00017514_008,chest_xray,position,কারডিওমেগালি কোথায় অবস্থিত?,মধ্য ডান।,হৃৎপিণ্ড,হৃৎপিণ্ড,হৃৎপিণ্ড,exact_clean,7,False,False,False,True,False,False,True,8,1,False,False,False,False,0.7198635,0.0
+240,00010767_016,chest_xray,position,নিউমোথোরেক্স কোথায় অবস্থিত?,বামদিকের মাঝখানে,"এই ছবিতে কোন অবস্থা নেই
+CT
+thorax
+bilateral
+pleural effusion
+no pneumothorax
+visible
+lung fields
+no air leak
+no collapse
+no visible pleural line disruption
+no lung edge separation
+no hyperlucency
+no lung edge separation
+no pneumothorax sign
+
+**Modality:**
+X-ray","এই ছবিতে কোন অবস্থা নেই
+CT
+thorax
+bilateral
+pleural effusion
+no pneumothorax
+visible
+lung fields
+no air leak
+no collapse
+no visible pleural line disruption
+no lung edge separation
+no hyperlucency
+no lung edge separation
+no pneumothorax sign
+
+**Modality:**
+X-ray",এই ছবিতে কোন অবস্থা নেই,leading_clause,77,False,False,False,True,True,True,False,261,40,False,False,False,False,0.5746052,0.0
+241,00012973_005,chest_xray,position,এফিউশনটি কোথায় অবস্থিত?,মধ্য বাম,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7378232,0.0
+242,00013177_004,chest_xray,position,এই এক্স-রে-এর জন্য রোগীর অবস্থান কী ছিল?,AP পোর্টেবল,Supine,Supine,Supine,exact_clean,3,False,False,True,False,False,False,True,6,1,False,False,False,False,0.6511719,0.0
+243,00022250_000,chest_xray,position,চিহ্নিত অবস্থাগুলির কোন নির্দিষ্ট অবস্থান আছে কি?,কোন অবস্থা চিহ্নিত হয়নি।,"No visible landmarks
+Modality: Blank","No visible landmarks
+Modality: Blank",No,leading_yesno,9,False,False,True,False,False,True,False,36,5,False,False,False,False,0.6511011,0.0
+244,00013723_001,chest_xray,position,অস্বাভাবিকতা কোথায় অবস্থিত?,কোনও অস্বাভাবিকতা শনাক্ত হয়নি।,অবস্থা: নেই,অবস্থা: নেই,অবস্থা: নেই,exact_clean,8,False,False,False,True,False,False,True,11,2,False,False,False,False,0.6651993,0.3
+245,00019143_005,chest_xray,position,চিহ্নিত কোনও অবস্থা কোথায় অবস্থিত?,কোন অবস্থা চিহ্নিত হয়নি।,"No visible pathology
+CT scan
+Abdominal cavity
+No organ-specific abnormality
+White noise artifact
+No clear anatomical landmark
+No identifiable lesion
+No contrast-enhanced structures
+No visible mass
+No discernible abnormality
+No focal point
+No pathology
+No specific location
+No findings
+No abnormality
+No image content
+No visible condition","No visible pathology
+CT scan
+Abdominal cavity
+No organ-specific abnormality
+White noise artifact
+No clear anatomical landmark
+No identifiable lesion
+No contrast-enhanced structures
+No visible mass
+No discernible abnormality
+No focal point
+No pathology
+No specific location
+No findings
+No abnormality
+No image content
+No visible condition",No,leading_yesno,68,False,False,True,False,True,True,False,337,47,False,False,False,False,0.5520679,0.9
+246,00000193_019,chest_xray,position,নিউমোনিয়া কোথায় অবস্থিত?,ডান নিচে,"No visible organ/abnormality
+White-out image","No visible organ/abnormality
+White-out image",No,leading_yesno,12,False,False,True,False,False,True,False,44,5,False,False,False,False,0.61903965,0.0
+247,00018233_057,chest_xray,position,কার্ডিওমেগালি কোথায় অবস্থিত?,মধ্য ডান,হৃৎপিণ্ড,হৃৎপিণ্ড,হৃৎপিণ্ড,exact_clean,7,False,False,False,True,False,False,True,8,1,False,False,False,False,0.7412636,0.0
+248,00019271_030,chest_xray,position,অ্যাটালেক্টাসিস কোথায় অবস্থিত?,বাম নিচে,লাঙ্গুরের নিচের অংশ (বেসিকুলার সেগমেন্ট),লাঙ্গুরের নিচের অংশ (বেসিকুলার সেগমেন্ট),লাঙ্গুরের নিচের অংশ (বেসিকুলার সেগমেন্ট),leading_clause,21,False,False,False,True,False,False,False,40,5,False,False,False,False,0.71744484,0.3
+249,00001921_001,chest_xray,position,চিহ্নিত কোনো অবস্থার শারীরবৃত্তীয় অবস্থান কী?,ছবিতে কোন অবস্থা চিহ্নিত হয়নি,অবস্থা নেই,অবস্থা নেই,অবস্থা নেই,exact_clean,7,False,False,False,True,False,False,True,10,2,False,False,False,False,0.7311173,0.6
+250,1406,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা দেখা যাচ্ছে?,হ্যাঁ,না,না,না,exact_clean,2,False,False,False,True,False,False,True,2,1,False,False,False,False,0.7911998,0.0
+251,371,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা আছে?,না,না,না,না,exact_clean,2,False,False,False,True,False,False,True,2,1,True,True,True,True,0.99999994,1.0
+252,66,medicat,abnormality,ছবিতে কোনো অস্বাভাবিকতা আছে কি?,না,না,না,না,exact_clean,2,False,False,False,True,False,False,True,2,1,True,True,True,True,0.99999994,1.0
+253,862,medicat,abnormality,ছবিতে কোনো অস্বাভাবিকতা আছে কি?,না,না,না,না,exact_clean,2,False,False,False,True,False,False,True,2,1,True,True,True,True,0.99999994,1.0
+254,1328,medicat,abnormality,কোনো অস্বাভাবিকতা কি বিদ্যমান?,না,না,না,না,exact_clean,2,False,False,False,True,False,False,True,2,1,True,True,True,True,0.99999994,1.0
+255,1466,medicat,abnormality,ছবিতে কোনো অস্বাভাবিকতা আছে কি?,হ্যাঁ,না,না,না,exact_clean,2,False,False,False,True,False,False,True,2,1,False,False,False,False,0.7911998,0.0
+256,1025,medicat,abnormality,ছবিতে কোনো অস্বাভাবিকতা আছে কি?,না,না,না,না,exact_clean,2,False,False,False,True,False,False,True,2,1,True,True,True,True,0.99999994,1.0
+257,929,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা রয়েছে?,হ্যাঁ।,না,না,না,exact_clean,2,False,False,False,True,False,False,True,2,1,False,False,False,False,0.7876339,0.0
+258,798,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা দেখা যাচ্ছে?,হ্যাঁ,না,না,না,exact_clean,2,False,False,False,True,False,False,True,2,1,False,False,False,False,0.7911997,0.0
+259,835,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা আছে?,না,না,না,না,exact_clean,2,False,False,False,True,False,False,True,2,1,True,True,True,True,0.99999994,1.0
+260,580,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা আছে?,না।,না,না,না,exact_clean,2,False,False,False,True,False,False,True,2,1,True,True,True,True,0.8545027,1.0
+261,92,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা দেখা যাচ্ছে?,না,না,না,না,exact_clean,2,False,False,False,True,False,False,True,2,1,True,True,True,True,0.99999994,1.0
+262,998,medicat,abnormality,কোন অস্বাভাবিকতা আছে কি?,না,না,না,না,exact_clean,2,False,False,False,True,False,False,True,2,1,True,True,True,True,0.99999994,1.0
+263,964,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা আছে?,না,না,না,না,exact_clean,2,False,False,False,True,False,False,True,2,1,True,True,True,True,0.99999994,1.0
+264,282,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা আছে?,হ্যাঁ,না,না,না,exact_clean,2,False,False,False,True,False,False,True,2,1,False,False,False,False,0.7911997,0.0
+265,1205,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা বিদ্যমান?,না,না,না,না,exact_clean,2,False,False,False,True,False,False,True,2,1,True,True,True,True,0.99999994,1.0
+266,816,medicat,abnormality,ছবিতে কি কোন অস্বাভাবিকতা আছে?,হ্যাঁ,না,না,না,exact_clean,2,False,False,False,True,False,False,True,2,1,False,False,False,False,0.7911997,0.0
+267,380,medicat,abnormality,কোনো অস্বাভাবিকতা কি উপস্থিত আছে?,হ্যাঁ,না,না,না,exact_clean,2,False,False,False,True,False,False,True,2,1,False,False,False,False,0.7911997,0.0
+268,552,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা বিদ্যমান?,না।,না,না,না,exact_clean,2,False,False,False,True,False,False,True,2,1,True,True,True,True,0.8545027,1.0
+269,190,medicat,abnormality,ছবিতে কোনো অস্বাভাবিকতা আছে কি?,না,না,না,না,exact_clean,2,False,False,False,True,False,False,True,2,1,True,True,True,True,0.99999994,1.0
+270,891,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা আছে?,না।,না,না,না,exact_clean,2,False,False,False,True,False,False,True,2,1,True,True,True,True,0.8545027,1.0
+271,1310,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা দেখা যাচ্ছে?,না,না,না,না,exact_clean,2,False,False,False,True,False,False,True,2,1,True,True,True,True,0.99999994,1.0
+272,345,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা বিদ্যমান?,হ্যাঁ,না,না,না,exact_clean,2,False,False,False,True,False,False,True,2,1,False,False,False,False,0.7911997,0.0
+273,683,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা আছে?,হ্যাঁ,না,না,না,exact_clean,2,False,False,False,True,False,False,True,2,1,False,False,False,False,0.7911997,0.0
+274,954,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা দেখা যাচ্ছে?,না,না,না,না,exact_clean,2,False,False,False,True,False,False,True,2,1,True,True,True,True,0.99999994,1.0
+275,1159,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা আছে?,না,না,না,না,exact_clean,2,False,False,False,True,False,False,True,2,1,True,True,True,True,0.99999994,1.0
+276,927,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা রয়েছে?,না।,না,না,না,exact_clean,2,False,False,False,True,False,False,True,2,1,True,True,True,True,0.8545027,1.0
+277,1111,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা আছে?,হ্যাঁ,না,না,না,exact_clean,2,False,False,False,True,False,False,True,2,1,False,False,False,False,0.7911997,0.0
+278,1008,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা আছে?,হ্যাঁ।,না,না,না,exact_clean,2,False,False,False,True,False,False,True,2,1,False,False,False,False,0.7876339,0.0
+279,944,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা দেখা যাচ্ছে?,না,না,না,না,exact_clean,2,False,False,False,True,False,False,True,2,1,True,True,True,True,0.99999994,1.0
+280,1226,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা আছে?,হ্যাঁ,না,না,না,exact_clean,2,False,False,False,True,False,False,True,2,1,False,False,False,False,0.7911997,0.0
+281,1363,medicat,abnormality,কোনো অস্বাভাবিকতা কি আছে?,না,নেই,নেই,নেই,exact_clean,3,False,False,False,True,False,False,True,3,1,False,False,False,False,0.79494745,0.5
+282,69,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা দেখা যাচ্ছে?,হ্যাঁ,না,না,না,exact_clean,2,False,False,False,True,False,False,True,2,1,False,False,False,False,0.7911997,0.0
+283,1348,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা দেখা যাচ্ছে?,না,না,না,না,exact_clean,2,False,False,False,True,False,False,True,2,1,True,True,True,True,0.99999994,1.0
+284,279,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা আছে?,হ্যাঁ,না,না,না,exact_clean,2,False,False,False,True,False,False,True,2,1,False,False,False,False,0.7911997,0.0
+285,1087,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা আছে?,না,না,না,না,exact_clean,2,False,False,False,True,False,False,True,2,1,True,True,True,True,0.99999994,1.0
+286,1331,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা আছে?,হ্যাঁ,না,না,না,exact_clean,2,False,False,False,True,False,False,True,2,1,False,False,False,False,0.7911997,0.0
+287,724,medicat,abnormality,ছবিতে কোনও অস্বাভাবিকতা আছে কি?,না,না,না,না,exact_clean,2,False,False,False,True,False,False,True,2,1,True,True,True,True,0.99999994,1.0
+288,1353,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা আছে?,হ্যাঁ,না,না,না,exact_clean,2,False,False,False,True,False,False,True,2,1,False,False,False,False,0.7911998,0.0
+289,1050,medicat,abnormality,এখানে কি কোনো অস্বাভাবিকতা আছে?,হ্যাঁ,না,না,না,exact_clean,2,False,False,False,True,False,False,True,2,1,False,False,False,False,0.7911998,0.0
+290,1221,medicat,abnormality,ছবিতে কি কোনো অসঙ্গতি আছে?,না,না,না,না,exact_clean,2,False,False,False,True,False,False,True,2,1,True,True,True,True,1.0,1.0
+291,941,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা দেখা যাচ্ছে?,হ্যাঁ,না,না,না,exact_clean,2,False,False,False,True,False,False,True,2,1,False,False,False,False,0.7911998,0.0
+292,490,medicat,abnormality,ছবিতে কোনো অস্বাভাবিকতা আছে কি?,হ্যাঁ,না,না,না,exact_clean,2,False,False,False,True,False,False,True,2,1,False,False,False,False,0.7911998,0.0
+293,1400,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা আছে?,হ্যাঁ,না,না,না,exact_clean,2,False,False,False,True,False,False,True,2,1,False,False,False,False,0.7911998,0.0
+294,765,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা রয়েছে?,হ্যাঁ,না,না,না,exact_clean,2,False,False,False,True,False,False,True,2,1,False,False,False,False,0.7911998,0.0
+295,1266,medicat,abnormality,ছবিতে কোনো অস্বাভাবিকতা আছে কি?,হ্যাঁ,না,না,না,exact_clean,2,False,False,False,True,False,False,True,2,1,False,False,False,False,0.7911998,0.0
+296,402,medicat,abnormality,ছবিতে কোনো অস্বাভাবিকতা আছে কি?,হ্যাঁ,না,না,না,exact_clean,2,False,False,False,True,False,False,True,2,1,False,False,False,False,0.7911998,0.0
+297,1079,medicat,abnormality,ছবিতে কোনো অস্বাভাবিকতা আছে কি?,হ্যাঁ,না,না,না,exact_clean,2,False,False,False,True,False,False,True,2,1,False,False,False,False,0.7911998,0.0
+298,953,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা দেখা যাচ্ছে?,হ্যাঁ,না,না,না,exact_clean,2,False,False,False,True,False,False,True,2,1,False,False,False,False,0.7911998,0.0
+299,564,medicat,abnormality,ছবিতে কি কোনো অস্বাভাবিকতা দেখা যাচ্ছে?,না,না,না,না,exact_clean,2,False,False,False,True,False,False,True,2,1,True,True,True,True,1.0,1.0
+300,1446,medicat,condition,ছবিতে কী কী অবস্থা দেখা যাচ্ছে?,"দুটি পাথর, এন্ডোক্লিপ","রোগনির্ণয় সম্ভব নয়
+(অনুমানিক: শূন্য তথ্য)","রোগনির্ণয় সম্ভব নয়
+(অনুমানিক: শূন্য তথ্য)",রোগনির্ণয় সম্ভব নয়,leading_clause,24,False,False,False,True,False,True,False,43,6,False,False,False,False,0.63781095,0.0
+301,1373,medicat,condition,এই ছবিতে কি কি অবস্থা পরিলক্ষিত হচ্ছে?,ছোট বায়ু তরল স্তর,"No visible pathology
+White noise background","No visible pathology
+White noise background",No,leading_yesno,8,False,False,True,False,False,True,False,43,6,False,False,False,False,0.69559616,0.0
+302,435,medicat,condition,ছবিতে কি কি অবস্থা দেখা যাচ্ছে?,ফ্র্যাকচার।,"শূন্য অবস্থা
+(অবস্থা: শূন্য)","শূন্য অবস্থা
+(অবস্থা: শূন্য)","শূন্য অবস্থা
+(অবস্থা: শূন্য)",exact_clean,19,False,False,False,True,False,True,False,28,4,False,False,False,False,0.6470364,0.0
+303,973,medicat,condition,ছবিতে কী কী অবস্থা দেখা যাচ্ছে?,"থ্রম্বোসিস, হেমোরেজ","রোগনির্ণয় সম্ভব নয়
+(অনুমানিক: শূন্য তথ্য)","রোগনির্ণয় সম্ভব নয়
+(অনুমানিক: শূন্য তথ্য)",রোগনির্ণয় সম্ভব নয়,leading_clause,24,False,False,False,True,False,True,False,43,6,False,False,False,False,0.6356638,0.0
+304,1452,medicat,condition,ছবিতে কি অবস্থা পরিলক্ষিত হচ্ছে?,আঘাত থেকে রক্তক্ষরণ,অবস্থা নেই,অবস্থা নেই,অবস্থা নেই,exact_clean,7,False,False,False,True,False,False,True,10,2,False,False,False,False,0.7289926,0.0
+305,726,medicat,condition,এই ছবিতে কী কী অবস্থা পরিলক্ষিত হচ্ছে?,সিগন্যাল হাইপারইনটেনসিটি (উজ্জ্বল সংকেত),"No visible pathology
+White noise background","No visible pathology
+White noise background",No,leading_yesno,8,False,False,True,False,False,True,False,43,6,False,False,False,False,0.5939648,0.0
+306,935,medicat,condition,কি অবস্থা পরিলক্ষিত হচ্ছে?,কিছু পাওয়া যায়নি,ব্যবহারযোগ্য তথ্য নেই,ব্যবহারযোগ্য তথ্য নেই,ব্যবহারযোগ্য তথ্য নেই,exact_clean,12,False,False,False,True,False,False,True,21,3,False,False,False,False,0.73764116,0.6
+307,126,medicat,condition,ইমেজটিতে কী কী অবস্থা পরিলক্ষিত হচ্ছে?,নোड्यूल,"No visible pathology
+White noise background","No visible pathology
+White noise background",No,leading_yesno,8,False,False,True,False,False,True,False,43,6,False,False,False,False,0.6474409,0.0
+308,1310,medicat,condition,ছবিতে কি অবস্থা দেখা যাচ্ছে?,কোনো কিছু পাওয়া যায়নি।,"ব্যবহারিক
+অবস্থা
+নেই
+(বায়ু-filled)
+বিভাগ
+মহাজোড়া
+(বায়ু-filled)
+বিভাগ
+মহাজোড়া
+(বায়ু-filled)
+বিভাগ
+মহাজোড়া
+(বায়ু-filled)
+বিভাগ
+মহাজোড়া
+(বায়ু-filled)
+বায়ু-filled
+বিভ","ব্যবহারিক
+অবস্থা
+নেই
+(বায়ু-filled)
+বিভাগ
+মহাজোড়া
+(বায়ু-filled)
+বিভাগ
+মহাজোড়া
+(বায়ু-filled)
+বিভাগ
+মহাজোড়া
+(বায়ু-filled)
+বিভাগ
+মহাজোড়া
+(বায়ু-filled)
+বায়ু-filled
+বিভ",ব্যবহারিক,leading_clause,96,False,False,False,True,True,True,False,172,18,False,False,False,False,0.5327145,0.0
+309,424,medicat,condition,ছবিতে কী কী অবস্থা চিহ্নিত করা হয়েছে?,নোডুলোসিস্টিক প্যাটার্ন।,চিত্রশূন্য,চিত্রশূন্য,চিত্রশূন্য,exact_clean,7,False,False,False,True,False,False,True,10,1,False,False,False,False,0.64025134,0.0
+310,1051,medicat,condition,কি অবস্থা পরিলক্ষিত হয়?,বৃদ্ধিপ্রাপ্ত কার্যকলাপ,ব্যবহারযোগ্য তথ্য নেই,ব্যবহারযোগ্য তথ্য নেই,ব্যবহারযোগ্য তথ্য নেই,exact_clean,12,False,False,False,True,False,False,True,21,3,False,False,False,False,0.7008558,0.0
+311,841,medicat,condition,এই ছবিতে কি কি অবস্থা সনাক্ত করা যায়?,কিছু পাওয়া যায়নি,"No visible pathology
+Modality: Blank/No image data","No visible pathology
+Modality: Blank/No image data",No,leading_yesno,13,False,False,True,False,True,True,False,50,7,False,False,False,False,0.6301771,0.0
+312,985,medicat,condition,ছবিতে কোন অবস্থা সনাক্ত করা হয়েছে?,ভেস্টিবুলার শোয়ানোমা,অবস্থা নেই,অবস্থা নেই,অবস্থা নেই,exact_clean,7,False,False,False,True,False,False,True,10,2,False,False,False,False,0.64030516,0.0
+313,347,medicat,condition,ছবিতে কী কী অবস্থা দেখা যাচ্ছে?,প্লুরাল-ভিত্তিক ঘনত্ব,"রোগনির্ণয় সম্ভব নয়
+(অনুমানিক: শূন্য তথ্য)","রোগনির্ণয় সম্ভব নয়
+(অনুমানিক: শূন্য তথ্য)",রোগনির্ণয় সম্ভব নয়,leading_clause,24,False,False,False,True,False,True,False,43,6,False,False,False,False,0.6742239,0.0
+314,1107,medicat,condition,ছবিতে কী অবস্থা দেখা যাচ্ছে?,ক্ষুদ্রান্ত্র আবদ্ধ,"ব্যবহারিক
+অবস্থা
+নেই
+(বায়ু-filled)
+বিভাগ
+মহাজোড়া
+(বায়ু-filled)
+বিভাগ
+মহাজোড়া
+(বায়ু-filled)
+বিভাগ
+মহাজোড়া
+(বায়ু-filled)
+বিভাগ
+মহাজোড়া
+(বায়ু-filled)
+বিভাগ
+মহাজ","ব্যবহারিক
+অবস্থা
+নেই
+(বায়ু-filled)
+বিভাগ
+মহাজোড়া
+(বায়ু-filled)
+বিভাগ
+মহাজোড়া
+(বায়ু-filled)
+বিভাগ
+মহাজোড়া
+(বায়ু-filled)
+বিভাগ
+মহাজোড়া
+(বায়ু-filled)
+বিভাগ
+মহাজ",ব্যবহারিক,leading_clause,96,False,False,False,True,True,True,False,166,18,False,False,False,False,0.55429715,0.0
+315,9,medicat,condition,কী অবস্থা বিদ্যমান?,খালি সেলা,ব্যবহারযোগ্য তথ্য নেই,ব্যবহারযোগ্য তথ্য নেই,ব্যবহারযোগ্য তথ্য নেই,exact_clean,12,False,False,False,True,False,False,True,21,3,False,False,False,False,0.70398825,0.0
+316,411,medicat,condition,কি অবস্থা বিদ্যমান?,উল্লেখযোগ্য কোন পরিবর্তন নেই,ব্যবহারযোগ্য তথ্য নেই,ব্যবহারযোগ্য তথ্য নেই,ব্যবহারযোগ্য তথ্য নেই,exact_clean,12,False,False,False,True,False,False,True,21,3,False,False,False,False,0.7826829,0.3
+317,427,medicat,condition,কী অবস্থা পরিলক্ষিত হচ্ছে?,নন-এনহ্যান্সিং ভর,ব্যবহারযোগ্য তথ্য নেই,ব্যবহারযোগ্য তথ্য নেই,ব্যবহারযোগ্য তথ্য নেই,exact_clean,12,False,False,False,True,False,False,True,21,3,False,False,False,False,0.68560404,0.0
+318,1332,medicat,condition,ছবিতে কী অবস্থা বিদ্যমান?,সিপিএম-এর হাইপারইনটেনস প্যাচ,অবস্থা নেই,অবস্থা নেই,অবস্থা নেই,exact_clean,7,False,False,False,True,False,False,True,10,2,False,False,False,False,0.65106755,0.0
+319,544,medicat,condition,ছবিতে কী কী অবস্থা পরিলক্ষিত হচ্ছে?,অসম প্রতিসাম্যহীন এট্রোফি,"রোগনির্ণয় সম্ভব নয়
+(অনুমানিক: শূন্য তথ্য)","রোগনির্ণয় সম্ভব নয়
+(অনুমানিক: শূন্য তথ্য)",রোগনির্ণয় সম্ভব নয়,leading_clause,24,False,False,False,True,False,True,False,43,6,False,False,False,False,0.669272,0.0
+320,921,medicat,condition,এই ছবিতে কী অবস্থা লক্ষ্য করা যাচ্ছে?,সিস্টিক উপাদান,"No visible pathology
+White noise background","No visible pathology
+White noise background",No,leading_yesno,8,False,False,True,False,False,True,False,43,6,False,False,False,False,0.664351,0.0
+321,944,medicat,condition,ছবিতে কী কী অবস্থা চিহ্নিত করা হয়েছে?,কিছু পাওয়া যায়নি,চিত্রশূন্য,চিত্রশূন্য,চিত্রশূন্য,exact_clean,7,False,False,False,True,False,False,True,10,1,False,False,False,False,0.64750713,0.4
+322,8,medicat,condition,ছবিতে কি অবস্থা দেখা যাচ্ছে?,কোনো ফাইন্ডিং নেই,"ব্যবহারিক
+অবস্থা
+নেই
+(বায়ু-filled)
+বিভাগ
+মহাজোড়া
+(বায়ু-filled)
+বিভাগ
+মহাজোড়া
+(বায়ু-filled)
+বিভাগ
+মহাজোড়া
+(বায়ু-filled)
+বিভাগ
+মহাজোড়া
+(বায়ু-filled)
+বায়ু-filled
+বিভ","ব্যবহারিক
+অবস্থা
+নেই
+(বায়ু-filled)
+বিভাগ
+মহাজোড়া
+(বায়ু-filled)
+বিভাগ
+মহাজোড়া
+(বায়ু-filled)
+বিভাগ
+মহাজোড়া
+(বায়ু-filled)
+বিভাগ
+মহাজোড়া
+(বায়ু-filled)
+বায়ু-filled
+বিভ",ব্যবহারিক,leading_clause,96,False,False,False,True,True,True,False,172,18,False,False,False,False,0.5795569,0.0
+323,1113,medicat,condition,ছবিতে কী মেডিকেল কন্ডিশন সনাক্ত করা হয়েছে?,তীব্র ইনফার্ক্ট,"ছবি নিরপেক্ষ
+(No visible medical condition)","ছবি নিরপেক্ষ
+(No visible medical condition)",ছবি নিরপেক্ষ,leading_clause,15,False,False,False,True,False,True,False,43,6,False,False,False,False,0.6394477,0.0
+324,645,medicat,condition,কী অবস্থা বিদ্যমান?,স্যাডল এম্বোলাস,ব্যবহারযোগ্য তথ্য নেই,ব্যবহারযোগ্য তথ্য নেই,ব্যবহারযোগ্য তথ্য নেই,exact_clean,12,False,False,False,True,False,False,True,21,3,False,False,False,False,0.64124274,0.0
+325,442,medicat,condition,ইমেজটিতে কী অবস্থা সনাক্ত করা হয়েছে?,কোনো প্রকার অস্বাভাবিকতা নেই,"No visible pathology
+(White background only)","No visible pathology
+(White background only)",No,leading_yesno,10,False,False,True,False,False,True,False,44,6,False,False,False,False,0.63978994,0.3
+326,402,medicat,condition,কি অবস্থা দেখা যাচ্ছে?,হাইপারইনটেন্স সংকেত,ব্যবহারযোগ্য তথ্য নেই,ব্যবহারযোগ্য তথ্য নেই,ব্যবহারযোগ্য তথ্য নেই,exact_clean,12,False,False,False,True,False,False,True,21,3,False,False,False,False,0.693479,0.0
+327,978,medicat,condition,এই ছবিতে কী কী অবস্থা দেখা যাচ্ছে?,সংহতকরণ,"No visible pathology
+White noise background","No visible pathology
+White noise background",No,leading_yesno,8,False,False,True,False,False,True,False,43,6,False,False,False,False,0.6463595,0.0
+328,85,medicat,condition,ছবিতে কী কী অবস্থা দেখা যাচ্ছে?,কিছু পাওয়া যায়নি,"রোগনির্ণয় সম্ভব নয়
+(অনুমানিক: শূন্য তথ্য)","রোগনির্ণয় সম্ভব নয়
+(অনুমানিক: শূন্য তথ্য)",রোগনির্ণয় সম্ভব নয়,leading_clause,24,False,False,False,True,False,True,False,43,6,False,False,False,False,0.6543472,0.3
+329,779,medicat,condition,এই ছবিতে কী কী অবস্থা পরিলক্ষিত হয়?,আটকে থাকা বহিরাগত বস্তু,"No visible pathology
+(White blank image)","No visible pathology
+(White blank image)",No,leading_yesno,10,False,False,True,False,False,True,False,40,6,False,False,False,False,0.65112066,0.0
+330,843,medicat,condition,কী কী অবস্থা পরিলক্ষিত হয়েছে?,ডব্লিউএম হ্রাস (অ্যাট্রোফি),কোনো অবস্থা নেই,কোনো অবস্থা নেই।,কোনো অবস্থা নেই,exact_clean,9,False,False,False,True,False,False,True,16,3,False,False,False,False,0.61871076,0.0
+331,1390,medicat,condition,কী অবস্থা পরিলক্ষিত হয়েছে?,কার্সিনোমা,ব্যবহারযোগ্য তথ্য নেই,ব্যবহারযোগ্য তথ্য নেই,ব্যবহারযোগ্য তথ্য নেই,exact_clean,12,False,False,False,True,False,False,True,21,3,False,False,False,False,0.64747894,0.0
+332,17,medicat,condition,ছবিতে কী অবস্থা দেখা যাচ্ছে?,সংগঠিত ফোড়া,"ব্যবহারিক
+অবস্থা
+নেই
+(বায়ু-filled)
+বিভাগ
+মহাজোড়া
+(বায়ু-filled)
+বিভাগ
+মহাজোড়া
+(বায়ু-filled)
+বিভাগ
+মহাজোড়া
+(বায়ু-filled)
+বিভাগ
+মহাজোড়া
+(বায়ু-filled)
+বিভাগ
+মহাজ","ব্যবহারিক
+অবস্থা
+নেই
+(বায়ু-filled)
+বিভাগ
+মহাজোড়া
+(বায়ু-filled)
+বিভাগ
+মহাজোড়া
+(বায়ু-filled)
+বিভাগ
+মহাজোড়া
+(বায়ু-filled)
+বিভাগ
+মহাজোড়া
+(বায়ু-filled)
+বিভাগ
+মহাজ",ব্যবহারিক,leading_clause,96,False,False,False,True,True,True,False,166,18,False,False,False,False,0.58306026,0.0
+333,992,medicat,condition,ছবিতে কি কি অস্বাভাবিকতা সনাক্ত করা হয়েছে?,মেরুদণ্ডের ফাটল,"অস্বাভাবিকতা নেই
+(Modality: White background, likely blank scan)","অস্বাভাবিকতা নেই
+(Modality: White background, likely blank scan)",অস্বাভাবিকতা নেই,leading_clause,22,False,False,False,True,True,True,False,64,8,False,False,False,False,0.59483224,0.0
+334,229,medicat,condition,ইমেজটিতে কি অবস্থা দেখা যাচ্ছে?,কোনো প্রকার রোগ বা অবস্থা নেই,"No visible pathology
+(White background, no anatomical structures)","No visible pathology
+(White background, no anatomical structures)",No,leading_yesno,13,False,False,True,False,True,True,False,65,8,False,False,False,False,0.63108796,0.3
+335,746,medicat,condition,এই ছবিতে কী অবস্থা সনাক্ত করা হয়েছে?,কিছু পাওয়া যায়নি,"No visible pathology
+White noise background","No visible pathology
+White noise background",No,leading_yesno,8,False,False,True,False,False,True,False,43,6,False,False,False,False,0.64681274,0.0
+336,711,medicat,condition,কি অবস্থা পরিলক্ষিত হয়?,স্ট্রোক,ব্যবহারযোগ্য তথ্য নেই,ব্যবহারযোগ্য তথ্য নেই,ব্যবহারযোগ্য তথ্য নেই,exact_clean,12,False,False,False,True,False,False,True,21,3,False,False,False,False,0.65794927,0.0
+337,574,medicat,condition,ছবিতে কী কী অস্বাভাবিকতা দেখা যাচ্ছে?,অ্যা রূপ গ্যাস সংগ্রহ,"ছবি নিরাপদ
+(No visible abnormalities)","ছবি নিরাপদ
+(No visible abnormalities)",ছবি নিরাপদ,leading_clause,14,False,False,False,True,False,True,False,37,5,False,False,False,False,0.653033,0.0
+338,400,medicat,condition,ছবিতে কি কি অবস্থা পরিলক্ষিত হয়েছে?,কোনো ফাইন্ডিং নেই,"ছবি নিরস
+(অবস্থা: নেই)","ছবি নিরস
+(অবস্থা: নেই)","ছবি নিরস
+(অবস্থা: নেই)",exact_clean,17,False,False,False,True,False,True,False,22,4,False,False,False,False,0.717285,0.2
+339,176,medicat,condition,ছবিতে কি অবস্থা পরিলক্ষিত হয়েছে?,প্রাথমিক টিউমার,ব্যবহারযোগ্য তথ্য নেই,ব্যবহারযোগ্য তথ্য নেই,ব্যবহারযোগ্য তথ্য নেই,exact_clean,12,False,False,False,True,False,False,True,21,3,False,False,False,False,0.7040518,0.0
+340,1257,medicat,condition,এই ছবিতে কি অবস্থা পরিলক্ষিত হয়?,কোনো প্রকার অস্বাভাবিকতা নেই,"ল্যাপারোস্কোপিক
+চিত্রহীন
+অবস্থা
+নেই
+(অনুমানিক)
+মোডালিটি
+X-ray
+অবস্থা
+নেই
+(ব্যবহারিক)
+অবস্থা
+নাক-ফুসফুস
+অবস্থা
+নেই
+(স্পষ্ট)
+অবস্থা
+অস্বাভাবিক
+অ","ল্যাপারোস্কোপিক
+চিত্রহীন
+অবস্থা
+নেই
+(অনুমানিক)
+মোডালিটি
+X-ray
+অবস্থা
+নেই
+(ব্যবহারিক)
+অবস্থা
+নাক-ফুসফুস
+অবস্থা
+নেই
+(স্পষ্ট)
+অবস্থা
+অস্বাভাবিক
+অ",ল্যাপারোস্কোপিক,leading_clause,96,False,False,False,True,True,True,False,142,18,False,False,False,False,0.6903556,0.1
+341,190,medicat,condition,এই ছবিতে কী কী অবস্থা সনাক্ত করা হয়েছে?,কোনো রোগ নির্ণয় নেই,"No visible pathology
+Modality: Blank/No image data","No visible pathology
+Modality: Blank/No image data",No,leading_yesno,13,False,False,True,False,True,True,False,50,7,False,False,False,False,0.6528891,0.0
+342,1087,medicat,condition,ছবিতে কী কী অবস্থা দেখা যাচ্ছে?,কিছু পাওয়া যায়নি,"রোগনির্ণয় সম্ভব নয়
+(অনুমানিক: শূন্য তথ্য)","রোগনির্ণয় সম্ভব নয়
+(অনুমানিক: শূন্য তথ্য)",রোগনির্ণয় সম্ভব নয়,leading_clause,24,False,False,False,True,False,True,False,43,6,False,False,False,False,0.6543472,0.3
+343,964,medicat,condition,ছবিতে কি কি অবস্থা দেখা যাচ্ছে?,কোনো কিছু পাওয়া যায়নি,"শূন্য অবস্থা
+(অবস্থা: শূন্য)","শূন্য অবস্থা
+(অবস্থা: শূন্য)","শূন্য অবস্থা
+(অবস্থা: শূন্য)",exact_clean,19,False,False,False,True,False,True,False,28,4,False,False,False,False,0.649014,0.3
+344,673,medicat,condition,ছবিতে কী কী অবস্থা দেখা যাচ্ছে?,অসমান ঘনত্বযুক্ত অস্বচ্ছতা,"রোগনির্ণয় সম্ভব নয়
+(অনুমানিক: শূন্য তথ্য)","রোগনির্ণয় সম্ভব নয়
+(অনুমানিক: শূন্য তথ্য)",রোগনির্ণয় সম্ভব নয়,leading_clause,24,False,False,False,True,False,True,False,43,6,False,False,False,False,0.6600351,0.0
+345,532,medicat,condition,কি অবস্থা পরিলক্ষিত হচ্ছে?,বাই-থ্যালামিক ইনফার্কশন,ব্যবহারযোগ্য তথ্য নেই,ব্যবহারযোগ্য তথ্য নেই,ব্যবহারযোগ্য তথ্য নেই,exact_clean,12,False,False,False,True,False,False,True,21,3,False,False,False,False,0.65627474,0.0
+346,321,medicat,condition,ছবিতে কী কী অবস্থা দেখা যাচ্ছে?,নেক্রোটিক মেটাস্ট্যাসিস,"রোগনির্ণয় সম্ভব নয়
+(অনুমানিক: শূন্য তথ্য)","রোগনির্ণয় সম্ভব নয়
+(অনুমানিক: শূন্য তথ্য)",রোগনির্ণয় সম্ভব নয়,leading_clause,24,False,False,False,True,False,True,False,43,6,False,False,False,False,0.611815,0.0
+347,1158,medicat,condition,ছবিতে কি কি অবস্থা (condition) দেখা যাচ্ছে?,"কর্ডোমা, গ্লিওব্লাস্টোমা","no visible pathology
+white noise background","no visible pathology
+white noise background",no,leading_yesno,8,False,False,True,False,False,True,False,43,6,False,False,False,False,0.56890833,0.0
+348,444,medicat,condition,ইমেজটিতে কী অবস্থা পরিলক্ষিত হয়?,রেডিওলুসেন্ট আউটলাইন,"ব্যবহারযোগ্য তথ্য নেই
+(No visible pathology)","ব্যবহারযোগ্য তথ্য নেই
+(No visible pathology)",ব্যবহারযোগ্য তথ্য নেই,leading_clause,18,False,False,False,True,False,True,False,44,6,False,False,False,False,0.6040257,0.0
+349,261,medicat,condition,ছবিতে কী কী অবস্থা পরিলক্ষিত হয়?,কোনো ফাইন্ডিং নেই,"ছবি নিরাপদ
+(No visible pathology)","ছবি নিরাপদ
+(No visible pathology)",ছবি নিরাপদ,leading_clause,14,False,False,False,True,False,True,False,33,5,False,False,False,False,0.63997203,0.2
+350,82,medicat,modality,কি ধরনের ইমেজিং মডালিটি দেখানো হয়েছে?,এমআরআই।,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.5928231,0.0
+351,52,medicat,modality,কী ধরণের ইমেজিং মোডালিটি ব্যবহার করা হয়েছে?,সিটি।,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.679568,0.0
+352,958,medicat,modality,ইমেজিং পদ্ধতিটি কী?,সিটি,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7183353,0.0
+353,314,medicat,modality,এটা কি ধরনের ইমেজিং পদ্ধতি?,এমআরআই,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.66951543,0.0
+354,496,medicat,modality,এটি কোন ধরনের ইমেজিং পদ্ধতি?,সিটি।,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.67956793,0.0
+355,665,medicat,modality,এটি কোন ধরনের ইমেজিং পদ্ধতি?,এমআরআই,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.66951543,0.0
+356,979,medicat,modality,কোন ইমেজিং পদ্ধতি ব্যবহার করা হয়েছে?,এমআরআই,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.66951543,0.0
+357,61,medicat,modality,এই ছবিতে কোন ইমেজিং পদ্ধতি ব্যবহার করা হয়েছে?,এমআরআই।,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.5928231,0.0
+358,44,medicat,modality,এই চিত্রে কোন ইমেজিং মোডালিটি ব্যবহার করা হয়েছে?,এমআরআই,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.66951543,0.0
+359,617,medicat,modality,এটা কি ধরনের ইমেজিং পদ্ধতি?,এমআরআই,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.66951543,0.0
+360,1338,medicat,modality,এই ক্ষেত্রে কোন ইমেজিং পদ্ধতি ব্যবহার করা হয়েছে?,এমআরআই,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.66951543,0.0
+361,874,medicat,modality,ছবিতে কোন ইমেজিং মডালিটি (imaging modality) ব্যবহার করা হয়েছে?,এমআরআই,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.66951543,0.0
+362,335,medicat,modality,এই ছবিতে কোন ইমেজিং পদ্ধতি ব্যবহার করা হয়েছে?,এমআরআই।,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.5928231,0.0
+363,997,medicat,modality,এই ছবিতে কোন ইমেজিং মোডালিটি ব্যবহার করা হয়েছে?,এমআরআই,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.66951543,0.0
+364,301,medicat,modality,এই ছবিতে কোন ইমেজিং পদ্ধতি ব্যবহার করা হয়েছে?,এমআরআই,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.66951543,0.0
+365,368,medicat,modality,এই ছবিতে কোন ইমেজিং মোডালিটি ব্যবহার করা হয়েছে?,সিটি,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7183353,0.0
+366,467,medicat,modality,এটি কোন ধরনের ছবি?,এক্স-রে,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7618495,0.9
+367,373,medicat,modality,এই স্টাডিতে কোন ইমেজিং modality ব্যবহার করা হয়েছে?,এমআরআই,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.66951543,0.0
+368,134,medicat,modality,এটি কি ধরনের ইমেজিং মোডালিটি?,সিটি,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7183353,0.0
+369,1060,medicat,modality,ইমেজিং পদ্ধতিটি কি?,এমআরআই,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.66951543,0.0
+370,400,medicat,modality,এটি কি ধরনের মেডিকেল ইমেজিং?,এক্স-রে,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7618495,0.9
+371,356,medicat,modality,এটা কি ধরনের ইমেজিং মোডালিটি?,এক্স-রে,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7618495,0.9
+372,870,medicat,modality,এই ছবিতে কোন ধরনের ইমেজিং পদ্ধতি ব্যবহার করা হয়েছে?,এমআরআই,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.66951543,0.0
+373,361,medicat,modality,এই চিত্রে কোন ইমেজিং পদ্ধতি ব্যবহার করা হয়েছে?,সিটি,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7183353,0.0
+374,1136,medicat,modality,এটি কোন ধরনের ইমেজিং পদ্ধতি?,সিটি।,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.67956793,0.0
+375,4,medicat,modality,এই চিত্রে কোন ইমেজিং পদ্ধতি ব্যবহার করা হয়েছে?,এমআরআই,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.66951543,0.0
+376,1104,medicat,modality,এই ছবিতে কোন ইমেজিং মোডালিটি ব্যবহার করা হয়েছে?,এমআরআই,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.66951543,0.0
+377,1042,medicat,modality,এটি কোন ধরনের ইমেজিং মোডালিটি?,এমআরআই,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.66951543,0.0
+378,1349,medicat,modality,এই ছবিতে কোন ইমেজিং মোডালিটি ব্যবহার করা হয়েছে?,সিটি,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7183353,0.0
+379,1085,medicat,modality,এই ছবিতে কোন ইমেজিং পদ্ধতি ব্যবহার করা হয়েছে?,সিটি (কম্পিউটেড টমোগ্রাফি),X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.6414323,0.0
+380,586,medicat,modality,এই ছবিতে কি ধরনের ইমেজিং মোডালিটি ব্যবহার করা হয়েছে?,সিটি,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7183353,0.0
+381,113,medicat,modality,এটি কোন ধরনের ইমেজিং পদ্ধতি?,সিটি,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7183353,0.0
+382,1332,medicat,modality,এটি কোন ধরনের ইমেজিং পদ্ধতি?,এমআরআই,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.66951543,0.0
+383,599,medicat,modality,এই চিত্রে কোন ইমেজিং পদ্ধতি ব্যবহার করা হয়েছে?,সিটি,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7183353,0.0
+384,1372,medicat,modality,এই ছবিতে কোন ইমেজিং পদ্ধতি ব্যবহার করা হয়েছে?,আলট্রাসাউন্ড,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.68969154,0.0
+385,148,medicat,modality,এটি কোন ধরনের ইমেজিং পদ্ধতি?,সিটি,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.71833533,0.0
+386,177,medicat,modality,এই ছবিতে কোন ইমেজিং পদ্ধতি ব্যবহার করা হয়েছে?,সিটি,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.71833533,0.0
+387,780,medicat,modality,ইমেজিং পদ্ধতিটি কী?,এক্স-রে,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.76184946,0.9
+388,89,medicat,modality,এই ছবিতে কোন ইমেজিং মডালিটি (imaging modality) ব্যবহার করা হয়েছে?,এমআরআই,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.6695155,0.0
+389,830,medicat,modality,কোন ইমেজিং পদ্ধতি ব্যবহার করা হয়েছে?,সিটি,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.71833533,0.0
+390,738,medicat,modality,এটি কি ধরনের ইমেজিং modality?,এমআরআই।,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.5928231,0.0
+391,1177,medicat,modality,এটি কোন ধরনের ইমেজিং মোডালিটি?,এক্স-রে,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.76184946,0.9
+392,1162,medicat,modality,ছবিতে কোন ইমেজিং পদ্ধতি দেখানো হয়েছে?,সিটি,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.71833533,0.0
+393,1370,medicat,modality,এই ছবিতে কোন ইমেজিং মোডালিটি ব্যবহার করা হয়েছে?,সিটি,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.71833533,0.0
+394,421,medicat,modality,এই ছবিতে কোন ইমেজিং পদ্ধতি ব্যবহার করা হয়েছে?,সিটি,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.71833533,0.0
+395,761,medicat,modality,এটি কি ধরনের ইমেজিং পদ্ধতি?,এক্স-রে,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.76184946,0.9
+396,567,medicat,modality,ইমেজটিতে কোন ইমেজিং পদ্ধতি দেখানো হয়েছে?,সিটি,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.71833533,0.0
+397,614,medicat,modality,এই ছবিতে কোন ইমেজিং পদ্ধতি ব্যবহার করা হয়েছে?,সিটি,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.71833533,0.0
+398,552,medicat,modality,ছবিতে কোন ইমেজিং পদ্ধতি দেখানো হয়েছে?,সিটি।,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.67956793,0.0
+399,482,medicat,modality,এই ছবিতে কোন ইমেজিং পদ্ধতি ব্যবহার করা হয়েছে?,সিটি।,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.67956793,0.0
+400,1406,medicat,organ,ছবিতে কোন অঙ্গটি দেখানো হয়েছে?,মস্তিষ্ক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7442564,0.0
+401,706,medicat,organ,এই ছবিতে প্রধানত কোন অঙ্গ দেখানো হয়েছে?,মস্তিষ্ক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7442564,0.0
+402,180,medicat,organ,এই ছবিতে প্রধানত কোন অঙ্গ দেখানো হয়েছে?,বুক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7550788,0.0
+403,1466,medicat,organ,এই ছবিতে প্রাথমিকভাবে কোন অঙ্গ দেখানো হয়েছে?,মস্তিষ্ক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7442564,0.0
+404,929,medicat,organ,এই ছবিতে প্রাথমিকভাবে কোন অঙ্গ দেখানো হয়েছে?,বুক।,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.6661936,0.0
+405,798,medicat,organ,এই ছবিতে কোন অঙ্গ চিত্রিত করা হয়েছে?,মস্তিষ্ক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7442564,0.0
+406,1372,medicat,organ,ছবিতে কোন অঙ্গ দেখানো হয়েছে?,মস্তিষ্ক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7442564,0.0
+407,627,medicat,organ,এই ছবিতে প্রধানত কোন অঙ্গ দেখানো হয়েছে?,বুক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7550788,0.0
+408,92,medicat,organ,ছবিতে কোন অঙ্গ দেখানো হয়েছে?,অন্যান্য,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.61331064,0.0
+409,874,medicat,organ,ছবিতে প্রাথমিকভাবে কোন অঙ্গ দেখানো হয়েছে?,মস্তিষ্ক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7442564,0.0
+410,526,medicat,organ,এই ছবিতে প্রধানত কোন অঙ্গ দেখানো হয়েছে?,বুক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7550788,0.0
+411,282,medicat,organ,ছবিতে কোন অঙ্গ দেখানো হয়েছে?,মস্তিস্ক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.764117,0.0
+412,314,medicat,organ,ছবিতে কোন অঙ্গ দেখানো হয়েছে?,মস্তিষ্ক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7442564,0.0
+413,816,medicat,organ,এই ছবিতে কোন অঙ্গ দেখানো হয়েছে?,বুক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7550788,0.0
+414,373,medicat,organ,এই ছবিতে মূলত কোন অঙ্গ দেখানো হয়েছে?,মস্তিষ্ক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7442564,0.0
+415,902,medicat,organ,ছবিতে কোন অঙ্গ দেখানো হয়েছে?,মস্তিষ্ক।,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.697509,0.0
+416,380,medicat,organ,ছবিতে প্রাথমিকভাবে কোন অঙ্গ দেখানো হয়েছে?,পেট,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.75161546,0.0
+417,1275,medicat,organ,ছবিতে কোন অঙ্গ দেখানো হয়েছে?,মস্তিষ্ক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7442564,0.0
+418,319,medicat,organ,এই ছবিতে মূলত কোন অঙ্গ দেখানো হয়েছে?,বুক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7550788,0.0
+419,522,medicat,organ,এই ছবিতে প্রাথমিকভাবে কোন অঙ্গ দেখানো হয়েছে?,পেট।,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7055869,0.0
+420,1418,medicat,organ,ছবিতে কোন অঙ্গ দেখানো হয়েছে?,মস্তিষ্ক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7442564,0.0
+421,969,medicat,organ,ছবিতে কোন অঙ্গ দেখানো হয়েছে?,মস্তিস্ক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.76411694,0.0
+422,714,medicat,organ,এই ছবিতে মূলত কোন অঙ্গ দেখানো হয়েছে?,বুক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7550788,0.0
+423,1310,medicat,organ,এই ছবিতে কোন অঙ্গ দেখানো হয়েছে?,মস্তিষ্ক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7442564,0.0
+424,762,medicat,organ,এই ছবিতে মূলত কোন অঙ্গ দেখানো হয়েছে?,শ্রোণী (পেলভিস),X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.70489514,0.0
+425,384,medicat,organ,এই ছবিতে প্রাথমিকভাবে কোন অঙ্গ দেখানো হয়েছে?,মেরুদণ্ড,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.6716392,0.0
+426,446,medicat,organ,ছবিতে কোন অঙ্গ দেখানো হয়েছে?,অন্যান্য।,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.5467914,0.0
+427,786,medicat,organ,ছবিতে কোন অঙ্গ দেখানো হয়েছে?,বুক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7550788,0.0
+428,595,medicat,organ,ছবিতে কোন অঙ্গ দেখানো হয়েছে?,মস্তিস্ক।,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.6988126,0.0
+429,663,medicat,organ,ছবিতে কোন অঙ্গ দেখানো হয়েছে?,মস্তিষ্ক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7442564,0.0
+430,1078,medicat,organ,ছবিতে কোন অঙ্গ দেখানো হয়েছে?,মস্তিষ্ক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7442564,0.0
+431,776,medicat,organ,ছবিতে কোন অঙ্গ দেখানো হয়েছে?,মস্তিষ্ক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7442564,0.0
+432,461,medicat,organ,ছবিতে কোন অঙ্গ দেখানো হয়েছে?,বুক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7550788,0.0
+433,944,medicat,organ,এই ছবিতে প্রধানত কোন অঙ্গ দেখানো হয়েছে?,বুক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7550788,0.0
+434,1363,medicat,organ,ছবিতে কোন অঙ্গ দেখানো হয়েছে?,মস্তিষ্ক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7442564,0.0
+435,586,medicat,organ,এই ছবিতে কোন অঙ্গ দেখানো হয়েছে?,মস্তিষ্ক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7442564,0.0
+436,28,medicat,organ,এই ছবিতে কোন অঙ্গ দেখানো হয়েছে?,বুক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7550788,0.0
+437,600,medicat,organ,এই ছবিতে প্রধানত কোন অঙ্গ দেখানো হয়েছে?,মস্তিষ্ক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7442564,0.0
+438,49,medicat,organ,এই ছবিতে প্রধানত কোন অঙ্গ দেখানো হয়েছে?,বুক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7550788,0.0
+439,1126,medicat,organ,এই ছবিতে প্রাথমিকভাবে কোন অঙ্গ দেখানো হয়েছে?,বুক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7550788,0.0
+440,148,medicat,organ,এই ছবিতে প্রাথমিকভাবে কোন অঙ্গ দেখানো হয়েছে?,পেট,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.75161546,0.0
+441,593,medicat,organ,এই ছবিতে প্রধানত কোন অঙ্গ দেখানো হয়েছে?,বুক।,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.6661936,0.0
+442,1121,medicat,organ,ছবিতে কোন অঙ্গ দেখানো হয়েছে?,মস্তিষ্ক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7442564,0.0
+443,1447,medicat,organ,এই ছবিতে কোন অঙ্গ দেখানো হয়েছে?,মস্তিষ্ক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7442564,0.0
+444,618,medicat,organ,এই ছবিতে প্রাথমিকভাবে কোন অঙ্গ দেখানো হয়েছে?,মস্তিষ্ক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7442564,0.0
+445,520,medicat,organ,ছবিতে কোন অঙ্গ দেখানো হয়েছে?,পেট।,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7055869,0.0
+446,1124,medicat,organ,এই ছবিতে প্রাথমিকভাবে কোন অঙ্গ দেখানো হয়েছে?,বুক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7550788,0.0
+447,136,medicat,organ,ছবিতে প্রধানত কোন অঙ্গ দেখানো হয়েছে?,পেট,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.75161546,0.0
+448,1397,medicat,organ,এই ছবিতে প্রধানত কোন অঙ্গ দেখানো হয়েছে?,শ্রোণী (পেলভিস),X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.70489514,0.0
+449,43,medicat,organ,ছবিতে কোন অঙ্গ দেখানো হয়েছে?,পেট,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.75161546,0.0
+450,731,medicat,position,একাউস্টিক শ্যাডোইং সহ ডিফিউসলি হাইপারেকোক মায়োকার্ডিয়াম কোথায় অবস্থিত?,বাম ভেন্ট্রিকল।,Lateral wall,Lateral wall,Lateral wall,exact_clean,4,False,False,True,False,False,False,True,12,2,False,False,False,False,0.6631324,0.0
+451,1408,medicat,position,বি. ম্যান্ড্রিলারিসের জন্য ইতিবাচক ইমিউনোফ্লুরোসেন্স পরীক্ষার অবস্থান কোথায়?,অনির্দিষ্ট,ইমিউনোফ্লুরোসেন্স অপরিহার্য নয়,ইমিউনোফ্লুরোসেন্স অপরিহার্য নয়,ইমিউনোফ্লুরোসেন্স অপরিহার্য নয়,exact_clean,18,False,False,False,True,False,False,True,31,3,False,False,False,False,0.7130946,0.0
+452,302,medicat,position,বিলম্বিত মায়েলিনেশন কোথায় অবস্থিত?,অনির্দিষ্ট,Lateral spinal cord,Lateral spinal cord,Lateral spinal cord,exact_clean,5,False,False,True,False,False,False,True,19,3,False,False,False,False,0.6626308,0.0
+453,1015,medicat,position,বৃদ্ধিপ্রাপ্ত ডিফিউস এনহ্যান্সমেন্ট এর অবস্থান কোথায়?,ডান সেরিব্রাম।,অবস্থান নেই,অবস্থান নেই,অবস্থান নেই,exact_clean,7,False,False,False,True,False,False,True,11,2,False,False,False,False,0.6322496,0.0
+454,995,medicat,position,ত্বকের নিচে বাতাসের অবস্থান কি?,অনির্দিষ্ট,"Air
+Pneumatosis
+Cutis
+Subcutaneous
+Skin
+Abnormality
+Not visible
+Pneumopericardium
+Pneumomediastinum
+Pneumothorax
+No evidence
+Skin layer
+Subcutaneous fat
+No gas
+No subcutaneous air
+No visible abnormality
+No pneumatosis cutis
+No subcutaneous emphysema
+No air
+No subcutaneous gas
+No visible pathology
+No abnormal gas
+No subcutaneous air pockets
+No evidence","Air
+Pneumatosis
+Cutis
+Subcutaneous
+Skin
+Abnormality
+Not visible
+Pneumopericardium
+Pneumomediastinum
+Pneumothorax
+No evidence
+Skin layer
+Subcutaneous fat
+No gas
+No subcutaneous air
+No visible abnormality
+No pneumatosis cutis
+No subcutaneous emphysema
+No air
+No subcutaneous gas
+No visible pathology
+No abnormal gas
+No subcutaneous air pockets
+No evidence",Air,leading_clause,96,False,False,True,False,True,True,False,353,48,False,False,False,False,0.5766588,0.0
+455,831,medicat,position,পার্ট-সলিড নোডিউল এর অবস্থান কোথায়?,বুক,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.75507885,0.0
+456,509,medicat,position,বহু প্রকোষ্ঠযুক্ত সিস্টিক স্থান দখলকারী ক্ষতটির অবস্থান কী?,অনির্দিষ্ট,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.69946086,0.0
+457,635,medicat,position,একাধিক লিম্ফ নোড কোথায় অবস্থিত?,ক্ষুদ্রান্ত্রের মেসেনটারি,"Lymph nodes
+- **Thorax**
+- **Axillae**
+- **Inguinal**
+- **Cervical**","Lymph nodes
+- **Thorax**
+- **Axillae**
+- **Inguinal**
+- **Cervical**",Lymph nodes,leading_clause,28,False,False,True,False,True,True,False,68,10,False,False,False,False,0.56103295,0.2
+458,218,medicat,position,দুটি বড় পাথর কোথায় অবস্থিত?,পিত্তথলি,No visible stones,No visible stones,No visible stones,exact_clean,4,False,False,True,False,False,False,True,17,3,False,False,False,False,0.6672263,0.0
+459,729,medicat,position,নডিউলটি কোথায় অবস্থিত?,থাইরয়েড গ্রন্থিতে।,No nodule visible,No nodule visible,No nodule visible,exact_clean,5,False,False,True,False,False,False,True,17,3,False,False,False,False,0.6147391,0.0
+460,1251,medicat,position,স্পষ্ট সীমারেখা যুক্ত সিস্ট (৩৫ মিমি) কোথায় অবস্থিত?,সম্মুখবর্তী মিডিয়াস্টিনাম,"Right ovary (femur)
+Corpus luteum cyst
+Ovarian
+Left ovary
+Pelvic
+Femoral
+Hydronephrosis
+Uterine
+Endometrial
+Fallopian tube
+Cystic
+Hydatidiform mole
+Dermoid
+Mucinous
+Serous
+Endometrioma
+Parovarian
+Mesenteric
+Mesenteric lymph node
+Mesosalpinx
+Mesovarium
+Mesomet","Right ovary (femur)
+Corpus luteum cyst
+Ovarian
+Left ovary
+Pelvic
+Femoral
+Hydronephrosis
+Uterine
+Endometrial
+Fallopian tube
+Cystic
+Hydatidiform mole
+Dermoid
+Mucinous
+Serous
+Endometrioma
+Parovarian
+Mesenteric
+Mesenteric lymph node
+Mesosalpinx
+Mesovarium
+Mesomet",Right ovary (femur),leading_clause,96,False,False,True,False,True,True,False,259,31,False,False,False,False,0.57561797,0.0
+461,787,medicat,position,থ্রম্বোসিসের কারণে সম্পূর্ণ অবরোধের অবস্থান কোথায়?,আইভি,"মূত্রনালী
+
+*(Note: Since the image is blank, I cannot provide a medical answer. If this were a real image of a thrombus in the urinary tract, the answer would be based on anatomical location.)*","মূত্রনালী
+
+*(Note: Since the image is blank, I cannot provide a medical answer. If this were a real image of a thrombus in the urinary tract, the answer would be based on anatomical location.)*",মূত্রনালী,leading_clause,49,False,False,False,True,True,True,False,193,34,False,False,False,False,0.5617075,0.0
+462,504,medicat,position,প্লুরাল ইফিউশন কোথায় অবস্থিত?,ডান দিকে,লাঞ্চোনা প্লুরা,লাঞ্চোনা প্লুরা,লাঞ্চোনা প্লুরা,exact_clean,11,False,False,False,True,False,False,True,15,2,False,False,False,False,0.6087538,0.0
+463,641,medicat,position,সাবঅ্যারাকনয়েড হেমোরেজ (SAH) এর অবস্থান কোথায়?,ইন্ট্রাক্রানিয়াল,"Lumbar
+(Note: Image is blank; cannot determine. Clarify if SAH is confirmed in clinical context.)","Lumbar
+(Note: Image is blank; cannot determine. Clarify if SAH is confirmed in clinical context.)",Lumbar,leading_clause,26,False,False,True,False,True,True,False,97,15,False,False,False,False,0.55913925,0.0
+464,426,medicat,position,অসিমেট্রিক গ্রাউন্ড-গ্লাস অপাসিটিস কোথায় অবস্থিত?,দ্বিপার্শ্বীয় নিম্ন ফুসফুস।,"মূত্রনালী
+
+(Modality: Ultrasound)","মূত্রনালী
+
+(Modality: Ultrasound)","মূত্রনালী
+
+(Modality: Ultrasound)",exact_clean,16,False,False,False,True,False,True,False,33,3,False,False,False,False,0.6281346,0.0
+465,1055,medicat,position,সিকাল মাসের অবস্থান কোথায়?,সিকাম,"মূত্রনালী
+
+(Note: Since the image is blank, I cannot provide a location for a ""sickle mass"" or anatomical structure. If this is a different question about the provided image, clarify the question.)","মূত্রনালী
+
+(Note: Since the image is blank, I cannot provide a location for a ""sickle mass"" or anatomical structure. If this is a different question about the provided image, clarify the question.)",মূত্রনালী,leading_clause,48,False,False,False,True,True,True,False,197,32,False,False,False,False,0.60463333,0.0
+466,604,medicat,position,আইসোডেনস টিউমার (দেরী কন্ট্রাস্ট) কোথায় অবস্থিত?,অনির্দিষ্ট,মস্তিষ্ক,মস্তিষ্ক,মস্তিষ্ক,exact_clean,5,False,False,False,True,False,False,True,8,1,False,False,False,False,0.7326473,0.0
+467,1084,medicat,position,নিউমোমেডিয়াসটিনাম কোথায় অবস্থিত?,বুক,"মাঝামাঝি তরল স্তর
+(অনুমানিক: মাঝামাঝি মাঝামাঝি স্তর, মাঝামাঝি প্লুরা)","মাঝামাঝি তরল স্তর
+(অনুমানিক: মাঝামাঝি মাঝামাঝি স্তর, মাঝামাঝি প্লুরা)",মাঝামাঝি তরল স্তর,leading_clause,50,False,False,False,True,True,True,False,69,9,False,False,False,False,0.6169346,0.0
+468,590,medicat,position,বৃদ্ধিপ্রাপ্ত রেটিকুলার এবং নোডুলার ইন্টারস্টিশিয়াল ডেনসিটি কোথায় অবস্থিত?,উভয় ফুসফুসে।,"X-ray
+Lung
+Upper lobe
+Right
+Nodular
+Reticular
+Dense","X-ray
+Lung
+Upper lobe
+Right
+Nodular
+Reticular
+Dense",X-ray,leading_clause,22,False,False,True,False,True,True,False,51,8,False,False,False,False,0.5931319,0.0
+469,626,medicat,position,মেটাস্ট্যাটিক ক্ষতটি কোথায় অবস্থিত?,অগ্ন্যাশয়ের মাথা,"অবস্থা: অপরিচিত (ব্যাপক প্যাথলজিকাল চিহ্নহীন)
+মডালিটি: অপরিচিত
+অবস্থান: অপরিচিত","অবস্থা: অপরিচিত (ব্যাপক প্যাথলজিকাল চিহ্নহীন)
+মডালিটি: অপরিচিত
+অবস্থান: অপরিচিত",অবস্থা: অপরিচিত (ব্যাপক প্যাথলজিকাল চিহ্নহীন),leading_clause,47,False,False,False,True,True,True,False,79,9,False,False,False,False,0.6432796,0.0
+470,1179,medicat,position,উল্লেখযোগ্যভাবে হ্রাসকৃত ওইইএফ এর অবস্থান কি?,"মস্তিষ্ক, বাম প্যারাইটাল লোব",X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.67302454,0.0
+471,952,medicat,position,"ডান হিলাসের (hilum) প্রমিনেন্স লিম্ফাডেনোপ্যাথির (lymphadenopathy) ইঙ্গিত দিচ্ছে, এটি কোথায় অবস্থিত?",ডান হিলাসে,Right hilum,Right hilum,Right hilum,exact_clean,4,False,False,True,False,False,False,True,11,2,False,False,False,False,0.7204313,0.8
+472,300,medicat,position,হেটেরোজেনাস রেট্রোপেরিটোনিয়াল মাস এর অবস্থান কোথায়?,এল১ থেকে এস১,মূত্রপীঠের পিছনে,মূত্রপীঠের পিছনে,মূত্রপীঠের পিছনে,exact_clean,11,False,False,False,True,False,False,True,16,2,False,False,False,False,0.6400453,0.0
+473,531,medicat,position,একাধিক বিক্ষিপ্ত নডিউলগুলো কোথায় অবস্থিত?,বুক,Lung fields,Lung fields,Lung fields,exact_clean,4,False,False,True,False,False,False,True,11,2,False,False,False,False,0.7446418,0.0
+474,885,medicat,position,বিস্তৃত উচ্চ-তীব্রতার সংকেতগুলো কোথায় অবস্থিত?,মেরুদণ্ড।,Image blank,Image blank,Image blank,exact_clean,3,False,False,True,False,False,False,True,11,2,False,False,False,False,0.6344327,0.0
+475,1424,medicat,position,তীব্র ইস্কেমিক ক্ষতগুলোর অবস্থান কোথায়?,দ্বিপাক্ষিক প্যারামিডিয়ান,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.6548216,0.0
+476,366,medicat,position,স্টার্নামের দেবে যাওয়া অংশটি কোথায় অবস্থিত?,স্টার্নাম,sternal notch,sternal notch,sternal notch,exact_clean,4,False,False,True,False,False,False,True,13,2,False,False,False,False,0.6375593,0.3
+477,188,medicat,position,নিউমোনিয়া কোথায় অবস্থিত?,উভয় দিকে,"No visible organ/abnormality
+White-out image","No visible organ/abnormality
+White-out image",No,leading_yesno,12,False,False,True,False,False,True,False,44,5,False,False,False,False,0.65365225,0.0
+478,740,medicat,position,Retroperitoneal ব্যাপন এর অবস্থান কোথায়?,রেট্রোপেরিটোনিয়াম।,Retroperitoneal space,Retroperitoneal space,Retroperitoneal space,exact_clean,6,False,False,True,False,False,False,True,21,2,False,False,False,False,0.6353167,0.4
+479,1371,medicat,position,সিএম (CM) এর সাথে সম্পর্কিত কনফরমেশনাল বৈশিষ্ট্যগুলি কোথায় অবস্থিত?,ক্রানিওসারভিকাল অঞ্চল,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.6579361,0.0
+480,275,medicat,position,সিস্টিক টিউমারের অবস্থান কি?,প্রিভার্টিব্রাল,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.64342386,0.0
+481,568,medicat,position,স্ক্যাপুলার বডির ফ‍্যাকচারের অবস্থান কী?,উভয় দিকে,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.70056325,0.0
+482,810,medicat,position,হাইপোডেন্স কীলক আকৃতির এলাকাটি কোথায় অবস্থিত যা ইনফার্কশন নির্দেশ করে?,বাম প্যারাইটাল লোব,"X-ray
+coronary
+angioplasty
+stent
+left
+ventricle
+infarction
+area
+myocardial
+infarction
+MI
+STEMI
+segmental
+anterior
+wall
+infarction
+location
+LAD
+proximal
+segment
+LAD
+occlusion
+acute
+coronary
+syndrome
+ACS
+STEMI
+diagnosis
+ECG
+elevation
+ST-segment","X-ray
+coronary
+angioplasty
+stent
+left
+ventricle
+infarction
+area
+myocardial
+infarction
+MI
+STEMI
+segmental
+anterior
+wall
+infarction
+location
+LAD
+proximal
+segment
+LAD
+occlusion
+acute
+coronary
+syndrome
+ACS
+STEMI
+diagnosis
+ECG
+elevation
+ST-segment
+",X-ray,leading_clause,96,False,False,True,False,True,True,False,243,31,False,False,False,False,0.6077622,0.0
+483,1036,medicat,position,উচ্চ সংকেত তীব্রতার অবস্থান কী?,অনির্দিষ্ট,"মডালিটি
+X-ray
+(অনুমানিক)
+অবস্থান
+হাঁটু
+অবস্থা
+ফ্লেক্সড
+অবমূল্যায়ন
+অস্পষ্ট
+(মূখ্য)
+অবস্থান
+ফেমোরাল হেড
+অবমূল্যায়ন
+অস্পষ্ট
+(দ্বিতীয়)
+অবমূল্যায়ন
+অস্পষ","মডালিটি
+X-ray
+(অনুমানিক)
+অবস্থান
+হাঁটু
+অবস্থা
+ফ্লেক্সড
+অবমূল্যায়ন
+অস্পষ্ট
+(মূখ্য)
+অবস্থান
+ফেমোরাল হেড
+অবমূল্যায়ন
+অস্পষ্ট
+(দ্বিতীয়)
+অবমূল্যায়ন
+অস্পষ",মডালিটি,leading_clause,96,False,False,False,True,True,True,False,151,18,False,False,False,False,0.6560698,0.0
+484,392,medicat,position,সামান্য বড় প্লীহা কোথায় অবস্থিত?,অনির্দিষ্ট,বাম পায়খানা,বাম পায়খানা,বাম পায়খানা,exact_clean,7,False,False,False,True,False,False,True,12,2,False,False,False,False,0.70488244,0.0
+485,905,medicat,position,ইউভিয়াল ট্র্যাক্টের ফোকাল থিকেনিং-এর অবস্থান কোথায়?,এলই।,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.6452662,0.0
+486,110,medicat,position,"বড়, গোলাকার, সমসত্ত্ব রেডিওলুসেন্সি কোথায় অবস্থিত?",ডান উপরের চতুর্ভুজ।,"X-ray
+(No visible abnormality)","X-ray
+(No visible abnormality)","X-ray
+(No visible abnormality)",exact_clean,9,False,False,True,False,False,True,False,30,4,False,False,False,False,0.61586934,0.0
+487,847,medicat,position,পেরিলেশনাল ইডিমার অবস্থান কোথায়?,অনির্দিষ্ট,মূত্রপীঠ,মূত্রপীঠ,মূত্রপীঠ,exact_clean,7,False,False,False,True,False,False,True,8,1,False,False,False,False,0.720383,0.0
+488,851,medicat,position,নোডুলের অবস্থান কী?,বুকের ডান এলাকা,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.7088727,0.0
+489,68,medicat,position,হাইপারট্রোফাইড মিড লেফট ভেন্ট্রিকুলার (এলভি) ওয়ালের অবস্থান কোথায়?,বাম ভেন্ট্রিকল,অবস্থান: অ্যান্টেরিওর ইনফেরিয়র,অবস্থান: অ্যান্টেরিওর ইনফেরিয়র,অবস্থান: অ্যান্টেরিওর ইনফেরিয়র,exact_clean,17,False,False,False,True,False,False,True,31,3,False,False,False,False,0.68711615,0.1
+490,1102,medicat,position,"গোলাকার, স্পষ্টভাবে চিহ্নিত ভরটি কোথায় অবস্থিত?",ডান হাইলাম,"No visible structure
+(White background only)","No visible structure
+(White background only)",No,leading_yesno,10,False,False,True,False,False,True,False,44,6,False,False,False,False,0.6241928,0.0
+491,676,medicat,position,gray-white পার্থক্যের হ্রাসের অবস্থান কোথায়?,অনির্দিষ্ট,"CT scan
+axial view
+liver
+hypodense
+peripheral
+right lobe
+subcapsular
+inferior margin","CT scan
+axial view
+liver
+hypodense
+peripheral
+right lobe
+subcapsular
+inferior margin",CT scan,leading_clause,29,False,False,True,False,True,True,False,84,12,False,False,False,False,0.60489017,0.0
+492,1104,medicat,position,অসম্পূর্ণ সুপিরিয়র ক্লিফট সহ বাইফিড স্টার্নাম কোথায় অবস্থিত?,"ম্যানুব্রিয়াম, স্টার্নাল বডি",অ্যান্টেরিওর সাগিতাল সীমা,অ্যান্টেরিওর সাগিতাল সীমা,অ্যান্টেরিওর সাগিতাল সীমা,exact_clean,15,False,False,False,True,False,False,True,25,3,False,False,False,False,0.7357431,0.0
+493,764,medicat,position,ছোট সাদা পদার্থ প্রসারণটির অবস্থান কোথায়?,ডান ফ্রন্টাল লোব,"মূত্রনালী
+
+(Note: Since the image is blank, this is a hypothetical response based on the question format. In practice, you would only answer if the image clearly shows a relevant finding.)","মূত্রনালী
+
+(Note: Since the image is blank, this is a hypothetical response based on the question format. In practice, you would only answer if the image clearly shows a relevant finding.)",মূত্রনালী,leading_clause,44,False,False,False,True,True,True,False,188,31,False,False,False,False,0.56298506,0.0
+494,32,medicat,position,তীব্র ফোকাল হাইপারমেটাবলিক অ্যাক্টিভিটির অবস্থান কোথায়?,পিত্তথলি,"মূত্রনালী
+
+(Note: Since the image is blank, this is a hypothetical response based on the question format. The actual question would require a medical image for an accurate answer.)","মূত্রনালী
+
+(Note: Since the image is blank, this is a hypothetical response based on the question format. The actual question would require a medical image for an accurate answer.)",মূত্রনালী,leading_clause,41,False,False,False,True,True,True,False,180,29,False,False,False,False,0.6148495,0.1
+495,1139,medicat,position,কোথায় প্রজাপতি-সদৃশ কশেরুকার মিথ্যা চিত্র অবস্থিত?,এবং কশেরুকা,এই ছবি নেই,এই ছবি নেই,এই ছবি নেই,exact_clean,8,False,False,False,True,False,False,True,10,3,False,False,False,False,0.67670774,0.0
+496,221,medicat,position,উন্নত জলের ব্যাপন কোথায় দেখা যায়?,সমস্ত মস্তিষ্কের অঞ্চলে।,X-ray,X-ray,X-ray,exact_clean,3,False,False,True,False,False,False,True,5,1,False,False,False,False,0.6772008,0.0
+497,1365,medicat,position,খোলা ফন্টানেলগুলি কোথায় অবস্থিত?,করোটি,স্ফটিকাকার,স্ফটিকাকার,স্ফটিকাকার,exact_clean,8,False,False,False,True,False,False,True,10,1,False,False,False,False,0.7757808,0.0
+498,1276,medicat,position,বিস্তৃত লেপ্টোমেনিনজিয়াল বৃদ্ধি কোথায় অবস্থিত?,অনির্দিষ্ট,মস্তিষ্কের ভেন্ট্রিকুলার সিস্টেম,মস্তিষ্কের ভেন্ট্রিকুলার সিস্টেম,মস্তিষ্কের ভেন্ট্রিকুলার সিস্টেম,exact_clean,15,False,False,False,True,False,False,True,32,3,False,False,False,False,0.67227155,0.0
+499,1403,medicat,position,কোথায় কোনো কর্ড (cord) প্রসারণ নেই?,স্পাইনাল কর্ড,"কোনো
+কর্ড
+নেই
+(অনুমানিক: মূত্রনালী/শুক্রনালী নেই, যদি এই ছবি মূত্রনালী/শুক্রনালী পরীক্ষা)
+
+**উত্তর:** মূত্রনালী
+(মডেলের সীমাবদ্ধতা: ছবি অনুযায়ী সঠিক অবস্থান নির্ধারণ","কোনো
+কর্ড
+নেই
+(অনুমানিক: মূত্রনালী/শুক্রনালী নেই, যদি এই ছবি মূত্রনালী/শুক্রনালী পরীক্ষা)
+
+**উত্তর:** মূত্রনালী
+(মডেলের সীমাবদ্ধতা: ছবি অনুযায়ী সঠিক অবস্থান নির্ধারণ",কোনো,leading_clause,96,False,False,False,True,True,True,False,166,20,False,False,False,False,0.6196449,0.0

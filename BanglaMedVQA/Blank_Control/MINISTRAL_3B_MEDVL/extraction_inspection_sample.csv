@@ -1,0 +1,31 @@
+idx,source,category,true_answer,predicted_answer,extracted_answer,extraction_method,is_verbose,raw_output
+13,chest_xray,abnormality,না,না,না,exact_clean,False,না
+30,chest_xray,abnormality,না,না,না,exact_clean,False,না
+39,chest_xray,abnormality,না,না,না,exact_clean,False,না
+63,chest_xray,condition,"প্রলায়, এম্ফিসেমা, এবং মাঝ বাম দিকে নিউমোথোরেক্স",না,না,exact_clean,False,না
+80,chest_xray,condition,কোনও অবস্থা চিহ্নিত হয়নি।,না,না,exact_clean,False,না
+89,chest_xray,condition,কোন নির্দিষ্ট অবস্থা চিহ্নিত হয়নি।,না,না,exact_clean,False,না
+113,chest_xray,modality,এক্স-রে,CT,CT,exact_clean,False,CT
+130,chest_xray,modality,এক্স-রে,CT,CT,exact_clean,False,CT
+139,chest_xray,modality,এক্স-রে,CT,CT,exact_clean,False,CT
+163,chest_xray,organ,বুক,মূত্রনালী,মূত্রনালী,exact_clean,False,মূত্রনালী
+180,chest_xray,organ,বুক,মূত্রনালী,মূত্রনালী,exact_clean,False,মূত্রনালী
+189,chest_xray,organ,বুক,মূত্রনালী,মূত্রনালী,exact_clean,False,মূত্রনালী
+213,chest_xray,position,কোন অবস্থা চিহ্নিত করা হয়নি।,মুখের নীচের অংশ,মুখের নীচের অংশ,exact_clean,False,মুখের নীচের অংশ
+230,chest_xray,position,ডানদিকের মাঝখানে,মুখের ভেতর,মুখের ভেতর,exact_clean,False,মুখের ভেতর
+239,chest_xray,position,মধ্য ডান।,হৃদয়,হৃদয়,exact_clean,False,হৃদয়
+263,medicat,abnormality,না,না,না,exact_clean,False,না
+280,medicat,abnormality,হ্যাঁ,না,না,exact_clean,False,না
+289,medicat,abnormality,হ্যাঁ,হ্যাঁ,হ্যাঁ,exact_clean,False,হ্যাঁ
+313,medicat,condition,প্লুরাল-ভিত্তিক ঘনত্ব,মূত্রনালীতে পাথর,মূত্রনালীতে পাথর,exact_clean,False,মূত্রনালীতে পাথর
+330,medicat,condition,ডব্লিউএম হ্রাস (অ্যাট্রোফি),প্লুরিসিস,প্লুরিসিস,exact_clean,False,প্লুরিসিস
+339,medicat,condition,প্রাথমিক টিউমার,মূত্রনালীতে পাথর,মূত্রনালীতে পাথর,exact_clean,False,মূত্রনালীতে পাথর
+363,medicat,modality,এমআরআই,CT,CT,exact_clean,False,CT
+380,medicat,modality,সিটি,CT,CT,exact_clean,False,CT
+389,medicat,modality,সিটি,CT,CT,exact_clean,False,CT
+413,medicat,organ,বুক,মূত্রনালী,মূত্রনালী,exact_clean,False,মূত্রনালী
+430,medicat,organ,মস্তিষ্ক,মুখ-গলা-গলবন্ধন,মুখ-গলা-গলবন্ধন,exact_clean,False,মুখ-গলা-গলবন্ধন
+439,medicat,organ,বুক,মূত্রনালী,মূত্রনালী,exact_clean,False,মূত্রনালী
+463,medicat,position,ইন্ট্রাক্রানিয়াল,সাবঅ্যারাকনয়েড সিনাস,সাবঅ্যারাকনয়েড সিনাস,exact_clean,False,সাবঅ্যারাকনয়েড সিনাস
+480,medicat,position,প্রিভার্টিব্রাল,পারানামাল,পারানামাল,exact_clean,False,পারানামাল
+489,medicat,position,বাম ভেন্ট্রিকল,মিড লেফট ভেন্ট্রিকুলার ওয়ালের,মিড লেফট ভেন্ট্রিকুলার ওয়ালের,exact_clean,False,মিড লেফট ভেন্ট্রিকুলার ওয়ালের

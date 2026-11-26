@@ -1,0 +1,118 @@
+idx,source,category,true_answer,predicted_answer,extracted_answer,extraction_method,is_verbose,raw_output
+13,chest_xray,abnormality,না,"বিশ্বাসযোগ্য অস্বাভাবিকতা নেই
+(বা)
+বিশ্বাসযোগ্য অস্বাভাবিকতা নেই (বা)
+বিশ্বাসযোগ্য অস্বাভাবিকতা নেই (বা)
+বিশ্বাসযোগ্য অস্বাভাবিকতা নেই (বা)
+**বিশ্বাসযোগ্য অস্বাভাবিকতা নেই** (মাত্রা: **ম",বিশ্বাসযোগ্য অস্বাভাবিকতা নেই,leading_clause,True,"বিশ্বাসযোগ্য অস্বাভাবিকতা নেই
+(বা)
+বিশ্বাসযোগ্য অস্বাভাবিকতা নেই (বা)
+বিশ্বাসযোগ্য অস্বাভাবিকতা নেই (বা)
+বিশ্বাসযোগ্য অস্বাভাবিকতা নেই (বা)
+**বিশ্বাসযোগ্য অস্বাভাবিকতা নেই** (মাত্রা: **ম"
+30,chest_xray,abnormality,না,"Yes
+Left lung opacity
+Medical devices present",Yes,leading_yesno,True,"Yes
+Left lung opacity
+Medical devices present"
+39,chest_xray,abnormality,না,"হ্যাঁ
+(মাত্র্য: বাম পক্ষের বড় ব্লক ডাক্তারীয় নমুনা দেখায়, সম্ভাব্য প্লুরাল পুঁজি/প্লুরাল প্লেক)",হ্যাঁ,leading_yesno,True,"হ্যাঁ
+(মাত্র্য: বাম পক্ষের বড় ব্লক ডাক্তারীয় নমুনা দেখায়, সম্ভাব্য প্লুরাল পুঁজি/প্লুরাল প্লেক)"
+63,chest_xray,condition,"প্রলায়, এম্ফিসেমা, এবং মাঝ বাম দিকে নিউমোথোরেক্স",বাম প্লুরাল প্যাথলজি (প্লুরাল প্লেক),বাম প্লুরাল প্যাথলজি (প্লুরাল প্লেক),leading_clause,False,বাম প্লুরাল প্যাথলজি (প্লুরাল প্লেক)
+80,chest_xray,condition,কোনও অবস্থা চিহ্নিত হয়নি।,বাম প্লুরাল প্যাথলজি,বাম প্লুরাল প্যাথলজি,exact_clean,False,বাম প্লুরাল প্যাথলজি
+89,chest_xray,condition,কোন নির্দিষ্ট অবস্থা চিহ্নিত হয়নি।,প্লুরাল প্লুরেমা,প্লুরাল প্লুরেমা,exact_clean,False,প্লুরাল প্লুরেমা
+113,chest_xray,modality,এক্স-রে,Chest X-ray,Chest X-ray,exact_clean,False,Chest X-ray
+130,chest_xray,modality,এক্স-রে,X-ray,X-ray,exact_clean,False,X-ray
+139,chest_xray,modality,এক্স-রে,X-ray,X-ray,exact_clean,False,X-ray
+163,chest_xray,organ,বুক,Thoracic cavity,Thoracic cavity,exact_clean,False,Thoracic cavity
+180,chest_xray,organ,বুক,Chest,Chest,exact_clean,False,Chest
+189,chest_xray,organ,বুক,Chest,Chest,exact_clean,False,Chest
+213,chest_xray,position,কোন অবস্থা চিহ্নিত করা হয়নি।,"Bilateral diffuse opacities
+Left lower lobe increased density
+Tracheal deviation (none apparent)
+No clear focal consolidation
+Cardiomediastinal silhouette not prominently enlarged",Bilateral diffuse opacities,leading_clause,True,"Bilateral diffuse opacities
+Left lower lobe increased density
+Tracheal deviation (none apparent)
+No clear focal consolidation
+Cardiomediastinal silhouette not prominently enlarged"
+230,chest_xray,position,ডানদিকের মাঝখানে,বাম প্লুরাল প্যাথলজি (প্লুরাল প্লেকা),বাম প্লুরাল প্যাথলজি (প্লুরাল প্লেকা),leading_clause,False,বাম প্লুরাল প্যাথলজি (প্লুরাল প্লেকা)
+239,chest_xray,position,মধ্য ডান।,পulmonary edema,পulmonary edema,exact_clean,False,পulmonary edema
+263,medicat,abnormality,না,হাইপোডেন্সি (বাম পক্ষ),হাইপোডেন্সি (বাম পক্ষ),exact_clean,False,হাইপোডেন্সি (বাম পক্ষ)
+280,medicat,abnormality,হ্যাঁ,"সাবরাচ্চ হেমোরেজ
+ইনট্রাভেন্ট্রিকুলার হেমোরেজ","সাবরাচ্চ হেমোরেজ
+ইনট্রাভেন্ট্রিকুলার হেমোরেজ",exact_clean,True,"সাবরাচ্চ হেমোরেজ
+ইনট্রাভেন্ট্রিকুলার হেমোরেজ"
+289,medicat,abnormality,হ্যাঁ,বilateral optic nerve sheath enhancement,বilateral optic nerve sheath enhancement,leading_clause,False,বilateral optic nerve sheath enhancement
+313,medicat,condition,প্লুরাল-ভিত্তিক ঘনত্ব,"প্লুরাল প্যাথলজি
+প্লুরাল প্লেক
+মেডিয়াস্টিনাল শিফট
+মিডল মিডিয়া অপসারন
+হাইপো-এক্সপিরেটরি রেট্রোকার্ডিয়াম
+বিল্টারাল লো লোভেল প্যাথলজি",প্লুরাল প্যাথলজি,leading_clause,True,"প্লুরাল প্যাথলজি
+প্লুরাল প্লেক
+মেডিয়াস্টিনাল শিফট
+মিডল মিডিয়া অপসারন
+হাইপো-এক্সপিরেটরি রেট্রোকার্ডিয়াম
+বিল্টারাল লো লোভেল প্যাথলজি"
+330,medicat,condition,ডব্লিউএম হ্রাস (অ্যাট্রোফি),"বাম-দিক সার্কামপোলার
+বাম-দিক সাবক্যালসারিয়াস
+বাম-দিক মধ্যবর্তী সার্কামভেন্ট্রিকুলার
+বাম-দিক মধ্যবর্তী সাবক্যালসারিয়াস",বাম-দিক সার্কামপোলার,leading_clause,True,"বাম-দিক সার্কামপোলার
+বাম-দিক সাবক্যালসারিয়াস
+বাম-দিক মধ্যবর্তী সার্কামভেন্ট্রিকুলার
+বাম-দিক মধ্যবর্তী সাবক্যালসারিয়াস"
+339,medicat,condition,প্রাথমিক টিউমার,পulmonary nodule with cavitation,পulmonary nodule with cavitation,exact_clean,False,পulmonary nodule with cavitation
+363,medicat,modality,এমআরআই,T2-weighted MRI,T2-weighted MRI,exact_clean,False,T2-weighted MRI
+380,medicat,modality,সিটি,CT scan,CT scan,exact_clean,False,CT scan
+389,medicat,modality,সিটি,CT scan,CT scan,exact_clean,False,CT scan
+413,medicat,organ,বুক,"Chest
+Lungs
+Heart
+Mediastinum
+Trachea
+Bronchi",Chest,leading_clause,True,"Chest
+Lungs
+Heart
+Mediastinum
+Trachea
+Bronchi"
+430,medicat,organ,মস্তিষ্ক,মস্তিষ্ক,মস্তিষ্ক,exact_clean,False,মস্তিষ্ক
+439,medicat,organ,বুক,Thoracic cavity,Thoracic cavity,exact_clean,False,Thoracic cavity
+463,medicat,position,ইন্ট্রাক্রানিয়াল,"Subdural space
+Axial view
+Left frontal lobe
+Basilar cistern
+Sulcal spaces
+Epidural space
+No clear SAH visible
+CT angiography
+Meningeal artery rupture
+Hemorrhagic transformation
+Contrast extravasation
+Lateral ventricles
+Cerebellar hemisphere
+Cerebellar tonsil
+Posterior fossa
+Midline shift
+Hemorrhagic stroke
+Subarachnoid space (not",Subdural space,leading_clause,True,"Subdural space
+Axial view
+Left frontal lobe
+Basilar cistern
+Sulcal spaces
+Epidural space
+No clear SAH visible
+CT angiography
+Meningeal artery rupture
+Hemorrhagic transformation
+Contrast extravasation
+Lateral ventricles
+Cerebellar hemisphere
+Cerebellar tonsil
+Posterior fossa
+Midline shift
+Hemorrhagic stroke
+Subarachnoid space (not"
+480,medicat,position,প্রিভার্টিব্রাল,Right adrenal gland,Right adrenal gland,exact_clean,False,Right adrenal gland
+489,medicat,position,বাম ভেন্ট্রিকল,মিড-ক্যার্ডিয়াক সেকশন,মিড-ক্যার্ডিয়াক সেকশন,exact_clean,False,মিড-ক্যার্ডিয়াক সেকশন

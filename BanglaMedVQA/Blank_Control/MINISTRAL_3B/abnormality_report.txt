@@ -1,0 +1,13 @@
+              precision    recall  f1-score   support
+
+         yes       0.00      0.00      0.00        50
+          no       0.45      0.52      0.48        50
+
+   micro avg       0.45      0.26      0.33       100
+   macro avg       0.22      0.26      0.24       100
+weighted avg       0.22      0.26      0.24       100
+
+            pred_yes  pred_no  pred_other
+true_yes           0       32          18
+true_no            0       26          24
+true_other         0        0           0
