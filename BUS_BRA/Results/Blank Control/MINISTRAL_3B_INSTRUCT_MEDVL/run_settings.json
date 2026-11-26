@@ -1,0 +1,36 @@
+{
+  "attention": "sdpa",
+  "conditions": [
+    "real",
+    "white"
+  ],
+  "dataset_revision": "a8caa6ad39310c2871e53bc4b9f80d4b76c1b6f850b1c474c0abae8db1181283",
+  "do_sample": false,
+  "dtype": "torch.bfloat16",
+  "gpu": "Tesla T4",
+  "image_processor": "native Pixtral",
+  "max_new_tokens": 32,
+  "models": {
+    "ministral_3b_instruct": [
+      "mistralai/Ministral-3-3B-Instruct-2512-BF16",
+      "ef287ce8b4b5f858eaf679e9d6402265beb8624f"
+    ],
+    "ministral_3b_medvl": [
+      "OpenMed/Ministral-3B-MedVL",
+      "4829656b3f34ae88307688a3d525ceff9daff972"
+    ]
+  },
+  "num_beams": 1,
+  "protocol": 2,
+  "runtime": {
+    "accelerate": "1.12.0",
+    "pillow": "12.3.0",
+    "tokenizers": "0.22.2",
+    "torchvision": "0.26.0+cu130",
+    "transformers": "5.3.0"
+  },
+  "sample_and_prompts_sha256": "143aea64750bafcbd1c911fcf99d6984e7d03da338248229535898ccc6583ade",
+  "seed": 42,
+  "system_message": "",
+  "torch": "2.11.0+cu130"
+}

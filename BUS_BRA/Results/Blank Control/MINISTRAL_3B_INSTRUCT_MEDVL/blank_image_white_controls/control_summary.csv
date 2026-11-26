@@ -1,0 +1,8 @@
+model,color,completed_trials,expected_trials,stable,parsed_prediction,raw_output,derived_rows,derived_accuracy,unique_raw_outputs,unique_parsed_predictions,model_revision,status
+ministral_3b_instruct,white,5,5,True,unparsed,"The provided image is not visible.
+
+---
+I cannot provide an analysis without visual data. For accurate assessment, a proper ultrasound evaluation by a radiologist is essential.
+
+",400,0.0,1,1,ef287ce8b4b5f858eaf679e9d6402265beb8624f,ready_for_paired_comparison
+ministral_3b_medvl,white,5,5,True,malignant,malignant,400,0.5,1,1,4829656b3f34ae88307688a3d525ceff9daff972,ready_for_paired_comparison

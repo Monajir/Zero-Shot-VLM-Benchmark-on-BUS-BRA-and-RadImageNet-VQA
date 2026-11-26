@@ -1,0 +1,36 @@
+model,model_revision,color,trial,parsed_answer,parse_status,parse_reason,raw_output,generated_tokens,latency_ms,visual_input_pixel_sha256,completed_at,status
+ministral_3b_instruct,ef287ce8b4b5f858eaf679e9d6402265beb8624f,white,1,,unparsed,no_unambiguous_final_answer,"The provided image is not visible.
+
+---
+I cannot provide an analysis without visual data. For accurate assessment, a proper ultrasound evaluation by a radiologist is essential.
+
+",32,3147.2087470001497,902ab44f9b6b07c34a29958b325726ba7f6d506403335cf95a2af25e0ca1ad00,2026-11-26T10:19:18.790241+00:00,ok
+ministral_3b_instruct,ef287ce8b4b5f858eaf679e9d6402265beb8624f,white,2,,unparsed,no_unambiguous_final_answer,"The provided image is not visible.
+
+---
+I cannot provide an analysis without visual data. For accurate assessment, a proper ultrasound evaluation by a radiologist is essential.
+
+",32,3154.735159999973,902ab44f9b6b07c34a29958b325726ba7f6d506403335cf95a2af25e0ca1ad00,2026-11-26T10:19:21.945269+00:00,ok
+ministral_3b_instruct,ef287ce8b4b5f858eaf679e9d6402265beb8624f,white,3,,unparsed,no_unambiguous_final_answer,"The provided image is not visible.
+
+---
+I cannot provide an analysis without visual data. For accurate assessment, a proper ultrasound evaluation by a radiologist is essential.
+
+",32,3146.1210469999514,902ab44f9b6b07c34a29958b325726ba7f6d506403335cf95a2af25e0ca1ad00,2026-11-26T10:19:25.091760+00:00,ok
+ministral_3b_instruct,ef287ce8b4b5f858eaf679e9d6402265beb8624f,white,4,,unparsed,no_unambiguous_final_answer,"The provided image is not visible.
+
+---
+I cannot provide an analysis without visual data. For accurate assessment, a proper ultrasound evaluation by a radiologist is essential.
+
+",32,3153.06426799998,902ab44f9b6b07c34a29958b325726ba7f6d506403335cf95a2af25e0ca1ad00,2026-11-26T10:19:28.245280+00:00,ok
+ministral_3b_instruct,ef287ce8b4b5f858eaf679e9d6402265beb8624f,white,5,,unparsed,no_unambiguous_final_answer,"The provided image is not visible.
+
+---
+I cannot provide an analysis without visual data. For accurate assessment, a proper ultrasound evaluation by a radiologist is essential.
+
+",32,3158.702831000028,902ab44f9b6b07c34a29958b325726ba7f6d506403335cf95a2af25e0ca1ad00,2026-11-26T10:19:31.404381+00:00,ok
+ministral_3b_medvl,4829656b3f34ae88307688a3d525ceff9daff972,white,1,malignant,parsed,direct_or_final_marker,malignant,3,1968.9367570000513,902ab44f9b6b07c34a29958b325726ba7f6d506403335cf95a2af25e0ca1ad00,2026-11-26T10:07:14.436495+00:00,ok
+ministral_3b_medvl,4829656b3f34ae88307688a3d525ceff9daff972,white,2,malignant,parsed,direct_or_final_marker,malignant,3,1966.4275200000247,902ab44f9b6b07c34a29958b325726ba7f6d506403335cf95a2af25e0ca1ad00,2026-11-26T10:07:16.403212+00:00,ok
+ministral_3b_medvl,4829656b3f34ae88307688a3d525ceff9daff972,white,3,malignant,parsed,direct_or_final_marker,malignant,3,1969.107044999987,902ab44f9b6b07c34a29958b325726ba7f6d506403335cf95a2af25e0ca1ad00,2026-11-26T10:07:18.372887+00:00,ok
+ministral_3b_medvl,4829656b3f34ae88307688a3d525ceff9daff972,white,4,malignant,parsed,direct_or_final_marker,malignant,3,1967.9741280000371,902ab44f9b6b07c34a29958b325726ba7f6d506403335cf95a2af25e0ca1ad00,2026-11-26T10:07:20.341252+00:00,ok
+ministral_3b_medvl,4829656b3f34ae88307688a3d525ceff9daff972,white,5,malignant,parsed,direct_or_final_marker,malignant,3,1988.4296669999912,902ab44f9b6b07c34a29958b325726ba7f6d506403335cf95a2af25e0ca1ad00,2026-11-26T10:07:22.330053+00:00,ok

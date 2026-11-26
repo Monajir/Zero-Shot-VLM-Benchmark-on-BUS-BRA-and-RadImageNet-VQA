@@ -1,0 +1,5 @@
+model,true_answer,n,real_accuracy_pct,blank_accuracy_pct,real_only_correct,blank_only_correct
+ministral_3b_medvl,benign,200,91.5,0.0,183,0
+ministral_3b_medvl,malignant,200,17.0,100.0,0,166
+ministral_3b_instruct,benign,200,63.0,0.0,126,0
+ministral_3b_instruct,malignant,200,0.0,0.0,0,0
