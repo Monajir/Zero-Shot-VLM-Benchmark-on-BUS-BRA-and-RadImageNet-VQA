@@ -1,0 +1,31 @@
+idx,source,category,true_answer,predicted_answer,extracted_answer,extraction_method,is_verbose,raw_output
+13,chest_xray,abnormality,না,X-ray,X-ray,exact_clean,False,X-ray
+30,chest_xray,abnormality,না,অস্বাভাবিক,অস্বাভাবিক,exact_clean,False,অস্বাভাবিক
+39,chest_xray,abnormality,না,অস্বাভাবিক,অস্বাভাবিক,exact_clean,False,অস্বাভাবিক
+63,chest_xray,condition,"প্রলায়, এম্ফিসেমা, এবং মাঝ বাম দিকে নিউমোথোরেক্স",অন্য,অন্য,exact_clean,False,অন্য
+80,chest_xray,condition,কোনও অবস্থা চিহ্নিত হয়নি।,অভিন,অভিন,exact_clean,False,অভিন
+89,chest_xray,condition,কোন নির্দিষ্ট অবস্থা চিহ্নিত হয়নি।,অন্য,অন্য,exact_clean,False,অন্য
+113,chest_xray,modality,এক্স-রে,chest,chest,exact_clean,False,chest
+130,chest_xray,modality,এক্স-রে,চয়ন,চয়ন,exact_clean,False,চয়ন
+139,chest_xray,modality,এক্স-রে,ওঠাই,ওঠাই,exact_clean,False,ওঠাই
+163,chest_xray,organ,বুক,অঙ্গ,অঙ্গ,exact_clean,False,অঙ্গ
+180,chest_xray,organ,বুক,চূমি,চূমি,exact_clean,False,চূমি
+189,chest_xray,organ,বুক,অঙ্গ,অঙ্গ,exact_clean,False,অঙ্গ
+213,chest_xray,position,কোন অবস্থা চিহ্নিত করা হয়নি।,অঙ্গনিক,অঙ্গনিক,exact_clean,False,অঙ্গনিক
+230,chest_xray,position,ডানদিকের মাঝখানে,অভিন,অভিন,exact_clean,False,অভিন
+239,chest_xray,position,মধ্য ডান।,অন্য,অন্য,exact_clean,False,অন্য
+263,medicat,abnormality,না,অস্বাভাবিক,অস্বাভাবিক,exact_clean,False,অস্বাভাবিক
+280,medicat,abnormality,হ্যাঁ,hemorrhage,hemorrhage,exact_clean,False,hemorrhage
+289,medicat,abnormality,হ্যাঁ,এখানে একটারট অস্বাভাবিকতা আছে,এখানে একটারট অস্বাভাবিকতা আছে,exact_clean,False,এখানে একটারট অস্বাভাবিকতা আছে
+313,medicat,condition,প্লুরাল-ভিত্তিক ঘনত্ব,চূমি,চূমি,exact_clean,False,চূমি
+330,medicat,condition,ডব্লিউএম হ্রাস (অ্যাট্রোফি),অভিন,অভিন,exact_clean,False,অভিন
+339,medicat,condition,প্রাথমিক টিউমার,এক,এক,exact_clean,False,এক
+363,medicat,modality,এমআরআই,এই,এই,exact_clean,False,এই
+380,medicat,modality,সিটি,CT,CT,exact_clean,False,CT
+389,medicat,modality,সিটি,এক,এক,exact_clean,False,এক
+413,medicat,organ,বুক,এই ছবি,এই ছবি,exact_clean,False,এই ছবি
+430,medicat,organ,মস্তিষ্ক,৫,৫,exact_clean,False,৫
+439,medicat,organ,বুক,A,A,exact_clean,False,A
+463,medicat,position,ইন্ট্রাক্রানিয়াল,এক,এক,exact_clean,False,এক
+480,medicat,position,প্রিভার্টিব্রাল,cyst,cyst,exact_clean,False,cyst
+489,medicat,position,বাম ভেন্ট্রিকল,অভি,অভি,exact_clean,False,অভি

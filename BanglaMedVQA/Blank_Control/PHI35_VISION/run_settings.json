@@ -1,0 +1,29 @@
+{
+  "attention": "eager",
+  "blank_size": [
+    512,
+    512
+  ],
+  "condition": "white",
+  "dataset": "iiCEMAN/BanglaMedVQA",
+  "dtype": "torch.bfloat16",
+  "gpu": "NVIDIA L4",
+  "judge_model": "gpt-4.1-mini",
+  "max_new_tokens": 96,
+  "model_id": "microsoft/Phi-3.5-vision-instruct",
+  "model_revision": "12b77fb40b63a2c73c68243d3f767aab688a1b2a",
+  "model_subfolder": "",
+  "model_tag": "phi35_vision",
+  "num_crops": 16,
+  "out_dir": "/content/phi35_vision_results/white",
+  "sample_hash": "caed7502c8c2",
+  "sample_size": 500,
+  "seed": 42,
+  "splits": {
+    "chest_xray": "chest_xray_train",
+    "medicat": "medicat_train"
+  },
+  "system_prompt_sha256": "84d2b094fafb71410d59be529241aa79b5e50fc3e96419e03d49dc2d2e8755f7",
+  "torch": "2.14.1+cu130",
+  "unique_image_ids": 455
+}
