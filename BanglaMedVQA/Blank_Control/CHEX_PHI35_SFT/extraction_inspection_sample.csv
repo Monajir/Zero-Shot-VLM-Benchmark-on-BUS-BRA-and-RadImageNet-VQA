@@ -1,0 +1,218 @@
+idx,source,category,true_answer,predicted_answer,extracted_answer,extraction_method,is_verbose,raw_output
+13,chest_xray,abnormality,না,"No. 
+ ছবিতে কোনও অস্বাভাবিকতা সনাক্ত হয়েছে না. 
+ 
+The image indicates that the lungs are clear and there are no abnormalities such as pleural effusion or pneumothorax, which suggests that there is",No,leading_yesno,True,"No. 
+ ছবিতে কোনও অস্বাভাবিকতা সনাক্ত হয়েছে না. 
+ 
+The image indicates that the lungs are clear and there are no abnormalities such as pleural effusion or pneumothorax, which suggests that there is"
+30,chest_xray,abnormality,না,"No. 
+ এই ইমেজে কোনও অস্বাভাবিক না আছে. 
+ 
+The image indicates that the lungs are clear and there are no abnormalities such as pleural effusion or pneumothorax, suggesting that the chest X-ray",No,leading_yesno,True,"No. 
+ এই ইমেজে কোনও অস্বাভাবিক না আছে. 
+ 
+The image indicates that the lungs are clear and there are no abnormalities such as pleural effusion or pneumothorax, suggesting that the chest X-ray"
+39,chest_xray,abnormality,না,"No. 
+ 
+The image indicates that the lungs are clear and there are no abnormalities observed, which suggests that there is no evidence of pneumonia",No,leading_yesno,True,"No. 
+ 
+The image indicates that the lungs are clear and there are no abnormalities observed, which suggests that there is no evidence of pneumonia. 
+"
+63,chest_xray,condition,"প্রলায়, এম্ফিসেমা, এবং মাঝ বাম দিকে নিউমোথোরেক্স","No. 
+
+ এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে. 
+
+ 
+এখানে কোন নির্দি",No,leading_yesno,True,"No. 
+
+ এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে. 
+
+ 
+এখানে কোন নির্দি"
+80,chest_xray,condition,কোনও অবস্থা চিহ্নিত হয়নি।,"No. 
+
+ এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে. 
+
+ 
+এখানে কোন নির্দি",No,leading_yesno,True,"No. 
+
+ এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে. 
+
+ 
+এখানে কোন নির্দি"
+89,chest_xray,condition,কোন নির্দিষ্ট অবস্থা চিহ্নিত হয়নি।,"No. 
+
+ এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে. 
+
+ 
+এখানে কোন নির্দি",No,leading_yesno,True,"No. 
+
+ এখানে কোন নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে. 
+
+ 
+এখানে কোন নির্দি"
+113,chest_xray,modality,এক্স-রে,chest x-ray,chest x-ray,exact_clean,False,chest x-ray
+130,chest_xray,modality,এক্স-রে,"No. 
+
+ একটার ইমেজিং পদ্ধতি উন্নত নিয় না. 
+
+(The image shows no evidence of any abnormalities or conditions, indicating that the imaging findings are normal.) 
+
+(Note: The image does not show any specific abnormal",No,leading_yesno,True,"No. 
+
+ একটার ইমেজিং পদ্ধতি উন্নত নিয় না. 
+
+(The image shows no evidence of any abnormalities or conditions, indicating that the imaging findings are normal.) 
+
+(Note: The image does not show any specific abnormal"
+139,chest_xray,modality,এক্স-রে,chest x-ray,chest x-ray,exact_clean,False,chest x-ray
+163,chest_xray,organ,বুক,"No. 
+ এই ছবি প্রাথমিক অঙ্গতন্ত্র চিত্র নিয় না হয়ে যায়",No,leading_yesno,True,"No. 
+ এই ছবি প্রাথমিক অঙ্গতন্ত্র চিত্র নিয় না হয়ে যায়. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+"
+180,chest_xray,organ,বুক,"No. 
+
+ এই ছবি এক প্রতি উদ্যোষ নিয় হয়েছে. 
+
+(The image shows no evidence of any abnormalities or conditions, indicating that the chest X-ray is normal.)",No,leading_yesno,True,"No. 
+
+ এই ছবি এক প্রতি উদ্যোষ নিয় হয়েছে. 
+
+(The image shows no evidence of any abnormalities or conditions, indicating that the chest X-ray is normal.) "
+189,chest_xray,organ,বুক,"No. 
+ এই ছবি প্রাথমিক অঙ্গতন্ত্র প্রদর্শ নিয় হচ্ছে",No,leading_yesno,True,"No. 
+ এই ছবি প্রাথমিক অঙ্গতন্ত্র প্রদর্শ নিয় হচ্ছে. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ "
+213,chest_xray,position,কোন অবস্থা চিহ্নিত করা হয়নি।,"No. 
+
+ অবস্থানগুলি অবস্থার অ্যানাটোমিক্যাল অবস্থানগুলি অবস্থার অ্যানাটো",No,leading_yesno,True,"No. 
+
+ অবস্থানগুলি অবস্থার অ্যানাটোমিক্যাল অবস্থানগুলি অবস্থার অ্যানাটো"
+230,chest_xray,position,ডানদিকের মাঝখানে,"No. 
+ নডুলটি কোথায় অবস্থিত. 
+ 
+The image indicates that the lungs are clear and there are no abnormalities such as pleural effusion or pneumothorax, which supports the conclusion that the lungs are normal",No,leading_yesno,True,"No. 
+ নডুলটি কোথায় অবস্থিত. 
+ 
+The image indicates that the lungs are clear and there are no abnormalities such as pleural effusion or pneumothorax, which supports the conclusion that the lungs are normal. "
+239,chest_xray,position,মধ্য ডান।,"No. 
+  The image indicates that the lungs are clear and there are no abnormalities observed, which supports the answer that the cardiomediastinal silhouette is normal",No,leading_yesno,True,"No. 
+  The image indicates that the lungs are clear and there are no abnormalities observed, which supports the answer that the cardiomediastinal silhouette is normal. "
+263,medicat,abnormality,না,"No. 
+ ছবিতে কি কোনো অস্বাভাবিকতা আছে. 
+ 
+The image indicates that the lungs are clear, with no signs of pneumothorax or pleural effusion, suggesting that there is no evidence of atelectasis",No,leading_yesno,True,"No. 
+ ছবিতে কি কোনো অস্বাভাবিকতা আছে. 
+ 
+The image indicates that the lungs are clear, with no signs of pneumothorax or pleural effusion, suggesting that there is no evidence of atelectasis. "
+280,medicat,abnormality,হ্যাঁ,"No. 
+ ছবিতে কি কোনো অস্বাভাবিকতা আছে. 
+ 
+The image indicates that the lungs are clear, with no signs of pneumothorax or pleural effusion, suggesting that there is no evidence of atelectasis",No,leading_yesno,True,"No. 
+ ছবিতে কি কোনো অস্বাভাবিকতা আছে. 
+ 
+The image indicates that the lungs are clear, with no signs of pneumothorax or pleural effusion, suggesting that there is no evidence of atelectasis. "
+289,medicat,abnormality,হ্যাঁ,"No. 
+
+ এখানে কি কোনো অস্বাভাবিকতা আছে? 
+
+এখানে কি কোনো অস্বাভাবিকতা আছে",No,leading_yesno,True,"No. 
+
+ এখানে কি কোনো অস্বাভাবিকতা আছে? 
+
+এখানে কি কোনো অস্বাভাবিকতা আছে"
+313,medicat,condition,প্লুরাল-ভিত্তিক ঘনত্ব,"ছবিতে কী অবস্থা দেখা যাচ্ছে. 
+
+(Note: The image does not provide any specific findings or details to support this answer.)",ছবিতে কী অবস্থা দেখা যাচ্ছে,leading_clause,True,"ছবিতে কী অবস্থা দেখা যাচ্ছে. 
+
+(Note: The image does not provide any specific findings or details to support this answer.)"
+330,medicat,condition,ডব্লিউএম হ্রাস (অ্যাট্রোফি),"অনিয় অবস্থা পরিলক্ষিত হয়েছে. 
+
+(Note: The image does not provide any specific findings or details regarding the condition of the abdomen.)",অনিয় অবস্থা পরিলক্ষিত হয়েছে,leading_clause,True,"অনিয় অবস্থা পরিলক্ষিত হয়েছে. 
+
+(Note: The image does not provide any specific findings or details regarding the condition of the abdomen.)"
+339,medicat,condition,প্রাথমিক টিউমার,"No. 
+ 
+The image indicates that the lungs are clear and there are no abnormalities such as pleural effusion or pneumothorax, which supports the conclusion that there is no evidence of atelectasis",No,leading_yesno,True,"No. 
+ 
+The image indicates that the lungs are clear and there are no abnormalities such as pleural effusion or pneumothorax, which supports the conclusion that there is no evidence of atelectasis. "
+363,medicat,modality,এমআরআই,"No. 
+ এই ছবি এক ইমেজিং মোডালিটি ব্যবহার না করা হয়েছে",No,leading_yesno,True,"No. 
+ এই ছবি এক ইমেজিং মোডালিটি ব্যবহার না করা হয়েছে. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ "
+380,medicat,modality,সিটি,"No. 
+ এই ছবি ধরনের ইমেজিং মোডালিটি ব্যবহার করা ধরনের ইমেজিং মোডালিটি",No,leading_yesno,True,"No. 
+ এই ছবি ধরনের ইমেজিং মোডালিটি ব্যবহার করা ধরনের ইমেজিং মোডালিটি "
+389,medicat,modality,সিটি,"No. 
+ 
+The image indicates that the lungs are clear and there are no abnormalities observed, which suggests that there is no indication of a pneumothorax. 
+ 
+(Note: The image does not show any pneumothorax, and the absence of abnormalities supports the answer.)",No,leading_yesno,True,"No. 
+ 
+The image indicates that the lungs are clear and there are no abnormalities observed, which suggests that there is no indication of a pneumothorax. 
+ 
+(Note: The image does not show any pneumothorax, and the absence of abnormalities supports the answer.)"
+413,medicat,organ,বুক,"No. 
+
+ এই ছবি অঙ্গ উন্নত নিয় নিউ নিউ নিয় নিউ নিয় নিউ নিয় নিউ নিয় নি�",No,leading_yesno,True,"No. 
+
+ এই ছবি অঙ্গ উন্নত নিয় নিউ নিউ নিয় নিউ নিয় নিউ নিয় নিউ নিয় নি�"
+430,medicat,organ,মস্তিষ্ক,"No. 
+
+ ছবিতে কোন অঙ্গ দেখানো হয়েছে. 
+
+ 
+ছবিতে কোন অঙ্গ দেখানো হয়েছে",No,leading_yesno,True,"No. 
+
+ ছবিতে কোন অঙ্গ দেখানো হয়েছে. 
+
+ 
+ছবিতে কোন অঙ্গ দেখানো হয়েছে. 
+
+"
+439,medicat,organ,বুক,"No. 
+
+ এই ছবি প্রাথমিক অঙ্গ উন্নত নিয় নিয় নিয় নিয় নিয় নিয় নিয় নিয় নিয় নি",No,leading_yesno,True,"No. 
+
+ এই ছবি প্রাথমিক অঙ্গ উন্নত নিয় নিয় নিয় নিয় নিয় নিয় নিয় নিয় নিয় নি"
+463,medicat,position,ইন্ট্রাক্রানিয়াল,"এক অনি হেমোরেজ (SAH) এর অবস্থান কোথায় হয়. 
+
+(Note: The image does not provide any specific findings related to the condition of the patient or the presence of SAH, but the answer indicates that there is no evidence of pneumoth",,no_reliable_extraction,True,"এক অনি হেমোরেজ (SAH) এর অবস্থান কোথায় হয়. 
+
+(Note: The image does not provide any specific findings related to the condition of the patient or the presence of SAH, but the answer indicates that there is no evidence of pneumoth"
+480,medicat,position,প্রিভার্টিব্রাল,একটার,একটার,exact_clean,False,একটার
+489,medicat,position,বাম ভেন্ট্রিকল,ওয়ালের অবস্থান কোথায় হাইপারট্রোফাইড মিড লেফট ভেন্ট্রিকুলার (এল��,,no_reliable_extraction,True,ওয়ালের অবস্থান কোথায় হাইপারট্রোফাইড মিড লেফট ভেন্ট্রিকুলার (এল��

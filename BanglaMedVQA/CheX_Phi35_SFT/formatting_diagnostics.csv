@@ -1,0 +1,7 @@
+category,is_empty,is_english_only,has_bangla,is_long,is_verbose,is_exact_compliant,raw_char_len,cleaned_word_count
+abnormality,0.0,0.71,0.29,0.91,0.91,0.09,160.33,24.64
+condition,0.0,0.53,0.47,0.95,0.95,0.05,148.56,22.23
+modality,0.0,0.8,0.2,0.87,0.87,0.11,165.34,25.61
+organ,0.0,0.72,0.28,0.94,0.94,0.06,160.69,24.7
+position,0.0,0.79,0.21,0.98,0.98,0.02,202.04,29.85
+all,0.0,0.71,0.29,0.93,0.93,0.066,167.392,25.406

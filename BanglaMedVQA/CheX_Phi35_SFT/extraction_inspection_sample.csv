@@ -1,0 +1,131 @@
+idx,source,category,true_answer,predicted_answer,extracted_answer,extraction_method,is_verbose,raw_output
+13,chest_xray,abnormality,না,"PA. 
+
+  The image indicates that the lungs are clear and the cardiomediastinal silhouette is normal, which suggests that there is no evidence of any abnormalities or conditions that would typically be associated with an abnormality in the chest X-ray",PA,leading_clause,True,"PA. 
+
+  The image indicates that the lungs are clear and the cardiomediastinal silhouette is normal, which suggests that there is no evidence of any abnormalities or conditions that would typically be associated with an abnormality in the chest X-ray. "
+30,chest_xray,abnormality,না,"No. 
+
+  The image indicates that the lungs are clear and there are no signs of pneumothorax or pleural effusion, which suggests that there is no evidence of any abnormalities or conditions that would indicate an abnormality",No,leading_yesno,True,"No. 
+
+  The image indicates that the lungs are clear and there are no signs of pneumothorax or pleural effusion, which suggests that there is no evidence of any abnormalities or conditions that would indicate an abnormality. "
+39,chest_xray,abnormality,না,"No. 
+
+  The image indicates that the lungs are clear and there are no signs of pneumothorax, pleural effusion, or consolidation, which suggests that there are no abnormalities present",No,leading_yesno,True,"No. 
+
+  The image indicates that the lungs are clear and there are no signs of pneumothorax, pleural effusion, or consolidation, which suggests that there are no abnormalities present. "
+63,chest_xray,condition,"প্রলায়, এম্ফিসেমা, এবং মাঝ বাম দিকে নিউমোথোরেক্স",এখানে নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে. একটারিউ উদাপ্রাণ উদাপ্রা,,no_reliable_extraction,True,এখানে নির্দিষ্ট অবস্থা চিহ্নিত করা হয়েছে. একটারিউ উদাপ্রাণ উদাপ্রা
+80,chest_xray,condition,কোনও অবস্থা চিহ্নিত হয়নি।,"No. 
+
+  The image indicates that the lungs are clear without any focal consolidation, and there are no signs of pleural effusion or pneumothorax, which supports the conclusion that there are no significant abnormalities present",No,leading_yesno,True,"No. 
+
+  The image indicates that the lungs are clear without any focal consolidation, and there are no signs of pleural effusion or pneumothorax, which supports the conclusion that there are no significant abnormalities present. "
+89,chest_xray,condition,কোন নির্দিষ্ট অবস্থা চিহ্নিত হয়নি।,"No. 
+
+The image indicates that the lungs are clear and there are no signs of pneumothorax or pleural effusion, which suggests that there are no significant abnormalities present",No,leading_yesno,True,"No. 
+
+The image indicates that the lungs are clear and there are no signs of pneumothorax or pleural effusion, which suggests that there are no significant abnormalities present. "
+113,chest_xray,modality,এক্স-রে,"PA and lateral views of the chest. 
+
+The image shows PA and lateral views of the chest. The image demonstrates clear lungs, a normal cardiomediastinal silhouette, and no acute osseous abnormalities. 
+
+PA and lateral views of the chest. 
+
+The image shows PA and lateral views of the chest. The image demonstrates clear lungs, a normal card",,no_reliable_extraction,True,"PA and lateral views of the chest. 
+
+The image shows PA and lateral views of the chest. The image demonstrates clear lungs, a normal cardiomediastinal silhouette, and no acute osseous abnormalities. 
+
+PA and lateral views of the chest. 
+
+The image shows PA and lateral views of the chest. The image demonstrates clear lungs, a normal card"
+130,chest_xray,modality,এক্স-রে,"No. 
+
+The image indicates that the lungs are clear without any focal consolidation, pleural effusion, or pneumothorax, which suggests that there are no significant abnormalities present in the chest X-ray",No,leading_yesno,True,"No. 
+
+The image indicates that the lungs are clear without any focal consolidation, pleural effusion, or pneumothorax, which suggests that there are no significant abnormalities present in the chest X-ray. "
+139,chest_xray,modality,এক্স-রে,"PA. 
+
+  The image indicates that the lungs are clear and the cardiomediastinal silhouette is normal, which are typical findings in a posteroanterior (PA) view of the chest",PA,leading_clause,True,"PA. 
+
+  The image indicates that the lungs are clear and the cardiomediastinal silhouette is normal, which are typical findings in a posteroanterior (PA) view of the chest. "
+163,chest_xray,organ,বুক,এই ছবিতে প্রাথমিকভাবে কোন অঙ্গতন্ত্র চিত্রিত হয়েছে. এক অঙ্গতন্ত্র চি,,no_reliable_extraction,True,এই ছবিতে প্রাথমিকভাবে কোন অঙ্গতন্ত্র চিত্রিত হয়েছে. এক অঙ্গতন্ত্র চি
+180,chest_xray,organ,বুক,এই ছবিতে প্রাণ অংশ দেখাছে. এর প্রাণ অংশ এর প্রাণ অংশ এর প্রা�,এই ছবিতে প্রাণ অংশ দেখাছে,leading_clause,True,এই ছবিতে প্রাণ অংশ দেখাছে. এর প্রাণ অংশ এর প্রাণ অংশ এর প্রা�
+189,chest_xray,organ,বুক,"No. 
+
+  The image indicates that the lungs are clear and there are no abnormalities such as pleural effusion or pneumothorax, which suggests that there is no evidence of pneumonia",No,leading_yesno,True,"No. 
+
+  The image indicates that the lungs are clear and there are no abnormalities such as pleural effusion or pneumothorax, which suggests that there is no evidence of pneumonia. "
+213,chest_xray,position,কোন অবস্থা চিহ্নিত করা হয়নি।,"No. 
+
+  The image indicates that the lungs are clear without any focal consolidation, and there are no signs of pleural effusion or pneumothorax, which supports the conclusion that there are no abnormalities present in the chest X-ray",No,leading_yesno,True,"No. 
+
+  The image indicates that the lungs are clear without any focal consolidation, and there are no signs of pleural effusion or pneumothorax, which supports the conclusion that there are no abnormalities present in the chest X-ray. "
+230,chest_xray,position,ডানদিকের মাঝখানে,"No. 
+ 
+The image indicates that the lungs are clear without any focal consolidation, and there are no signs of pleural effusion or pneumothorax, confirming the absence of any abnormalities in the cardiac and mediastinal silhouettes. 
+ 
+(Note: ""নডুলটি"" is the Bengali word for ""lung."")",No,leading_yesno,True,"No. 
+ 
+The image indicates that the lungs are clear without any focal consolidation, and there are no signs of pleural effusion or pneumothorax, confirming the absence of any abnormalities in the cardiac and mediastinal silhouettes. 
+ 
+(Note: ""নডুলটি"" is the Bengali word for ""lung."")"
+239,chest_xray,position,মধ্য ডান।,"No. 
+  The image indicates that the lungs are clear without any focal consolidation, pleural effusion, or pneumothorax, which supports the conclusion that there are no abnormalities present in the cardiomediastinal silhouette",No,leading_yesno,True,"No. 
+  The image indicates that the lungs are clear without any focal consolidation, pleural effusion, or pneumothorax, which supports the conclusion that there are no abnormalities present in the cardiomediastinal silhouette. "
+263,medicat,abnormality,না,"cardiac silhouette, mediastinum","cardiac silhouette, mediastinum",exact_clean,False,"cardiac silhouette, mediastinum"
+280,medicat,abnormality,হ্যাঁ,"ছবিতে কি কোনো অস্বাভাবিকতা আছে, এ অস্বাভাবিক অংশ এবং উদান্ত অংশ �",,no_reliable_extraction,True,"ছবিতে কি কোনো অস্বাভাবিকতা আছে, এ অস্বাভাবিক অংশ এবং উদান্ত অংশ �"
+289,medicat,abnormality,হ্যাঁ,এখানে কি কোনো অস্বাভাবিকতা আছে? এখানে অস্বাভাবিক অংশ একটার অংশ,,no_reliable_extraction,True,এখানে কি কোনো অস্বাভাবিকতা আছে? এখানে অস্বাভাবিক অংশ একটার অংশ 
+313,medicat,condition,প্লুরাল-ভিত্তিক ঘনত্ব,"The image shows a large right-sided pleural effusion, which is an abnormal accumulation of fluid in the pleural space. This finding indicates the presence of an abnormality in the thoracic cavity. 
+
+Answer: (A) pleural effusion",,no_reliable_extraction,True,"The image shows a large right-sided pleural effusion, which is an abnormal accumulation of fluid in the pleural space. This finding indicates the presence of an abnormality in the thoracic cavity. 
+
+Answer: (A) pleural effusion"
+330,medicat,condition,ডব্লিউএম হ্রাস (অ্যাট্রোফি),"অবস্থা পরিলক্ষিত হয়েছে. 
+
+এবং 
+
+অবস্থা পরিলক্ষিত হয়েছে. 
+
+এবং 
+
+অবস",অবস্থা পরিলক্ষিত হয়েছে,leading_clause,True,"অবস্থা পরিলক্ষিত হয়েছে. 
+
+এবং 
+
+অবস্থা পরিলক্ষিত হয়েছে. 
+
+এবং 
+
+অবস"
+339,medicat,condition,প্রাথমিক টিউমার,"ছবিতে কি অবস্থা পরিলক্ষিত হয়েছে, এ উদাপ্রাণ উদযার উদযন উদযন উদযন উদয",,no_reliable_extraction,True,"ছবিতে কি অবস্থা পরিলক্ষিত হয়েছে, এ উদাপ্রাণ উদযার উদযন উদযন উদযন উদয"
+363,medicat,modality,এমআরআই,"Yes. 
+
+  The image shows a comparison with a previous study, indicating that the current imaging is a follow-up examination",Yes,leading_yesno,True,"Yes. 
+
+  The image shows a comparison with a previous study, indicating that the current imaging is a follow-up examination. "
+380,medicat,modality,সিটি,"একটারিখ উদানোয়া হয়েছে. 
+
+এই ছবিতে কি ধরনের ইমেজিং মোডালিটি ব্যবহার",একটারিখ উদানোয়া হয়েছে,leading_clause,True,"একটারিখ উদানোয়া হয়েছে. 
+
+এই ছবিতে কি ধরনের ইমেজিং মোডালিটি ব্যবহার "
+389,medicat,modality,সিটি,"No. 
+
+  The image indicates that the lungs are clear without any focal consolidation, pleural effusion, or pneumothorax, which suggests that there is no evidence of pneumonia",No,leading_yesno,True,"No. 
+
+  The image indicates that the lungs are clear without any focal consolidation, pleural effusion, or pneumothorax, which suggests that there is no evidence of pneumonia. "
+413,medicat,organ,বুক,"No. 
+
+  The image indicates that the lungs are clear without any focal consolidation, which suggests that there are no abnormalities such as pneumonia or other conditions that would typically be associated with the presence of an infection",No,leading_yesno,True,"No. 
+
+  The image indicates that the lungs are clear without any focal consolidation, which suggests that there are no abnormalities such as pneumonia or other conditions that would typically be associated with the presence of an infection. "
+430,medicat,organ,মস্তিষ্ক,"No. 
+  The image indicates that the lungs are clear and there are no abnormalities observed in the cardiomediastinal silhouette or hilar contours, which supports the conclusion that there are no abnormal lung opacities present",No,leading_yesno,True,"No. 
+  The image indicates that the lungs are clear and there are no abnormalities observed in the cardiomediastinal silhouette or hilar contours, which supports the conclusion that there are no abnormal lung opacities present. "
+439,medicat,organ,বুক,এই ছবিতে প্রাথমিকভাবে কোন অঙ্গ দেখানো হয়েছে. একটারিউ উদানো অঙ্গ,,no_reliable_extraction,True,এই ছবিতে প্রাথমিকভাবে কোন অঙ্গ দেখানো হয়েছে. একটারিউ উদানো অঙ্গ 
+463,medicat,position,ইন্ট্রাক্রানিয়াল,"No.     The image indicates that the lungs are clear and there are no abnormalities observed in the cardiomediastinal silhouette, which suggests that there are no signs of subarachnoid hemorrhage (SAH)",No,leading_yesno,True," No.     The image indicates that the lungs are clear and there are no abnormalities observed in the cardiomediastinal silhouette, which suggests that there are no signs of subarachnoid hemorrhage (SAH). "
+480,medicat,position,প্রিভার্টিব্রাল,"No. 
+  The image indicates that the lungs are clear and there are no abnormalities observed in the cardiomediastinal silhouette, hila, or pleural surfaces, which supports the conclusion that there is no significant abnormality in the left shoulder region",No,leading_yesno,True,"No. 
+  The image indicates that the lungs are clear and there are no abnormalities observed in the cardiomediastinal silhouette, hila, or pleural surfaces, which supports the conclusion that there is no significant abnormality in the left shoulder region. "
+489,medicat,position,বাম ভেন্ট্রিকল,"ওয়ালের অবস্থান কোথায়. 
+ ওয়ালের অবস্থান কোথায়.     The image demonstrates a large hiatal hernia, indicating the presence of an abnormality in the medi",ওয়ালের অবস্থান কোথায়,leading_clause,True,"ওয়ালের অবস্থান কোথায়. 
+ ওয়ালের অবস্থান কোথায়.     The image demonstrates a large hiatal hernia, indicating the presence of an abnormality in the medi"

@@ -1,0 +1,15 @@
+model,condition,source,category,n,accuracy,acc_ci_low,acc_ci_high,accuracy_norm,accuracy_extracted_exploratory,accuracy_extracted_norm_exploratory,bertscore,lave,lave_failures
+chex_phi35_sft,white,chest_xray,abnormality,50.0,0.0,0.0,0.07135003417431873,0.0,0.0,0.5,0.5882909544,0.0,0.0
+chex_phi35_sft,white,chest_xray,condition,50.0,0.0,0.0,0.07135003417431873,0.0,0.0,0.0,0.6761062209999998,0.106,0.0
+chex_phi35_sft,white,chest_xray,modality,50.0,0.0,0.0,0.07135003417431873,0.0,0.0,0.0,0.6941655379999999,0.24200000000000002,0.0
+chex_phi35_sft,white,chest_xray,organ,50.0,0.0,0.0,0.07135003417431873,0.0,0.0,0.0,0.6317549445999999,0.0,0.0
+chex_phi35_sft,white,chest_xray,position,50.0,0.0,0.0,0.07135003417431873,0.0,0.0,0.0,0.6098443728,0.04,0.0
+chex_phi35_sft,white,medicat,abnormality,50.0,0.0,0.0,0.07135003417431873,0.0,0.0,0.5,0.5730318068,0.0,0.0
+chex_phi35_sft,white,medicat,condition,50.0,0.0,0.0,0.07135003417431873,0.0,0.0,0.0,0.5882941644,0.044,0.0
+chex_phi35_sft,white,medicat,modality,50.0,0.0,0.0,0.07135003417431873,0.0,0.0,0.0,0.5947237246,0.06199999999999999,0.0
+chex_phi35_sft,white,medicat,organ,50.0,0.0,0.0,0.07135003417431873,0.0,0.0,0.0,0.5858075874,0.0,0.0
+chex_phi35_sft,white,medicat,position,50.0,0.0,0.0,0.07135003417431873,0.0,0.0,0.0,0.6211831312,0.026000000000000002,0.0
+chex_phi35_sft,white,chest_xray,all,250.0,0.0,0.0,0.015133847249623387,0.0,0.0,0.1,0.6400324061599999,0.07759999999999999,0.0
+chex_phi35_sft,white,medicat,all,250.0,0.0,0.0,0.015133847249623387,0.0,0.0,0.1,0.59260808288,0.0264,0.0
+chex_phi35_sft,white,all,all,500.0,0.0,0.0,0.007624618530903363,0.0,0.0,0.1,0.61632024452,0.052,0.0
+chex_phi35_sft,white,avg_of_sources,all,500.0,0.0,,,0.0,0.0,0.1,0.61632024452,0.05199999999999999,

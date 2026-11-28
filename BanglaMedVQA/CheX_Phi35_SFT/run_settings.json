@@ -1,0 +1,26 @@
+{
+  "attention": "eager",
+  "blank_size": null,
+  "condition": "real",
+  "dataset": "iiCEMAN/BanglaMedVQA",
+  "dtype": "torch.bfloat16",
+  "gpu": "NVIDIA L4",
+  "judge_model": "gpt-4.1-mini",
+  "max_new_tokens": 96,
+  "model_id": "HaiZhiYan/CheX-Phi35V",
+  "model_revision": "fc6ff2f91c9ed4a6ec9b81d9315a10352a6d7ad4",
+  "model_subfolder": "CheX-Phi-3.5-vision-instruct-SFT",
+  "model_tag": "chex_phi35_sft",
+  "num_crops": 16,
+  "out_dir": "/content/chex_phi35_sft_results/real",
+  "sample_hash": "caed7502c8c2",
+  "sample_size": 500,
+  "seed": 42,
+  "splits": {
+    "chest_xray": "chest_xray_train",
+    "medicat": "medicat_train"
+  },
+  "system_prompt_sha256": "84d2b094fafb71410d59be529241aa79b5e50fc3e96419e03d49dc2d2e8755f7",
+  "torch": "2.14.1+cu130",
+  "unique_image_ids": 455
+}
