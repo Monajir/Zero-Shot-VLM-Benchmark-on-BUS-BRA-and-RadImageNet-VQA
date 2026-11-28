@@ -1,13 +1,15 @@
 # Zero-shot VLM benchmark: BUS-BRA, RadImageNet-VQA, and BanglaMedVQA
 
-We tested whether medical vision-language models (VLMs) perform better than their general-purpose versions on medical image tasks, without fine-tuning or examples in the prompt. As a control, we then repeated every task with the image replaced by a blank white image, to see how much each answer depends on the image (see [Blank-image control](#blank-image-control)).
+We tested whether medical vision-language models (VLMs) perform better than their general-purpose base models on medical image tasks, without fine-tuning or examples in the prompt. As a control, we then repeated every task with the image replaced by a blank white image (and also a blank black image on BUS-BRA), to see how much each answer depends on the image (see [Blank-image control](#blank-image-control)).
 
-We compared two model pairs across three datasets.
+We compared **four model pairs (8 models total)** across three datasets.
 
 | Pair | General model | Medical model |
 |---|---|---|
 | Qwen2-VL (~2B) | `Qwen/Qwen2-VL-2B-Instruct` | `JZPeterPan/MedVLM-R1` |
 | Gemma 3 (~4B) | `google/gemma-3-4b-it` | `google/medgemma-4b-it` |
+| Phi-3.5-Vision (~4.2B) | `microsoft/Phi-3.5-vision-instruct` | `HaiZhiYan/CheX-Phi35V` (`CheX-Phi-3.5-vision-instruct-SFT`) |
+| Ministral-3B (~3B) | `mistralai/Ministral-3-3B-Instruct-2512-BF16` | `OpenMed/Ministral-3B-MedVL` |
 
 | Task | Dataset | What the model had to do | Sample |
 |---|---|---|---|
@@ -17,154 +19,117 @@ We compared two model pairs across three datasets.
 
 ## Key findings
 
-- **BUS-BRA:** Three models mostly gave the same answer for every image. MedGemma did better at 57.5%, but still missed 118 of the 200 cancers.
-- **RadImageNet-VQA:** All models scored 61–65% overall. The medical versions did not consistently beat their general-purpose counterparts.
-- **Anatomy was easier than pathology.** Models often identified the body part, but struggled to identify what was wrong.
-- **BanglaMedVQA:** MedGemma scored highest (31.5% LAVE), followed by Gemma 3 (24.1%), MedVLM-R1 (16.0%), and Qwen2-VL (15.1%). Most answers were in English, despite the questions being in Bangla.
-- **Blank-image control:** With a blank white image, RadImageNet-VQA accuracy fell to 38–44% (chance is 40%) and BanglaMedVQA LAVE fell to 2.6–11.7%. On BUS-BRA every model answered “benign” for all 400 cases. Anatomy and modality answers depend on the image, while disease answers were only slightly better with the real image.
+- **BUS-BRA:** Most models collapsed toward predicting a single class or failed formatting. **MedGemma 4B** (`57.50%`) and **Ministral-3B-MedVL** (`54.25%`) were the only models above the `50%` chance baseline.
+- **RadImageNet-VQA:** Overall accuracy ranged from `53.80%` to `65.00%` (chance is `40%`). None of the medical models consistently outperformed their base models overall: **MedVLM-R1** (`65.00%`) led slightly, while **MedGemma 4B** (`61.20%`), **Ministral-3B-MedVL** (`55.40%`), and **CheX-Phi-3.5-SFT** (`53.80%`) scored slightly or noticeably lower than their base models.
+- **BanglaMedVQA:** Broad multimodal medical adaptation helped (**MedGemma 4B** `31.48%` LAVE, **Ministral-3B-MedVL** `29.59%` LAVE), whereas narrow English chest X-ray fine-tuning hurt (**CheX-Phi-3.5-SFT** `3.40%` LAVE vs. **Phi-3.5-Vision** `5.36%` LAVE).
+- **Blank-image control:** Removing the image dropped RadImageNet-VQA accuracy by **10.40–24.20 percentage points** across all 8 models (mostly on anatomy questions) and dropped BanglaMedVQA LAVE for 7 of 8 models. On BUS-BRA, `50.00%` blank-image accuracy came from predicting a single class on a 50/50 dataset.
+
+## Cross-benchmark standing (All 8 models)
+
+| Pair & Model | BUS-BRA Real (White) | RadImageNet-VQA Real (White) | BanglaMedVQA Real LAVE (White) |
+|---|---:|---:|---:|
+| **Qwen2-VL-2B** | 50.00% (50.00%) | 64.20% (41.60%) | 15.14% (2.70%) |
+| **MedVLM-R1** | 50.00% (50.00%) | **65.00%** (43.80%) | 15.98% (2.60%) |
+| **Gemma 3 4B** | 50.25% (50.00%) | 63.00% (38.80%) | 24.10% (11.68%) |
+| **MedGemma 4B** | **57.50%** (50.00%) | 61.20% (38.40%) | **31.48%** (7.18%) |
+| **Phi-3.5-Vision** | 50.00% (50.00%) | 61.20% (40.20%) | 5.36% (4.84%) |
+| **CheX-Phi-3.5-SFT** | 6.75% *(53.75% 1st-word)* (0.00%) | 53.80% (43.40%) | 3.40% (5.20%) |
+| **Ministral-3B (Base)** | 31.50% (0.00%) | 57.80% (40.80%) | 22.62% (18.28%) |
+| **Ministral-3B-MedVL** | **54.25%** (50.00%) | 55.40% (38.00%) | **29.59%** (14.32%) |
 
 ## Results
 
 ### BUS-BRA
 
-*400 images; chance level = 50%.*
+*400 images (200 benign, 200 malignant); chance level = 50%.*
 
-| Model | Correct | Accuracy | Output pattern |
+| Model | Real Accuracy | White Blank Accuracy | Notes |
 |---|---:|---:|---|
-| Qwen2-VL-2B | 200 / 400 | 50.0% | Answered “benign” every time |
-| MedVLM-R1 | 200 / 400 | 50.0% | Answered “benign” every time |
-| Gemma 3 4B | 201 / 400 | 50.3% | “Malignant” 391 times, “benign” 9 times |
-| **MedGemma 4B** | **230 / 400** | **57.5%** | “Benign” 266 times, “malignant” 134 times |
-
-MedGemma detected 82 of 200 cancers (41% sensitivity) and correctly identified 148 of 200 benign cases (74% specificity). Its accuracy was above chance (95% CI: 52.6–62.3%; *p* = 0.0016). However, its difference from Gemma 3 was not statistically significant (McNemar *p* = 0.08), so we cannot attribute the result to medical pre-training alone. All model outputs were successfully parsed.
+| Qwen2-VL-2B | 50.00% | 50.00% | Answered “benign” every time |
+| MedVLM-R1 | 50.00% | 50.00% | Answered “benign” every time |
+| Gemma 3 4B | 50.25% | 50.00% | “Malignant” 391 times, “benign” 9 times (real) |
+| **MedGemma 4B** | **57.50%** | 50.00% | 41% sensitivity (82/200), 74% specificity (148/200) |
+| Phi-3.5-Vision | 50.00% | 50.00% | Collapsed to single-class prediction |
+| CheX-Phi-3.5-SFT | 6.75% *(53.75% 1st-word)* | 0.00% | Verbose chest X-ray sentences instead of a single label |
+| Ministral-3B (Base) | 31.50% | 0.00% | Weak formatting compliance on strict classification |
+| **Ministral-3B-MedVL** | **54.25%** | 50.00% | Improved formatting and classification over base (+22.75 pp) |
 
 ### RadImageNet-VQA
 
-*500 questions; 100 in each group.*
+*500 questions (100 in each group); overall chance level = 40%.*
 
-| Question group | Chance | Qwen2-VL | MedVLM-R1 | Gemma 3 | MedGemma |
-|---|---:|---:|---:|---:|---:|
-| Anatomy, multiple choice | 25% | 87% | **88%** | 84% | 80% |
-| Anatomy, yes/no | 50% | **88%** | 86% | 81% | 79% |
-| Abnormality, yes/no | 50% | 55% | **61%** | 52% | 55% |
-| Pathology, yes/no | 50% | 57% | 57% | **61%** | 60% |
-| Pathology, multiple choice | 25% | **34%** | 33% | **37%** | 32% |
-| **Overall** | **40%** | **64.2%** | **65.0%** | **63.0%** | **61.2%** |
+- **First two pairs (Qwen2-VL / MedVLM-R1 and Gemma 3 / MedGemma):** Scored `61.20%–65.00%` on real images and dropped to `38.40%–43.80%` on blank white images. Anatomy questions showed the largest real-vs-blank gap, while pathology questions stayed close to chance.
+- **Newer two pairs (Phi-3.5-Vision / CheX-Phi-3.5-SFT and Ministral-3B / Ministral-3B-MedVL):**
+  - **Phi-3.5-Vision:** `61.20%` (real) → `40.20%` (white blank), −21.00 pp.
+  - **CheX-Phi-3.5-SFT:** `53.80%` (real) → `43.40%` (white blank), −10.40 pp.
+  - **Ministral-3B (Base):** `57.80%` (real) → `40.80%` (white blank), −17.00 pp.
+  - **Ministral-3B-MedVL:** `55.40%` (real) → `38.00%` (white blank), −17.40 pp.
 
-The overall scores are close, so the small differences should not be treated as a reliable ranking. Each group has only 100 questions, which makes its score sensitive to a small number of answers.
-
-Two patterns stood out:
-
-- **Yes/no bias:** Although the sample was balanced, Gemma 3 answered “yes” in 74% of its yes/no responses (222/300), while MedGemma answered “no” in 58% (174/300). The Qwen models were more balanced, with “yes” answers around 53–54%.
-- **Performance varied by body region:** Hip questions were the hardest for every model (37–53%). Results for individual regions should be treated cautiously because group sizes ranged from 26 to 163 questions.
-
-![All four models on RadImageNet-VQA](RadImageNet_VQA/MEDGEMMA/fig7_all_four_models.png)
+![All eight models on RadImageNet-VQA](RadImageNet_VQA/fig7_all_eight_models.png)
 
 ### BanglaMedVQA
 
 *500 open-ended questions in Bangla, covering abnormality, condition, modality, organ, and position across ChestX-ray8 and MedICaT images.*
 
-We scored answers using exact match, BERTScore, and LAVE. LAVE uses GPT-4.1-mini to compare a model's answer with the reference answer; we use it as the main score.
+We scored answers using exact match (EM), normalized EM, BERTScore, and LAVE (`GPT-4.1-mini` judge). We use LAVE as the main metric.
 
-| Model | Exact match | BERTScore | LAVE |
-|---|---:|---:|---:|
-| Qwen2-VL-2B | 0.0% | 68.6 | 15.1% |
-| MedVLM-R1 | 0.0% | 68.4 | 16.0% |
-| Gemma 3 4B | 2.4% | 69.0 | 24.1% |
-| **MedGemma 4B** | 1.6% | **71.4** | **31.5%** |
+| Model | Real EM | Real Norm EM | Real BERTScore | Real LAVE | White LAVE | $\Delta$ LAVE (Real − White) |
+|---|---:|---:|---:|---:|---:|---:|
+| Qwen2-VL-2B | 0.00% | 2.40% | 68.60% | 15.14% | 2.70% | +12.44 pp |
+| MedVLM-R1 | 0.00% | 3.40% | 68.44% | 15.98% | 2.60% | +13.38 pp |
+| Gemma 3 4B | 2.40% | 4.80% | 68.98% | 24.10% | 11.68% | +12.42 pp |
+| **MedGemma 4B** | 1.60% | **12.20%** | 71.38% | **31.48%** | 7.18% | **+24.30 pp** |
+| Phi-3.5-Vision | 0.00% | 0.00% | 71.22% | 5.36% | 4.84% | +0.52 pp |
+| CheX-Phi-3.5-SFT | 0.00% | 0.00% | 60.83% | 3.40% | 5.20% | −1.80 pp |
+| Ministral-3B (Base) | 1.80% | 1.80% | 67.42% | 22.62% | 18.28% | +4.34 pp |
+| **Ministral-3B-MedVL** | **11.60%** | 11.80% | **75.08%** | 29.59% | 14.32% | +15.27 pp |
 
-Exact match is very low partly because of language differences. For example, a model might answer “X-ray” while the reference uses “এক্স-রে”. More than 80% of answers from every model contained no Bangla.
+**LAVE by question type — Real (White):**
 
-**LAVE by question type** (average across the two image sources):
+| Model | Modality | Organ | Position | Condition | Abnormality |
+|---|---:|---:|---:|---:|---:|
+| Qwen2-VL-2B | 55.80% (1.60%) | 3.30% (0.40%) | 2.20% (7.30%) | 8.30% (2.80%) | 6.10% (1.40%) |
+| MedVLM-R1 | 56.50% (2.30%) | 5.30% (0.30%) | 3.70% (3.00%) | 8.00% (3.50%) | 6.40% (3.90%) |
+| Gemma 3 4B | 60.70% (48.70%) | 47.10% (0.50%) | 6.10% (7.20%) | 6.60% (1.70%) | 0.00% (0.30%) |
+| **MedGemma 4B** | **73.30%** (7.30%) | **63.10%** (21.40%) | 4.90% (4.00%) | **11.10%** (2.20%) | 5.00% (1.00%) |
+| Phi-3.5-Vision | 18.55% (15.70%) | 3.80% (5.60%) | 2.55% (2.30%) | 1.30% (0.60%) | 0.60% (0.00%) |
+| CheX-Phi-3.5-SFT | 6.90% (15.20%) | 2.30% (0.00%) | 2.00% (3.30%) | 4.90% (7.50%) | 0.90% (0.00%) |
+| Ministral-3B (Base) | 53.20% (49.40%) | 44.60% (0.00%) | **6.70%** (7.30%) | 7.10% (7.40%) | 1.50% (27.30%) |
+| **Ministral-3B-MedVL** | 61.70% (6.50%) | 32.50% (2.70%) | 6.55% (4.70%) | 6.40% (7.70%) | **40.80%** (50.00%) |
 
-| Question type | Qwen2-VL | MedVLM-R1 | Gemma 3 | MedGemma |
-|---|---:|---:|---:|---:|
-| Modality | 55.8 | 56.5 | 60.7 | **73.3** |
-| Organ | 3.3 | 5.3 | 47.1 | **63.1** |
-| Condition | 8.3 | 8.0 | 6.6 | **11.1** |
-| Abnormality | 6.1 | **6.4** | 0.0 | 5.0 |
-| Position | 2.2 | 3.7 | 6.1 | 4.9 |
-
-**What stood out**
-
-- **Modality was the easiest question type for every model.** Organ worked only for the Gemma models, and condition, abnormality and position stayed low for all four.
-- **MedGemma performed best.** It scored 7.4 LAVE points above Gemma 3 (95% CI: 4.8–10.0), mainly on organ and modality questions.
-- **MedVLM-R1 behaved almost like Qwen2-VL.** About 72% of their answers were identical, and MedVLM-R1 often fell back on one answer ("pneumonia" for 74% of chest X-ray condition questions).
-- **Yes/no bias again.** On the abnormality questions, MedVLM-R1 never answered "Yes", while MedGemma mostly did.
-
-**Limitations**
-
-LAVE probably underestimates performance. The judge gave no credit to MedGemma's correct "Yes"/"No" answers because they were in English and the references were in Bangla. Also, we used 500 training-split questions, whereas the original paper used 400 test questions, so the results are not directly comparable.
-<br>
-![Gemma 3 vs MedGemma on BanglaMedVQA](BanglaMedVQA/Medgemma/fig8_vs_other.png)
+**What stood out on the newer pairs**
+- **Ministral-3B-MedVL** achieved the second-highest overall LAVE (`29.59%`), highest strict EM (`11.60%`), and highest BERTScore (`75.08%`), with a clear `+15.27 pp` real-vs-white gap ($p < 10^{-5}$).
+- **Phi-3.5-Vision** followed the short-answer Bangla format (`97.2%` compliant), but collapsed onto generic Bangla words (`অস্বাভাবিক`, `অন্য`, `অঙ্গ`) so its real LAVE (`5.36%`) was statistically indistinguishable from the white blank control (`4.84%`, $p = 0.534$).
+- **CheX-Phi-3.5-SFT** suffered severe instruction-following and language forgetting from English chest X-ray SFT (`71.0%` English-only, `93.0%` verbose, `6.6%` compliant on real images), causing real LAVE (`3.40%`) to drop even below its white blank control (`5.20%`, $p = 0.00134$).
 
 ## Blank-image control
 
-To check how much each answer depends on the image, we repeated all three tasks with every image replaced by a solid 512×512 blank image. Items, prompts, decoding, parsing and scoring were unchanged. RadImageNet-VQA and BanglaMedVQA used a white image. BUS-BRA used both white and black, and the two gave identical results.
+To check how much each answer depends on the image, we repeated all three tasks with every image replaced by a solid 512×512 blank image (white across all three datasets, plus black on BUS-BRA). Items, prompts, decoding, parsing, and scoring were unchanged.
 
-**Real image → blank image:**
+Key patterns across all 8 models:
+- **Anatomy and modality depend on the image; disease barely does.** Across all pairs, removing the image caused large drops on anatomy and modality questions, while abnormality/condition/pathology stayed near chance or collapsed to fixed priors.
+- **Blank-image scores can look artificially high.** Repeated guesses (such as predicting `"benign"` on BUS-BRA, `"X-ray"` on BanglaMedVQA modality, or `"না"` on BanglaMedVQA abnormality) gave `48%–50%` on individual categories even with zero visual input.
+- **Medical adaptation is not uniformly helpful.** General-purpose multimodal medical tuning (**MedGemma 4B**, **Ministral-3B-MedVL**) improved visual grounding and instruction following on BUS-BRA and BanglaMedVQA, whereas narrow single-task tuning (**CheX-Phi-3.5-SFT**) degraded cross-task and cross-lingual performance.
 
-| Model | BUS-BRA accuracy | RadImageNet-VQA accuracy | BanglaMedVQA LAVE |
-|---|---:|---:|---:|
-| Qwen2-VL-2B | 50.0% → 50.0% | 64.2% → 41.6% | 15.1% → 2.7% |
-| MedVLM-R1 | 50.0% → 50.0% | 65.0% → 43.8% | 16.0% → 2.6% |
-| Gemma 3 4B | 50.3% → 50.0% | 63.0% → 38.8% | 24.1% → 11.7% |
-| MedGemma 4B | 57.5% → 50.0% | 61.2% → 38.4% | 31.5% → 7.2% |
-
-Chance is 50% on BUS-BRA and 40% over the RadImageNet-VQA mix. Every RadImageNet-VQA and BanglaMedVQA drop is statistically significant (McNemar or paired permutation test, *p* < 0.001).
-
-**RadImageNet-VQA accuracy by group (real → blank):**
-
-| Question group | Chance | Qwen2-VL | MedVLM-R1 | Gemma 3 | MedGemma |
-|---|---:|---:|---:|---:|---:|
-| Anatomy, multiple choice | 25% | 87 → 28 | 88 → 36 | 84 → 11 | 80 → 15 |
-| Anatomy, yes/no | 50% | 88 → 55 | 86 → 57 | 81 → 52 | 79 → 51 |
-| Abnormality, yes/no | 50% | 55 → 50 | 61 → 50 | 52 → 54 | 55 → 50 |
-| Pathology, yes/no | 50% | 57 → 51 | 57 → 51 | 61 → 53 | 60 → 51 |
-| Pathology, multiple choice | 25% | 34 → 24 | 33 → 25 | 37 → 24 | 32 → 25 |
-
-**What stood out**
-
-- **Anatomy and modality depend on the image; disease barely does.** On RadImageNet-VQA the real image helped by 28–73 points on anatomy questions, but only by −2 to +13 points on abnormality and pathology questions.
-- **The option-letter preference does not come from the image.** The most-chosen letter on pathology MCQ was the same with and without the image for all four models (C for the Qwen pair, B for the Gemma pair).
-- **The yes/no and “malignant” preferences do.** The share of “yes” answers over the 300 yes/no questions fell from 54%, 53%, 74% and 42% to 12%, 13%, 30% and 14% (Qwen2-VL, MedVLM-R1, Gemma 3, MedGemma). Gemma 3 answered “malignant” for 391 real BUS-BRA images but “benign” for the blank one.
-- **Qwen2-VL and MedVLM-R1 ignore the image on BUS-BRA.** Their answers with real images were identical to their blank-image answers on all 400 cases.
-- **MedGemma uses the image more than Gemma 3 on BanglaMedVQA.** Its LAVE drop is 11.9 points larger (95% CI: 7.2–16.5), so its 7.4-point lead is not a language prior. MedVLM-R1 and Qwen2-VL differ by only 0.9 points.
-- **Blank-image answers are nearly constant.** Gemma 3 answered “X-ray” to 94 of 100 modality questions, which is correct for 56% of references, so it kept a modality LAVE of 48.7. MedGemma answered “CT” to all 100 modality questions and “brain” to 98 of 100 organ questions. Qwen2-VL and MedVLM-R1 named no modality. Gemma 3 returned an empty answer for 125 of 500 blank-image questions.
-
-**Caveats:** BUS-BRA blank-image scores are derived from five identical inferences per colour and model, copied to all 400 items, because the input is the same for every case. A blank image is an unnatural input, and we did not run a shuffled-image control (real images paired with the wrong questions).
-
-Per-dataset summaries, figures, and reports are in each dataset's blank-control folder (see [Repository layout](#repository-layout)). The figures and reports there end in `_blank`.
+Per-dataset summaries, figures, and reports are in each dataset's blank-control folder (see [Repository layout](#repository-layout)).
 
 ## How we ran it
 
-All models used the same samples, prompts, and generation settings. Only the model-loading code differed.
+All models used the same samples, prompts, and decoding settings. Only model-loading and chat-template code differed.
 
 - **Prompts:** One fixed prompt per task, with no extra context. BUS-BRA requested `benign` or `malignant`; RadImageNet-VQA requested a letter or yes/no; BanglaMedVQA used the paper's short-answer prompt in Bangla.
-- **Generation:** Greedy decoding, batch size 1, bf16, seed 42, and output limits of 16–96 tokens (256 for MedVLM-R1 on BanglaMedVQA).
-- **Samples:** 400 BUS-BRA images (200 benign, 200 malignant); 500 RadImageNet-VQA questions (100 per group, with balanced yes/no groups); and 500 BanglaMedVQA train-split questions, with 25 yes and 25 no abnormality questions per image source.
-- **LAVE judge:** GPT-4.1-mini, using the BanglaMedVQA paper's judge prompt.
-- **Parsing:** Answers outside the expected format counted as incorrect. This did not happen in our runs.
-- **Versions and hardware:** Qwen2-VL and MedVLM-R1 use pinned Hugging Face commits. BUS-BRA ran on Kaggle T4 GPUs; the logs are in [`logs/`](logs/).
-- **Blank-image control:** The same notebooks with only the image replaced by a solid 512×512 image (`BLANK_COLOR` is `white` or `black`). For BUS-BRA we ran five identical inferences per colour and model, saw the same output every time, and assigned it to all 400 items.
-- **Checking the numbers:** [`analysis/verify_numbers.js`](analysis/verify_numbers.js) recomputes the reported numbers from the saved result CSVs (Node.js, no dependencies).
-
-## What we learned
-
-1. **Zero-shot breast ultrasound classification was unreliable.** Three models mostly repeated one label. MedGemma performed better, but detected only 82 of 200 cancers.
-2. **Medical models were not consistently better.** MedGemma led on BanglaMedVQA, but its BUS-BRA improvement over Gemma 3 was not statistically significant, and it had the lowest overall score on RadImageNet-VQA.
-3. **Identifying anatomy was easier than identifying disease.** This pattern appeared in both visual QA datasets.
-4. **Language affects the results.** Most BanglaMedVQA answers were in English, making it difficult to separate image-understanding errors from Bangla-language errors. Testing the same questions in English would help distinguish the two.
-5. **Accuracy alone can hide failure modes.** A model can score 50% on a balanced dataset by always predicting one class. Looking at the actual answers revealed this.
-6. **Blank-image controls show what the image contributes.** Anatomy and modality answers depend on the image, but disease answers were only slightly better with the real image. Some preferences (option letters) persist without the image, while others (“yes”, “malignant”) appear only when a scan is shown.
+- **Generation:** Greedy decoding, batch size 1, `bfloat16`, seed 42, and output limits of 16–96 tokens (256 for MedVLM-R1 on BanglaMedVQA).
+- **Samples:** 400 BUS-BRA images (200 benign, 200 malignant); 500 RadImageNet-VQA questions (100 per group, with balanced yes/no groups); and 500 BanglaMedVQA train-split questions (`sample_hash: caed7502c8c2`, 455 unique image IDs, with 25 yes and 25 no abnormality questions per image source).
+- **LAVE judge:** `gpt-4.1-mini`, using the BanglaMedVQA paper's judge prompt.
+- **Checking the numbers:** [`analysis/verify_numbers.js`](analysis/verify_numbers.js) recomputes the original 4-model numbers from the saved result CSVs.
 
 ## Repository layout
 
 | Folder | Contents |
 |---|---|
-| `BUS_BRA/` | Notebooks, `Results/Final/` (per-model results, figures, reports), `Results/Blank Control/` (white and black controls), `blank control/` (blank-control notebooks and `summary.md`) |
-| `RadImageNet_VQA/` | One folder per model (`GEMMA 3`, `MEDGEMMA`, `MEDVLM`, `QWEN`) with notebook, results, figures and report; `Blank_Control/` (per-model blank-control results, `_blank` figures and reports, cross-model comparison, `summary.md`); `analysis/` (unique-image audit) |
-| `BanglaMedVQA/` | One folder per model (`Gemma`, `Medgemma`, `MEDVLM`, `QWEN`) with notebook, results, figures and report; `Blank_Control/` (same structure as above) |
+| `BUS_BRA/` | Notebooks, `Results/Final/` (per-model results, figures, reports for all 8 models), `Results/Blank Control/` (white and black controls), `blank control/` (blank-control notebooks and `summary.md`) |
+| `RadImageNet_VQA/` | Per-model folders (`GEMMA 3`, `MEDGEMMA`, `MEDVLM`, `QWEN`, `Phi-3.5-Vision`, `CheX-Phi-3.5-SFT`, `Ministral-3B-Instruct`, `Ministral-3B-MedVL`) with notebook, results, figures and report; `Blank_Control/` (per-model blank-control results, `_blank` figures and reports); `analysis/` (unique-image audit) |
+| `BanglaMedVQA/` | Per-model folders (`Gemma`, `Medgemma`, `MEDVLM`, `QWEN`, `Phi35_Vision`, `CheX_Phi35_SFT`, `Ministral_3B`, `Ministral_3B_MedVL`) with notebook, results, figures and report; `Blank_Control/` (same structure with `_blank` figures and `fig9_real_vs_blank_blank.png`) |
 | `analysis/` | Scripts that recompute the reported numbers from the result CSVs |
 | `logs/` | Kaggle run logs for the BUS-BRA runs, including the blank controls |
 | `paper_v2/` | Revision drafts of the paper (the blank-image control insertions) |
